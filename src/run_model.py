@@ -1,7 +1,9 @@
 import os
+import sys
 import time
 import string
 import argparse
+from transformers import AutoModelForCausalLM, AutoTokenizer
 from datetime import timedelta, datetime
 
 # Change the HF cache directory to a scratch directory. 
@@ -93,7 +95,8 @@ if __name__ == "__main__":
 	parser.add_argument('--test_sample_size', action='store', type=int)
 	parser.add_argument('--batch_size', action='store', type=int)
 	parser.add_argument('--n_shots', action='store', type=int)
-	
+	parser.add_argument('--prompt_type', action='store')
+
 	# model/data specific arguments
 	parser.add_argument("--parallelizm", action="store_true", help="<Galactica> whether to use parallelizm (Parallelformers)")
 	parser.add_argument("--lora_weights", action="store", help="<Alpaca> LoRA weights")
@@ -111,11 +114,11 @@ if __name__ == "__main__":
 	test_sample_size = args.test_sample_size
 	batch_size = args.batch_size
 	n_shots = args.n_shots
+	prompt_type = args.prompt_type 
 	parallelizm = args.parallelizm
 	lora_weights = args.lora_weights
 	kegg_data_type = args.kegg_data_type
 	num_of_indra_classes = args.num_of_indra_classes
-	
 	
 	# load a model.
 	if model_name == 'Galactica':
@@ -124,9 +127,14 @@ if __name__ == "__main__":
 		tokenizer.padding_side = 'left'
 		tokenizer.model_max_length = 2020
 		
-		# when parallelize is set, dtype is set to float16. The default dtype is float32.
-		model = gal.load_model(model_type, parallelize=parallelizm)
-		#model = gal.load_model("mini", num_gpus=6, parallelize=True) 
+		if prompt_type == "trained":
+			#Use small model for testing
+			model = "facebook/galactica-125m"
+			tokenizer = AutoTokenizer.from_pretrained("facebook/galactica-125m")
+
+		else:
+			# when parallelize is set, dtype is set to float16. The default dtype is float32.
+			model = gal.load_model(model_type, parallelize=parallelizm)
 		
 		if parallelizm:
 			# To fix the error of parallelize in Galactica - OSError: [Errno 9] Bad file descriptor - 02/04/2023
@@ -188,61 +196,92 @@ if __name__ == "__main__":
 	# run a task.
 	st = time.time()
 	
-	if data_name == "kegg":
-		# kegg_data_type parameter is only used for KEGG data.
-		data_processor = get_data_processor(data_name, data_repo_path, task, test_sample_size, model_name, tokenizer, kegg_data_type)
-	elif data_name == "indra":
-		# num_of_indra_classes parameter is only used for INDRA data.
-		data_processor = get_data_processor(data_name, data_repo_path, task, test_sample_size, model_name, tokenizer, num_of_indra_classes)
-	else:
+	# If we are using trained prompts, call the trainer class instead of the data processor class
+	if prompt_type == "trained":
+
+		sys.path.append('../data_trainers')
+		
+		
+		from data_trainers.pubmedqa_trainer import pubmedqa_trainer
+		trainer = pubmedqa_trainer()
+		trainer.init(model, 'log1.txt')
+		trainer.load_dataset()
+		trainer.preprocess_data()
+		trainer.data_loader()
+		trainer.train_model()
+		trainer.infer()
+		trainer.plot_metrics()
+		'''
+		from data_trainers.string_trainer import string_trainer
+		trainer = string_trainer()
 		data_processor = get_data_processor(data_name, data_repo_path, task, test_sample_size, model_name, tokenizer)
-	
-	data_processor.create_prompt(n_shots)	
-	results = data_processor.infer(model, batch_size)
-	
-	et = time.time()
-	elapsed_time = et - st
-	exec_time = timedelta(seconds=elapsed_time)
-	exec_time = str(exec_time)
-	print('>> Execution time in hh:mm:ss:', exec_time)
-
-	if len(results[task]) == 3:
-		# store the source item in the query to be used in entity_relation task for STRING, KEGG. 04/12/2023
-		src, pred, true = results[task]
+		trainer.init(model, tokenizer, 'log2.txt', data_processor)
+		trainer.load_dataset()
+		trainer.preprocess_data()
+		trainer.data_loader()
+		trainer.train_model()
+		trainer.infer()
+		'''
+		
+		
+		
 	else:
-		src = None
-		pred, true = results[task]
-	
-	output_dir = os.path.join(output_dir, model_name)
-	output_dir = os.path.join(output_dir, model_type.rsplit('/', 1)[1] if '/' in model_type else model_type)
-	output_dir = os.path.join(output_dir, data_name)
+		print("MANUAL")
+		if data_name == "kegg":
+			# kegg_data_type parameter is only used for KEGG data.
+			data_processor = get_data_processor(data_name, data_repo_path, task, test_sample_size, model_name, tokenizer, kegg_data_type)
+		elif data_name == "indra":
+			# num_of_indra_classes parameter is only used for INDRA data.
+			data_processor = get_data_processor(data_name, data_repo_path, task, test_sample_size, model_name, tokenizer, num_of_indra_classes)
+		else:
+			data_processor = get_data_processor(data_name, data_repo_path, task, test_sample_size, model_name, tokenizer)
+		
+		data_processor.create_prompt(n_shots)	
+		results = data_processor.infer(model, batch_size)
+		
+		et = time.time()
+		elapsed_time = et - st
+		exec_time = timedelta(seconds=elapsed_time)
+		exec_time = str(exec_time)
+		print('>> Execution time in hh:mm:ss:', exec_time)
 
-	if not os.path.exists(output_dir):
-		os.makedirs(output_dir)
-	
-	if hasattr(data_processor.data_reader, "rel_types"):
-		labels = data_processor.data_reader.rel_types
-	elif task in ["relation", "entity_relation"]:
-		labels = data_processor.relation_query_answers
-	else:
-		labels = None
-	
-	compute_metrics_and_save_results(
-		src, 
-		pred, 
-		true, 
-		task, 
-		labels, 
-		output_dir,
-		batch_size,
-		n_shots,
-		test_sample_size,
-		data_processor.task_prompt[task],
-		data_name,
-		kegg_data_type,
-		num_of_indra_classes,
-		exec_time,
-	)
+		if len(results[task]) == 3:
+			# store the source item in the query to be used in entity_relation task for STRING, KEGG. 04/12/2023
+			src, pred, true = results[task]
+		else:
+			src = None
+			pred, true = results[task]
+		
+		output_dir = os.path.join(output_dir, model_name)
+		output_dir = os.path.join(output_dir, model_type.rsplit('/', 1)[1] if '/' in model_type else model_type)
+		output_dir = os.path.join(output_dir, data_name)
+
+		if not os.path.exists(output_dir):
+			os.makedirs(output_dir)
+		
+		if hasattr(data_processor.data_reader, "rel_types"):
+			labels = data_processor.data_reader.rel_types
+		elif task in ["relation", "entity_relation"]:
+			labels = data_processor.relation_query_answers
+		else:
+			labels = None
+		
+		compute_metrics_and_save_results(
+			src, 
+			pred, 
+			true, 
+			task, 
+			labels, 
+			output_dir,
+			batch_size,
+			n_shots,
+			test_sample_size,
+			data_processor.task_prompt[task],
+			data_name,
+			kegg_data_type,
+			num_of_indra_classes,
+			exec_time,
+		)
 
 	# get current date and time
 	current_datetime = datetime.now()

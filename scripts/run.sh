@@ -16,8 +16,29 @@ do
 
 			export MODEL_NAME=Galactica
 			export MODEL_TYPE=standard
-			export DATA_REPO_PATH=~/BioIE-LLM/data
-			export OUTPUT_DIR=~/BioIE-LLM/result
+
+			# Prompt type selection
+			PS3='Choose the type of prompts: '
+			prompt_options=("Trained Prompts" "Manual Prompts")
+			select prompt_opt in "${prompt_options[@]}"
+			do
+				case $prompt_opt in
+					"Trained Prompts")
+						echo "you chose to use Trained Prompts"
+						export PROMPT_TYPE="trained"
+						break
+						;;
+					"Manual Prompts")
+						echo "you chose to use Manual Prompts"
+						export PROMPT_TYPE="manual"
+						break
+						;;
+					*) echo "invalid option $REPLY";;
+				esac
+			done
+
+			export DATA_REPO_PATH=~/data
+			export OUTPUT_DIR=~/result
 			export DATA_NAME=string # string, kegg, indra
 			export TASK=entity # entity, relation, entity_relation, relation_type
 			export TEST_SAMPLE_SIZE=1000 # -1 means all data
@@ -25,8 +46,9 @@ do
 			export NUM_OF_INDRA_CLASSES=2
 			export BATCH_SIZE=32
 			export N_SHOTS=1
-
-			python ~/BioIE-LLM/src/run_model.py \
+			
+			srun -p voltadebug -A student-v -t 4:00:00 -N 1 --gres=gpu:2 --qos=volta -J    llm \
+			python ~/src/run_model.py \
                 --model_name $MODEL_NAME \
                 --model_type $MODEL_TYPE \
                 --data_repo_path $DATA_REPO_PATH \
@@ -37,7 +59,8 @@ do
 				--kegg_data_type $KEGG_DATA_TYPE \
 				--num_of_indra_classes $NUM_OF_INDRA_CLASSES \
                 --batch_size $BATCH_SIZE \
-                --n_shots $N_SHOTS
+                --n_shots $N_SHOTS \
+				--prompt_type $PROMPT_TYPE
 			
 			: '
 				--parallelizm
