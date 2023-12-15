@@ -84,12 +84,10 @@ if __name__ == "__main__":
     #         print("Model Loaded Successfully...")
     #         trainer.load_peft_config(model, tokenizer)
 
-    #trainer.process_fold(0)
-
     # Save the best model
     #best_model_filepath = f"/hpcgpfs01/scratch/rengel/.cache/huggingface/best_model_{args.model_name}"
 
-    # Look in directory to see what the model name is and hard code it
+    # File path for the loaded model
     best_model_filepath = f"/hpcgpfs01/scratch/rengel/.cache/huggingface/best_model_{args.model_name}_4"
 
     trainer.evaluate_best_model(best_model_filepath)
