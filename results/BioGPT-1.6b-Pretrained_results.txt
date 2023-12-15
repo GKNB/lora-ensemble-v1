@@ -1,0 +1,1366 @@
+Loading Dataset...
+Preprocessing Dataset...
+Loading Data for Fold 5...
+Positive classes in Train: 0
+Negative classes in Train: 0
+Positive classes in Validation: 0
+Negative classes in Validation: 0
+Positive classes in Test: 0
+Negative classes in Test: 0
+best model: 4
+Performing Inference...
+Generated Sequence: Is there a protein interaction between RB1 and SIN3A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of RB1 in the regulation of the cell cycle? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGF and PIK3R1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the EGF-PIK3R1 interaction in the regulation of PIK3R1 stability? < / FREETEXT > < /
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TBL1XR1 and HDAC5? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TBL1XR1 in the regulation of HDAC5? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PRPF4 A and MAGEH1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MAGEH1 in the pathogenesis of RP? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK8 and CREBBP? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors should provide evidence that the interaction between CDK8 and CREBBP is direct. < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SAP3  and RBPJ? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > We have now performed co-immunoprecipitation experiments to address this question. We found that SAP3K  interacts with RBPJ in a
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between NF2 and CDKN2B? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of NF2 on the expression of CDKN2B? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GDI1 and PIP4K2C? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide evidence
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ATF4 and FHL2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of FHL2 in the regulation of ATF4-mediated transcription? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between THRB and PROX1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of THRB mutations on PROX1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EXOSC2 and DIS3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > EXOSC2 is a component of the exosome complex, which is involved in RNA processing and degradation. The exosome complex is composed
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RAF1 and NF2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of RAF1 in NF2-deficient cells? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CD44 and TWIST1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TWIST1 in the regulation of CD4 4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC4 and HDAC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HDAC4 in the regulation of the expression of the genes encoding the proteins involved in the regulation of the cell
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between BTC and GRB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the BTC-GRB2 interaction in the activation of the MAPK pathway? < / FREETEXT > < /
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NFKBIE and NFKB1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > NFKBIE overexpression in a human lung cancer cell line inhibits cell proliferation and migration. < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ACVR1 and INHBA? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of ACVR1 mutations on INHBA expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NRG2 and PIK3CA? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NRG2 in the PI3K / AKT pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TBL1X and HDAC8? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between TBL1X and HDAC3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RND1 and IKZF4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of RND1 in the regulation of IKZF4? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between IKZF4 and ZNF331? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of ZNF31 on IKZF4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SART1 and PRPF8? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should show the expression levels of the endogenous proteins in the cell lines used in this study. < / FREETEXT
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC8 and HDAC1 ? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the N-terminal domain of HDAC8 in the regulation of its deacetylase activity? < / FREETEXT > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between STK11 and CCNE1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of STK1K1 1 on CCNE1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB2 and LATS2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of LATS2 in ERBB2-positive breast cancer? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AXIN1 and SMAD5? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the SMAD5-AXIN1 interaction in the regulation of BMP signaling? < / FREETEXT > < /
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MPHOSPH6 and DIS3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide more
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ETS1 and CREBBP? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CREBBP in the regulation of ETS1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR1 and HDAC9? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HDAC9 in the regulation of the expression of the genes that are regulated by NCOR1? < /
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SNRPF and SNRPD1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of SNRPF mutations on the interaction with SNRPD1? < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GPR39 and GHRL? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of GPR39 in the regulation of GHRL? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ACP1 and TIE1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of ACP1 in the regulation of TIE1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EP3  and MAML2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide more
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CREBBP and MAML1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MAML1 in the regulation of the Notch pathway? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDKN2A and CDK4? < / FREETEXT > < / TITLE > ▃ < ABSTRACT > < FREETEXT > The CDKN2A gene encodes the p1 6 protein, which is a negative regulator of the cell cycle. The p1 6 protein binds to
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RND1 and PUF6 ? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a role for RND1 in the regulation of PUF6  ? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZNF626 and IKZF4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of ZNF626 on the expression of IKZF4? < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NRG4 and GRB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of NRG4 on the expression of GRB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDC37 and PIK3CA? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of CDC37 knockdown on PIK3CA protein levels? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between YWHAZ and LATS2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of YWHAZ in the Hippo pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RYK and AFDN? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the RYK-AFDN interaction in the regulation of RYK? < / FREETEXT > < /
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAP2K3 and ARNT? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MAP2K3 in the regulation of HIF-1α? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CBLC and CCND2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CBLC in the regulation of CCND2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB4 and EGFR? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of ERBB4 in the regulation of EGFR? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NCOR2 in the regulation of the expression of the genes that are regulated by HDAC3? < / FREETEXT
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MET and STK11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of STK1C1 in the MET pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DACH1 and MYC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of DACH1 in the regulation of MYC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between JAG1 and UBA52? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of UBA5 2 knockdown on the expression of Notch pathway genes? < / FREETEXT > < / PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NKX2-3 and ZNF331? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of ZNF31 on NKX2-3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HBEGF and ERBB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HBEGF in the regulation of ERBB2 expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between FZR1 and STK11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of STK1C1 in the STK1C1-FZR1 interaction? < / FREETEXT > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NOL3 and U2AF1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NOL3 in the regulation of alternative splicing? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CREB3L2 and NKX2-3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CREB3L2 in the regulation of NKX2-3? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and PUF6 ? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between CNOT3 and PUF6 ? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PTCH1 and SMO? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the PTCH1 extracellular loop? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CCNC and CDK8? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CDK8 in the regulation of CCNC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between COG2 and COG6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1  ) The authors should show the expression levels of the various proteins in the various strains. < / FREETEXT > < /
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TEAD2 and TEAD2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TEAD2 in the regulation of YAP / TAZ? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PEX11B and PEX16? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of PEX11B in the peroxisome biogenesis pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NEFL and SUMO3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between NEFL and SUMO3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RBBP4 and NCOR2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between RBBP4 and NCOR2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EXOSC7 and DIS3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > EXOSC7 is a member of the exosome complex, which is involved in RNA processing and degradation. The exosome complex is
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK4 and LATS2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of LATS2 in the regulation of CDK4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TCERG1 and EEF1G? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > We have performed co-immunoprecipitation experiments to test whether TCERG1 and EEF1G interact. We have found that TCERG1 and
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between DKK1 and SOST? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of DKK1 in the regulation of SOST? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAPK3 and GLYR1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > We have now added the following text to the Discussion: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDKN2B and CDKN2A? < / FREETEXT > < / TITLE > ▃ <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between YWHAG and AKT1S1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should show the expression of YWHAG in the brain and in the other tissues. < / FREETEXT >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PIP4K2C and DPF2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide evidence
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NEFL and APLP1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between NEFL and APLP1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC3 and RBPJ? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide evidence
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DLL1 and RPS27A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a role for RPS27A in the regulation of DLL1? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TRAF5 and TRAF3IP1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide evidence
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PEX12 and PEX11B? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 2) The authors should show that the PEX11B-PEX6 interaction is direct. < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PIGF and KDR? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of PIGF in the regulation of KDR expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGF and EGF? < / FREETEXT > < / TITLE > ▃ < ABSTRACT > < FREETEXT > The interaction between EGF and EGF was studied by using a competitive binding assay. The results showed that EGF could not bind to EGF
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between BCAP31 and BAX? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of BCAP31 on BAX conformation? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC11 and RBPJ? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > HDAC11 is a novel regulator of Notch signaling in the heart. < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between FZR1 and CDK6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of FZR1 in the regulation of the cell cycle? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RAF1 and FGFR4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of FGFR4 in the regulation of RAF1 activity? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SMAD3 and SIN3A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the SMAD3 / SIN3A complex in the regulation of the expression of the genes that are involved in the
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAGEH1 and MAGEH1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MAGEH1 in the nucleus? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PKN2 and RPS6KA3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors should provide a better description of the RPS6KA3-binding domain of PKN2. < / FREETEXT > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC1 and HDAC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide evidence
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AREG and NKD2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of AREG in the regulation of NKD2 expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SRSF11 and SNRNP7 ? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should show the expression levels of SRSF11 and SNRNP7   in the different cell lines used
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between JAG1 and UBC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of JAG1 knockdown on the expression of UBC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RND1 and DPF2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a role for RND1 in the regulation of DPF2? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and CSK? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CNOT3 in the regulation of CSK? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NME6 and TP53? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NME6 in the regulation of TP53? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and FHL2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of CNOT3 knockdown on FHL2 protein stability? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between GAS1 and BAX? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of GAS1 in the regulation of BAX? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FZR1 and AKT1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of AKT1 in FZR1-mediated regulation of cell proliferation and apoptosis? < / FREETEXT > < / PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EEF1G and PIAS4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > To address this question, we performed co-immunoprecipitation experiments using HEK2 9 3 cells. We found that endogenous EEF1G and
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between GDI1 and CREB3L2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of GDI1 in the regulation of CREB3L2? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PKN1 and MAP3K2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide more
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CSN2 and CD29? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > In this study, the authors show that CD29 is a novel substrate of CSN2. They also show that CD
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between WASF1 and NCKAP1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NCKAP1 in the WASF1-mediated actin polymerization? < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between APPL2 and RAB7A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > We have now performed co-immunoprecipitation experiments and found that APPL2 and RAB7A indeed interact. We have also performed the reverse
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC3 and SNW1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HDAC3 in the regulation of SNW1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ZNF3 and IKZF4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of ZNF3 on IKZF4 expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF8 and DDX23? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of DDX2L3 in the spliceosome? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DNM2 and VAV2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of DNM2 mutations on the interaction between DNM2 and VAV2? < / FREETEXT > < /
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between IL2RG and IL15RA? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors show that IL2RG and IL15RA are co-expressed in the same cells in the thymus and in the bone
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between XRCC3 and FANCD2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of XRCC3 in the FA pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between AXIN2 and APC2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors should test whether the APC2-mediated degradation of β-catenin is affected by AXIN2. < / FREETEXT >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AURKA and CCNE1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of AURKA in CCNE1-induced centrosome amplification? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MTREX and EXOSC5? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MTREX in the mitochondrial RNA surveillance pathway? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MYC and TEAD2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between TEAD2 and MYC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DPF2 and EPS8L2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between DPF2 and EPS8L2? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EP3  and CD44? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of EP3  in the CD4 4-mediated signaling pathway? < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC8 and HDAC11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the N-terminal domain of HDAC8 in the regulation of its deacetylase activity? < / FREETEXT > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DACH1 and SOX3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of DACH1 in the regulation of SOX3 expression? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between OSM and LIFR? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the OSM-LIFR interaction in the context of the OSM-induced STAT3 activation? < / FREETEXT
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RB1 and E2F2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of E2F2 in the regulation of RB1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CD44 and TWIST2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TWIST2 in the regulation of CD4 4 expression? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between BECN1 and NF2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NF2 in the regulation of autophagy? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EFTUD2 and EFTUD2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of EFTUD2 in the regulation of the actin cytoskeleton? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TBL1XR1 and HDAC11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TBL1XR1 in the regulation of HDAC11? < / FREETEXT > < / PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between BECN1 and TSC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the BECN1-TSC1 interaction in autophagy? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between BMPR1A and TGFB1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the BMPR1A-TGFB1 interaction in the pathogenesis of pulmonary arterial hypertension? < / FREETEXT > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GLIS2 and BECN1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of GLIS2 in autophagy? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SNW1 and MAML2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors should test whether the interaction between SNW1 and MAML2 is direct. < / FREETEXT > < / PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HSPA4 and BAX? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > HSPA4 is a mitochondrial protein that is upregulated in response to oxidative stress. < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between LAPTM5 and TRAT1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of LAPTM5 in the regulation of TRAT1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NME1 and MDM2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of NME1 on MDM2-mediated p5 3 ubiquitination? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ARAF and BCL2L1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of BCL2L1 in the regulation of ARAF? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK6 and STK11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide a
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RASSF1 and RASSF1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of RASSF1 in the Hippo pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PDCD1 and PTPN6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of PDCD1 in the regulation of PTPN6? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CSNK2A1 and UBTF? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > To answer this question, we performed co-immunoprecipitation experiments using HEK2 9 3T cells. We found that CSNK2A1 and UB
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and CDK6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > We have performed co-immunoprecipitation experiments to test whether RASSF1 and CDK6 interact. We have found that RASSF1 and CDK6 do
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CD44 and FGFR4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of FGFR4 in the development of breast cancer? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NOTCH1 and SNW1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors should provide evidence that the interaction between NOTCH1 and SNW1 is direct. < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PPIH and PRPF8? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between PPIH and PRPF8? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MYC and STK11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of STK1K1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AURKA and LATS2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of LATS2 in the AURKA-mediated regulation of cell cycle progression? < / FREETEXT > < / PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CD247 and TRAT1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors should test whether CD247 and TRAT1 interact in vivo. < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RAB4A and RAB11FIP1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should show the effect of RAB1A and RAB4A on the localization of RAB1FIP1. < /
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EIF4E and SCPEP1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of SCPEP1 in the translation initiation complex? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GRAP2 and CBL? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Does GRAP2 interact with CBL? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Does GRAP2
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and CDKN2A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors have performed a series of experiments to address this question. The results are interesting and the manuscript is well written. <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between APLP1 and PIAS4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a functional consequence of the interaction? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ARAF and EPHA2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of ARAF in the regulation of EPHA2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NFKBIA and EPS8L2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of EPS8L2 on the NF-κB pathway? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PLAU and VTN? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of PLAU in the regulation of VTN? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MET and CCND2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MET in the regulation of CCND2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PGF and KDR? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of PGF in the regulation of KDR expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RBPJ and RBBP8? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of RBBP8 in the Notch pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between COG8 and COG4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1  ) The authors should show the effect of the COG8-1 mutation on the stability of the COG complex. <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DTNBP1 and CSNK1E? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of DTNBP1 in the regulation of CSNK1E? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SUFU and GLI2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of SUFU in the nucleus? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SPI1 and ITGAM? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of SPI1 in the regulation of ITGAM? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NOTCH1 and KAT2B? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of KAT2B in the regulation of NOTCH1 signaling? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RAB3IP and SSX3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a role for RAB3IP in the regulation of SSX3? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NOTCH1 and UBA52? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of UBA5 2 in the regulation of NOTCH1 signaling? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SUMO3 and ZHX1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of ZHX1 in the development of HCC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between BAD and BAD? < / FREETEXT > < / TITLE > ▃ <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EREG and ERBB4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of EREG in the development of resistance to EGFR inhibitors? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC2 and RELA? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HDAC2 in the regulation of RELA expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CSK and CSK? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CSK in the regulation of SFKs? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and RELA? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TP53 in the regulation of RELA? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SOS1 and HSP9AA1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of the interaction on the activity of SOS1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDC37L1 and RAF1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide more
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC2 and SNW1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HDAC2 in the regulation of SNW1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NFKBIA and ZNF331? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of ZNF31 on NFKBIA expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGFR and PIK3CA? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of PIK3CA mutations in the development of resistance to EGFR-TKIs? < / FREETEXT > < / PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between COPB2 and PDE4D? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of COPB2 in PDE4D-mediated cAMP signaling? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SUMO3 and MAGEH1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MAGEH1 in the regulation of the SUMOylation pathway? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CTNNB1 and HSPA4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HSPA4 in the Wnt / β-catenin pathway? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between YWHAG and LATS2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors should test whether LATS2 is a direct substrate of YWHAG. < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RBPJ and EP3 ? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should show the expression levels of RBPJ and EP3  in the different cell lines used in this
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC7 and HDAC7? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HDAC7 in the regulation of the expression of the genes that are regulated by HDAC7? < /
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DNAJB6 and VIM? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of DNAJB6 on the stability of VIM? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGFR and GRB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of EGFR in the regulation of GRB2 expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GDI1 and NKX2-3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of GDI1 in the regulation of the expression of NKX2-3? < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAML1 and KAT2A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between KAT2A and MAML1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between FYN and PRKCA? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of FYN inhibition on PRKCA activity? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between POP1 and NLRP3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of POP1 in the inflammasome? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC8 and HDAC2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HDAC8 in the regulation of the cell cycle? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CBLC and STK11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of STK1K1 in the regulation of CBLC? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PDGFRA and AKT1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of PDGFRA and AKT1 on the expression of each other? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SUMO1 and UBE2S? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide evidence
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ACTB and B2M? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the B2M-ACTB interaction in the context of the cell? < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF4 and EFTUD2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of PRPF4 in the spliceosome? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and PIP4K2C? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide evidence
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PEX11A and PEX3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of PEX11A in the peroxisome biogenesis pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NRG2 and NRG2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NRG2 in the regulation of the NRG2-ErbB4 interaction? < / FREETEXT > < / PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RBPJ and KAT2A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > We have now performed co-immunoprecipitation experiments to address this question. We found that RBPJ and KAT2A interact in cells (
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC6 and HDAC8? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HDAC6 in the regulation of the acetylation of α-tubulin? < / FREETEXT > < / PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EREG and EREG? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of EREG in the development of CRC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TAF1  and TAF11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TAF1  in the TFIID complex? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between VIPR1 and B2M? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of B2M in the VIPR1-mediated signaling pathway? < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RAF1 and CDKN2B? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of RAF1 inhibition on the expression of CDKN2B? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MDM2 and CDKN2A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors show that MDM2 and CDKN2A interact in vitro and in vivo. They also show that MDM2 and CDKN2A colocalize in the nucleus
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between APAF1 and CASP9? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the APAF1-CASP9 interaction in the apoptosome? < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDKN2C and CDK6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of CDKN2C on the cell cycle? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC6 and HDAC2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HDAC6 in the regulation of HDAC2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RASSF1 and CCND1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of RASSF1 in the regulation of CCND1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between BMI1 and UBE2D3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide more
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FRS3 and RND3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between FRS3 and PP2A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DLL1 and DLL1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of DLL1 in the Notch pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RBX1 and NEDD8? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide evidence
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK4 and AKT1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CDK4 in the regulation of AKT1 activity? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between JAG1 and JAG2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of JAG1 and JAG2 in the development of the heart? < / FREETEXT > < / PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EGFR and GAB1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of GAB1 in EGFR-mediated cell migration? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EXOSC6 and DIS3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > EXOSC6 is a member of the exosome complex, which is involved in RNA processing and degradation. The exosome complex is
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC5? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HDAC5 in the regulation of the expression of the genes that are regulated by NCOR2? < / FREETEXT
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between BECN1 and CDKN2A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CDKN2A in autophagy? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Does
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NOTCH1 and DLL1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the NOTCH1-DLL1 interaction in the regulation of NOTCH1 signaling? < / FREETEXT > < / PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between KLRC1 and B2M? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the B2M-KLRC1 interaction in NK cell function? < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PDGFC and FLT1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of FLT1 in the regulation of PDGFC-induced angiogenesis? < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NFKBIA and ZNF48? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors have performed a number of experiments to address this question. The results are consistent with the authors' conclusion that ZNF4
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PAK1 and TIAM1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of PAK1 in the regulation of TIAM1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MAP2K5 and HGF? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of MAP2K5 knockdown on HGF-induced cell migration? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CCNC and CCNC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the CCNC in the cell cycle? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TBL1XR1 and HDAC4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TBL1XR1 in the regulation of HDAC4? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EXOSC7 and MPHOSPH6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > EXOSC7 is a member of the exocyst complex, which is involved in tethering secretory vesicles to the plasma membrane. The
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NFKBIA and GNB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of NFKBIA and GNB2 on the expression of each other? < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and MDM2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TP53 in the p5 3 pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NKX2-3 and MLX? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MLX in the regulation of NKX2-3? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between VEGFB and FLT4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of VEGFB in the development of the lymphatic vasculature? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ERBB3 and SOS1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of SOS1 in ERBB3-mediated signaling? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DLL1 and DLL4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of DLL4 in the Notch pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CNOT3 and ZNF3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > To address this question, we performed co-immunoprecipitation experiments using HEK2 9 3T cells transfected with Flag-tagged ZNF3 and HA
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDC25B and B2M? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of CDC25B overexpression on cell cycle progression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC6 and HDAC3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HDAC6 in the regulation of HDAC3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SMAD1 and MAP2K3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MAP2K3 in the TGF-β pathway? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between APPL2 and RAB11A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > We have now performed the experiment suggested by the reviewers. We have performed co-immunoprecipitation experiments in HEK2 9 3T cells and found
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between SNW1 and MAML3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors should test whether the interaction between SNW1 and MAML3 is direct. < / FREETEXT > < / PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EP3  and CCNC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of EP3  in the cell cycle? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RGS16 and ADRA1D? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of RGS6 in the heart? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CREBBP and MAML2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MAML2 in the pathogenesis of MAML2-rearranged MECs? < / FREETEXT > < /
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDKN2B and CCND2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of CDKN2B and CCND2 on the cell cycle? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CNOT3 and GDI1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide more
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between LSM3 and LSM4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > We have now performed the experiment suggested by the reviewers. We have performed co-immunoprecipitation experiments using anti-GFP antibodies in LSM
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between GNB2 and PUF6 ? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of the GNB2 mutation on the protein interaction between GNB2 and PUF6  ? < / FREETEXT >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NCOR2 in the regulation of the expression of the genes that are regulated by the androgen receptor? <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between LSM6 and LSM4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > We have now performed the experiment suggested by the reviewers. We have performed co-immunoprecipitation experiments using LSM6-GFP and LSM
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between F5 and A2M? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Keywords: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > F5, A2M, Protein interaction,
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between AKT1 and YWHAB? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of YWHAB knockdown on AKT1 phosphorylation? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF4 A and PRPF4 A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of PRPF4 A knockdown on the expression of other splicing factors? < / FREETEXT > < / PARAGRAPH
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF4 and SNRNP2 ? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between PRPF4 and SNRNP2    ? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CCND2 and CCND2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CCND2 in the regulation of the cell cycle? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PRPF8 and PRPF8? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the C-terminal domain of PRPF8 in the spliceosome? < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between COG3 and COG8? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1  ) The authors should show the expression levels of the endogenous proteins in the different cell lines used in this study. <
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CRY1 and FBXO9? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of FBXO9 in the circadian clock? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GDI1 and GNB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of GDI1 in the regulation of the activity of the G protein? < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and SLC2A1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between TP53 and SLC2A1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NCOR2 in the regulation of the expression of the genes that are regulated by HDAC11? <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between COG1 and COG6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1  ) The authors should show the expression levels of the various proteins in the various strains. < / FREETEXT > < /
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between OAS1 and MBD1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the OAS1-MBD1 interaction in the regulation of OAS1 activity? < / FREETEXT > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZNF626 and ZNF626? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of ZNF626 on the expression of ZNF6 2? < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DVL1 and CTNNB1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of DVL1 in the WNT pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CEP57 and FGF1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CEP5H7 in the regulation of FGF1? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAPK14 and TSC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MAPK14 in the regulation of TSC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC11 and HDAC11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > HDAC11 is a novel isoform of HDAC1, which is expressed in the brain and is involved in the regulation of neuronal differentiation
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between XRCC3 and XRCC2? < / FREETEXT > < / TITLE > ▃ < ABSTRACT > < FREETEXT > The homologous recombination repair (HRR) pathway is a major mechanism for the repair of DNA double-strand breaks (DSBs).
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ERBB2 and GRB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors have performed a number of experiments to address this question. The results are consistent with the hypothesis that ERBB2 and GRB2
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CREBBP and MAML3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MAML3 in the pathogenesis of MAML3-rearranged leukemia? < / FREETEXT > < /
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DLL4 and UBB? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of DLL4 in the regulation of UBB? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB4 and ERBB3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the ERBB4-ERBB3 interaction in the regulation of the PI3K / AKT pathway? < / FREETEXT >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between B2M and MLANA? < / FREETEXT > < / TITLE > ▃ < ABSTRACT > < FREETEXT > The melanoma-associated antigen MLANA is a melanocyte-specific protein that is expressed in the majority of melanomas. It is a
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between FOXO1 and TSC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of FOXO1 in the regulation of autophagy? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGF and SOS1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the EGF-SOS1 interaction in the regulation of SOS1 activity? < / FREETEXT > < /
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SFN and SFN? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of SFN in the regulation of the Nrf2-Keap1 pathway? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB4 and ERBB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of ERBB4 in the regulation of ERBB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HBEGF and TGFA? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of TGFA on the expression of HBEGF? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EXOSC8 and EXOSC4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of EXOSC8 in the nucleus? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NOTCH1 and RPS27A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of RPS27A in NOTCH1 signaling? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ATP8A1 and TMEM3 B? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TMEM3 B in ATP8A1 function? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NF2 and ARNT? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NF2 in the regulation of HIF-1α? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EGF and GRB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors have performed a number of experiments to address this question. The results are interesting and the manuscript is well written. However
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PARK7 and PPARGC1A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of PARK7 on the transcriptional activity of PPARGC1A? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MTREX and DIS3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should show that the MTREX complex is not only present in the nucleus but also in the cytoplasm.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between EIF3I and ACVR1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of ACVR1 mutations on the interaction between EIF3I and ACVR1? < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PTN and LRIF1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of LRIF1 in the regulation of PTN-induced migration and invasion? < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ANK1 and TIAM1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of ANK1 in the regulation of TIAM1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between KDELR2 and IGF1R? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of KDELR2 in the regulation of IGF1R? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DGCR8 and XPO5? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FHOD1 and RAC2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ARNT and EPHA2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of EPHA2 in the regulation of HIF-1α? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GRM1 and EPHA2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of GRM1 in the regulation of EPHA2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NRG2 and NRG1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NRG2 in the brain? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MYC and CDK4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CDK4 in MYC-induced tumorigenesis? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DCC and HJV? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HJV in hepcidin regulation? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC4 and HDAC5? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the phosphorylation of HDAC5 at S2 7 8 and S4 9 8? < / FREETEXT > < / PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TCERG1 and IMMT? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PLAUR and CD82? < / FREETEXT > < / TITLE > ▃ <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HSPB1 and EIF4E? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of HSPB1 on EIF4E-mediated translation? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC6 and HDAC7? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HDAC6 in the regulation of the acetylation of α-tubulin? < / FREETEXT > < / PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC8? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NCOR2 in the regulation of HDAC8 expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GNL1 and GNL1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the N-terminal domain of GNL1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZNF626 and ZNF212? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > ZNF626 and ZNF12 are co-expressed in the brain and co-localize in the nucleus. < /
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and CNOT3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EXOSC2 and EXOSC2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of EXOSC2 on the expression of EXOSC1  ? < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK6 and CD44? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CDK6 in the regulation of CD4 4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ZNF626 and EPS8L2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors should test whether ZNF626 and EPS8L2 interact in vivo. < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between LSM4 and LSM4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > We have now performed the experiment suggested by the reviewers. We have performed co-immunoprecipitation experiments using LSM4-GFP and LSM
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR1 and HDAC11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NCOR1 in the regulation of the expression of the genes that are regulated by the transcription factors that are
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SMARCA4 and RASSF1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of SMARCA4 in the regulation of RASSF1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TRADD and TNFRSF1 B? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TRADD in the TNFRSF1B-mediated activation of NF-κB? < / FREETEXT >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SHC1 and ERBB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors have performed a number of experiments to address this question. The results are interesting and the manuscript is well written. However
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDK4 and CCND1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CDK4 in the regulation of the cell cycle? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ARAF and STK11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of ARAF in melanoma? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between E2F3 and GABPB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of GABPB2 in E2F3-mediated transcription? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PDCD1 and PTPN11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of PDCD1 in the regulation of PTPN11? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CNOT3 and RND1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide more
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FHL2 and CREB3L2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of FHL2 in the regulation of CREB3L2? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and RAF1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 4) The authors should show the expression levels of RASSF1 and RAF1 in the different cell lines used in this study.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CCND2 and STK11? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of CCND2 on STK1K1 activity? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between KDELR2 and PDGFRA? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of KDELR2 knockdown on PDGFRA expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EGF and GAB1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the GAB1-mediated pathway in the regulation of EGFR endocytosis? < / FREETEXT > < / PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PDGFRA and LATS2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of LATS2 overexpression on PDGFRA expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between WT1 and B2M? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of WT1 in the regulation of B2M? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CTNNB1 and HSP9AA1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of CTNNB1 on HSP9AA1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RORC and UIMC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of UIMC1 in the regulation of RORC? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZNF3 and DPF2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should show the expression levels of ZNF3 and DPF2 in the different cell lines used in this study
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZBTB8B and ZBTB8B? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of ZBTB8B in the regulation of the expression of the genes that are regulated by ZBTB8B?
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ERBB3 and PIK3R1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of ERBB3 in the PI3K pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NCOR1 and TBL1X? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TBL1X in the regulation of the expression of the genes that are regulated by NCOR1? <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NRG3 and EREG? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NRG3 in the regulation of EREG? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GLIS2 and TEAD2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between GLIS2 and TEAD2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between KDELR2 and MYC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > To answer this question, we performed co-immunoprecipitation experiments using HEK2 9 3T cells. We found that KDELR2 interacts
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PEX11B and PEX11B? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should show the expression levels of the different PEX1B constructs. < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and GADD45B? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between TP53 and GADD45B? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PROX1 and NCOR2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between PROX1 and NCOR2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and FGFR4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of RASSF1 in the regulation of FGFR4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between LMNA and HSPB1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of LMNA mutations on the interaction between LMNA and HSPB1? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between YWHAE and TSC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > YWHAE is a member of the 1 4-3-3 protein family, which is a highly conserved family of proteins
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PTN and MAGEH1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MAGEH1 in the PTN-induced migration of glioma cells? < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FZR1 and ERBB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of FZR1 in the regulation of ERBB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDKN2B and AKT1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of CDKN2B knockdown on AKT1 phosphorylation? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DPF2 and SAP3BP? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should show the expression of DPF2 and SAP3BP in the different cell lines used in this study
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAPK14 and MAP2K3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > We have now performed co-immunoprecipitation experiments to test whether MAPK14 and MAP2K3 interact. We have found that MAPK
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between UBC and UBB? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the ubiquitin-proteasome system in the regulation of the cell cycle? < / FREETEXT > < / PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between FOXO1 and YWHAZ? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of YWHAZ in the regulation of FOXO1? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ZNF626 and RND1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 2) The authors should show the expression levels of ZNF6 2 6 in the different cell lines used in this study. <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DUSP6 and RND1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a role for DUSP6 in the regulation of RND1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HOXA9 and SMAD2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of SMAD2 in the regulation of HOXA9 expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TSC2 and SKP2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of SKP2 in the regulation of TSC2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZEB1 and HDAC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of ZEB1 in the regulation of the expression of the miR-2     family? < / FREETEXT >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NFKBIA and DUSP6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of NFKBIA and DUSP6 on the MAPK pathway? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDC37 and GAB1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide more
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PEX7 and PEX11A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should show the expression levels of the various proteins used in this study. < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CREB3L2 and SAP3BP? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should show the expression of CREB3L2 and SAP3BP in the different cell lines used in this study
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HBEGF and EREG? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the HBEGF-EREG interaction in the context of EGFR signaling? < / FREETEXT > < /
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MTREX and MTREX? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MTREX in the mitochondrial iron-sulfur cluster assembly pathway? < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RARG and UIMC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of RARG in the regulation of UIMC1? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between USP39 and USP39? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of USP3 9 in the regulation of the stability of the USP3 9 protein? < / FREETEXT >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PKN1 and RPS6KA1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 2) The authors should show the effect of PKN1 knockdown on the phosphorylation of RPS6KA1. < / FREETEXT >
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between ATF3 and GDI1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of ATF3 in the regulation of GDI1 expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TXNL4A and TXNL4A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TXNL4A in the cell? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ERBIN and HSP9AA1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of ERBIN on the interaction between HSP9AA1 and ERBB2? < / FREETEXT > < / PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between FRAT2 and DVL3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > FRAT2 is a tumor suppressor gene that is frequently deleted in human cancers. However, the molecular mechanism of FRAT2-mediated
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TCERG1 and NEFL? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > We have now performed co-immunoprecipitation experiments to test whether TCERG1 and NEFL interact. We have found that TCERG1 and
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between RBL2 and GABPB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the RBL2-GABPB2 interaction in the context of the Notch pathway? < / FREETEXT > <
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPS1 and CREBBP? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a correlation between the expression of PRPS1 and CREBBP in breast cancer? < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between AHSG and CAPN6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of AHSG in the pathogenesis of LGMD2H? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDKN2B and CDKN2B? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of the CDKN2B mutation on the protein? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MPHOSPH6 and EXOSC5? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide more
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NPR3 and NPPC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NPR3 in the regulation of ANP-induced NPR-C signaling? < / FREETEXT > < /
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EPHA2 and AKT1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of EPHA2 and AKT1 on the proliferation and migration of HCC cells? < / FREETEXT > < / PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between BMPR1B and TGFB1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of BMPR1B in the TGFB1-induced EMT? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between UBE2B and SUMO1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of UBE2B on the SUMOylation of p5 3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between E2F2 and GABPB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of GABPB2 in E2F2-mediated transcription? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SKP2 and CRY1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the CRY1-SKP2 interaction in the regulation of circadian rhythms? < / FREETEXT > < / PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DIS3 and EXOSC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > EXOSC1 is a member of the exosome complex, which is involved in the processing and degradation of RNA. The authors show
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PEX11A and PEX13? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of PEX11A in the peroxisome biogenesis pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF3 and PRPF31? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of the PRPF3 mutation on the splicing of the target genes? < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CCR3 and CCL4? < / FREETEXT > < / TITLE > ▃ <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and NME5? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TP53 in the regulation of NME5? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CRY1 and BTRC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of BTRC in the circadian clock? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ID3 and DUSP6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of ID3 in the regulation of DUSP6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RB1 and E2F3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of E2F3 in the regulation of RB1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between WT1 and WT1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of WT1 in the regulation of the expression of the genes encoding the proteins involved in the regulation of the cell
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDK6 and CDK6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the CDK6-CDK6 interaction? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RAF1 and RAF1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of RAF1 phosphorylation at S2 5 9 in the regulation of RAF1 activity? < / FREETEXT > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PEX1  and PEX3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of PEX1  in peroxisome biogenesis? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ATF4 and SAP3BP? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > We have now performed the experiment suggested by the reviewers. We immunoprecipitated ATF4 from cells expressing either control shRNA or SAP3BP
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between GLIS2 and AKT1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of GLIS2 on AKT1 activity? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AXIN1 and PPP2R1A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of PPP2R1A in the Wnt / β-catenin pathway? < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and CDKN2A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors show that TP53 is a novel target of the tumor suppressor CDKN2A and that TP53 is overexpressed in human
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CSNK2A2 and PIN1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of CSNK2A2 on the stability of PIN1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between THRA and PROX1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of THRA and PROX1 on the expression of genes involved in angiogenesis? < / FREETEXT > < /
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAP2K3 and AURKA? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MAP2K3 in the regulation of AURKA? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ZNF48 and MLX? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors show that ZNF48 is a novel MLX-interacting protein and that ZNF48 is a transcriptional
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between TBL1X and HDAC9? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TBL1X in the regulation of HDAC9? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GDI1 and DPF2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR1 and NRB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NRB2 in the regulation of NCOR1? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RBPJ and SNW1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should show that the RBPJ-SNW1 interaction is direct. < / FREETEXT > < / PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RBPJ and MAML3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between RBPJ and MAML3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB2 and CCND2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CCND2 in the development of trastuzumab resistance? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between WASL and BAIAP2L1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of WASL in the regulation of BAIAP2L1? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and GNL1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CNOT3 in the regulation of GNL1? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TTLL5 and PPARG? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TTLL5 in adipogenesis? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MTREX and EXOSC3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > EXOSC3 is a component of the exosome complex, which is involved in RNA processing and degradation. EXOSC3 is mutated
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GNL1 and MLX? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors have performed a number of experiments to address the reviewers ’ comments. The results are largely consistent with the reviewers ’ comments
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CRY2 and FBXO9? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of FBXO9 in the regulation of circadian rhythms? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC1 and HEY2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HEY2 in the regulation of the cell cycle? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HIF1A and IKBKG? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of HIF1A on IKBKG expression? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PTEN and AKT1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of PTEN on AKT1 activity? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between YWHAB and TSC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > YWHAB is a member of the 1 4-3-3 protein family, which is a highly conserved family of proteins
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and CDKN1A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TP7 3 in the regulation of CDKN1A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HERC1 and TSC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors should also consider the possibility that the interaction between HERC1 and TSC1 is indirect and mediated by TSC2. < / FREETEXT
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CRY2 and KDM2A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 3) The authors should show that the interaction between CRY2 and KDM2A is not affected by light. < / FREETEXT > <
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between JAG2 and UBA52? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of UBA5 in the neddylation pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between E2F4 and GABPB2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of GABPB2 in the regulation of E2F4 target genes? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CD4LG and C4BPA? < / FREETEXT > < / TITLE > ▃ < ABSTRACT > < FREETEXT > CD4   ligand (CD4LG) is a type II transmembrane protein that is expressed on activated CD4 + T cells and is
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and NRAS? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of RASSF1 in the regulation of NRAS? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PDGFRA and MAP2K3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of PDGFRA inhibition on the phosphorylation of MAP2K3? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC1  and SNW1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of HDAC1  in the regulation of SNW1? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between VDR and UIMC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of UIMC1 in the regulation of VDR? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between IHH and PTCH1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of IHH in the development of BCC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MED28 and MSN? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between MED28 and MSN? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NRG1 and EGF? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the NRG1-EGFR interaction in the heart? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NOL3 and TRA2B? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > NOL3 is a novel protein that is expressed in the heart and is involved in the regulation of cardiac hypertrophy. However, the
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between ARNT and CDK4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between ARNT and CDK4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AURKA and EPHA2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of EPHA2 in the AURKA-mediated regulation of cell migration and invasion? < / FREETEXT > < /
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AXIN2 and APC? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The authors show that the interaction between AXIN2 and APC is mediated by the APC armadillo repeats. They also show that the
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SP1 and ASF1A? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 3) The authors should provide a more detailed description of the ASF1A-mediated histone H3-H4 tetramer eviction assay
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CSK and NKX2-3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CSK in the regulation of NKX2-3? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK6 and CCND1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the CDK6-CCND1 complex in the regulation of the cell cycle? < / FREETEXT > < / PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ACTN2 and TRIM54? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of ACTN2 on the antiviral activity of TRIM5αrh? < / FREETEXT > < / PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DAPK3 and MAPK3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of MAPK3 in the regulation of DAPK3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EP3  and CDK8? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential revisions: < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should provide evidence
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CEBPA and IL6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a protein interaction between CEBPA and STAT3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGLN3 and EPAS1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of EGLN3 in the regulation of HIF-2α? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FOS and MCM2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of FOS in the cell cycle? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAP2K5 and FGFR4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of MAP2K5 knockdown on FGFR4-mediated cell proliferation and migration? < / FREETEXT > < / PARAGRAPH
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC8 and HDAC4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the N-terminal domain of HDAC8? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SNRPF and SNRPG? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the SNRPF-SNRPG interaction? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SHC1 and EGFR? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of SHC1 in EGFR-mediated signaling? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDH1 and CTNNB1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CDH1 in the Wnt pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NR6A1 and NRIP1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of NR6A1 in the regulation of NRIP1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF4 A and NEFL? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of PRPF4 A knockdown on NEFL? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDC37 and EGF? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > 1) The authors should show the EGF-CDC37 interaction in the absence of EGF. < / FREETEXT > < /
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SNRNP2  and PRPF6? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of SNRNP2  knockdown on PRPF6 protein levels? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between UFD1 and UBXN4? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of UBXN4 in the ERAD pathway? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between BRCA2 and RAD51? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > RAD5L1 is a protein that interacts with BRCA2. < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > <
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AURKA and TSC1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the TSC1 / 2 complex in the regulation of AURKA? < / FREETEXT > < / PARAGRAPH > ▃
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CBL and TRAT1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of TRAT1 in the regulation of EGFR? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGFR and ERBB2? < / FREETEXT > < / TITLE > ▃ <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GNB2 and SAP3BP? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the effect of the GNB2 mutation on the interaction between GNB2 and SAP3BP? < / FREETEXT >
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TAB1 and RBCK1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Is there a role for RBCK1 in the regulation of TAK1? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FHOD1 and RAC3? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of FHOD1 in the regulation of actin dynamics? < / FREETEXT > < / PARAGRAPH > ▃ <
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK4 and CCND2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of CDK4 in the regulation of CCND2? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH >
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ADRB1 and AKAP5? < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > What is the role of the ADRB1-AKAP5 interaction in the regulation of cardiac function? < / FREETEXT > < /
+Prediction: 1
+True Label: 0
+Calculating Metrics...
+Accuracy: 0.06473214285714286
+MCC: -0.8776193801651474
+AUC: 0.05642023346303504
+Specificity: 0.11284046692607004
+Micro Precision: 0.06473214285714286
+Micro Recall: 0.06473214285714286
+Micro F1 Score: 0.06473214285714286
+Macro Precision: 0.0659090909090909
+Macro Recall: 0.05642023346303502
+Macro F1 Score: 0.06079664570230607

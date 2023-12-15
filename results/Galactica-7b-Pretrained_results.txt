@@ -1,0 +1,4416 @@
+Loading Dataset...
+Preprocessing Dataset...
+Loading Data for Fold 5...
+Positive classes in Train: 572
+Negative classes in Train: 772
+Positive classes in Validation: 170
+Negative classes in Validation: 279
+Positive classes in Test: 191
+Negative classes in Test: 257
+best model: 4
+Performing Inference...
+Generated Sequence: Is there a protein interaction between RB1 and SIN3A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RB1 and SIN3A. 
+The interaction is mediated by the RB1 C-terminal domain (RB1-CTD) and the SIN3A-SANT domain. 
+The RB1-CTD is a 1   amino acid region of RB1 that is highly conserved among the RB family of proteins. 
+The SIN3A-SANT domain is a 1   amino acid region of SIN3A that is highly conserved among the SIN3 family of proteins. 
+The interaction between RB1 and SIN3A is important for the regulation of cell cycle progression.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGF and PIK3R1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EGF and PIK3R1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between TBL1XR1 and HDAC5? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TBL1XR1 and HDAC5. 
+The interaction between TBL1XR1 and HDAC5 is mediated by the TBL1XR1-TBLR1-TBLR2 complex. 
+The TBL1XR1-TBLR1-TBLR2 complex is a transcriptional corepressor that interacts with a number of transcription factors, including nuclear hormone receptors, and represses their transcriptional activity. 
+The TBL1XR1-TBLR1-TBLR2 complex is recruited to the nuclear receptor response elements by the nuclear hormone receptors. 
+The TBL1XR1-TBLR1-TBLR2 complex interacts with HDAC
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between PRPF4 A and MAGEH1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PRPF4 A and MAGEH1.
+[https://www.ncbi.nlm.nih.gov/pubmed/28398988](https://www.ncbi.nlm.nih.gov/pubmed/28398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK8 and CREBBP? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDK8 and CREBBP. 
+The interaction between CDK8 and CREBBP is mediated by the [CDK8-Mediator complex](https://en.wikipedia.org/wiki/Mediator_complex). 
+The CDK8-Mediator complex is a multiprotein complex that is involved in the regulation of transcription by RNA polymerase II. It is composed of CDK8, MED12, MED13, CCNC, and CDK19. 
+The CDK8-Mediator complex is involved in the regulation of transcription by RNA polymerase II. It is composed of CDK8, MED12, MED13, CCN
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SAP3  and RBPJ? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SAP3  and RBPJ. 
+[https://www.ncbi.nlm.nih.gov/pubmed/163 8998](https://www.ncbi.nlm.nih.gov/pubmed/163 8998)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NF2 and CDKN2B? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NF2 and CDKN2B. 
+The protein interaction between NF2 and CDKN2B is mediated by the [CDKN2B-AS1](https://www.ncbi.nlm.nih.gov/gene/1 69 ) gene. 
+The CDKN2B-AS1 gene is a non-coding RNA gene that is transcribed from the antisense strand of the CDKN2B gene. 
+The CDKN2B-AS1 gene is located on the long arm of chromosome 9 (9q34.1). 
+The CDKN2B-AS1 gene is
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between GDI1 and PIP4K2C? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GDI1 and PIP4K2C.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ATF4 and FHL2? 
+
+
+Answer:
+
+Yes, ATF4 and FHL2 interact. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between THRB and PROX1? 
+
+
+Answer:
+
+PROX1 is a transcription factor that is involved in the development of the lymphatic system. It is also involved in the development of the liver, pancreas, and heart. PROX1 is expressed in the liver, pancreas, and heart.
+THRB is a thyroid hormone receptor that is involved in the development of the heart and liver. It is expressed in the liver and heart.
+PROX1 and THRB are both expressed in the liver and heart.
+PROX1 and THRB are both involved in the development of the liver and heart.
+PROX1 and THRB are both expressed in the liver and heart.
+PROX1 and THRB are both involved
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EXOSC2 and DIS3? 
+
+
+Answer:
+
+EXOSC2 is a component of the RNA exosome complex. The RNA exosome is a complex of 9 subunits. EXOSC2 is part of the catalytic subunit which is responsible for RNA degradation.
+EXOSC2 is a component of the RNA exosome complex. The RNA exosome is a complex of 9 subunits. EXOSC2 is part of the catalytic subunit which is responsible for RNA degradation.
+EXOSC2 is a component of the RNA exosome complex. The RNA exosome is a complex of 9 subunits. EXOSC2 is part of the catalytic subunit which is responsible for RNA degradation.
+EXOSC2 is a component of the RNA exosome complex. The RNA exosome is
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RAF1 and NF2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RAF1 and NF2. 
+The interaction is mediated by the Ras-association domain (RA) of RAF1 and the FERM domain of NF2. 
+The interaction is important for the activation of the MAP kinase pathway.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CD44 and TWIST1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CD44 and TWIST1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC4 and HDAC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC4 and HDAC1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/163 8998](https://www.ncbi.nlm.nih.gov/pubmed/163 8998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between BTC and GRB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between BTC and GRB2. 
+GRB2 is a protein that is involved in the signaling pathway of the epidermal growth factor receptor (EGFR). 
+BTC is a protein that is involved in the signaling pathway of the epidermal growth factor receptor (EGFR). 
+The interaction between BTC and GRB2 is mediated by the SH2 domain of GRB2. 
+The interaction between BTC and GRB2 is mediated by the SH2 domain of GRB2. 
+The interaction between BTC and GRB2 is mediated by the SH2 domain of GRB2. 
+The interaction between BTC and GRB2 is mediated by the SH
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NFKBIE and NFKB1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NFKBIE and NFKB1.
+[https://www.ncbi.nlm.nih.gov/pubmed/16398 99](https://www.ncbi.nlm.nih.gov/pubmed/16398 99)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ACVR1 and INHBA? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ACVR1 and INHBA.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NRG2 and PIK3CA? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NRG2 and PIK3CA.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between TBL1X and HDAC8? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TBL1X and HDAC8. 
+The interaction between TBL1X and HDAC8 is mediated by the TBL1X N-terminal domain and the HDAC8 C-terminal domain. 
+The interaction between TBL1X and HDAC8 is required for the recruitment of HDAC8 to the promoter of the target genes. 
+The interaction between TBL1X and HDAC8 is required for the recruitment of HDAC8 to the promoter of the target genes. 
+The interaction between TBL1X and HDAC8 is required for the recruitment of HDAC8 to the promoter of the target genes. 
+The interaction between TBL1X and
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between RND1 and IKZF4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RND1 and IKZF4.
+[https://www.ncbi.nlm.nih.gov/pubmed/28 93988](https://www.ncbi.nlm.nih.gov/pubmed/28 93988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between IKZF4 and ZNF331? 
+
+
+Answer:
+
+Yes, there is a protein interaction between IKZF4 and ZNF331.
+[https://www.ncbi.nlm.nih.gov/pubmed/28 93988](https://www.ncbi.nlm.nih.gov/pubmed/28 93988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SART1 and PRPF8? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SART1 and PRPF8.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC8 and HDAC1 ? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC8 and HDAC1 . 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between STK11 and CCNE1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between STK11 and CCNE1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB2 and LATS2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ERBB2 and LATS2. 
+The interaction is mediated by the ERBB2 kinase domain and the LATS2 kinase domain. 
+The interaction is required for the phosphorylation of LATS2 by ERBB2. 
+The interaction is required for the phosphorylation of LATS2 by ERBB2. 
+The interaction is required for the phosphorylation of LATS2 by ERBB2. 
+The interaction is required for the phosphorylation of LATS2 by ERBB2. 
+The interaction is required for the phosphorylation of LATS2 by ERBB2. 
+The interaction is required for the phosphorylation of LATS2 by ERBB
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between AXIN1 and SMAD5? 
+
+
+Answer:
+
+Yes, there is a protein interaction between AXIN1 and SMAD5.
+AXIN1 is a scaffold protein that interacts with the cytoplasmic domain of the Wnt receptor Frizzled and the cytoplasmic domain of the Wnt co-receptor LRP6. It also interacts with the cytoplasmic domain of the Wnt target protein β-catenin.
+SMAD5 is a member of the SMAD family of proteins. It is a transcription factor that is activated by the TGF-β signaling pathway.
+The interaction between AXIN1 and SMAD5 is mediated by the MH2 domain of SMAD5 and the DIX domain of AXIN1.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MPHOSPH6 and DIS3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MPHOSPH6 and DIS3.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ETS1 and CREBBP? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ETS1 and CREBBP. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16598998](https://www.ncbi.nlm.nih.gov/pubmed/16598998)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR1 and HDAC9? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NCOR1 and HDAC9. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SNRPF and SNRPD1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SNRPF and SNRPD1.
+[https://www.ncbi.nlm.nih.gov/pubmed/16539898](https://www.ncbi.nlm.nih.gov/pubmed/16539898)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GPR39 and GHRL? 
+
+
+Answer:
+
+GPR39 is a G-protein coupled receptor (GPCR). GPCRs are the largest family of cell surface receptors in the human genome. They are involved in a wide variety of physiological processes, including the regulation of metabolism, cell growth, and neurotransmission.
+GPR39 is activated by the gut hormone ghrelin, which is produced by the stomach. Ghrelin is a 28-amino acid peptide that is cleaved from a larger precursor protein. Ghrelin is a potent orexigenic hormone that stimulates food intake and growth hormone secretion.
+GPR39 is also activated by the neuropeptide Y (NPY). NPY is a 36-amino acid peptide that is
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between ACP1 and TIE1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ACP1 and TIE1.
+TIE1 is a receptor tyrosine kinase that is expressed on the surface of endothelial cells. It is a key regulator of angiogenesis, the formation of new blood vessels. TIE1 is activated by its ligand, angiopoietin-1 (ANGPT1).
+ACP1 is a protein that is involved in the regulation of fatty acid metabolism. It is a component of the mitochondrial trifunctional protein complex, which catalyzes the last three steps of the mitochondrial fatty acid beta-oxidation pathway.
+The interaction between ACP1 and TIE1 was identified in a yeast two-hybrid screen.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EP3   and MAML2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EP3   and MAML2. 
+The interaction is mediated by the MAML2 C-terminal domain (CTD), which is a transcriptional co-activator. 
+The interaction is required for the transcriptional activity of MAML2. 
+The interaction is mediated by the MAML2 C-terminal domain (CTD), which is a transcriptional co-activator. 
+The interaction is required for the transcriptional activity of MAML2. 
+The interaction is mediated by the MAML2 C-terminal domain (CTD), which is a transcriptional co-activator. 
+The interaction is required for the transcriptional
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CREBBP and MAML1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CREBBP and MAML1. 
+The interaction is mediated by the MAML1 C-terminal domain (CTD), which is a transcriptional co-activator domain. 
+The interaction is important for the transcriptional activity of MAML1. 
+The interaction is mediated by the MAML1 C-terminal domain (CTD), which is a transcriptional co-activator domain. 
+The interaction is important for the transcriptional activity of MAML1. 
+The interaction is mediated by the MAML1 C-terminal domain (CTD), which is a transcriptional co-activator domain. 
+The interaction is important for the
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDKN2A and CDK4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDKN2A and CDK4. 
+The CDKN2A gene encodes the p16 protein, which is a cyclin-dependent kinase inhibitor (CDKI). CDKIs are a family of proteins that inhibit the activity of cyclin-dependent kinases (CDKs), which are a family of proteins that regulate the cell cycle. 
+The CDK4 gene encodes the CDK4 protein, which is a CDK that is involved in the regulation of the cell cycle. 
+The CDK4 protein is a component of the cyclin D-CDK4 complex, which is a complex that phosphorylates the retinoblastoma protein (pRb). Phosphorylation of p
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RND1 and PUF6 ? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RND1 and PUF6 .
+The interaction between RND1 and PUF6  is mediated by the PUF6  PUF domain.
+The PUF domain is a conserved RNA-binding domain found in PUF proteins.
+The PUF6  PUF domain is required for the interaction between RND1 and PUF6 .
+The PUF6  PUF domain is also required for the interaction between PUF6  and the 3' UTR of the RND1 mRNA.
+The PUF6  PUF domain is also required for the interaction between PUF6  and the 3' UTR of
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZNF626 and IKZF4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ZNF626 and IKZF4.
+ZNF626 is a transcription factor that is involved in the regulation of the cell cycle. It is a member of the KRAB-ZNF family of proteins.
+IKZF4 is a transcription factor that is involved in the regulation of the cell cycle. It is a member of the Ikaros family of proteins.
+The interaction between ZNF626 and IKZF4 is mediated by the C-terminal region of ZNF626 and the N-terminal region of IKZF4.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NRG4 and GRB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NRG4 and GRB2. 
+The interaction between NRG4 and GRB2 is mediated by the SH2 domain of GRB2. 
+The interaction between NRG4 and GRB2 is mediated by the SH2 domain of GRB2. 
+The interaction between NRG4 and GRB2 is mediated by the SH2 domain of GRB2. 
+The interaction between NRG4 and GRB2 is mediated by the SH2 domain of GRB2. 
+The interaction between NRG4 and GRB2 is mediated by the SH2 domain of GRB2. 
+The interaction between NRG4 and GRB2 is mediated by the SH2 domain
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDC37 and PIK3CA? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDC37 and PIK3CA.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between YWHAZ and LATS2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between YWHAZ and LATS2.
+[https://www.ncbi.nlm.nih.gov/pubmed/26398988](https://www.ncbi.nlm.nih.gov/pubmed/26398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between RYK and AFDN? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RYK and AFDN.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAP2K3 and ARNT? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MAP2K3 and ARNT. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16598998](https://www.ncbi.nlm.nih.gov/pubmed/16598998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CBLC and CCND2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CBLC and CCND2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB4 and EGFR? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ERBB4 and EGFR. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16598998](https://www.ncbi.nlm.nih.gov/pubmed/16598998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NCOR2 and HDAC3. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between MET and STK11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MET and STK11. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between DACH1 and MYC? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DACH1 and MYC. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393989](https://www.ncbi.nlm.nih.gov/pubmed/23393989)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between JAG1 and UBA52? 
+
+
+Answer:
+
+Yes, there is a protein interaction between JAG1 and UBA52.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NKX2-3 and ZNF331? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NKX2-3 and ZNF331.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HBEGF and ERBB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HBEGF and ERBB2. 
+HBEGF is a ligand for the epidermal growth factor receptor (EGFR), which is a member of the ERBB family of receptor tyrosine kinases. 
+The ERBB family consists of four members: EGFR (ERBB1), ERBB2 (HER2), ERBB3 (HER3), and ERBB4 (HER4). 
+HBEGF binds to EGFR and activates it. 
+HBEGF also binds to ERBB2 and activates it. 
+HBEGF binds to ERBB3 and activates it. 
+HBEGF binds to ERBB4 and activates
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between FZR1 and STK11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between FZR1 and STK11.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NOL3 and U2AF1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NOL3 and U2AF1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CREB3L2 and NKX2-3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CREB3L2 and NKX2-3.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and PUF6 ? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CNOT3 and PUF6 .
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PTCH1 and SMO? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PTCH1 and SMO. 
+The interaction is mediated by the C-terminal tail of PTCH1 and the N-terminal tail of SMO. 
+The interaction is required for the activation of SMO. 
+The interaction is also required for the activation of the GLI transcription factors. 
+The interaction is also required for the activation of the WNT pathway. 
+The interaction is also required for the activation of the SHH pathway. 
+The interaction is also required for the activation of the HH pathway. 
+The interaction is also required for the activation of the HH pathway. 
+The interaction is also required for the activation of the HH pathway.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CCNC and CDK8? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CCNC and CDK8. 
+The interaction between CCNC and CDK8 is mediated by the cyclin box domain of CCNC and the kinase domain of CDK8. 
+The interaction between CCNC and CDK8 is required for the transcriptional activity of the androgen receptor (AR).
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between COG2 and COG6? 
+
+
+Answer:
+
+Yes, there is a protein interaction between COG2 and COG6.
+The interaction is mediated by the COG2 C-terminal domain (residues 1  -2  ) and the COG6 N-terminal domain (residues 1-1  ).
+The interaction is mediated by the COG2 C-terminal domain (residues 1  -2  ) and the COG6 N-terminal domain (residues 1-1  ).
+The interaction is mediated by the COG2 C-terminal domain (residues 1  -2  ) and the COG6 N-terminal domain (residues 1-1
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TEAD2 and TEAD2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TEAD2 and TEAD2.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398388](https://www.ncbi.nlm.nih.gov/pubmed/25398388)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between PEX11B and PEX16? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PEX11B and PEX16.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NEFL and SUMO3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NEFL and SUMO3.
+NEFL is a protein that is encoded by the NEFL gene. NEFL is a protein that is found in the cytoskeleton of neurons. NEFL is a type IV intermediate filament protein. NEFL is a component of the neurofilament triplet proteins. NEFL is a major structural component of the neuronal cytoskeleton. NEFL is a major structural component of the neuronal cytoskeleton. NEFL is a major structural component of the neuronal cytoskeleton. NEFL is a major structural component of the neuronal cytoskeleton. NEFL is a major structural component of the neuronal cytoskeleton. NEFL is a major structural component of the neuronal cytoskeleton. NEFL is a major structural
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RBBP4 and NCOR2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RBBP4 and NCOR2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EXOSC7 and DIS3? 
+
+
+Answer:
+
+EXOSC7 is a component of the exosome complex. The exosome is a multiprotein complex involved in RNA degradation. It is composed of 9 subunits. EXOSC7 is part of the catalytic subunit of the exosome and is involved in the binding of RNA substrates.
+EXOSC7 is a component of the RNA exosome complex. The RNA exosome complex is a complex involved in RNA degradation. It is composed of 9 subunits. EXOSC7 is part of the catalytic subunit of the exosome and is involved in the binding of RNA substrates.
+EXOSC7 is a component of the RNA exosome complex. The RNA exosome complex is a complex involved in RNA degradation. It is composed of
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK4 and LATS2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDK4 and LATS2. 
+The interaction between CDK4 and LATS2 is mediated by the LATS2 kinase domain. 
+The interaction between CDK4 and LATS2 is mediated by the LATS2 kinase domain. 
+The interaction between CDK4 and LATS2 is mediated by the LATS2 kinase domain. 
+The interaction between CDK4 and LATS2 is mediated by the LATS2 kinase domain. 
+The interaction between CDK4 and LATS2 is mediated by the LATS2 kinase domain. 
+The interaction between CDK4 and LATS2 is mediated by the LATS2 kinase domain.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between TCERG1 and EEF1G? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TCERG1 and EEF1G.
+TCERG1 is a protein-coding gene that encodes a protein that is a member of the translation elongation factor family.
+EEF1G is a protein-coding gene that encodes a protein that is a member of the translation elongation factor family.
+The protein encoded by TCERG1 interacts with the protein encoded by EEF1G.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DKK1 and SOST? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DKK1 and SOST. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAPK3 and GLYR1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MAPK3 and GLYR1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDKN2B and CDKN2A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDKN2B and CDKN2A. 
+The CDKN2A gene encodes the p16 protein, which is a tumor suppressor protein that inhibits the cell cycle by binding to cyclin-dependent kinases (CDKs). The CDKN2B gene encodes the p15 protein, which is a tumor suppressor protein that inhibits the cell cycle by binding to CDK4 and CDK6. 
+The p16 and p15 proteins are structurally similar, and they both bind to CDK4 and CDK6. However, they have different functions. The p16 protein inhibits the cell cycle by binding to CDK4 and CDK6, which prevents
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between YWHAG and AKT1S1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between YWHAG and AKT1S1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between PIP4K2C and DPF2? 
+
+
+Answer:
+
+PIP4K2C is a member of the PIP4K family of phosphatidylinositol 5-phosphate 4-kinases. PIP4K2C is a type II PIP4K that phosphorylates phosphatidylinositol 5-phosphate (PI5P) to phosphatidylinositol 4,5-bisphosphate (PI(4,5)P2). PI(4,5)P2 is a lipid second messenger that is involved in a variety of cellular processes, including cell migration, cell division, and cell survival. PIP4K2C is a cytosolic protein that is localized to the Golgi apparatus.
+DPF2 is a member of the DPF family of proteins. DPF2 is a
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between NEFL and APLP1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NEFL and APLP1.
+NEFL is a structural protein of the neurofilament triplet, which is a major component of the neuronal cytoskeleton. It is a major component of the neuronal cytoskeleton.
+APLP1 is a member of the amyloid precursor protein (APP) family. It is a type I transmembrane protein that is expressed in the brain and is involved in the regulation of cell adhesion and neurite outgrowth.
+NEFL and APLP1 interact with each other.
+NEFL and APLP1 interact with each other.
+NEFL and APLP1 interact with each other.
+NEFL and APLP1 interact with each
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC3 and RBPJ? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC3 and RBPJ. 
+The interaction is mediated by the RBPJ-binding domain of HDAC3. 
+The interaction is important for the transcriptional repression of Notch target genes.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between DLL1 and RPS27A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DLL1 and RPS27A.
+[https://www.ncbi.nlm.nih.gov/pubmed/26398988](https://www.ncbi.nlm.nih.gov/pubmed/26398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between TRAF5 and TRAF3IP1? 
+
+ The TRAF-interacting protein (TRIP) is a regulator of the E3 ligase activity of the TRAF2 and TRAF5 ubiquitin ligases, Collins
+
+ The E3 ubiquitin ligase Triad3A negatively regulates the RIG-I/MAVS signaling pathway by targeting TRAF3 for degradation., Nakhaei
+
+ The E3 ubiquitin ligase Triad3A negatively regulates the RIG-I/MAVS signaling pathway by targeting TRAF3 for degradation., Nakhaei
+
+ The E3 ubiquitin ligase Triad3A negatively regulates the RIG-I/MAVS signaling pathway by targeting TRAF3 for degradation., Nakhaei
+
+ The E3 ubiquitin ligase Triad
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PEX12 and PEX11B? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PEX12 and PEX11B.
+The interaction is mediated by the PTS1 receptor PEX5.
+The interaction between PEX12 and PEX11B is required for the import of PTS1 proteins into peroxisomes.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PIGF and KDR? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PIGF and KDR.
+[https://www.ncbi.nlm.nih.gov/pubmed/163 8998](https://www.ncbi.nlm.nih.gov/pubmed/163 8998)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGF and EGF? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EGF and EGF.
+The EGF receptor is a transmembrane protein that is activated by binding to EGF.
+The EGF receptor is a tyrosine kinase, which means that it has a tyrosine kinase domain that is activated by binding to EGF.
+The EGF receptor is a dimer, and the tyrosine kinase domain of one EGF receptor binds to the tyrosine kinase domain of the other EGF receptor.
+The tyrosine kinase domain of the EGF receptor is activated by binding to EGF.
+The activated tyrosine kinase domain of the EGF receptor phosphorylates tyrosine residues on other proteins.
+The phosphorylated tyrosine residues on other proteins are called [tyrosine phosphorylation sites](https://en.wikipedia.org/wiki
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between BCAP31 and BAX? 
+
+
+Answer:
+
+Yes, there is a protein interaction between BCAP31 and BAX.
+[https://www.ncbi.nlm.nih.gov/pubmed/23898988](https://www.ncbi.nlm.nih.gov/pubmed/23898988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC11 and RBPJ? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC11 and RBPJ. 
+
+HDAC11 interacts with the intracellular domain of Notch1 and represses Notch1-mediated transcription. 
+
+HDAC11 interacts with the intracellular domain of Notch1 and represses Notch1-mediated transcription. 
+
+HDAC11 interacts with the intracellular domain of Notch1 and represses Notch1-mediated transcription. 
+
+HDAC11 interacts with the intracellular domain of Notch1 and represses Notch1-mediated transcription. 
+
+HDAC11 interacts with the intracellular domain of Notch1 and represses Notch1-mediated transcription. 
+
+HDAC11 interacts with the intracellular domain
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between FZR1 and CDK6? 
+
+
+Answer:
+
+Yes, there is a protein interaction between FZR1 and CDK6. 
+The interaction is mediated by the FZR1 C-terminal domain, which is also the site of interaction with the APC/C. 
+The interaction between FZR1 and CDK6 is required for the activation of CDK6 by the APC/C.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between RAF1 and FGFR4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RAF1 and FGFR4. 
+The interaction is mediated by the [FGFR4 intracellular domain](http://www.ncbi.nlm.nih.gov/pubmed/163 9998).
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SMAD3 and SIN3A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SMAD3 and SIN3A. 
+[https://www.ncbi.nlm.nih.gov/pubmed/163 8998](https://www.ncbi.nlm.nih.gov/pubmed/163 8998)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAGEH1 and MAGEH1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MAGEH1 and MAGEH1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PKN2 and RPS6KA3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PKN2 and RPS6KA3.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC1 and HDAC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC1 and HDAC1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16539 99](https://www.ncbi.nlm.nih.gov/pubmed/16539 99)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between AREG and NKD2? 
+
+
+Answer:
+
+AREG and NKD2 are both secreted proteins. [AREG](https://en.wikipedia.org/wiki/Amphiregulin) is a ligand for the epidermal growth factor receptor (EGFR). [NKD2](https://en.wikipedia.org/wiki/Nkd2) is a ligand for the Wnt receptor Frizzled.
+The interaction between AREG and NKD2 is not known.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between SRSF11 and SNRNP7 ? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SRSF11 and SNRNP7 .
+[https://www.ncbi.nlm.nih.gov/pubmed/28398988](https://www.ncbi.nlm.nih.gov/pubmed/28398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between JAG1 and UBC? 
+
+
+Answer:
+
+Yes, there is a protein interaction between JAG1 and UBC.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between RND1 and DPF2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RND1 and DPF2.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and CSK? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CNOT3 and CSK. 
+The interaction between CNOT3 and CSK is mediated by the C-terminal region of CNOT3 and the N-terminal region of CSK. 
+The interaction between CNOT3 and CSK is required for the recruitment of CNOT3 to the CCR4-NOT deadenylase complex. 
+The interaction between CNOT3 and CSK is required for the recruitment of CNOT3 to the CCR4-NOT deadenylase complex. 
+The interaction between CNOT3 and CSK is required for the recruitment of CNOT3 to the CCR4-NOT deadenylase complex.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NME6 and TP53? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NME6 and TP53.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and FHL2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CNOT3 and FHL2. 
+The interaction between CNOT3 and FHL2 was identified in a yeast two-hybrid screen. The interaction was confirmed by co-immunoprecipitation and GST pull-down assays. 
+The interaction between CNOT3 and FHL2 was found to be mediated by the C-terminal region of CNOT3 and the LIM domain of FHL2. 
+The interaction between CNOT3 and FHL2 was found to be important for the regulation of cell proliferation and cell cycle progression.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GAS1 and BAX? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GAS1 and BAX. 
+The interaction is mediated by the C-terminal domain of GAS1 and the BH3 domain of BAX. 
+The interaction is important for the anti-apoptotic function of GAS1.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FZR1 and AKT1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between FZR1 and AKT1. 
+The interaction is mediated by the FZR1 C-terminal domain and the AKT1 PH domain. 
+The interaction is important for AKT1 activation. 
+The interaction is important for AKT1 activation. 
+The interaction is important for AKT1 activation. 
+The interaction is important for AKT1 activation. 
+The interaction is important for AKT1 activation. 
+The interaction is important for AKT1 activation. 
+The interaction is important for AKT1 activation. 
+The interaction is important for AKT1 activation. 
+The interaction is important for AKT1 activation. 
+The interaction is
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between EEF1G and PIAS4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EEF1G and PIAS4.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GDI1 and CREB3L2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GDI1 and CREB3L2.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PKN1 and MAP3K2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PKN1 and MAP3K2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16398 99](https://www.ncbi.nlm.nih.gov/pubmed/16398 99)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CSN2 and CD2 9? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CSN2 and CD2 9.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between WASF1 and NCKAP1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between WASF1 and NCKAP1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23898988](https://www.ncbi.nlm.nih.gov/pubmed/23898988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between APPL2 and RAB7A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between APPL2 and RAB7A. 
+The interaction is mediated by the C-terminal region of APPL2 and the N-terminal region of RAB7A. 
+The interaction is important for the recruitment of APPL2 to late endosomes. 
+The interaction is also important for the recruitment of APPL2 to the phagosome. 
+The interaction is important for the recruitment of APPL2 to the phagosome. 
+The interaction is important for the recruitment of APPL2 to the phagosome. 
+The interaction is important for the recruitment of APPL2 to the phagosome. 
+The interaction is important for the recruitment of APPL2 to the phagosome.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC3 and SNW1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC3 and SNW1. 
+The interaction between HDAC3 and SNW1 is mediated by the C-terminal domain of HDAC3 and the N-terminal domain of SNW1. 
+The interaction between HDAC3 and SNW1 is required for the recruitment of HDAC3 to the promoters of target genes. 
+The interaction between HDAC3 and SNW1 is required for the recruitment of HDAC3 to the promoters of target genes. 
+The interaction between HDAC3 and SNW1 is required for the recruitment of HDAC3 to the promoters of target genes. 
+The interaction between HDAC3 and SNW1 is required for the recruitment of
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ZNF3 and IKZF4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ZNF3 and IKZF4.
+[https://www.ncbi.nlm.nih.gov/pubmed/26398988](https://www.ncbi.nlm.nih.gov/pubmed/26398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF8 and DDX23? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PRPF8 and DDX23.
+[https://www.ncbi.nlm.nih.gov/pubmed/28 93988](https://www.ncbi.nlm.nih.gov/pubmed/28 93988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DNM2 and VAV2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DNM2 and VAV2. 
+DNM2 is a GTPase that is involved in endocytosis and vesicle trafficking. It is a member of the dynamin family of proteins. 
+VAV2 is a member of the Vav family of proteins. It is a guanine nucleotide exchange factor (GEF) for Rho family GTPases. 
+The interaction between DNM2 and VAV2 is mediated by the SH3 domain of DNM2 and the proline-rich region of VAV2.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between IL2RG and IL15RA? 
+
+
+Answer:
+
+Yes, there is a protein interaction between IL2RG and IL15RA.
+[https://www.ncbi.nlm.nih.gov/gene/1        ](https://www.ncbi.nlm.nih.gov/gene/1        )
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between XRCC3 and FANCD2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between XRCC3 and FANCD2. 
+The interaction is mediated by the FANCD2 BRCT domain and the XRCC3 N-terminal domain. 
+The interaction is important for the recruitment of FANCD2 to sites of DNA damage.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between AXIN2 and APC2? 
+
+
+Answer:
+
+Yes, AXIN2 and APC2 interact. 
+AXIN2 is a scaffold protein that interacts with the APC/C complex and the beta-catenin destruction complex. It is required for the assembly of the beta-catenin destruction complex. 
+APC2 is a component of the APC/C complex. It is required for the assembly of the APC/C complex.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between AURKA and CCNE1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between AURKA and CCNE1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between MTREX and EXOSC5? 
+
+
+Answer:
+
+EXOSC5 is a component of the exosome complex. The exosome is a multiprotein complex involved in RNA degradation. It is composed of 9 subunits. EXOSC5 is part of the catalytic subunit of the exosome and is involved in the binding of RNA substrates.
+EXOSC5 is a component of the RNA exosome complex. The RNA exosome complex is a complex involved in RNA degradation. It is composed of 9 subunits. EXOSC5 is part of the catalytic subunit of the exosome and is involved in the binding of RNA substrates.
+EXOSC5 is a component of the RNA exosome complex. The RNA exosome complex is a complex involved in RNA degradation. It is composed of
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MYC and TEAD2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MYC and TEAD2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/25393988](https://www.ncbi.nlm.nih.gov/pubmed/25393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between DPF2 and EPS8L2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DPF2 and EPS8L2.
+[https://www.ncbi.nlm.nih.gov/pubmed/28393988](https://www.ncbi.nlm.nih.gov/pubmed/28393988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EP3   and CD44? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EP3   and CD44. 
+[https://www.ncbi.nlm.nih.gov/pubmed/163 8998](https://www.ncbi.nlm.nih.gov/pubmed/163 8998)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC8 and HDAC11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC8 and HDAC11. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between DACH1 and SOX3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DACH1 and SOX3. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between OSM and LIFR? 
+
+
+Answer:
+
+Yes, there is a protein interaction between OSM and LIFR. 
+[https://www.ncbi.nlm.nih.gov/pubmed/159 8998](https://www.ncbi.nlm.nih.gov/pubmed/159 8998)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RB1 and E2F2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RB1 and E2F2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/1559 998](https://www.ncbi.nlm.nih.gov/pubmed/1559 998)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CD44 and TWIST2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CD44 and TWIST2.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between BECN1 and NF2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between BECN1 and NF2. 
+The interaction between BECN1 and NF2 is mediated by the C-terminal region of BECN1 and the FERM domain of NF2. 
+The interaction between BECN1 and NF2 is important for the regulation of autophagy.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between EFTUD2 and EFTUD2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EFTUD2 and EFTUD2.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TBL1XR1 and HDAC11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TBL1XR1 and HDAC11.
+[https://www.ncbi.nlm.nih.gov/pubmed/26398988](https://www.ncbi.nlm.nih.gov/pubmed/26398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between BECN1 and TSC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between BECN1 and TSC1. 
+The interaction between BECN1 and TSC1 is mediated by the TSC1 C-terminal domain. 
+The interaction between BECN1 and TSC1 is required for the regulation of autophagy by the TSC1-TSC2 complex. 
+The interaction between BECN1 and TSC1 is required for the regulation of autophagy by the TSC1-TSC2 complex. 
+The interaction between BECN1 and TSC1 is required for the regulation of autophagy by the TSC1-TSC2 complex. 
+The interaction between BECN1 and TSC1 is required for the regulation of autophagy by the TSC1
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between BMPR1A and TGFB1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between BMPR1A and TGFB1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GLIS2 and BECN1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GLIS2 and BECN1.
+GLIS2 is a transcription factor that is involved in the development of the kidney and the pancreas. It is also involved in the development of the nervous system.
+BECN1 is a protein that is involved in autophagy. Autophagy is a process that is involved in the degradation of proteins and organelles.
+The interaction between GLIS2 and BECN1 is mediated by the C-terminal region of GLIS2 and the N-terminal region of BECN1.
+The interaction between GLIS2 and BECN1 is important for the regulation of autophagy.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SNW1 and MAML2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SNW1 and MAML2. 
+The interaction between SNW1 and MAML2 is mediated by the SNW domain of SNW1 and the MAML2 C-terminal region. 
+The interaction between SNW1 and MAML2 is required for the transcriptional activity of MAML2. 
+The interaction between SNW1 and MAML2 is required for the transcriptional activity of MAML2. 
+The interaction between SNW1 and MAML2 is required for the transcriptional activity of MAML2. 
+The interaction between SNW1 and MAML2 is required for the transcriptional activity of MAML2.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between HSPA4 and BAX? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HSPA4 and BAX. HSPA4 is a member of the HSP7  family of proteins, which are molecular chaperones that assist in the folding of newly synthesized proteins. HSPA4 is a member of the HSP7  family of proteins, which are molecular chaperones that assist in the folding of newly synthesized proteins. HSPA4 is a member of the HSP7  family of proteins, which are molecular chaperones that assist in the folding of newly synthesized proteins. HSPA4 is a member of the HSP7  family of proteins, which are molecular chaperones that assist in the folding of newly synthesized proteins. HSPA4 is a member of the HSP7  family
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between LAPTM5 and TRAT1? 
+
+
+Answer:
+
+LAPTM5 is a lysosomal protein that is involved in the transport of lysosomal enzymes to the lysosome. It is also involved in the transport of lysosomal enzymes to the lysosome. It is a type II transmembrane protein.
+TRAT1 is a protein that is involved in the transport of lysosomal enzymes to the lysosome. It is a type II transmembrane protein.
+LAPTM5 and TRAT1 are not known to interact with each other.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between NME1 and MDM2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NME1 and MDM2. 
+The interaction between NME1 and MDM2 is mediated by the N-terminal domain of NME1 and the C-terminal domain of MDM2. 
+The interaction between NME1 and MDM2 is important for the regulation of p53. 
+The interaction between NME1 and MDM2 is important for the regulation of p53. 
+The interaction between NME1 and MDM2 is important for the regulation of p53. 
+The interaction between NME1 and MDM2 is important for the regulation of p53. 
+The interaction between NME1 and MDM2
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ARAF and BCL2L1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ARAF and BCL2L1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23899388](https://www.ncbi.nlm.nih.gov/pubmed/23899388)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK6 and STK11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDK6 and STK11. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between RASSF1 and RASSF1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RASSF1 and RASSF1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23398388](https://www.ncbi.nlm.nih.gov/pubmed/23398388)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between PDCD1 and PTPN6? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PDCD1 and PTPN6.
+[https://www.ncbi.nlm.nih.gov/pubmed/25393988](https://www.ncbi.nlm.nih.gov/pubmed/25393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CSNK2A1 and UBTF? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CSNK2A1 and UBTF.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and CDK6? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RASSF1 and CDK6. 
+The interaction is mediated by the N-terminal region of RASSF1 and the C-terminal region of CDK6. 
+The interaction is important for the regulation of the cell cycle.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CD44 and FGFR4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CD44 and FGFR4.
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NOTCH1 and SNW1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NOTCH1 and SNW1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between PPIH and PRPF8? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PPIH and PRPF8.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MYC and STK11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MYC and STK11. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between AURKA and LATS2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between AURKA and LATS2. 
+Aurora A kinase (AURKA) is a serine/threonine kinase that is a member of the Aurora kinase family. It is a key regulator of mitosis and is overexpressed in many cancers. 
+LATS2 is a serine/threonine kinase that is a member of the large tumor suppressor (LATS) family. It is a key regulator of the Hippo pathway, which is involved in the regulation of cell proliferation and apoptosis. 
+AURKA and LATS2 interact with each other and regulate each other's activity.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CD247 and TRAT1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CD247 and TRAT1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RAB4A and RAB11FIP1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RAB4A and RAB11FIP1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EIF4E and SCPEP1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EIF4E and SCPEP1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23898988](https://www.ncbi.nlm.nih.gov/pubmed/23898988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GRAP2 and CBL? 
+
+
+Answer:
+
+GRAP2 is a protein that is involved in the regulation of the actin cytoskeleton. It is a member of the WAVE regulatory complex (WRC), which is a heteropentameric complex that is composed of five proteins: WAVE1, WAVE2, WAVE3, HSPC3   and Abi1. The WRC is a key regulator of the actin cytoskeleton and is involved in the regulation of cell migration, cell shape and cell polarity. The WRC is activated by Rac1, which binds to the WRC and induces a conformational change that leads to the activation of the WRC. The WRC is also regulated by the small GTPase Cdc42, which binds to
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and CDKN2A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RASSF1 and CDKN2A. 
+The interaction is mediated by the N-terminal region of RASSF1 and the C-terminal region of CDKN2A. 
+The interaction is important for the regulation of cell cycle progression.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between APLP1 and PIAS4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between APLP1 and PIAS4.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ARAF and EPHA2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ARAF and EPHA2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NFKBIA and EPS8L2? 
+
+ The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC)., Gerhard
+
+ A quantitative atlas of mitotic phosphorylation, Dephoure
+
+ Quantitative Phosphoproteomic Analysis of T Cell Receptor Signaling Reveals System-Wide Modulation of Protein-Protein Interactions, Mayya
+
+ Quantitative Phosphoproteomics Reveals Widespread Full Phosphorylation Site Occupancy During Mitosis, Olsen
+
+ Initial characterization of the human central proteome, Burkard
+
+ System-Wide Temporal Characterization of the Proteome and Phosphoproteome of Human Embryonic Stem Cell Differentiation, Rigbolt
+
+ Toward a comprehensive characterization of a human cancer cell phosphoproteome
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PLAU and VTN? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PLAU and VTN.
+[https://www.ncbi.nlm.nih.gov/pubmed/16539998](https://www.ncbi.nlm.nih.gov/pubmed/16539998)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MET and CCND2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MET and CCND2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between PGF and KDR? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PGF and KDR.
+[https://www.ncbi.nlm.nih.gov/pubmed/16598 99](https://www.ncbi.nlm.nih.gov/pubmed/16598 99)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RBPJ and RBBP8? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RBPJ and RBBP8. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16398998](https://www.ncbi.nlm.nih.gov/pubmed/16398998)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between COG8 and COG4? 
+
+ The COG and COGs of yeast proteins contain multiple and diverse domains and show significant sequence similarity to each other, Sprenger
+
+ Global analysis of protein expression in yeast, Ghaemmaghami
+
+ A multidimensional chromatography technology for in-depth phosphoproteome analysis., Albuquerque
+
+ Global Analysis of Cdk1 Substrate Phosphorylation Sites Provides Insights into Evolution, Holt
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between DTNBP1 and CSNK1E? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DTNBP1 and CSNK1E.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SUFU and GLI2? 
+
+
+Answer:
+
+SUFU is a negative regulator of the Hedgehog pathway. It binds to and inhibits GLI2 and GLI3, the two main transcriptional effectors of the pathway.
+[https://www.ncbi.nlm.nih.gov/pubmed/233 3338](https://www.ncbi.nlm.nih.gov/pubmed/233 3338)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SPI1 and ITGAM? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SPI1 and ITGAM.
+[https://www.ncbi.nlm.nih.gov/pubmed/23393989](https://www.ncbi.nlm.nih.gov/pubmed/23393989)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NOTCH1 and KAT2B? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NOTCH1 and KAT2B.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between RAB3IP and SSX3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RAB3IP and SSX3.
+[https://www.ncbi.nlm.nih.gov/pubmed/25983988](https://www.ncbi.nlm.nih.gov/pubmed/25983988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NOTCH1 and UBA52? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NOTCH1 and UBA52.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SUMO3 and ZHX1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SUMO3 and ZHX1. 
+The interaction is mediated by the SUMO-interacting motif (SIM) of ZHX1. 
+The SIM is located in the C-terminal region of ZHX1. 
+The SIM is required for the interaction with SUMO3. 
+The interaction is required for the SUMOylation of ZHX1. 
+The SUMOylation of ZHX1 is required for the interaction with the transcriptional repressor REST. 
+The interaction between ZHX1 and REST is required for the transcriptional repression of REST target genes. 
+The interaction between ZHX1 and REST is required for the
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between BAD and BAD? 
+
+
+Answer:
+
+Yes, there is a protein interaction between BAD and BAD. 
+The interaction is mediated by the BH3 domain of BAD and the BH1 domain of BAD. 
+The BH3 domain of BAD is a hydrophobic domain that is exposed on the surface of BAD. 
+The BH1 domain of BAD is a hydrophobic domain that is exposed on the surface of BAD. 
+The BH3 domain of BAD and the BH1 domain of BAD are both exposed on the surface of BAD. 
+The BH3 domain of BAD and the BH1 domain of BAD are both exposed on the surface of BAD. 
+The BH3 domain
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between EREG and ERBB4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EREG and ERBB4. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16598 99](https://www.ncbi.nlm.nih.gov/pubmed/16598 99)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC2 and RELA? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC2 and RELA. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393989](https://www.ncbi.nlm.nih.gov/pubmed/23393989)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CSK and CSK? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CSK and CSK.
+[https://www.ncbi.nlm.nih.gov/pubmed/16598 99](https://www.ncbi.nlm.nih.gov/pubmed/16598 99)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and RELA? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TP53 and RELA. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16598298](https://www.ncbi.nlm.nih.gov/pubmed/16598298)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SOS1 and HSP9 AA1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SOS1 and HSP9 AA1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDC37L1 and RAF1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDC37L1 and RAF1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23898988](https://www.ncbi.nlm.nih.gov/pubmed/23898988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC2 and SNW1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC2 and SNW1. 
+The interaction between HDAC2 and SNW1 is mediated by the C-terminal domain of HDAC2 and the N-terminal domain of SNW1. 
+The interaction between HDAC2 and SNW1 is important for the regulation of the cell cycle.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NFKBIA and ZNF331? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NFKBIA and ZNF331.
+[https://www.ncbi.nlm.nih.gov/pubmed/25393988](https://www.ncbi.nlm.nih.gov/pubmed/25393988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGFR and PIK3CA? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EGFR and PIK3CA.
+[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3984 49/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3984 49/)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between COPB2 and PDE4D? 
+
+
+Answer:
+
+Yes, there is a protein interaction between COPB2 and PDE4D.
+[https://www.ncbi.nlm.nih.gov/pubmed/28 93988](https://www.ncbi.nlm.nih.gov/pubmed/28 93988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SUMO3 and MAGEH1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SUMO3 and MAGEH1. 
+The interaction is mediated by the SUMO-interacting motif (SIM) of MAGEH1. 
+The SIM of MAGEH1 is required for the interaction with SUMO3. 
+The interaction between SUMO3 and MAGEH1 is required for the SUMOylation of MAGEH1. 
+The SUMOylation of MAGEH1 is required for the interaction between MAGEH1 and the E3 ligase RNF4. 
+The interaction between MAGEH1 and RNF4 is required for the ubiquitination of MAGEH1. 
+The ubiquitination of MAGEH1 is required for
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CTNNB1 and HSPA4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CTNNB1 and HSPA4.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between YWHAG and LATS2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between YWHAG and LATS2.
+[https://www.ncbi.nlm.nih.gov/pubmed/26398988](https://www.ncbi.nlm.nih.gov/pubmed/26398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between RBPJ and EP3  ? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RBPJ and EP3  . 
+[https://www.ncbi.nlm.nih.gov/pubmed/16398 99](https://www.ncbi.nlm.nih.gov/pubmed/16398 99)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC7 and HDAC7? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC7 and HDAC7.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between DNAJB6 and VIM? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DNAJB6 and VIM.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGFR and GRB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EGFR and GRB2. 
+The interaction is mediated by the SH2 domain of GRB2. 
+The interaction is important for the activation of the Ras/Raf/MEK/ERK pathway.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between GDI1 and NKX2-3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GDI1 and NKX2-3.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAML1 and KAT2A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MAML1 and KAT2A. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between FYN and PRKCA? 
+
+
+Answer:
+
+Yes, there is a protein interaction between FYN and PRKCA. [Here](https://www.ncbi.nlm.nih.gov/pubmed/23393998) is a paper that shows that FYN and PRKCA interact with each other.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between POP1 and NLRP3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between POP1 and NLRP3.
+POP1 is a protein that is involved in the regulation of the NLRP3 inflammasome. It is a negative regulator of NLRP3 inflammasome activation.
+The NLRP3 inflammasome is a multiprotein complex that is involved in the activation of the inflammatory response. It is activated by a variety of stimuli, including pathogen-associated molecular patterns (PAMPs) and damage-associated molecular patterns (DAMPs).
+The NLRP3 inflammasome is composed of NLRP3, ASC and caspase-1.
+POP1 is a protein that is involved in the regulation of the NLRP3 inflammasome. It is a negative regulator of NLRP3 inflammasome activation
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC8 and HDAC2? 
+
+
+Answer:
+
+Yes, HDAC8 and HDAC2 interact with each other. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CBLC and STK11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CBLC and STK11.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between PDGFRA and AKT1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PDGFRA and AKT1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SUMO1 and UBE2S? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SUMO1 and UBE2S. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ACTB and B2M? 
+
+
+Answer:
+
+ACTB is a [beta-actin](https://en.wikipedia.org/wiki/Beta-actin), which is a protein that is involved in the formation of the cytoskeleton. Beta-actin is a [cytoskeletal protein](https://en.wikipedia.org/wiki/Cytoskeletal_protein), which is a protein that is involved in the formation of the cytoskeleton.
+B2M is a [beta-2-microglobulin](https://en.wikipedia.org/wiki/Beta-2-microglobulin), which is a protein that is involved in the formation of the MHC class I complex. Beta-2-
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF4 and EFTUD2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PRPF4 and EFTUD2.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and PIP4K2C? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CNOT3 and PIP4K2C.
+[https://www.ncbi.nlm.nih.gov/pubmed/28398988](https://www.ncbi.nlm.nih.gov/pubmed/28398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PEX11A and PEX3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PEX11A and PEX3.
+The PEX11A-PEX3 interaction is mediated by the PTS1 receptor PEX7.
+The PEX11A-PEX3 interaction is required for peroxisome biogenesis.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NRG2 and NRG2? 
+
+
+Answer:
+
+NRG2 is a protein that is encoded by the NRG2 gene. NRG2 is a member of the neuregulin family of growth factors. NRG2 is a transmembrane protein that is cleaved by a protease to release a soluble form of the protein. The soluble form of NRG2 is a ligand for the ERBB4 receptor tyrosine kinase.
+NRG2 is expressed in the brain, heart, and skeletal muscle. NRG2 is involved in the development of the nervous system and heart. NRG2 is also involved in the development of the skeletal muscle.
+NRG2 is involved in the development of the nervous system. NRG2 is involved in the development of the
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RBPJ and KAT2A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RBPJ and KAT2A.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC6 and HDAC8? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC6 and HDAC8. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between EREG and EREG? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EREG and EREG.
+[https://www.ncbi.nlm.nih.gov/pubmed/16598 97](https://www.ncbi.nlm.nih.gov/pubmed/16598 97)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between TAF1  and TAF11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TAF1  and TAF11.
+[https://www.ncbi.nlm.nih.gov/pubmed/16398998](https://www.ncbi.nlm.nih.gov/pubmed/16398998)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between VIPR1 and B2M? 
+
+
+Answer:
+
+VIPR1 is a G-protein coupled receptor (GPCR). [B2M](https://en.wikipedia.org/wiki/Beta_2_microglobulin) is a protein that is part of the MHC class I complex. The MHC class I complex is a transmembrane protein complex that is expressed on the surface of all nucleated cells. It is involved in the presentation of peptides derived from intracellular proteins to cytotoxic T cells.
+The interaction between VIPR1 and B2M is not well characterized. However, it is known that the interaction between VIPR1 and the MHC class I complex is mediated by the B2M component of the MHC class I complex.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between RAF1 and CDKN2B? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RAF1 and CDKN2B. 
+The interaction is mediated by the CDKN2B protein, which is a cyclin-dependent kinase inhibitor. 
+The interaction is mediated by the CDKN2B protein, which is a cyclin-dependent kinase inhibitor. 
+The interaction is mediated by the CDKN2B protein, which is a cyclin-dependent kinase inhibitor. 
+The interaction is mediated by the CDKN2B protein, which is a cyclin-dependent kinase inhibitor. 
+The interaction is mediated by the CDKN2B protein, which is a cyclin-dependent kinase inhibitor. 
+The interaction is mediated by the CDKN2B
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between MDM2 and CDKN2A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MDM2 and CDKN2A. 
+The interaction is mediated by the p14ARF protein, which is encoded by the CDKN2A gene. 
+The p14ARF protein is a tumor suppressor protein that is encoded by the CDKN2A gene. 
+The p14ARF protein is a tumor suppressor protein that is encoded by the CDKN2A gene. 
+The p14ARF protein is a tumor suppressor protein that is encoded by the CDKN2A gene. 
+The p14ARF protein is a tumor suppressor protein that is encoded by the CDKN2A gene. 
+The p14
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between APAF1 and CASP9? 
+
+
+Answer:
+
+Yes, there is a protein interaction between APAF1 and CASP9. 
+APAF1 is a protein that is part of the apoptosome, a multiprotein complex that is involved in the activation of CASP9. 
+CASP9 is a protein that is part of the apoptosome, a multiprotein complex that is involved in the activation of CASP9. 
+The interaction between APAF1 and CASP9 is mediated by the CARD domain of APAF1 and the CARD domain of CASP9. 
+The interaction between APAF1 and CASP9 is mediated by the CARD domain of APAF1 and the
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDKN2C and CDK6? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDKN2C and CDK6. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC6 and HDAC2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC6 and HDAC2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between RASSF1 and CCND1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RASSF1 and CCND1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23398989](https://www.ncbi.nlm.nih.gov/pubmed/23398989)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between BMI1 and UBE2D3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between BMI1 and UBE2D3. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FRS3 and RND3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between FRS3 and RND3.
+[https://www.ncbi.nlm.nih.gov/pubmed/23893988](https://www.ncbi.nlm.nih.gov/pubmed/23893988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DLL1 and DLL1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DLL1 and DLL1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between RBX1 and NEDD8? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RBX1 and NEDD8. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23398388](https://www.ncbi.nlm.nih.gov/pubmed/23398388)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK4 and AKT1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDK4 and AKT1. 
+The interaction between CDK4 and AKT1 is mediated by the [PH domain](https://en.wikipedia.org/wiki/Pleckstrin_homology_domain) of AKT1. 
+The PH domain of AKT1 binds to the [T-loop](https://en.wikipedia.org/wiki/T-loop) of CDK4. 
+The T-loop of CDK4 is phosphorylated by CDK4/6. 
+The phosphorylation of the T-loop of CDK4 by CDK4/6 is required for the interaction between CDK4 and AKT1.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between JAG1 and JAG2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between JAG1 and JAG2. 
+The interaction is mediated by the extracellular domain of the Notch receptors. 
+The interaction is mediated by the extracellular domain of the Notch receptors. 
+The interaction is mediated by the extracellular domain of the Notch receptors. 
+The interaction is mediated by the extracellular domain of the Notch receptors. 
+The interaction is mediated by the extracellular domain of the Notch receptors. 
+The interaction is mediated by the extracellular domain of the Notch receptors. 
+The interaction is mediated by the extracellular domain of the Notch receptors. 
+The interaction is mediated by the extracellular domain of the Notch receptors. 
+The interaction is mediated by
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between EGFR and GAB1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EGFR and GAB1. 
+The interaction is mediated by the SH2 domain of GAB1 and the phosphotyrosine 1 68 of EGFR. 
+[https://www.ncbi.nlm.nih.gov/pubmed/163 9998](https://www.ncbi.nlm.nih.gov/pubmed/163 9998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between EXOSC6 and DIS3? 
+
+
+Answer:
+
+EXOSC6 is a component of the exosome complex. The exosome is a multiprotein complex involved in RNA degradation. It is composed of a catalytic subunit and several non-catalytic subunits. The catalytic subunit is encoded by the EXOSC gene.
+EXOSC6 is a non-catalytic subunit of the exosome. It is required for the normal nuclear exosome targeting and RNA degradation.
+EXOSC6 is required for the normal nuclear exosome targeting and RNA degradation.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC5? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NCOR2 and HDAC5. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between BECN1 and CDKN2A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between BECN1 and CDKN2A. 
+The protein interaction between BECN1 and CDKN2A is mediated by the BECN1 C-terminal domain (amino acids 1   -14  ). 
+The protein interaction between BECN1 and CDKN2A is required for the induction of autophagy by the CDKN2A/p16INK4a tumor suppressor. 
+The protein interaction between BECN1 and CDKN2A is required for the induction of autophagy by the CDKN2A/p16INK4a tumor suppressor. 
+The protein interaction between BECN1 and CDK
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NOTCH1 and DLL1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NOTCH1 and DLL1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between KLRC1 and B2M? 
+
+
+Answer:
+
+Yes, there is a protein interaction between KLRC1 and B2M.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398388](https://www.ncbi.nlm.nih.gov/pubmed/25398388)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PDGFC and FLT1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PDGFC and FLT1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839986](https://www.ncbi.nlm.nih.gov/pubmed/23839986)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NFKBIA and ZNF4 8? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NFKBIA and ZNF4 8.
+[https://www.ncbi.nlm.nih.gov/pubmed/25393988](https://www.ncbi.nlm.nih.gov/pubmed/25393988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PAK1 and TIAM1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PAK1 and TIAM1. 
+The interaction between PAK1 and TIAM1 is mediated by the C-terminal region of PAK1 and the N-terminal region of TIAM1. 
+The interaction between PAK1 and TIAM1 is required for the activation of Rac1 by PAK1. 
+The interaction between PAK1 and TIAM1 is required for the activation of Rac1 by PAK1. 
+The interaction between PAK1 and TIAM1 is required for the activation of Rac1 by PAK1. 
+The interaction between PAK1 and TIAM1 is required for the activation of Rac1 by PAK1. 
+The
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between MAP2K5 and HGF? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MAP2K5 and HGF.
+[https://www.ncbi.nlm.nih.gov/pubmed/23893988](https://www.ncbi.nlm.nih.gov/pubmed/23893988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CCNC and CCNC? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CCNC and CCNC.
+[https://www.ncbi.nlm.nih.gov/pubmed/23898988](https://www.ncbi.nlm.nih.gov/pubmed/23898988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between TBL1XR1 and HDAC4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TBL1XR1 and HDAC4. 
+The interaction between TBL1XR1 and HDAC4 is mediated by the TBL1XR1-TBLR1-TBLR2 complex. 
+The TBL1XR1-TBLR1-TBLR2 complex is a transcriptional corepressor that interacts with a number of nuclear receptors, including the estrogen receptor, the androgen receptor, and the glucocorticoid receptor. 
+The TBL1XR1-TBLR1-TBLR2 complex is recruited to target genes by nuclear receptors in a ligand-dependent manner. The TBL1XR1-TBLR1-TBLR2 complex is
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between EXOSC7 and MPHOSPH6? 
+
+
+Answer:
+
+EXOSC7 is a component of the exosome complex. The exosome is a complex involved in RNA degradation. It is composed of 4 subunits: EXOSC1, EXOSC2, EXOSC3 and EXOSC4 (By similarity).
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NFKBIA and GNB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NFKBIA and GNB2.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839989](https://www.ncbi.nlm.nih.gov/pubmed/23839989)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and MDM2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TP53 and MDM2. 
+The interaction is mediated by the [TP53-binding domain](http://www.ncbi.nlm.nih.gov/pubmed/11 9 338) of MDM2.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NKX2-3 and MLX? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NKX2-3 and MLX. 
+The interaction between NKX2-3 and MLX is mediated by the homeodomain of NKX2-3 and the leucine zipper of MLX. 
+The interaction between NKX2-3 and MLX is required for the transcriptional activation of the human insulin gene by MLX.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between VEGFB and FLT4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between VEGFB and FLT4.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839986](https://www.ncbi.nlm.nih.gov/pubmed/23839986)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ERBB3 and SOS1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ERBB3 and SOS1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16398998](https://www.ncbi.nlm.nih.gov/pubmed/16398998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between DLL1 and DLL4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DLL1 and DLL4. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CNOT3 and ZNF3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CNOT3 and ZNF3.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDC25B and B2M? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDC25B and B2M.
+[https://www.ncbi.nlm.nih.gov/pubmed/23399388](https://www.ncbi.nlm.nih.gov/pubmed/23399388)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC6 and HDAC3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC6 and HDAC3. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SMAD1 and MAP2K3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SMAD1 and MAP2K3.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between APPL2 and RAB11A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between APPL2 and RAB11A.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SNW1 and MAML3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SNW1 and MAML3. 
+The interaction is mediated by the SNW domain of SNW1 and the MAML domain of MAML3. 
+The interaction is important for the transcriptional activity of MAML3.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between EP3   and CCNC? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EP3   and CCNC.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between RGS16 and ADRA1D? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RGS16 and ADRA1D.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CREBBP and MAML2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CREBBP and MAML2. 
+The interaction is mediated by the MAML2 C-terminal domain (CTD), which is a transcriptional co-activator domain. 
+The interaction is important for the transcriptional activity of MAML2. 
+The interaction is mediated by the MAML2 C-terminal domain (CTD), which is a transcriptional co-activator domain. 
+The interaction is important for the transcriptional activity of MAML2. 
+The interaction is mediated by the MAML2 C-terminal domain (CTD), which is a transcriptional co-activator domain. 
+The interaction is important for the
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDKN2B and CCND2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDKN2B and CCND2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16598998](https://www.ncbi.nlm.nih.gov/pubmed/16598998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CNOT3 and GDI1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CNOT3 and GDI1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between LSM3 and LSM4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between LSM3 and LSM4.
+[https://www.ncbi.nlm.nih.gov/pubmed/23898988](https://www.ncbi.nlm.nih.gov/pubmed/23898988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GNB2 and PUF6 ? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GNB2 and PUF6 .
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NCOR2 and HDAC1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between LSM6 and LSM4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between LSM6 and LSM4.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between F5 and A2M? 
+
+
+Answer:
+
+The answer is yes. 
+The [Uniprot](http://www.uniprot.org/uniprot/P 1 24) entry for A2M lists a number of interactions with other proteins. 
+
+A2M binds to the C-terminal domain of the heavy chain of the complement C3b protein.
+A2M binds to the C-terminal domain of the heavy chain of the complement C3b protein.
+A2M binds to the C-terminal domain of the heavy chain of the complement C3b protein.
+A2M binds to the C-terminal domain of the heavy chain of the complement C3b protein.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between AKT1 and YWHAB? 
+
+
+Answer:
+
+Yes, there is a protein interaction between AKT1 and YWHAB.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF4 A and PRPF4 A?
+
+Answer: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF4 and SNRNP2  ? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PRPF4 and SNRNP2  .
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CCND2 and CCND2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CCND2 and CCND2.
+[https://www.ncbi.nlm.nih.gov/pubmed/16598 99](https://www.ncbi.nlm.nih.gov/pubmed/16598 99)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between PRPF8 and PRPF8? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PRPF8 and PRPF8.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between COG3 and COG8? 
+
+
+Answer:
+
+Yes, there is a protein interaction between COG3 and COG8.
+The interaction is mediated by the COG3 C-terminal domain (residues 1  -2  ) and the COG8 N-terminal domain (residues 1-1  ).
+The interaction is mediated by the COG3 C-terminal domain (residues 1  -2  ) and the COG8 N-terminal domain (residues 1-1  ).
+The interaction is mediated by the COG3 C-terminal domain (residues 1  -2  ) and the COG8 N-terminal domain (residues 1-1
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CRY1 and FBXO9? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CRY1 and FBXO9.
+[https://www.ncbi.nlm.nih.gov/pubmed/28 93988](https://www.ncbi.nlm.nih.gov/pubmed/28 93988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GDI1 and GNB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GDI1 and GNB2.
+[https://www.ncbi.nlm.nih.gov/pubmed/16397999](https://www.ncbi.nlm.nih.gov/pubmed/16397999)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and SLC2A1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TP53 and SLC2A1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NCOR2 and HDAC11. 
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between COG1 and COG6? 
+
+
+Answer:
+
+Yes, there is a protein interaction between COG1 and COG6.
+The interaction is mediated by the COG1 C-terminal domain (residues 1  -2  ) and the COG6 N-terminal domain (residues 1-1  ).
+The interaction is mediated by the COG1 C-terminal domain (residues 1  -2  ) and the COG6 N-terminal domain (residues 1-1  ).
+The interaction is mediated by the COG1 C-terminal domain (residues 1  -2  ) and the COG6 N-terminal domain (residues 1-1
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between OAS1 and MBD1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between OAS1 and MBD1. 
+The interaction between OAS1 and MBD1 is mediated by the C-terminal domain of OAS1 and the methyl-CpG binding domain of MBD1. 
+The interaction between OAS1 and MBD1 is important for the ability of OAS1 to inhibit the transcriptional activity of MBD1. 
+The interaction between OAS1 and MBD1 is important for the ability of OAS1 to inhibit the transcriptional activity of MBD1. 
+The interaction between OAS1 and MBD1 is important for the ability of OAS1 to inhibit the transcriptional activity of M
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZNF626 and ZNF626? 
+
+
+Answer:
+
+Yes, ZNF626 and ZNF626 interact with each other.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DVL1 and CTNNB1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DVL1 and CTNNB1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23393989](https://www.ncbi.nlm.nih.gov/pubmed/23393989)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CEP57 and FGF1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CEP57 and FGF1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAPK14 and TSC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MAPK14 and TSC1. 
+The interaction is mediated by the TSC1 C-terminal domain (TSC1-CTD). 
+The TSC1-CTD is a 1   amino acid region of the TSC1 protein that is required for TSC1 to inhibit the mTOR pathway. 
+The TSC1-CTD interacts with the MAPK14 protein. 
+The interaction between TSC1 and MAPK14 is required for TSC1 to inhibit the mTOR pathway. 
+The interaction between TSC1 and MAPK14 is required for TSC1 to inhibit the mTOR pathway. 
+The interaction between TSC1 and MAPK1
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC11 and HDAC11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC11 and HDAC11.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between XRCC3 and XRCC2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between XRCC3 and XRCC2.
+[http://www.ncbi.nlm.nih.gov/pubmed/115 9 99](http://www.ncbi.nlm.nih.gov/pubmed/115 9 99)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ERBB2 and GRB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ERBB2 and GRB2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/115 9 98](https://www.ncbi.nlm.nih.gov/pubmed/115 9 98)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CREBBP and MAML3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CREBBP and MAML3. 
+The interaction is mediated by the MAML3 C-terminal domain (CTD), which is a transcriptional co-activator domain. 
+The interaction is important for the transcriptional activity of MAML3. 
+The interaction is mediated by the MAML3 C-terminal domain (CTD), which is a transcriptional co-activator domain. 
+The interaction is important for the transcriptional activity of MAML3. 
+The interaction is mediated by the MAML3 C-terminal domain (CTD), which is a transcriptional co-activator domain. 
+The interaction is important for the
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between DLL4 and UBB? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DLL4 and UBB.
+[https://www.ncbi.nlm.nih.gov/pubmed/26398988](https://www.ncbi.nlm.nih.gov/pubmed/26398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB4 and ERBB3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ERBB4 and ERBB3.
+[https://www.ncbi.nlm.nih.gov/pubmed/159 8998](https://www.ncbi.nlm.nih.gov/pubmed/159 8998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between B2M and MLANA? 
+
+
+Answer:
+
+Yes, there is a protein interaction between B2M and MLANA. 
+The interaction between B2M and MLANA is mediated by the B2M C-terminal domain. 
+The interaction between B2M and MLANA is important for the maintenance of the viral episome. 
+The interaction between B2M and MLANA is important for the maintenance of the viral episome. 
+The interaction between B2M and MLANA is important for the maintenance of the viral episome. 
+The interaction between B2M and MLANA is important for the maintenance of the viral episome. 
+The interaction between B2M and MLA
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FOXO1 and TSC1? 
+
+
+Answer:
+
+Yes, FOXO1 interacts with TSC1. 
+The interaction is mediated by the FOXO1 forkhead domain and the TSC1 TBC domain. 
+The interaction is important for the regulation of mTORC1 activity by FOXO1.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGF and SOS1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EGF and SOS1. 
+The EGF receptor (EGFR) is a receptor tyrosine kinase (RTK) that is activated by binding of its ligand, EGF. The activated EGFR then phosphorylates SOS1, which then activates Ras. 
+[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3 39  3/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3 39  3/)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SFN and SFN? 
+
+
+Answer:
+
+The answer is yes. 
+The [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/Sulforaphane) page for SFN shows that it has a [PubChem CID](https://pubchem.ncbi.nlm.nih.gov/compound/Sulforaphane#section=CID) of 1       . 
+The [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/Sulforaphane#section=CID) page for SFN shows that it has a [PubChem CID](https://pub
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB4 and ERBB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ERBB4 and ERBB2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16598 98](https://www.ncbi.nlm.nih.gov/pubmed/16598 98)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between HBEGF and TGFA? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HBEGF and TGFA.
+[https://www.ncbi.nlm.nih.gov/pubmed/16598 98](https://www.ncbi.nlm.nih.gov/pubmed/16598 98)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between EXOSC8 and EXOSC4? 
+
+
+Answer:
+
+EXOSC8 and EXOSC4 are both part of the exosome complex. The exosome is a multiprotein complex involved in RNA degradation. It is composed of 9 subunits. EXOSC8 and EXOSC4 are part of the catalytic subunit which is located in the nucleus. The exosome complex is associated with a 3'-5' exoribonuclease, which is believed to be involved in the degradation of both cytoplasmic and nuclear RNAs. EXOSC8 and EXOSC4 are also part of the RNA exosome core complex.
+EXOSC8 and EXOSC4 are both required for the degradation of a subset of RNAs. EXOSC8 is required for the degradation of
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NOTCH1 and RPS27A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NOTCH1 and RPS27A.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ATP8A1 and TMEM3 B? 
+
+ The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC)., Gerhard
+
+ A Tissue-Specific Atlas of Mouse Protein Phosphorylation and Expression, Huttlin
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NF2 and ARNT? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NF2 and ARNT. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16398998](https://www.ncbi.nlm.nih.gov/pubmed/16398998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between EGF and GRB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EGF and GRB2. 
+The interaction is mediated by the SH2 domain of GRB2. 
+[http://www.ncbi.nlm.nih.gov/pubmed/1159  38](http://www.ncbi.nlm.nih.gov/pubmed/1159  38)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between PARK7 and PPARGC1A? 
+
+
+Answer:
+
+PARK7 is a protein that is involved in the regulation of mitochondrial function. It is a member of the [PARK](https://en.wikipedia.org/wiki/Parkin) family of proteins. PARK7 is a ubiquitin ligase that is involved in the regulation of mitochondrial function. PARK7 is also involved in the regulation of mitophagy, the process of removing damaged mitochondria.
+PARK7 is a protein that is involved in the regulation of mitochondrial function. It is a member of the [PARK](https://en.wikipedia.org/wiki/Parkin) family of proteins. PARK7 is a ubiquitin ligase that is involved in the regulation of
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MTREX and DIS3? 
+
+
+Answer:
+
+The answer is yes. 
+The [MTREX complex](https://www.ncbi.nlm.nih.gov/pubmed/25393988) is a [RNase H](https://en.wikipedia.org/wiki/RNase_H) complex that is involved in the removal of RNA primers from Okazaki fragments during lagging strand DNA synthesis. 
+The [DIS3 protein](https://www.ncbi.nlm.nih.gov/pubmed/25393988) is a [3'-5' exonuclease](https://en.wikipedia.org
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EIF3I and ACVR1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EIF3I and ACVR1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PTN and LRIF1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PTN and LRIF1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ANK1 and TIAM1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ANK1 and TIAM1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between KDELR2 and IGF1R? 
+
+
+Answer:
+
+Yes, there is a protein interaction between KDELR2 and IGF1R.
+[https://www.ncbi.nlm.nih.gov/pubmed/28 93988](https://www.ncbi.nlm.nih.gov/pubmed/28 93988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between DGCR8 and XPO5? 
+
+
+Answer:
+
+Yes, DGCR8 and XPO5 interact. DGCR8 is a component of the Microprocessor complex, which is involved in the processing of pri-miRNAs to pre-miRNAs. XPO5 is a component of the Exportin-5 complex, which is involved in the export of pre-miRNAs from the nucleus to the cytoplasm.
+
+ DGCR8 HITS-CLIP reveals novel functions for the Microprocessor, Macias
+ Exportin-5 mediates the nuclear export of pre-microRNAs and short hairpin RNAs., Yi
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FHOD1 and RAC2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between FHOD1 and RAC2.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ARNT and EPHA2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ARNT and EPHA2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393989](https://www.ncbi.nlm.nih.gov/pubmed/23393989)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between GRM1 and EPHA2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GRM1 and EPHA2.
+[https://www.ncbi.nlm.nih.gov/pubmed/25393989](https://www.ncbi.nlm.nih.gov/pubmed/25393989)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NRG2 and NRG1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NRG2 and NRG1. 
+The interaction between NRG1 and NRG2 is mediated by the EGF-like domain of NRG1 and the EGF-like domain of NRG2. 
+The interaction between NRG1 and NRG2 is mediated by the EGF-like domain of NRG1 and the EGF-like domain of NRG2. 
+The interaction between NRG1 and NRG2 is mediated by the EGF-like domain of NRG1 and the EGF-like domain of NRG2. 
+The interaction between NRG1 and NRG2 is mediated by the EGF-like domain of NR
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between MYC and CDK4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MYC and CDK4. 
+The interaction is mediated by the [E-box](https://en.wikipedia.org/wiki/E_box), a DNA sequence found in the promoter region of many genes. 
+The E-box is a binding site for MYC, and MYC can bind to the E-box in the promoter region of CDK4. 
+The interaction between MYC and CDK4 is important for the regulation of the cell cycle.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between DCC and HJV? 
+
+
+Answer:
+
+DCC and HJV are both transmembrane proteins. 
+DCC is a receptor for netrin-1, a protein that is involved in axon guidance. 
+HJV is a receptor for the complement protein C1q. 
+DCC and HJV are both involved in cell adhesion. 
+DCC and HJV are both involved in cell migration. 
+DCC and HJV are both involved in cell proliferation. 
+DCC and HJV are both involved in cell survival. 
+DCC and HJV are both involved in cell differentiation. 
+DCC and HJV are both involved in cell migration. 
+DCC
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC4 and HDAC5? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC4 and HDAC5. 
+[https://www.ncbi.nlm.nih.gov/pubmed/163 8998](https://www.ncbi.nlm.nih.gov/pubmed/163 8998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between TCERG1 and IMMT? 
+
+
+Answer:
+
+IMMT is a mitochondrial inner membrane protein. It is a subunit of the TIM23 complex, which is involved in the translocation of transit peptide-containing proteins across the mitochondrial inner membrane.
+TCERG1 is a mitochondrial inner membrane protein. It is a subunit of the TIM23 complex, which is involved in the translocation of transit peptide-containing proteins across the mitochondrial inner membrane.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PLAUR and CD82? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PLAUR and CD82.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HSPB1 and EIF4E? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HSPB1 and EIF4E.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC6 and HDAC7? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC6 and HDAC7. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC8? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NCOR2 and HDAC8. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between GNL1 and GNL1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GNL1 and GNL1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZNF626 and ZNF212? 
+
+
+Answer:
+
+Yes, ZNF626 and ZNF212 interact with each other.
+ZNF626 is a transcriptional repressor that interacts with the transcription factor ZNF212. ZNF626 is a member of the KRAB-ZFP family of transcriptional repressors. ZNF626 is a transcriptional repressor that interacts with the transcription factor ZNF212. ZNF626 is a member of the KRAB-ZFP family of transcriptional repressors. ZNF626 is a transcriptional repressor that interacts with the transcription factor ZNF212. ZNF626 is a member of the KRAB-ZFP family of transcriptional repressors. ZNF626 is a transcriptional repressor
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and CNOT3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CNOT3 and CNOT3.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EXOSC2 and EXOSC2? 
+
+
+Answer:
+
+EXOSC2 and EXOSC2 are both part of the exosome complex. The exosome is a multiprotein complex involved in RNA degradation. It is composed of 9 subunits. EXOSC2 and EXOSC2 are part of the catalytic subunit which is located in the nucleus. The exosome complex is associated with a cytosolic 67S ppp-RNAPII complex (By similarity).
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK6 and CD44? 
+
+
+Answer:
+
+CDK6 is a cyclin-dependent kinase that is involved in the regulation of the cell cycle. It is a key regulator of the G1/S transition. It is also involved in the regulation of transcription.
+CD44 is a cell surface glycoprotein that is involved in cell-cell and cell-matrix interactions. It is a receptor for hyaluronic acid.
+CDK6 and CD44 are not known to interact directly.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ZNF626 and EPS8L2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ZNF626 and EPS8L2.
+[https://www.ncbi.nlm.nih.gov/pubmed/28393988](https://www.ncbi.nlm.nih.gov/pubmed/28393988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between LSM4 and LSM4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between LSM4 and LSM4.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR1 and HDAC11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NCOR1 and HDAC11. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SMARCA4 and RASSF1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SMARCA4 and RASSF1. 
+SMARCA4 is a member of the SWI/SNF family of ATP-dependent chromatin remodeling complexes. The SWI/SNF complex is a multi-subunit complex that is involved in a number of cellular processes including DNA repair, replication, recombination, and transcription. The SWI/SNF complex is recruited to the promoter region of the RASSF1 gene by the transcription factor E2F1. The SWI/SNF complex is required for the recruitment of the histone methyltransferase EZH2 to the promoter region of the RASSF1 gene. EZH2 is a histone methyltransferase that is involved in the methylation of lysine
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between TRADD and TNFRSF1 B? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TRADD and TNFRSF1 B.
+[https://www.ncbi.nlm.nih.gov/pubmed/165 9898](https://www.ncbi.nlm.nih.gov/pubmed/165 9898)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SHC1 and ERBB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SHC1 and ERBB2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16598998](https://www.ncbi.nlm.nih.gov/pubmed/16598998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDK4 and CCND1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDK4 and CCND1. 
+The interaction is mediated by the cyclin box of CCND1 and the kinase domain of CDK4. 
+The interaction is required for the phosphorylation of CCND1 by CDK4. 
+The interaction is also required for the phosphorylation of RB1 by CDK4. 
+The interaction is required for the phosphorylation of RB1 by CDK4. 
+The interaction is required for the phosphorylation of RB1 by CDK4. 
+The interaction is required for the phosphorylation of RB1 by CDK4. 
+The interaction is required for the phosphorylation of RB1 by CDK4. 
+The interaction is required for the
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ARAF and STK11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ARAF and STK11. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between E2F3 and GABPB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between E2F3 and GABPB2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PDCD1 and PTPN11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PDCD1 and PTPN11. 
+The interaction between PDCD1 and PTPN11 is mediated by the SH2 domain of PDCD1 and the SH2 domain of PTPN11. 
+The interaction between PDCD1 and PTPN11 is important for the regulation of T cell activation. 
+PDCD1 is a negative regulator of T cell activation. 
+PTPN11 is a positive regulator of T cell activation. 
+The interaction between PDCD1 and PTPN11 is important for the regulation of T cell activation. 
+PDCD1 is a negative regulator of T cell activation.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CNOT3 and RND1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CNOT3 and RND1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FHL2 and CREB3L2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between FHL2 and CREB3L2. 
+The interaction between FHL2 and CREB3L2 is mediated by the LIM domains of FHL2 and the bZIP domain of CREB3L2. 
+The interaction between FHL2 and CREB3L2 is important for the regulation of the expression of the gene encoding the transcription factor [CREB3L2](https://en.wikipedia.org/wiki/CREB3L2).
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and RAF1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RASSF1 and RAF1. 
+The interaction is mediated by the Ras association (RA) domain of RASSF1 and the Ras-binding domain of RAF1. 
+The interaction is important for the regulation of the Raf/MEK/ERK pathway.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CCND2 and STK11? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CCND2 and STK11.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between KDELR2 and PDGFRA? 
+
+
+Answer:
+
+Yes, there is a protein interaction between KDELR2 and PDGFRA.
+[https://www.ncbi.nlm.nih.gov/pubmed/28 93988](https://www.ncbi.nlm.nih.gov/pubmed/28 93988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between EGF and GAB1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EGF and GAB1. 
+The interaction is mediated by the SH2 domain of GAB1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/1159 998](https://www.ncbi.nlm.nih.gov/pubmed/1159 998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between PDGFRA and LATS2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between LATS2 and PDGFRA. 
+LATS2 is a serine/threonine kinase that is a component of the Hippo pathway. The Hippo pathway is a signaling pathway that regulates cell proliferation and apoptosis. It is involved in the regulation of organ size and tumorigenesis. 
+PDGFRA is a receptor tyrosine kinase that is activated by binding to its ligand PDGFA. It is involved in the regulation of cell proliferation, migration, and survival. 
+The interaction between LATS2 and PDGFRA is mediated by the PDZ domain of LATS2 and the C-terminal tail of PDGFRA. 
+The interaction between LATS2 and PDGFRA is important for the
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between WT1 and B2M? 
+
+
+Answer:
+
+WT1 is a transcription factor that regulates the expression of many genes. It is a zinc finger protein that binds to DNA. It is expressed in many tissues, including the kidney, the gonads, the adrenal gland, the heart, and the brain. It is also expressed in leukemia cells.
+B2M is a protein that is involved in the immune system. It is a component of the major histocompatibility complex (MHC). MHC is a group of proteins that are expressed on the surface of cells. MHC proteins present antigens to the immune system.
+There is no direct interaction between WT1 and B2M. However, WT1 is involved in the regulation of the expression of B2M.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CTNNB1 and HSP9 AA1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CTNNB1 and HSP9 AA1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RORC and UIMC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RORC and UIMC1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25393988](https://www.ncbi.nlm.nih.gov/pubmed/25393988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZNF3 and DPF2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ZNF3 and DPF2.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZBTB8B and ZBTB8B?
+
+Answer: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ERBB3 and PIK3R1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ERBB3 and PIK3R1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NCOR1 and TBL1X? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NCOR1 and TBL1X. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NRG3 and EREG? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NRG3 and EREG. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between GLIS2 and TEAD2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GLIS2 and TEAD2. 
+GLIS2 is a transcription factor that is involved in the development of the kidney and the urinary tract. It is also involved in the development of the pancreas and the liver. 
+TEAD2 is a transcription factor that is involved in the development of the heart and the nervous system. It is also involved in the development of the liver. 
+The interaction between GLIS2 and TEAD2 is mediated by the GLIS2 homeodomain. 
+[https://www.ncbi.nlm.nih.gov/pubmed/26398988](https://www.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between KDELR2 and MYC? 
+
+
+Answer:
+
+Yes, there is a protein interaction between KDELR2 and MYC.
+[https://www.ncbi.nlm.nih.gov/pubmed/26398988](https://www.ncbi.nlm.nih.gov/pubmed/26398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between PEX11B and PEX11B?
+
+Answer: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and GADD45B? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TP53 and GADD45B. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16598298](https://www.ncbi.nlm.nih.gov/pubmed/16598298)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PROX1 and NCOR2? 
+
+
+Answer:
+
+PROX1 is a transcription factor that is involved in the development of lymphatic vessels. It is a member of the homeobox family of transcription factors. PROX1 is a nuclear protein that binds to DNA as a homodimer. It is a transcription factor that is involved in the development of lymphatic vessels. PROX1 is a nuclear protein that binds to DNA as a homodimer. It is a transcription factor that is involved in the development of lymphatic vessels. PROX1 is a nuclear protein that binds to DNA as a homodimer. It is a transcription factor that is involved in the development of lymphatic vessels. PROX1 is a nuclear protein that binds to DNA as a homodimer. It is a transcription factor
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and FGFR4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RASSF1 and FGFR4.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between LMNA and HSPB1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between LMNA and HSPB1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between YWHAE and TSC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between YWHAE and TSC1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PTN and MAGEH1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PTN and MAGEH1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FZR1 and ERBB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between FZR1 and ERBB2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDKN2B and AKT1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDKN2B and AKT1. 
+The interaction is mediated by the [PH domain](https://en.wikipedia.org/wiki/Pleckstrin_homology_domain) of AKT1 and the [cyclin-dependent kinase (CDK)-interacting domain](https://en.wikipedia.org/wiki/Cyclin-dependent_kinase_interacting_domain) of CDKN2B. 
+The interaction is important for the regulation of cell cycle progression.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between DPF2 and SAP3 BP? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DPF2 and SAP3 BP.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAPK14 and MAP2K3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MAPK14 and MAP2K3.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between UBC and UBB? 
+
+
+Answer:
+
+The answer is yes. [UBC](http://www.uniprot.org/uniprot/P6299 ) and [UBB](http://www.uniprot.org/uniprot/P62991) are both ubiquitin-conjugating enzymes.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between FOXO1 and YWHAZ? 
+
+
+Answer:
+
+Yes, FOXO1 and YWHAZ interact. [Here](http://www.ncbi.nlm.nih.gov/pubmed/23293998) is a paper that describes the interaction.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ZNF626 and RND1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ZNF626 and RND1.
+ZNF626 is a transcription factor that is involved in the regulation of the cell cycle. It is a member of the KRAB-ZNF family of proteins.
+RND1 is a member of the Rho family of small GTPases.
+The interaction between ZNF626 and RND1 is mediated by the KRAB domain of ZNF626 and the Rho-binding domain of RND1.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DUSP6 and RND1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DUSP6 and RND1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HOXA9 and SMAD2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HOXA9 and SMAD2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393989](https://www.ncbi.nlm.nih.gov/pubmed/23393989)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TSC2 and SKP2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TSC2 and SKP2. 
+The interaction between TSC2 and SKP2 is mediated by the F-box domain of SKP2 and the TSC2 C-terminal region. 
+The interaction between TSC2 and SKP2 is important for the regulation of cell cycle progression.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZEB1 and HDAC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ZEB1 and HDAC1. 
+The interaction between ZEB1 and HDAC1 is mediated by the ZEB1 C-terminal domain and the HDAC1 N-terminal domain. 
+The interaction between ZEB1 and HDAC1 is required for the recruitment of HDAC1 to the E-cadherin promoter and the repression of E-cadherin expression. 
+The interaction between ZEB1 and HDAC1 is required for the recruitment of HDAC1 to the E-cadherin promoter and the repression of E-cadherin expression. 
+The interaction between ZEB1 and HDAC1 is required for the recruitment of HDAC1 to the E-cadherin promoter and the repression of
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NFKBIA and DUSP6? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NFKBIA and DUSP6.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDC37 and GAB1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDC37 and GAB1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16398998](https://www.ncbi.nlm.nih.gov/pubmed/16398998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between PEX7 and PEX11A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PEX7 and PEX11A.
+The interaction is mediated by the PTS1 receptor PEX5.
+The PEX7-PEX11A interaction is required for the import of PTS1 proteins into peroxisomes.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CREB3L2 and SAP3 BP? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CREB3L2 and SAP3 BP.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HBEGF and EREG? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HBEGF and EREG. 
+[https://www.ncbi.nlm.nih.gov/pubmed/163 8998](https://www.ncbi.nlm.nih.gov/pubmed/163 8998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between MTREX and MTREX? 
+
+
+Answer:
+
+MTREX and MTREX are both proteins that are involved in the same pathway. MTREX is a protein that is involved in the [mammalian target of rapamycin (mTOR) pathway](https://en.wikipedia.org/wiki/Mammalian_target_of_rapamycin). MTREX is a protein that is involved in the [mammalian target of rapamycin (mTOR) pathway](https://en.wikipedia.org/wiki/Mammalian_target_of_rapamycin_pathway).
+MTREX is a protein that is involved in the [mammalian target of rapamycin (mTOR)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RARG and UIMC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RARG and UIMC1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between USP39 and USP39? 
+
+
+Answer:
+
+Yes, USP39 and USP39 interact with each other.
+[https://www.ncbi.nlm.nih.gov/pubmed/28 98988](https://www.ncbi.nlm.nih.gov/pubmed/28 98988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PKN1 and RPS6KA1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PKN1 and RPS6KA1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ATF3 and GDI1? 
+
+
+Answer:
+
+Yes, ATF3 and GDI1 interact. 
+[https://www.ncbi.nlm.nih.gov/pubmed/163 8998](https://www.ncbi.nlm.nih.gov/pubmed/163 8998)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TXNL4A and TXNL4A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TXNL4A and TXNL4A.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ERBIN and HSP9 AA1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ERBIN and HSP9 AA1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between FRAT2 and DVL3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between FRAT2 and DVL3.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between TCERG1 and NEFL? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TCERG1 and NEFL.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RBL2 and GABPB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RBL2 and GABPB2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23893988](https://www.ncbi.nlm.nih.gov/pubmed/23893988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPS1 and CREBBP? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PRPS1 and CREBBP.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between AHSG and CAPN6? 
+
+
+Answer:
+
+AHSG is a member of the fetuin family of proteins. It is a glycoprotein that is found in high concentrations in fetal serum and in the serum of patients with liver disease. It is also found in the serum of patients with chronic kidney disease. It is a negative acute phase protein.
+[https://en.wikipedia.org/wiki/Alpha-2-Heremans-Schmid_glycoprotein](https://en.wikipedia.org/wiki/Alpha-2-Heremans-Schmid_glycoprotein)
+CAPN6 is a member of the calpain family of calcium-dependent cysteine proteases. It is a member of the calpains that are involved in the degradation of my
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDKN2B and CDKN2B? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDKN2B and CDKN2B.
+[https://www.ncbi.nlm.nih.gov/pubmed/16598998](https://www.ncbi.nlm.nih.gov/pubmed/16598998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between MPHOSPH6 and EXOSC5? 
+
+
+Answer:
+
+EXOSC5 is a component of the exosome complex. The exosome is a complex involved in RNA degradation. It is composed of 4 subunits: EXOSC1, EXOSC2, EXOSC3 and EXOSC4 (By similarity).
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NPR3 and NPPC? 
+
+
+Answer:
+
+The answer is yes. NPR3 is a member of the natriuretic peptide receptor family. NPPC is a member of the natriuretic peptide family.
+The natriuretic peptide receptor family is a group of receptors that bind to natriuretic peptides. The natriuretic peptide family is a group of peptides that are secreted by the heart and regulate blood pressure.
+The natriuretic peptide receptor family is made up of three members: NPR1, NPR2, and NPR3.
+NPR1 is the guanylyl cyclase receptor. It is the receptor for atrial natriuretic peptide (ANP) and brain natriuretic peptide (BNP).
+NPR2 is the clearance receptor. It is the receptor for C-type natriuretic peptide (
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EPHA2 and AKT1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EPHA2 and AKT1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between BMPR1B and TGFB1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between BMPR1B and TGFB1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between UBE2B and SUMO1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between UBE2B and SUMO1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between E2F2 and GABPB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between E2F2 and GABPB2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393989](https://www.ncbi.nlm.nih.gov/pubmed/23393989)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SKP2 and CRY1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SKP2 and CRY1. 
+The interaction between SKP2 and CRY1 is mediated by the F-box domain of SKP2 and the C-terminal domain of CRY1. 
+The interaction between SKP2 and CRY1 is important for the degradation of CRY1.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DIS3 and EXOSC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DIS3 and EXOSC1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PEX11A and PEX13? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PEX11A and PEX13.
+The interaction is mediated by the PTS1 receptor PEX5.
+The PEX11A-PEX13 interaction is required for the import of PTS1 proteins into peroxisomes.
+The PEX11A-PEX13 interaction is also required for the import of PTS2 proteins into peroxisomes.
+The PEX11A-PEX13 interaction is also required for the import of PTS3 proteins into peroxisomes.
+The PEX11A-PEX13 interaction is also required for the import of PTS4 proteins into peroxis
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF3 and PRPF31? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PRPF3 and PRPF31.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CCR3 and CCL4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CCR3 and CCL4.
+[https://www.ncbi.nlm.nih.gov/pubmed/19 93888](https://www.ncbi.nlm.nih.gov/pubmed/19 93888)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and NME5? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TP53 and NME5.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CRY1 and BTRC? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CRY1 and BTRC. 
+The interaction is mediated by the F-box domain of BTRC and the C-terminal domain of CRY1. 
+The interaction is important for the degradation of CRY1 by the ubiquitin-proteasome pathway.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ID3 and DUSP6? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ID3 and DUSP6. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RB1 and E2F3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RB1 and E2F3. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16598 97](https://www.ncbi.nlm.nih.gov/pubmed/16598 97)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between WT1 and WT1? 
+
+
+Answer:
+
+WT1 is a transcription factor that regulates the expression of many genes. It is a zinc finger protein that binds to DNA. It is a tumor suppressor gene.
+WT1 is a transcription factor that regulates the expression of many genes. It is a zinc finger protein that binds to DNA. It is a tumor suppressor gene.
+WT1 is a transcription factor that regulates the expression of many genes. It is a zinc finger protein that binds to DNA. It is a tumor suppressor gene.
+WT1 is a transcription factor that regulates the expression of many genes. It is a zinc finger protein that binds to DNA. It is a tumor suppressor gene.
+WT1 is a transcription factor that regulates the expression of
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDK6 and CDK6? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDK6 and CDK6.
+[https://www.ncbi.nlm.nih.gov/pubmed/16598998](https://www.ncbi.nlm.nih.gov/pubmed/16598998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between RAF1 and RAF1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RAF1 and RAF1. 
+The interaction is mediated by the N-terminal domain of RAF1 and the C-terminal domain of RAF1. 
+The interaction is important for the activation of RAF1. 
+The interaction is important for the activation of RAF1. 
+The interaction is important for the activation of RAF1. 
+The interaction is important for the activation of RAF1. 
+The interaction is important for the activation of RAF1. 
+The interaction is important for the activation of RAF1. 
+The interaction is important for the activation of RAF1. 
+The interaction is important for the activation of RAF1.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between PEX1  and PEX3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PEX1  and PEX3. 
+The PEX1 -PEX3 interaction is mediated by the PTS1 receptor PEX7. PEX7 is a docking protein that interacts with both PEX1  and PEX3. 
+The PEX1 -PEX3 interaction is required for the import of PTS1 proteins into peroxisomes.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ATF4 and SAP3 BP? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ATF4 and SAP3 BP. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GLIS2 and AKT1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GLIS2 and AKT1.
+GLIS2 is a transcription factor that is involved in the development of the kidney and the urinary tract. It is also involved in the development of the pancreas and the liver.
+GLIS2 is a member of the GLIS subfamily of the Kruppel-like zinc finger proteins.
+GLIS2 is a transcription factor that is involved in the development of the kidney and the urinary tract. It is also involved in the development of the pancreas and the liver.
+GLIS2 is a member of the GLIS subfamily of the Kruppel-like zinc finger proteins.
+GLIS2 is a transcription factor that is
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between AXIN1 and PPP2R1A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between AXIN1 and PPP2R1A.
+AXIN1 is a scaffold protein that interacts with the tumor suppressor APC and the Wnt signaling pathway. It is also a component of the beta-catenin destruction complex.
+PPP2R1A is a regulatory subunit of protein phosphatase 2A (PP2A).
+The interaction between AXIN1 and PPP2R1A is mediated by the AXIN1 C-terminal domain and the PPP2R1A N-terminal domain.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and CDKN2A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TP53 and CDKN2A. 
+The protein interaction between TP53 and CDKN2A is mediated by the [TP53-binding domain](https://en.wikipedia.org/wiki/TP53_binding_domain) of TP53 and the [cyclin-dependent kinase inhibitor domain](https://en.wikipedia.org/wiki/Cyclin-dependent_kinase_inhibitor) of CDKN2A. 
+The interaction between TP53 and CDKN2A is important for the regulation of cell cycle progression.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CSNK2A2 and PIN1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CSNK2A2 and PIN1. 
+PIN1 is a peptidyl-prolyl cis-trans isomerase that catalyzes the cis-trans isomerization of proline imidic peptide bonds in oligopeptides and may therefore assist protein folding. 
+CSNK2A2 is a member of the casein kinase 2 family of serine/threonine protein kinases. 
+The interaction between CSNK2A2 and PIN1 is mediated by the PIN1 WW domain and the CSNK2A2 C-terminal domain. 
+The interaction between CSNK2A2 and PIN1 is important for the regulation of PIN1 activity. 
+PIN1
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between THRA and PROX1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between THRA and PROX1.
+PROX1 is a transcription factor that is involved in the development of the lymphatic system. It is also involved in the development of the retina and the liver.
+THRA is a nuclear receptor that is involved in the development of the eye, the thyroid gland and the liver.
+The interaction between THRA and PROX1 is mediated by the ligand-binding domain of THRA and the homeodomain of PROX1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAP2K3 and AURKA? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MAP2K3 and AURKA. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ZNF4 8 and MLX? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ZNF4 8 and MLX.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TBL1X and HDAC9? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TBL1X and HDAC9.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between GDI1 and DPF2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GDI1 and DPF2.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR1 and NR B2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NCOR1 and NR B2.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RBPJ and SNW1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RBPJ and SNW1. 
+The interaction between RBPJ and SNW1 is mediated by the RBPJ-interacting domain (RID) of SNW1. The RID is a 1   amino acid region of SNW1 that interacts with the RBPJ-DNA binding domain. 
+The interaction between RBPJ and SNW1 is important for the function of RBPJ. SNW1 is required for the function of RBPJ in the Notch signaling pathway.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between RBPJ and MAML3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RBPJ and MAML3. 
+The interaction is mediated by the MAML3 C-terminal domain, which is also the binding site for the Notch intracellular domain. 
+The interaction is required for the transcriptional activity of RBPJ.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB2 and CCND2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ERBB2 and CCND2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16598998](https://www.ncbi.nlm.nih.gov/pubmed/16598998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between WASL and BAIAP2L1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between WASL and BAIAP2L1.
+[https://www.ncbi.nlm.nih.gov/pubmed/26398988](https://www.ncbi.nlm.nih.gov/pubmed/26398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and GNL1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CNOT3 and GNL1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TTLL5 and PPARG? 
+
+
+Answer:
+
+TLL5 is a member of the TTLL family of proteins, which are known to be involved in the post-translational modification of proteins. [Here](http://www.ncbi.nlm.nih.gov/pubmed/23293998) is a paper that describes the interaction between TTLL5 and PPARG.
+TLL5 is a member of the TTLL family of proteins, which are known to be involved in the post-translational modification of proteins. [Here](http://www.ncbi.nlm.nih.gov/pubmed/23293998) is a paper that describes the
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between MTREX and EXOSC3? 
+
+
+Answer:
+
+EXOSC3 is a component of the exosome complex. The exosome is a multiprotein complex involved in RNA degradation. It is composed of 9 subunits. EXOSC3 is part of the catalytic subunit of the exosome and is involved in the binding of RNA substrates.
+EXOSC3 is a component of the RNA exosome complex. The RNA exosome complex is a complex involved in RNA degradation. It is composed of 9 subunits. EXOSC3 is part of the catalytic subunit of the exosome and is involved in the binding of RNA substrates.
+EXOSC3 is a component of the RNA exosome complex. The RNA exosome complex is a complex involved in RNA degradation. It is composed of
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GNL1 and MLX? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GNL1 and MLX.
+[https://www.ncbi.nlm.nih.gov/pubmed/23898988](https://www.ncbi.nlm.nih.gov/pubmed/23898988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CRY2 and FBXO9? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CRY2 and FBXO9.
+[https://www.ncbi.nlm.nih.gov/pubmed/28 93988](https://www.ncbi.nlm.nih.gov/pubmed/28 93988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC1 and HEY2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC1 and HEY2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HIF1A and IKBKG? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HIF1A and IKBKG.
+[https://www.ncbi.nlm.nih.gov/pubmed/25393988](https://www.ncbi.nlm.nih.gov/pubmed/25393988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PTEN and AKT1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PTEN and AKT1. 
+The interaction is mediated by the PH domain of PTEN and the PH domain of AKT1. 
+The PH domain of PTEN is a protein domain that binds to phosphatidylinositol 3,4,5-trisphosphate (PIP3). 
+The PH domain of AKT1 is a protein domain that binds to phosphatidylinositol 4,5-bisphosphate (PIP2). 
+The interaction between PTEN and AKT1 is important for the regulation of the PI3K/AKT pathway.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between YWHAB and TSC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between YWHAB and TSC1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and CDKN1A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TP53 and CDKN1A. 
+The interaction is mediated by the [TP53 DNA binding domain](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3 59  /).
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HERC1 and TSC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HERC1 and TSC1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CRY2 and KDM2A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CRY2 and KDM2A. 
+The interaction is mediated by the JmjC domain of KDM2A and the C-terminal region of CRY2. 
+The interaction is important for the regulation of the circadian clock by KDM2A.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between JAG2 and UBA52? 
+
+
+Answer:
+
+Yes, there is a protein interaction between JAG2 and UBA52.
+[https://www.ncbi.nlm.nih.gov/pubmed/28393988](https://www.ncbi.nlm.nih.gov/pubmed/28393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between E2F4 and GABPB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between E2F4 and GABPB2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23398989](https://www.ncbi.nlm.nih.gov/pubmed/23398989)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CD4 LG and C4BPA? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CD4 LG and C4BPA.
+[https://www.ncbi.nlm.nih.gov/gene/1        ](https://www.ncbi.nlm.nih.gov/gene/1        )
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and NRAS? 
+
+
+Answer:
+
+Yes, there is a protein interaction between RASSF1 and NRAS. 
+The RASSF1 protein is a tumor suppressor that is involved in the regulation of the cell cycle. It is a member of the RASSF family of proteins. The RASSF family is comprised of 1  members, and RASSF1A is the most well-studied member. 
+The RASSF1A protein is involved in the regulation of the cell cycle. It is a member of the RASSF family of proteins. The RASSF family is comprised of 1  members, and RASSF1A is the most well-studied member. 
+The RASSF1A protein is involved in the regulation of
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PDGFRA and MAP2K3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PDGFRA and MAP2K3.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC1  and SNW1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC1  and SNW1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between VDR and UIMC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between VDR and UIMC1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between IHH and PTCH1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between IHH and PTCH1. 
+The interaction is mediated by the extracellular domain of IHH and the extracellular domain of PTCH1. 
+The interaction is required for the activation of the Hedgehog signaling pathway.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MED28 and MSN? 
+
+
+Answer:
+
+MED28 is a subunit of the Mediator complex, which is a large multiprotein complex that acts as a bridge to convey information from gene-specific regulatory proteins to the basal RNA polymerase II transcription machinery. The Mediator complex is recruited to promoters by direct interactions with regulatory proteins and serves as a scaffold for the assembly of a functional preinitiation complex with RNA polymerase II and the general transcription factors.
+[https://www.ncbi.nlm.nih.gov/pubmed/193 9888](https://www.ncbi.nlm.nih.gov/pubmed/193 9888)
+MSN is a transcriptional repressor that binds
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NRG1 and EGF? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NRG1 and EGF. 
+The interaction between NRG1 and EGF is mediated by the EGF receptor (EGFR). 
+The interaction between NRG1 and EGFR is mediated by the EGF receptor (EGFR). 
+The interaction between NRG1 and EGFR is mediated by the EGF receptor (EGFR). 
+The interaction between NRG1 and EGFR is mediated by the EGF receptor (EGFR). 
+The interaction between NRG1 and EGFR is mediated by the EGF receptor (EGFR). 
+The interaction between NRG1 and EGFR is mediated by the EGF receptor (EGFR). 
+The
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NOL3 and TRA2B? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NOL3 and TRA2B.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ARNT and CDK4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ARNT and CDK4. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16398999](https://www.ncbi.nlm.nih.gov/pubmed/16398999)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between AURKA and EPHA2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between AURKA and EPHA2. 
+AURKA is a serine/threonine kinase that is involved in the regulation of mitosis. It is a key regulator of centrosome maturation and separation, and is required for the formation of the bipolar mitotic spindle. 
+EPHA2 is a receptor tyrosine kinase that is involved in the regulation of cell proliferation, migration, and survival. It is a key regulator of cell-cell and cell-matrix interactions. 
+The interaction between AURKA and EPHA2 is mediated by the AURKA kinase domain and the EPHA2 kinase domain. 
+[https://www.ncbi.nlm.nih.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between AXIN2 and APC? 
+
+
+Answer:
+
+Yes, AXIN2 and APC interact. 
+AXIN2 is a scaffold protein that interacts with the APC protein and the beta-catenin protein. 
+The APC protein is a tumor suppressor protein that is involved in the Wnt signaling pathway. 
+The Wnt signaling pathway is involved in cell proliferation and differentiation. 
+The beta-catenin protein is a transcription factor that is involved in the Wnt signaling pathway. 
+The interaction between AXIN2 and APC is important for the regulation of the Wnt signaling pathway.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SP1 and ASF1A? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SP1 and ASF1A. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CSK and NKX2-3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CSK and NKX2-3. [This paper](http://www.ncbi.nlm.nih.gov/pubmed/16397799) shows that NKX2-3 interacts with CSK in a yeast two-hybrid assay.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK6 and CCND1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDK6 and CCND1. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16598998](https://www.ncbi.nlm.nih.gov/pubmed/16598998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ACTN2 and TRIM54? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ACTN2 and TRIM54.
+ACTN2 is a protein-coding gene that encodes the alpha-actinin-2 protein. Alpha-actinin-2 is a cytoskeletal protein that is involved in the formation of actin stress fibers. Alpha-actinin-2 is also involved in the regulation of cell adhesion and migration.
+TRIM54 is a protein-coding gene that encodes the tripartite motif-containing protein 54 protein. TRIM54 is a member of the tripartite motif (TRIM) protein family. TRIM proteins contain a RING finger domain, one or two B-box domains, and a coiled-coil domain.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DAPK3 and MAPK3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between DAPK3 and MAPK3.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EP3   and CDK8? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EP3   and CDK8. 
+The interaction between EP3   and CDK8 is mediated by the [TAZ1 domain](http://www.ncbi.nlm.nih.gov/pubmed/15693998) of EP3   and the [Tail domain](http://www.ncbi.nlm.nih.gov/pubmed/15693998) of CDK8.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CEBPA and IL6? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CEBPA and IL6. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23893989](https://www.ncbi.nlm.nih.gov/pubmed/23893989)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGLN3 and EPAS1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EGLN3 and EPAS1. 
+The EGLN3 protein is a member of the EGLN family of prolyl hydroxylases. It is a cytosolic protein that is involved in the regulation of hypoxia-inducible factor (HIF). HIF is a heterodimeric transcription factor that is composed of an oxygen-regulated alpha subunit and a constitutively expressed beta subunit. The alpha subunit is degraded under normoxic conditions by the ubiquitin-proteasome pathway. Under hypoxic conditions, the alpha subunit is stabilized and translocates to the nucleus where it binds to hypoxia response elements (HRE) in the promoter regions of hypoxia-inducible genes. The EGL
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FOS and MCM2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between FOS and MCM2. 
+The interaction is mediated by the C-terminal region of FOS and the N-terminal region of MCM2. 
+The interaction is important for the activation of the MCM2-7 helicase complex by FOS.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAP2K5 and FGFR4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between MAP2K5 and FGFR4.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC8 and HDAC4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between HDAC8 and HDAC4. 
+[https://www.ncbi.nlm.nih.gov/pubmed/23393988](https://www.ncbi.nlm.nih.gov/pubmed/23393988)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SNRPF and SNRPG? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SNRPF and SNRPG.
+[https://www.ncbi.nlm.nih.gov/pubmed/16539898](https://www.ncbi.nlm.nih.gov/pubmed/16539898)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SHC1 and EGFR? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SHC1 and EGFR. 
+The interaction is mediated by the SH2 domain of SHC1 and the phosphotyrosine 1 68 of EGFR. 
+The interaction is important for the activation of EGFR.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDH1 and CTNNB1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDH1 and CTNNB1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23393989](https://www.ncbi.nlm.nih.gov/pubmed/23393989)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NR6A1 and NRIP1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between NR6A1 and NRIP1.
+[https://www.ncbi.nlm.nih.gov/pubmed/25398988](https://www.ncbi.nlm.nih.gov/pubmed/25398988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF4 A and NEFL? 
+
+
+Answer:
+
+Yes, there is a protein interaction between PRPF4 A and NEFL.
+[https://www.ncbi.nlm.nih.gov/pubmed/28393988](https://www.ncbi.nlm.nih.gov/pubmed/28393988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDC37 and EGF? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDC37 and EGF.
+[https://www.ncbi.nlm.nih.gov/pubmed/16598998](https://www.ncbi.nlm.nih.gov/pubmed/16598998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SNRNP2   and PRPF6? 
+
+
+Answer:
+
+Yes, there is a protein interaction between SNRNP2   and PRPF6.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between UFD1 and UBXN4? 
+
+
+Answer:
+
+Yes, there is a protein interaction between UFD1 and UBXN4.
+[https://www.ncbi.nlm.nih.gov/pubmed/23898988](https://www.ncbi.nlm.nih.gov/pubmed/23898988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between BRCA2 and RAD51? 
+
+
+Answer:
+
+Yes, there is a protein interaction between BRCA2 and RAD51. 
+The interaction is mediated by the BRC repeats of BRCA2 and the RAD51-binding domain of BRCA2. 
+The interaction is important for the repair of DNA double-strand breaks by homologous recombination.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between AURKA and TSC1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between AURKA and TSC1. 
+AURKA is a serine/threonine kinase that is involved in the regulation of mitosis. It is a component of the chromosomal passenger complex (CPC), which is required for proper chromosome segregation and cytokinesis. 
+TSC1 is a tumor suppressor gene that encodes a protein that acts as a negative regulator of the mammalian target of rapamycin (mTOR). 
+The interaction between AURKA and TSC1 is mediated by the TSC1 C-terminal region.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CBL and TRAT1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CBL and TRAT1. 
+The paper that you cite ([https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3989834/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3989834/)) shows that CBL interacts with TRAT1 in yeast two-hybrid assays.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGFR and ERBB2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between EGFR and ERBB2. 
+The interaction is mediated by the [ErbB2 intracellular domain](http://www.ncbi.nlm.nih.gov/pubmed/115 9928).
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between GNB2 and SAP3 BP? 
+
+
+Answer:
+
+Yes, there is a protein interaction between GNB2 and SAP3 BP.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TAB1 and RBCK1? 
+
+
+Answer:
+
+Yes, there is a protein interaction between TAB1 and RBCK1.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839988](https://www.ncbi.nlm.nih.gov/pubmed/23839988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FHOD1 and RAC3? 
+
+
+Answer:
+
+Yes, there is a protein interaction between FHOD1 and RAC3.
+[https://www.ncbi.nlm.nih.gov/pubmed/28 93988](https://www.ncbi.nlm.nih.gov/pubmed/28 93988)
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK4 and CCND2? 
+
+
+Answer:
+
+Yes, there is a protein interaction between CDK4 and CCND2. 
+[https://www.ncbi.nlm.nih.gov/pubmed/16598998](https://www.ncbi.nlm.nih.gov/pubmed/16598998)
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ADRB1 and AKAP5? 
+
+
+Answer:
+
+Yes, there is a protein interaction between ADRB1 and AKAP5.
+[https://www.ncbi.nlm.nih.gov/pubmed/23839938](https://www.ncbi.nlm.nih.gov/pubmed/23839938)
+Prediction: 1
+True Label: 0
+Calculating Metrics...
+Accuracy: 0.43973214285714285
+MCC: 0.05915496808541822
+AUC: 0.5096563244850979
+Specificity: 0.03501945525291829
+Micro Precision: 0.43973214285714285
+Micro Recall: 0.43973214285714285
+Micro F1 Score: 0.43973214285714285
+Macro Precision: 0.5905963302752294
+Macro Recall: 0.5096563244850979
+Macro F1 Score: 0.33329775943745815

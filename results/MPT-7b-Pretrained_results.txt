@@ -1,0 +1,2308 @@
+Loading Dataset...
+Preprocessing Dataset...
+Loading Data for Fold 5...
+Positive classes in Train: 0
+Negative classes in Train: 0
+Positive classes in Validation: 0
+Negative classes in Validation: 0
+Positive classes in Test: 0
+Negative classes in Test: 0
+best model: 4
+Performing Inference...
+Generated Sequence: Is there a protein interaction between RB1 and SIN3A? 
+I am trying to find a protein interaction between RB1 and SIN3A. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGF and PIK3R1? 
+I am trying to find a protein interaction between EGF and PIK3R1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TBL1XR1 and HDAC5? 
+TBL1XR1 is a transcription factor that is involved in the regulation of gene expression. It is a member of the TBL1 family of transcription factors. TBL1XR1 is
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PRPF4 A and MAGEH1? 
+Is there a protein interaction between PRPF4 A and MAGEH1?
+PRPF4 A and MAGEH1 are two genes that are involved in the same pathway.
+PR
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK8 and CREBBP? 
+Is there a protein interaction between CDK8 and CREBBP?
+
+A: Yes, there is a protein interaction between CDK8 and CREBBP.
+
+A: Yes, there
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SAP3  and RBPJ? 
+SAP3  is a protein that is involved in the regulation of the immune system. It is a member of the SAP family of proteins, which are known to be involved in the regulation of the
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between NF2 and CDKN2B? 
+Is there a protein interaction between NF2 and CDKN2B?
+NF2 is a tumor suppressor gene that is mutated in neurofibromatosis type 2 (NF2). NF2 encodes
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GDI1 and PIP4K2C? 
+Is there a protein interaction between GDI1 and PIP4K2C?
+
+A: Yes, there is a protein interaction between GDI1 and PIP4K2C.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ATF4 and FHL2? 
+Is there a protein interaction between ATF4 and FHL2?
+Is there a protein interaction between ATF4 and FHL2?
+Is there a protein interaction between ATF4
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between THRB and PROX1? 
+I am trying to find a protein interaction between THRB and PROX1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between EXOSC2 and DIS3? 
+Is there a protein interaction between EXOSC2 and DIS3?
+
+A: Yes, there is a protein interaction between EXOSC2 and DIS3.
+
+A: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RAF1 and NF2? 
+Is there a protein interaction between RAF1 and NF2?
+
+The protein interaction between RAF1 and NF2 is not known.
+
+Is there a protein interaction between RAF1 and NF
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CD44 and TWIST1? 
+Is there a protein interaction between CD44 and TWIST1?
+
+Background: CD44 is a cell surface glycoprotein that is involved in cell adhesion, migration, and differentiation. It is also
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC4 and HDAC1? 
+I am trying to find a protein interaction between HDAC4 and HDAC1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between BTC and GRB2? 
+I am trying to find a protein interaction between BTC and GRB2. I have found a few papers that mention BTC and GRB2, but I am not sure if they are talking about
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NFKBIE and NFKB1? 
+I am trying to find a protein interaction between NFKBIE and NFKB1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between ACVR1 and INHBA? 
+Is there a protein interaction between ACVR1 and INHBA?
+Is there a protein interaction between ACVR1 and INHBA?
+Is there a protein interaction between A
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NRG2 and PIK3CA? 
+Is there a protein interaction between NRG2 and PIK3CA?
+
+A: Yes, there is a protein interaction between NRG2 and PIK3CA.
+
+A
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between TBL1X and HDAC8? 
+TBL1X is a transcription factor that is involved in the regulation of gene expression. It is a member of the TBL1 family of transcription factors. TBL1X is a nuclear
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RND1 and IKZF4? 
+I am trying to find a protein interaction between RND1 and IKZF4. I have found a few papers that mention this interaction, but I am having trouble finding a database that
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between IKZF4 and ZNF331? 
+I am trying to find a protein interaction between IKZF4 and ZNF331. I have found a few papers that mention this interaction, but I am not sure how to find the
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between SART1 and PRPF8? 
+I am trying to find a protein interaction between SART1 and PRPF8. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC8 and HDAC1 ? 
+I am trying to find a protein interaction between HDAC8 and HDAC1 . I have found a few papers that mention that HDAC8 and HDAC1  are in the same complex, but I am not
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between STK11 and CCNE1? 
+Is there a protein interaction between STK11 and CCNE1?
+Is there a protein interaction between STK11 and CCNE1?
+Is there a protein interaction between STK11
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB2 and LATS2? 
+I am trying to find a protein interaction between ERBB2 and LATS2. I have found a few papers that mention this interaction, but I am not sure if they are reliable.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AXIN1 and SMAD5? 
+Is there a protein interaction between AXIN1 and SMAD5?
+Is there a protein interaction between AXIN1 and SMAD5?
+Is there a protein interaction between AXIN1
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MPHOSPH6 and DIS3? 
+Is there a protein interaction between MPHOSPH6 and DIS3?
+Is there a protein interaction between MPHOSPH6 and DIS3?
+Is there a protein interaction between M
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ETS1 and CREBBP? 
+Is there a protein interaction between ETS1 and CREBBP?
+
+A: Yes, there is a protein interaction between ETS1 and CREBBP.
+
+A: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR1 and HDAC9? 
+I am trying to find a protein interaction between NCOR1 and HDAC9. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SNRPF and SNRPD1? 
+SNRPD1 (SNRP domain containing 1) is a protein that in humans is encoded by the SNRPD1 gene.
+
+References
+
+Further readingThe protein encoded by
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GPR39 and GHRL? 
+I am trying to find a protein interaction between GPR39 and GHRL. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ACP1 and TIE1? 
+I am trying to find a protein interaction between ACP1 and TIE1. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between EP3   and MAML2? 
+I am trying to find a protein interaction between EP3   and MAML2. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CREBBP and MAML1? 
+I am trying to find a protein interaction between CREBBP and MAML1. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDKN2A and CDK4? 
+Is there a protein interaction between CDKN2A and CDK4?
+Is there a protein interaction between CDKN2A and CDK4?
+Is there a protein interaction between CDKN2
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RND1 and PUF6 ? 
+I am trying to find a protein interaction between RND1 and PUF6 . I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZNF626 and IKZF4? 
+I am trying to find a protein interaction between ZNF626 and IKZF4. I have found a few papers that mention the interaction but I am not sure how to find the interaction
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between NRG4 and GRB2? 
+I am trying to find a protein interaction between NRG4 and GRB2. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDC37 and PIK3CA? 
+Is there a protein interaction between CDC37 and PIK3CA?
+
+A: Yes, there is a protein interaction between CDC37 and PIK3CA.
+
+A: Yes
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between YWHAZ and LATS2? 
+I am trying to find a protein interaction between YWHAZ and LATS2. I have found a few papers that mention the interaction, but I am not sure if they are reliable.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RYK and AFDN? 
+I am trying to find a protein interaction between RYK and AFDN. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAP2K3 and ARNT? 
+Is there a protein interaction between MAP2K3 and ARNT?
+Is there a protein interaction between MAP2K3 and ARNT?
+Is there a protein interaction between MAP2K
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CBLC and CCND2? 
+I am trying to find a protein interaction between CBLC and CCND2. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB4 and EGFR? 
+I am trying to find a protein interaction between ERBB4 and EGFR. I have found a few papers that mention this interaction, but I am not sure if they are reliable. I have also
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC3? 
+I am trying to find a protein interaction between NCOR2 and HDAC3. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MET and STK11? 
+I am trying to find a protein interaction between MET and STK11. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DACH1 and MYC? 
+I am trying to find a protein interaction between DACH1 and MYC. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between JAG1 and UBA52? 
+Is there a protein interaction between JAG1 and UBA52?
+Asked by: JAG1
+UBA52 is a ubiquitin-conjugating enzyme that is involved in the ubiquitination
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NKX2-3 and ZNF331? 
+Is there a protein interaction between NKX2-3 and ZNF331?
+
+NKX2-3 is a transcription factor that is expressed in the developing heart and is required for cardiac
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HBEGF and ERBB2? 
+Is there a protein interaction between HBEGF and ERBB2?
+
+HBEGF is a heparin-binding growth factor that is expressed in the developing and adult heart. HBEGF
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between FZR1 and STK11? 
+I am trying to find a protein interaction between FZR1 and STK11. I have found a few papers that mention this interaction, but I am not sure how to find the interaction
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NOL3 and U2AF1? 
+Is there a protein interaction between NOL3 and U2AF1?
+NOL3 and U2AF1 are two proteins that are involved in the regulation of pre-mRNA splicing
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CREB3L2 and NKX2-3?
+Title: Is there a protein interaction between CREB3L2 and NKX2-3?
+Author(s): Kooijman, M.A. ; Kooijman
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and PUF6 ? 
+Is there a protein interaction between CNOT3 and PUF6 ?
+CNOT3 and PUF6  are two proteins that are known to interact with each other.
+
+CNOT3
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between PTCH1 and SMO? 
+I am trying to find a protein interaction between PTCH1 and SMO. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CCNC and CDK8? 
+I am trying to find a protein interaction between CCNC and CDK8. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the interaction.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between COG2 and COG6? 
+Is there a protein interaction between COG2 and COG6?
+Asked by: A. A.
+The COG2 and COG6 proteins are part of the COG complex
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TEAD2 and TEAD2? 
+I am trying to find a protein interaction between TEAD2 and TEAD2. I have searched the literature and found that there is a protein interaction between TEAD2 and TEAD1.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PEX11B and PEX16? 
+I am trying to find a protein interaction between PEX11B and PEX16. I have found a few papers that mention this interaction, but I am not sure how to find the interaction
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between NEFL and SUMO3? 
+I am trying to find a protein interaction between NEFL and SUMO3. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I have
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RBBP4 and NCOR2? 
+Is there a protein interaction between RBBP4 and NCOR2?
+RBBP4 and NCOR2 are two proteins that are involved in the regulation of gene expression. They are both found
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EXOSC7 and DIS3? 
+Is there a protein interaction between EXOSC7 and DIS3?
+
+A: Yes, there is a protein interaction between EXOSC7 and DIS3.
+
+A: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK4 and LATS2? 
+I am trying to find a protein interaction between CDK4 and LATS2. I have found a few papers that mention this interaction, but I am not sure if they are reliable. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TCERG1 and EEF1G? 
+Is there a protein interaction between TCERG1 and EEF1G?
+TCERG1 and EEF1G are two proteins that are involved in the regulation of the cell cycle
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DKK1 and SOST? 
+I am trying to find a protein interaction between DKK1 and SOST. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAPK3 and GLYR1? 
+Is there a protein interaction between MAPK3 and GLYR1?
+Is there a protein interaction between MAPK3 and GLYR1?
+Is there a protein interaction between MAPK3 and GLYR
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDKN2B and CDKN2A? 
+Is there a protein interaction between CDKN2B and CDKN2A?
+Is there a protein interaction between CDKN2B and CDKN2A?
+Is there a protein interaction
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between YWHAG and AKT1S1? 
+Is there a protein interaction between YWHAG and AKT1S1?
+YWHAG and AKT1S1 are two proteins that are known to interact with each other.
+
+Y
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PIP4K2C and DPF2? 
+PIP4K2C (phosphoinositide-4-kinase type 2C) is a protein that in humans is encoded by the PIP4K2C gene.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between NEFL and APLP1? 
+Is there a protein interaction between NEFL and APLP1?
+Is there a protein interaction between NEFL and APLP1?
+Is there a protein interaction between NEFL and
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC3 and RBPJ? 
+I am trying to find a protein interaction between RBPJ and HDAC3. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DLL1 and RPS27A? 
+Is there a protein interaction between DLL1 and RPS27A?
+
+A: Yes, there is a protein interaction between DLL1 and RPS27A.
+
+A: Yes
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between TRAF5 and TRAF3IP1? 
+I am trying to find a protein interaction between TRAF5 and TRAF3IP1. I have found a few papers that mention this interaction, but I am having trouble finding a database that
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PEX12 and PEX11B? 
+I am trying to find a protein interaction between PEX12 and PEX11B. I have found a few papers that mention this interaction, but I am not sure if they are reliable.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between PIGF and KDR? 
+I am trying to find a protein interaction between PIGF and KDR. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have tried
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGF and EGF? 
+I am trying to find out if there is a protein interaction between EGF and EGF. I have found a few papers that say there is a protein interaction between EGF and EGFR, but I am not
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between BCAP31 and BAX? 
+I am trying to find a protein interaction between BCAP31 and BAX. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I have
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC11 and RBPJ? 
+I am trying to find a protein interaction between HDAC11 and RBPJ. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between FZR1 and CDK6? 
+Is there a protein interaction between FZR1 and CDK6?
+
+A: Yes, there is a protein interaction between FZR1 and CDK6.
+
+A: Yes
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between RAF1 and FGFR4? 
+Is there a protein interaction between RAF1 and FGFR4?
+
+A: Yes, there is a protein interaction between RAF1 and FGFR4.
+
+A: Yes, there
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SMAD3 and SIN3A? 
+Is there a protein interaction between SMAD3 and SIN3A?
+Is there a protein interaction between SMAD3 and SIN3A?
+Is there a protein interaction between SM
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAGEH1 and MAGEH1? 
+Is there a protein interaction between MAGEH1 and MAGEH1?
+MAGEH1 and MAGEH1 are two proteins that are involved in the same pathway.
+M
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PKN2 and RPS6KA3? 
+Is there a protein interaction between PKN2 and RPS6KA3?
+
+A: Yes, there is a protein interaction between PKN2 and RPS6KA3.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC1 and HDAC1? 
+I am trying to find a protein interaction between HDAC1 and HDAC1. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AREG and NKD2? 
+I am trying to find a protein interaction between AREG and NKD2. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SRSF11 and SNRNP7 ? 
+SRSF11 (Splicing factor 11) is a protein that in humans is encoded by the SRSF11 gene. SRSF11 is a member of the SR protein family
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between JAG1 and UBC? 
+Is there a protein interaction between JAG1 and UBC?
+Asked by: A. A.
+The JAG1 protein is a member of the JAG family of transmembrane proteins.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RND1 and DPF2? 
+I am trying to find a protein interaction between RND1 and DPF2. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and CSK? 
+I am trying to find a protein interaction between CNOT3 and CSK. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between NME6 and TP53? 
+Is there a protein interaction between NME6 and TP53?
+
+A: Yes, there is a protein interaction between NME6 and TP53.
+
+A: Yes, there
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and FHL2? 
+Is there a protein interaction between CNOT3 and FHL2?
+CNOT3 and FHL2 are two genes that are involved in the regulation of gene expression. CNOT3 is
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GAS1 and BAX? 
+I am trying to find a protein interaction between GAS1 and BAX. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I have
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FZR1 and AKT1? 
+Is there a protein interaction between FZR1 and AKT1?
+
+A: Yes, there is a protein interaction between FZR1 and AKT1.
+
+A: Yes
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between EEF1G and PIAS4? 
+Is there a protein interaction between EEF1G and PIAS4?
+EEF1G and PIAS4 are two proteins that are involved in the regulation of the cell cycle. EE
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GDI1 and CREB3L2? 
+Is there a protein interaction between GDI1 and CREB3L2?
+GDI1 and CREB3L2 are two proteins that are involved in the same pathway.
+G
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PKN1 and MAP3K2? 
+Is there a protein interaction between PKN1 and MAP3K2?
+
+A: Yes, there is a protein interaction between PKN1 and MAP3K2.
+
+A
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CSN2 and CD2 9? 
+Is there a protein interaction between CSN2 and CD2 9?
+CSN2 and CD2 9 are two proteins that are involved in the same pathway.
+CSN2 is a protein that
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between WASF1 and NCKAP1? 
+Is there a protein interaction between WASF1 and NCKAP1?
+
+A: Yes, there is a protein interaction between WASF1 and NCKAP1.
+
+A
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between APPL2 and RAB7A? 
+Is there a protein interaction between APPL2 and RAB7A?
+Is there a protein interaction between APPL2 and RAB7A?...
+Is there a protein interaction between
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC3 and SNW1? 
+Is there a protein interaction between HDAC3 and SNW1?
+
+A: Yes, there is a protein interaction between HDAC3 and SNW1.
+
+A: Yes, there
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ZNF3 and IKZF4? 
+I am trying to find a protein interaction between ZNF3 and IKZF4. I have found a few papers that mention this interaction, but I am having trouble finding a database that
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF8 and DDX23? 
+PRPF8 (protein arginine N-methyltransferase 8) is a protein arginine methyltransferase that is involved in the regulation of gene expression. It is a component of the PRMT1-PR
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DNM2 and VAV2? 
+I am trying to find a protein interaction between DNM2 and VAV2. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between IL2RG and IL15RA? 
+I am trying to find a protein interaction between IL2RG and IL15RA. I have found a few papers that mention IL2RG and IL15RA, but I am not sure if
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between XRCC3 and FANCD2? 
+Is there a protein interaction between XRCC3 and FANCD2?
+
+A: Yes, there is a protein interaction between XRCC3 and FANCD2.
+
+A
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between AXIN2 and APC2? 
+Is there a protein interaction between AXIN2 and APC2?
+Asked by: A.S.
+AXIN2 and APC2 are two proteins that are involved in the Wnt signaling pathway
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AURKA and CCNE1? 
+I am trying to find a protein interaction between AURKA and CCNE1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MTREX and EXOSC5? 
+Is there a protein interaction between MTREX and EXOSC5?
+
+A: Yes, there is a protein interaction between MTREX and EXOSC5.
+
+A
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MYC and TEAD2? 
+I am trying to find a protein interaction between MYC and TEAD2. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DPF2 and EPS8L2? 
+Is there a protein interaction between DPF2 and EPS8L2?
+DPF2 and EPS8L2 are two genes that are involved in the same pathway.
+I am trying
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EP3   and CD44? 
+Is there a protein interaction between EP3   and CD44?
+EP3   is a transcriptional co-activator that is involved in the regulation of cell proliferation, differentiation, and apoptosis. It is
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC8 and HDAC11? 
+I am trying to find a protein interaction between HDAC8 and HDAC11. I have found a few papers that mention that HDAC8 and HDAC11 are in the same complex, but I am not
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DACH1 and SOX3? 
+I am trying to find a protein interaction between DACH1 and SOX3. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between OSM and LIFR? 
+I am trying to find a protein interaction between OSM and LIFR. I have found a few papers that mention this interaction, but I am not sure if they are reliable. I have
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between RB1 and E2F2? 
+I am trying to find a protein interaction between RB1 and E2F2. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CD44 and TWIST2? 
+Is there a protein interaction between CD44 and TWIST2?
+
+A: Yes, there is a protein interaction between CD44 and TWIST2.
+
+A: Yes, there
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between BECN1 and NF2? 
+Is there a protein interaction between BECN1 and NF2?
+BECN1 and NF2 are two genes that are involved in the development of neurofibromatosis type 1 (
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EFTUD2 and EFTUD2? 
+Is there a protein interaction between EFTUD2 and EFTUD2?
+Asked by: Jingjing
+The EFTUD2 gene encodes a protein that is a member of
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TBL1XR1 and HDAC11? 
+TBL1XR1 is a transcription factor that is involved in the regulation of gene expression. It is a member of the TBL1 family of transcription factors. TBL1XR1 is
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between BECN1 and TSC1? 
+I am trying to find a protein interaction between BECN1 and TSC1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between BMPR1A and TGFB1? 
+I am trying to find a protein interaction between BMPR1A and TGFB1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between GLIS2 and BECN1? 
+Is there a protein interaction between GLIS2 and BECN1?
+Is there a protein interaction between GLIS2 and BECN1?
+Is there a protein interaction between GL
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SNW1 and MAML2? 
+I am trying to find a protein interaction between SNW1 and MAML2. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HSPA4 and BAX? 
+I am trying to find a protein interaction between HSPA4 and BAX. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I have
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between LAPTM5 and TRAT1? 
+LAPTM5 is a protein that is involved in the regulation of the actin cytoskeleton. It is a member of the LAPTM family of proteins. LAPTM5 is a protein that is involved
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NME1 and MDM2? 
+I am trying to find a protein interaction between NME1 and MDM2. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ARAF and BCL2L1? 
+Is there a protein interaction between ARAF and BCL2L1?
+Is there a protein interaction between ARAF and BCL2L1?
+Is there a protein interaction between A
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK6 and STK11? 
+I am trying to find a protein interaction between CDK6 and STK11. I have found a few papers that mention this interaction, but I am not sure if they are reliable. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RASSF1 and RASSF1? 
+I am trying to find a protein interaction between RASSF1 and RASSF1. I have found a few papers that mention this interaction, but I am not sure how to find the
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PDCD1 and PTPN6? 
+Is there a protein interaction between PDCD1 and PTPN6?
+PDCD1 and PTPN6 are two genes that are involved in the regulation of the immune system. PDCD1
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CSNK2A1 and UBTF? 
+Is there a protein interaction between CSNK2A1 and UBTF?
+CSNK2A1 and UBTF are two proteins that are known to interact with each other.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and CDK6? 
+I am trying to find a protein interaction between RASSF1 and CDK6. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CD44 and FGFR4? 
+Is there a protein interaction between CD44 and FGFR4?
+
+A: Yes, there is a protein interaction between CD44 and FGFR4.
+
+CD44 is a transmembrane
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NOTCH1 and SNW1? 
+Is there a protein interaction between NOTCH1 and SNW1?
+Is there a protein interaction between NOTCH1 and SNW1?
+Is there a protein interaction between NOTCH1
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PPIH and PRPF8? 
+I am trying to find a protein interaction between PPIH and PRPF8. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between MYC and STK11? 
+I am trying to find a protein interaction between MYC and STK11. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AURKA and LATS2? 
+I am trying to find a protein interaction between AURKA and LATS2. I have found a few papers that mention this interaction, but I am not sure if they are reliable.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CD247 and TRAT1? 
+Is there a protein interaction between CD247 and TRAT1?
+
+A: Yes, there is a protein interaction between CD247 and TRAT1.
+
+A: Yes, there
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RAB4A and RAB11FIP1?
+Is there a protein interaction between RAB4A and RAB11FIP1? If so, what is the experimental evidence for this interaction?
+RAB4A and RAB11
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EIF4E and SCPEP1? 
+Is there a protein interaction between EIF4E and SCPEP1?
+
+Background: SCPEP1 is a protein that is involved in the regulation of the translation of mRNA.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GRAP2 and CBL? 
+I am trying to find a protein interaction between GRAP2 and CBL. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and CDKN2A? 
+Is there a protein interaction between RASSF1 and CDKN2A?
+RASSF1 and CDKN2A are two genes that are involved in the regulation of cell cycle progression
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between APLP1 and PIAS4? 
+Is there a protein interaction between APLP1 and PIAS4?
+Is there a protein interaction between APLP1 and PIAS4?
+Is there a protein interaction between A
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ARAF and EPHA2? 
+Is there a protein interaction between ARAF and EPHA2?
+Is there a protein interaction between ARAF and EPHA2?
+Is there a protein interaction between ARAF and EPHA
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NFKBIA and EPS8L2? 
+Is there a protein interaction between NFKBIA and EPS8L2?
+Is there a protein interaction between NFKBIA and EPS8L2?
+Is there a protein interaction between NF
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PLAU and VTN? 
+I am trying to find a protein interaction between PLAU and VTN. I have found a few papers that mention PLAU and VTN, but I am not sure if they are talking about
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between MET and CCND2? 
+I am trying to find a protein interaction between MET and CCND2. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PGF and KDR? 
+I am trying to find a protein interaction between PGF and KDR. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have tried
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RBPJ and RBBP8? 
+I am trying to find a protein interaction between RBPJ and RBBP8. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between COG8 and COG4? 
+I am trying to find a protein interaction between COG8 and COG4. I have found a few papers that mention COG8 and COG4, but I am not sure if
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between DTNBP1 and CSNK1E? 
+Is there a protein interaction between DTNBP1 and CSNK1E?
+DTNBP1 and CSNK1E are two proteins that are involved in the same pathway.
+DT
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SUFU and GLI2? 
+I am trying to find a protein interaction between SUFU and GLI2. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between SPI1 and ITGAM? 
+Is there a protein interaction between SPI1 and ITGAM?
+
+A: Yes, there is a protein interaction between SPI1 and ITGAM.
+
+A: Yes, there
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NOTCH1 and KAT2B? 
+I am trying to find a protein interaction between NOTCH1 and KAT2B. I have found a few papers that mention this interaction, but I am not sure how to find the evidence
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RAB3IP and SSX3? 
+Is there a protein interaction between RAB3IP and SSX3?
+RAB3IP and SSX3 are two proteins that are involved in the regulation of the cell cycle. They
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NOTCH1 and UBA52? 
+Is there a protein interaction between NOTCH1 and UBA52?
+UBA52 (ubiquitin-associated protein 52 kDa) is a protein that in humans is encoded by the U
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SUMO3 and ZHX1? 
+Is there a protein interaction between SUMO3 and ZHX1?
+
+SUMO3 is a small ubiquitin-like modifier that is involved in a variety of cellular processes. SUMO
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between BAD and BAD? 
+I am trying to find a protein interaction between BAD and BAD. I have used the STRING database and found that there is a protein interaction between BAD and BAD. However,
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EREG and ERBB4? 
+I am trying to find a protein interaction between EREG and ERBB4. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the interactions
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC2 and RELA? 
+I am trying to find a protein interaction between HDAC2 and RELA. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have tried
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CSK and CSK? 
+I am trying to find a protein interaction between CSK and CSK. I have found a few papers that mention that CSK and CSK interact with each other, but I am not sure
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and RELA? 
+Is there a protein interaction between TP53 and RELA?
+
+A: Yes, there is a protein interaction between TP53 and RELA.
+
+A: Yes, there is a
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between SOS1 and HSP9 AA1? 
+Is there a protein interaction between SOS1 and HSP9 AA1?
+SOS1 and HSP9 AA1 are two proteins that are involved in the regulation of the cell cycle. S
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDC37L1 and RAF1? 
+Is there a protein interaction between CDC37L1 and RAF1?
+
+A: Yes, there is a protein interaction between CDC37L1 and RAF1.
+
+A: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC2 and SNW1? 
+I am trying to find a protein interaction between HDAC2 and SNW1. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NFKBIA and ZNF331? 
+I am trying to find a protein interaction between NFKBIA and ZNF331. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGFR and PIK3CA? 
+Is there a protein interaction between EGFR and PIK3CA?
+
+A: Yes, there is a protein interaction between EGFR and PIK3CA.
+
+A: Yes, there
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between COPB2 and PDE4D? 
+Is there a protein interaction between COPB2 and PDE4D?
+COPB2 and PDE4D are two proteins that are known to interact with each other. COPB2 is a
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between SUMO3 and MAGEH1? 
+Is there a protein interaction between SUMO3 and MAGEH1?
+
+SUMO3 is a small ubiquitin-like modifier that is involved in a variety of cellular processes. SUMO
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CTNNB1 and HSPA4? 
+Is there a protein interaction between CTNNB1 and HSPA4?
+CTNNB1 and HSPA4 are two proteins that are known to interact with each other.
+
+CT
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between YWHAG and LATS2? 
+I am trying to find a protein interaction between YWHAG and LATS2. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RBPJ and EP3  ? 
+I am trying to find a protein interaction between RBPJ and EP3  . I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC7 and HDAC7? 
+I am trying to find a protein interaction between HDAC7 and HDAC7. I have searched the literature and found that HDAC7 is a histone deacetylase and HDAC7 is a histone deacetyl
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DNAJB6 and VIM? 
+Is there a protein interaction between DNAJB6 and VIM?
+
+A: Yes, there is a protein interaction between DNAJB6 and VIM.
+
+A: Yes, there
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGFR and GRB2? 
+I am trying to find a protein interaction between EGFR and GRB2. I have found a few papers that mention this interaction, but I am not sure if they are reliable. I have also
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GDI1 and NKX2-3? 
+Is there a protein interaction between GDI1 and NKX2-3?
+
+NKX2-3 is a transcription factor that is expressed in the developing heart and is required for the
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAML1 and KAT2A? 
+I am trying to find a protein interaction between MAML1 and KAT2A. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between FYN and PRKCA? 
+Is there a protein interaction between FYN and PRKCA?
+FYN and PRKCA are two proteins that are known to interact with each other.
+
+FYN is a protein
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between POP1 and NLRP3? 
+Is there a protein interaction between POP1 and NLRP3?
+
+A: Yes, there is a protein interaction between POP1 and NLRP3.
+
+A: Yes, there
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC8 and HDAC2? 
+I am trying to find a protein interaction between HDAC8 and HDAC2. I have found a few papers that mention that HDAC8 and HDAC2 interact, but I am not sure if they are
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CBLC and STK11? 
+I am trying to find a protein interaction between CBLC and STK11. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PDGFRA and AKT1? 
+Is there a protein interaction between PDGFRA and AKT1?
+PDGFRA and AKT1 are two proteins that are known to be involved in the same pathway.
+PDGFRA is
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SUMO1 and UBE2S? 
+I am trying to find a protein interaction between SUMO1 and UBE2S. I have found a few papers that mention this interaction, but I am not sure if they are reliable.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between ACTB and B2M? 
+I am trying to find a protein interaction between ACTB and B2M. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF4 and EFTUD2? 
+PRPF4 (protein arginine N-methyltransferase 4) is a protein that in humans is encoded by the PRPF4 gene.
+
+Function 
+
+This gene encodes a protein that is
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and PIP4K2C? 
+Is there a protein interaction between CNOT3 and PIP4K2C?
+CNOT3 and PIP4K2C
+CNOT3 and PIP4K2C interaction
+C
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PEX11A and PEX3? 
+I am trying to find a protein interaction between PEX11A and PEX3. I have found a few papers that mention this interaction, but I am not sure how to find the interaction
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between NRG2 and NRG2? 
+I am trying to find out if there is a protein interaction between NRG2 and NRG2. I have found a few papers that mention this interaction but I am not sure how to interpret
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RBPJ and KAT2A? 
+I am trying to find a protein interaction between RBPJ and KAT2A. I have found a few papers that mention this interaction, but I am not sure how to find the interaction
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC6 and HDAC8? 
+I am trying to find a protein interaction between HDAC6 and HDAC8. I have found a few papers that mention that HDAC6 and HDAC8 are in the same complex, but I am not
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EREG and EREG? 
+I am trying to find out if there is a protein interaction between EREG and EREG. I have found a few papers that mention this interaction but I am not sure how to interpret the results
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TAF1  and TAF11? 
+I am trying to find a protein interaction between TAF1  and TAF11. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between VIPR1 and B2M? 
+VIPR1 is a protein that is involved in the regulation of the immune system. It is a member of the VIPR family of proteins, which are known to be involved in the regulation
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between RAF1 and CDKN2B? 
+Is there a protein interaction between RAF1 and CDKN2B?
+Is there a protein interaction between RAF1 and CDKN2B?
+Is there a protein interaction between RAF1 and
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MDM2 and CDKN2A? 
+Is there a protein interaction between MDM2 and CDKN2A?
+
+A: Yes, there is a protein interaction between MDM2 and CDKN2A.
+MDM
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between APAF1 and CASP9? 
+Is there a protein interaction between APAF1 and CASP9?
+Is there a protein interaction between APAF1 and CASP9?
+Is there a protein interaction between APAF1
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDKN2C and CDK6? 
+Is there a protein interaction between CDKN2C and CDK6?
+Is there a protein interaction between CDKN2C and CDK6?
+Is there a protein interaction between CDKN2
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC6 and HDAC2? 
+I am trying to find a protein interaction between HDAC6 and HDAC2. I have found a few papers that mention that HDAC6 and HDAC2 are in the same complex, but I am not
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RASSF1 and CCND1? 
+I am trying to find a protein interaction between RASSF1 and CCND1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between BMI1 and UBE2D3? 
+Is there a protein interaction between BMI1 and UBE2D3?
+Is there a protein interaction between BMI1 and UBE2D3?
+Is there a protein interaction between BMI
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FRS3 and RND3? 
+Is there a protein interaction between FRS3 and RND3?
+Asked by: A.J.
+The FRS3 and RND3 proteins are not known to interact with each
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between DLL1 and DLL1? 
+I am trying to find a protein interaction between DLL1 and DLL1. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RBX1 and NEDD8? 
+I am trying to find a protein interaction between RBX1 and NEDD8. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK4 and AKT1? 
+I am trying to find a protein interaction between CDK4 and AKT1. I have found a few papers that mention this interaction, but I am not sure if they are reliable. I have also
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between JAG1 and JAG2? 
+I am trying to find out if there is a protein interaction between JAG1 and JAG2. I have found a few papers that mention this interaction but I am not sure if they are
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EGFR and GAB1? 
+I am trying to find a protein interaction between EGFR and GAB1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EXOSC6 and DIS3? 
+Is there a protein interaction between EXOSC6 and DIS3?
+
+A: Yes, there is a protein interaction between EXOSC6 and DIS3.
+
+A: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC5? 
+I am trying to find a protein interaction between NCOR2 and HDAC5. I have found a few papers that mention NCOR2 and HDAC5, but I am not sure if they are
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between BECN1 and CDKN2A? 
+Is there a protein interaction between BECN1 and CDKN2A?
+BECN1 and CDKN2A are two genes that are involved in the regulation of cell cycle progression
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NOTCH1 and DLL1? 
+I am trying to find a protein interaction between NOTCH1 and DLL1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between KLRC1 and B2M? 
+KLRC1 and B2M are both expressed in the same cell types, and both are involved in the regulation of the immune system. KLRC1 is a receptor for the cytokine
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PDGFC and FLT1? 
+Is there a protein interaction between PDGFC and FLT1?
+PDGFC and FLT1 are both members of the PDGF family of growth factors. PDGFC is a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NFKBIA and ZNF4 8? 
+I am trying to find a protein interaction between NFKBIA and ZNF4 8. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PAK1 and TIAM1? 
+Is there a protein interaction between PAK1 and TIAM1?
+PAK1 and TIAM1 are two proteins that are involved in the regulation of cell migration. PAK1 is
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MAP2K5 and HGF? 
+Is there a protein interaction between MAP2K5 and HGF?
+
+A: Yes, there is a protein interaction between MAP2K5 and HGF.
+
+A: Yes
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CCNC and CCNC? 
+I am trying to find out if there is a protein interaction between CCNC and CCNC. I have found a few papers that mention this interaction but I am not sure how to interpret the data
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TBL1XR1 and HDAC4? 
+TBL1XR1 is a transcription factor that is involved in the regulation of gene expression. It is a member of the TBL1 family of transcription factors. TBL1XR1 is
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EXOSC7 and MPHOSPH6? 
+Is there a protein interaction between EXOSC7 and MPHOSPH6?
+Is there a protein interaction between EXOSC7 and MPHOSPH6?
+Is there a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NFKBIA and GNB2? 
+I am trying to find a protein interaction between NFKBIA and GNB2. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and MDM2? 
+I am trying to find a protein interaction between TP53 and MDM2. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NKX2-3 and MLX? 
+Is there a protein interaction between NKX2-3 and MLX?
+NKX2-3 and MLX are transcription factors that are involved in the development of the heart. NKX
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between VEGFB and FLT4? 
+Is there a protein interaction between VEGFB and FLT4?
+
+The vascular endothelial growth factor (VEGF) family of proteins is a group of structurally related proteins that are involved in the regulation
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ERBB3 and SOS1? 
+Is there a protein interaction between ERBB3 and SOS1?
+Is there a protein interaction between ERBB3 and SOS1?
+Is there a protein interaction between ERBB3
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DLL1 and DLL4? 
+I am trying to find a protein interaction between DLL1 and DLL4. I have found a few papers that mention that they interact, but I am not sure if they are talking about the same
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CNOT3 and ZNF3? 
+Is there a protein interaction between CNOT3 and ZNF3?
+CNOT3 and ZNF3 are two genes that are involved in the regulation of gene expression. CNOT3 is
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDC25B and B2M? 
+I am trying to find a protein interaction between CDC25B and B2M. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC6 and HDAC3? 
+I am trying to find a protein interaction between HDAC6 and HDAC3. I have found a few papers that mention that HDAC6 and HDAC3 are in the same complex, but I am not
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SMAD1 and MAP2K3? 
+Is there a protein interaction between SMAD1 and MAP2K3?
+
+A: Yes, there is a protein interaction between SMAD1 and MAP2K3.
+
+A
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between APPL2 and RAB11A? 
+Is there a protein interaction between APPL2 and RAB11A?
+Is there a protein interaction between APPL2 and RAB11A?...
+Is there a protein interaction between
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SNW1 and MAML3? 
+Is there a protein interaction between SNW1 and MAML3?
+
+A: Yes, there is a protein interaction between SNW1 and MAML3.
+
+A: Yes
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between EP3   and CCNC? 
+I am trying to find a protein interaction between EP3   and CCNC. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have tried
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RGS16 and ADRA1D? 
+I am trying to find a protein interaction between RGS16 and ADRA1D. I have found a few papers that mention this interaction, but I am having trouble finding a database that
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CREBBP and MAML2? 
+I am trying to find a protein interaction between CREBBP and MAML2. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDKN2B and CCND2? 
+Is there a protein interaction between CDKN2B and CCND2?
+Is there a protein interaction between CDKN2B and CCND2?
+Is there a protein interaction between CD
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CNOT3 and GDI1? 
+Is there a protein interaction between CNOT3 and GDI1?
+CNOT3 and GDI1 are two proteins that are involved in the regulation of the cell cycle. CNOT3
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between LSM3 and LSM4? 
+I am trying to find a protein interaction between LSM3 and LSM4. I have found a few papers that mention the interaction but I am not sure how to find the interaction. I
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between GNB2 and PUF6 ? 
+I am trying to find a protein interaction between GNB2 and PUF6 . I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC1? 
+I am trying to find a protein interaction between NCOR2 and HDAC1. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between LSM6 and LSM4? 
+I am trying to find a protein interaction between LSM6 and LSM4. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between F5 and A2M? 
+I am trying to find a protein interaction between F5 and A2M. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between AKT1 and YWHAB? 
+Is there a protein interaction between AKT1 and YWHAB?
+
+A: Yes, there is a protein interaction between AKT1 and YWHAB.
+
+A: Yes, there
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF4 A and PRPF4 A? 
+I am trying to find a protein interaction between PRPF4 A and PRPF4 A. I have found a few papers that mention this interaction, but I am not sure how to find the
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF4 and SNRNP2  ? 
+PRPF4 (protein arginine N-methyltransferase 4) is a protein arginine methyltransferase that is involved in the regulation of gene expression. It is a component of the spliceosome and is involved
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CCND2 and CCND2? 
+I am trying to find a protein interaction between CCND2 and CCND2. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PRPF8 and PRPF8? 
+I am trying to find a protein interaction between PRPF8 and PRPF8. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between COG3 and COG8? 
+Is there a protein interaction between COG3 and COG8?
+
+COG3 and COG8 are two proteins that are involved in the process of translation. They are both found
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CRY1 and FBXO9? 
+Is there a protein interaction between CRY1 and FBXO9?
+Is there a protein interaction between CRY1 and FBXO9?
+Is there a protein interaction between CR
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GDI1 and GNB2? 
+I am trying to find a protein interaction between GDI1 and GNB2. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and SLC2A1? 
+Is there a protein interaction between TP53 and SLC2A1?
+
+TP53 is a tumor suppressor gene that is mutated in many cancers. TP53 is a transcription factor that regulates
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC11? 
+I am trying to find a protein interaction between NCOR2 and HDAC11. I have found a few papers that mention NCOR2 and HDAC11, but I am not sure if they are
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between COG1 and COG6? 
+Is there a protein interaction between COG1 and COG6?
+Asked by: Akshay
+The COG1 and COG6 proteins are part of the COG complex,
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between OAS1 and MBD1? 
+I am trying to find a protein interaction between OAS1 and MBD1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZNF626 and ZNF626? 
+I am trying to find a protein interaction between ZNF626 and ZNF626. I have used the STRING database and found that there is a protein interaction between ZNF626 and ZNF
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DVL1 and CTNNB1? 
+I am trying to find a protein interaction between DVL1 and CTNNB1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CEP57 and FGF1? 
+Is there a protein interaction between CEP57 and FGF1?
+
+A: Yes, there is a protein interaction between CEP57 and FGF1.
+
+A: Yes, there
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAPK14 and TSC1? 
+I am trying to find a protein interaction between MAPK14 and TSC1. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the interactions
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC11 and HDAC11? 
+I am trying to find a protein interaction between HDAC11 and HDAC11. I have searched the literature and found that HDAC11 is a histone deacetylase and HDAC11 is a histone deacetyl
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between XRCC3 and XRCC2? 
+I am trying to find a protein interaction between XRCC3 and XRCC2. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between ERBB2 and GRB2? 
+Is there a protein interaction between ERBB2 and GRB2?
+Asked by: A. A.
+The interaction between ERBB2 and GRB2 is not known.
+The
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CREBBP and MAML3? 
+I am trying to find a protein interaction between CREBBP and MAML3. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DLL4 and UBB? 
+I am trying to find a protein interaction between DLL4 and UBB. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have tried
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB4 and ERBB3? 
+I am trying to find a protein interaction between ERBB4 and ERBB3. I have found a few papers that mention this interaction, but I am not sure if they are reliable.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between B2M and MLANA? 
+I am trying to find a protein interaction between B2M and MLANA. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between FOXO1 and TSC1? 
+Is there a protein interaction between FOXO1 and TSC1?
+Is there a protein interaction between FOXO1 and TSC1?
+Is there a protein interaction between FOXO1
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGF and SOS1? 
+I am trying to find a protein interaction between EGF and SOS1. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have tried
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SFN and SFN? 
+I am trying to find a protein interaction between SFN and SFN. I have used the STRING database and found that there is a protein interaction between SFN and SFN. However,
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB4 and ERBB2? 
+I am trying to find a protein interaction between ERBB4 and ERBB2. I have found a few papers that mention this interaction, but I am not sure if they are reliable. I
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HBEGF and TGFA? 
+I am trying to find a protein interaction between HBEGF and TGFA. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EXOSC8 and EXOSC4? 
+I am trying to find a protein interaction between EXOSC8 and EXOSC4. I have found a few papers that mention EXOSC8 and EXOSC4, but I
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NOTCH1 and RPS27A? 
+Is there a protein interaction between NOTCH1 and RPS27A?
+NOTCH1 and RPS27A are two proteins that are known to interact with each other.
+
+NOT
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ATP8A1 and TMEM3 B? 
+Is there a protein interaction between ATP8A1 and TMEM3 B?
+Is there a protein interaction between ATP8A1 and TMEM3 B?
+Is there a protein interaction
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NF2 and ARNT? 
+Is there a protein interaction between NF2 and ARNT?
+NF2 is a tumor suppressor gene that is mutated in neurofibromatosis type 2 (NF2). NF2 encodes a protein
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EGF and GRB2? 
+I am trying to find a protein interaction between EGF and GRB2. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PARK7 and PPARGC1A? 
+Parkinson's disease (PD) is a neurodegenerative disorder characterized by the loss of dopaminergic neurons in the substantia nigra pars compacta (SNpc). The loss of dopaminergic neurons is associated with
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MTREX and DIS3? 
+I am trying to find a protein interaction between MTREX and DIS3. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I have
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EIF3I and ACVR1? 
+Is there a protein interaction between EIF3I and ACVR1?
+EIF3I and ACVR1 are two proteins that are involved in the same pathway.
+E
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PTN and LRIF1? 
+I am trying to find a protein interaction between PTN and LRIF1. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the interaction
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ANK1 and TIAM1? 
+I am trying to find a protein interaction between ANK1 and TIAM1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between KDELR2 and IGF1R? 
+KDELR2 is a protein that is expressed in the brain and is involved in the regulation of the growth of neurons. It is also involved in the regulation of the growth of the brain.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DGCR8 and XPO5? 
+Is there a protein interaction between DGCR8 and XPO5?
+
+A: Yes, there is a protein interaction between DGCR8 and XPO5.
+
+A: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FHOD1 and RAC2? 
+I am trying to find a protein interaction between FHOD1 and RAC2. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ARNT and EPHA2? 
+Is there a protein interaction between ARNT and EPHA2?
+EPHA2 is a member of the Eph receptor family. It is a receptor tyrosine kinase that binds to ephrin-
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GRM1 and EPHA2? 
+Is there a protein interaction between GRM1 and EPHA2?
+Is there a protein interaction between GRM1 and EPHA2?
+Is there a protein interaction between GRM1
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NRG2 and NRG1? 
+I am trying to find out if there is a protein interaction between NRG2 and NRG1. I have found a few papers that mention this interaction but I am not sure if they are
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MYC and CDK4? 
+I am trying to find a protein interaction between MYC and CDK4. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DCC and HJV? 
+Is there a protein interaction between DCC and HJV?
+
+DCC is a transmembrane protein that is expressed in the developing nervous system and in the adult brain. It is a receptor
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC4 and HDAC5? 
+I am trying to find a protein interaction between HDAC4 and HDAC5. I have found a few papers that mention that HDAC4 and HDAC5 are in the same complex, but I am not
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TCERG1 and IMMT? 
+Is there a protein interaction between TCERG1 and IMMT?
+TCERG1 and IMMT are two proteins that are known to interact with each other.
+
+TCERG
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between PLAUR and CD82? 
+Is there a protein interaction between PLAUR and CD82?
+
+A: Yes, there is a protein interaction between PLAUR and CD82.
+
+A: Yes, there is a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HSPB1 and EIF4E? 
+Is there a protein interaction between HSPB1 and EIF4E?
+
+HSPB1 is a member of the heat shock protein family. It is a molecular chaperone that binds
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC6 and HDAC7? 
+I am trying to find a protein interaction between HDAC6 and HDAC7. I have found a few papers that mention that HDAC6 and HDAC7 are in the same complex, but I am not
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NCOR2 and HDAC8? 
+Is there a protein interaction between NCOR2 and HDAC8?
+Asked by: J. M.
+The NCOR2 protein is a transcriptional co-repressor that binds to the nuclear
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GNL1 and GNL1? 
+I am trying to find out if there is a protein interaction between GNL1 and GNL1. I have found a few papers that mention this interaction but I am not sure how to interpret
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZNF626 and ZNF212? 
+I am trying to find a protein interaction between ZNF626 and ZNF212. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and CNOT3? 
+Is there a protein interaction between CNOT3 and CNOT3?
+Asked by: Jingjing
+The CNOT3 protein is a member of the CNOT family of proteins.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EXOSC2 and EXOSC2? 
+Is there a protein interaction between EXOSC2 and EXOSC2?
+Asked by: J. M.
+Asked by: J. M. (1)
+Asked by:
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK6 and CD44? 
+Is there a protein interaction between CDK6 and CD44?
+
+A: Yes, there is a protein interaction between CDK6 and CD44.
+
+A: Yes, there is a
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ZNF626 and EPS8L2? 
+Is there a protein interaction between ZNF626 and EPS8L2?
+ZNF626 and EPS8L2 are two genes that are located on chromosome 1. ZNF626 is a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between LSM4 and LSM4? 
+I am trying to find a protein interaction between LSM4 and LSM4. I have used the STRING database and found that there is a protein interaction between LSM4 and LSM
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR1 and HDAC11? 
+I am trying to find a protein interaction between NCOR1 and HDAC11. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SMARCA4 and RASSF1? 
+Is there a protein interaction between SMARCA4 and RASSF1?
+SMARCA4 and RASSF1 are two proteins that are known to interact with each other.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TRADD and TNFRSF1 B? 
+I am trying to find a protein interaction between TRADD and TNFRSF1 B. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between SHC1 and ERBB2? 
+Is there a protein interaction between SHC1 and ERBB2?
+
+A: Yes, there is a protein interaction between SHC1 and ERBB2.
+
+A: Yes
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDK4 and CCND1? 
+Is there a protein interaction between CDK4 and CCND1?
+
+A: Yes, there is a protein interaction between CDK4 and CCND1.
+
+A: Yes, there
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between ARAF and STK11? 
+I am trying to find a protein interaction between ARAF and STK11. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between E2F3 and GABPB2? 
+Is there a protein interaction between E2F3 and GABPB2?
+E2F3 and GABPB2 are two proteins that are known to interact with each other.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between PDCD1 and PTPN11? 
+Is there a protein interaction between PDCD1 and PTPN11?
+PDCD1 and PTPN11 are two genes that are involved in the regulation of the immune system. PDCD1
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CNOT3 and RND1? 
+CNOT3 and RND1 are two proteins that are involved in the regulation of gene expression. CNOT3 is a transcription factor that binds to DNA and regulates gene expression. RND1
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FHL2 and CREB3L2? 
+Is there a protein interaction between FHL2 and CREB3L2?
+FHL2 and CREB3L2 are two genes that are involved in the regulation of the cell cycle
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and RAF1? 
+I am trying to find a protein interaction between RASSF1 and RAF1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CCND2 and STK11? 
+I am trying to find a protein interaction between CCND2 and STK11. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between KDELR2 and PDGFRA? 
+KDELR2 is a protein that is expressed in the brain and is involved in the regulation of neuronal migration. It is also expressed in the heart and is involved in the regulation of cardiac development
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between EGF and GAB1? 
+I am trying to find a protein interaction between EGF and GAB1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PDGFRA and LATS2? 
+I am trying to find a protein interaction between PDGFRA and LATS2. I have found a few papers that mention this interaction, but I am not sure if they are reliable. I
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between WT1 and B2M? 
+Is there a protein interaction between WT1 and B2M?
+
+WT1 is a transcription factor that is expressed in the developing and adult testis. It is also expressed in the placenta,
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CTNNB1 and HSP9 AA1? 
+Is there a protein interaction between CTNNB1 and HSP9 AA1?
+CTNNB1 and HSP9 AA1 are two proteins that are known to interact with each other.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between RORC and UIMC1? 
+I am trying to find a protein interaction between RORC and UIMC1. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZNF3 and DPF2? 
+Is there a protein interaction between ZNF3 and DPF2?
+
+A: Yes, there is a protein interaction between ZNF3 and DPF2.
+
+A: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZBTB8B and ZBTB8B?
+Is there a protein interaction between ZBTB8B and ZBTB8B? I am trying to find out if there is a protein interaction between ZBTB8B and ZBT
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ERBB3 and PIK3R1? 
+Is there a protein interaction between ERBB3 and PIK3R1?
+
+A: Yes, there is a protein interaction between ERBB3 and PIK3R1.
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between NCOR1 and TBL1X? 
+I am trying to find a protein interaction between NCOR1 and TBL1X. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NRG3 and EREG? 
+I am trying to find a protein interaction between NRG3 and EREG. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GLIS2 and TEAD2? 
+Is there a protein interaction between GLIS2 and TEAD2?
+
+A: Yes, there is a protein interaction between GLIS2 and TEAD2.
+
+A: Yes
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between KDELR2 and MYC? 
+KDELR2 and MYC are two proteins that are known to be involved in cancer. KDELR2 is a protein that is involved in the regulation of cell growth and MYC is a
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PEX11B and PEX11B? 
+I am trying to find a protein interaction between PEX11B and PEX11B. I have found a few papers that mention this interaction, but I am not sure how to find the
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and GADD45B? 
+Is there a protein interaction between TP53 and GADD45B?
+
+TP53 is a tumor suppressor gene that is mutated in a large number of human cancers. TP53 is a transcription
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PROX1 and NCOR2? 
+Is there a protein interaction between PROX1 and NCOR2?
+PROX1 and NCOR2 are two transcription factors that are involved in the regulation of the expression of genes involved in
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and FGFR4? 
+I am trying to find a protein interaction between RASSF1 and FGFR4. I have found a few papers that mention this interaction, but I am not sure how to find the evidence
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between LMNA and HSPB1? 
+I am trying to find a protein interaction between LMNA and HSPB1. I have found a few papers that mention this interaction, but I am not sure if they are reliable. I have
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between YWHAE and TSC1? 
+I am trying to find a protein interaction between YWHAE and TSC1. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PTN and MAGEH1? 
+Is there a protein interaction between PTN and MAGEH1?
+
+A: Yes, there is a protein interaction between PTN and MAGEH1.
+
+PTN is
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FZR1 and ERBB2? 
+Is there a protein interaction between FZR1 and ERBB2?
+FZR1 and ERBB2 are two proteins that are involved in the same pathway.
+FZR
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDKN2B and AKT1? 
+Is there a protein interaction between CDKN2B and AKT1?
+Is there a protein interaction between CDKN2B and AKT1?
+Is there a protein interaction between CDKN2
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between DPF2 and SAP3 BP? 
+I am trying to find a protein interaction between DPF2 and SAP3 BP. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAPK14 and MAP2K3? 
+Is there a protein interaction between MAPK14 and MAP2K3?
+
+A: Yes, there is a protein interaction between MAPK14 and MAP2K3.
+
+A: Yes
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between UBC and UBB? 
+I am trying to find a protein interaction between UBC and UBB. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between FOXO1 and YWHAZ? 
+Is there a protein interaction between FOXO1 and YWHAZ?
+Is there a protein interaction between FOXO1 and YWHAZ?
+Is there a protein interaction between FOXO1
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ZNF626 and RND1? 
+Is there a protein interaction between ZNF626 and RND1?
+ZNF626 and RND1 are two genes that are known to be involved in the development of cancer.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between DUSP6 and RND1? 
+Is there a protein interaction between DUSP6 and RND1?
+DUSP6 and RND1 are two proteins that are involved in the regulation of the cell cycle. DUSP6
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HOXA9 and SMAD2? 
+Is there a protein interaction between HOXA9 and SMAD2?
+
+A: Yes, there is a protein interaction between HOXA9 and SMAD2.
+
+A
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TSC2 and SKP2? 
+TSC2 is a tumor suppressor gene that is mutated in many cancers. It is a negative regulator of the mTOR pathway. SKP2 is a protein that is involved in the degradation of T
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ZEB1 and HDAC1? 
+I am trying to find a protein interaction between ZEB1 and HDAC1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between NFKBIA and DUSP6? 
+I am trying to find a protein interaction between NFKBIA and DUSP6. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDC37 and GAB1? 
+I am trying to find a protein interaction between CDC37 and GAB1. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PEX7 and PEX11A? 
+I am trying to find a protein interaction between PEX7 and PEX11A. I have found a few papers that mention this interaction, but I am not sure how to find the interaction
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CREB3L2 and SAP3 BP? 
+Is there a protein interaction between CREB3L2 and SAP3 BP?
+CREB3L2 and SAP3 BP are two proteins that are known to interact with each other.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between HBEGF and EREG? 
+I am trying to find a protein interaction between HBEGF and EREG. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MTREX and MTREX? 
+I am trying to find out if there is a protein interaction between MTREX and MTREX. I have found a few papers that mention MTREX and MTREX, but I
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RARG and UIMC1? 
+I am trying to find a protein interaction between RARG and UIMC1. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between USP39 and USP39? 
+I am trying to find a protein interaction between USP39 and USP39. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between PKN1 and RPS6KA1? 
+Is there a protein interaction between PKN1 and RPS6KA1?
+
+A: Yes, there is a protein interaction between PKN1 and RPS6KA1.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ATF3 and GDI1? 
+Is there a protein interaction between ATF3 and GDI1?
+Is there a protein interaction between ATF3 and GDI1?
+Is there a protein interaction between ATF3
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TXNL4A and TXNL4A? 
+Is there a protein interaction between TXNL4A and TXNL4A?
+TXNL4A and TXNL4A are two proteins that are involved in the same pathway.
+TX
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ERBIN and HSP9 AA1? 
+Is there a protein interaction between ERBIN and HSP9 AA1?
+
+ERBIN is a protein that in humans is encoded by the ERBIN gene.
+
+Function 
+
+This gene
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between FRAT2 and DVL3? 
+I am trying to find a protein interaction between FRAT2 and DVL3. I have found a few papers that mention FRAT2 and DVL3, but I am not sure if
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between TCERG1 and NEFL? 
+Is there a protein interaction between TCERG1 and NEFL?
+TCERG1 and NEFL are two proteins that are known to interact with each other.
+TCERG1
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between RBL2 and GABPB2? 
+I am trying to find a protein interaction between RBL2 and GABPB2. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPS1 and CREBBP? 
+Is there a protein interaction between PRPS1 and CREBBP?
+PRPS1 and CREBBP are two proteins that are involved in the same pathway.
+PRPS1 is a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between AHSG and CAPN6? 
+I am trying to find a protein interaction between AHSG and CAPN6. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDKN2B and CDKN2B? 
+Is there a protein interaction between CDKN2B and CDKN2B?
+Is there a protein interaction between CDKN2B and CDKN2B?
+Is there a protein interaction
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between MPHOSPH6 and EXOSC5? 
+Is there a protein interaction between MPHOSPH6 and EXOSC5?
+Is there a protein interaction between MPHOSPH6 and EXOSC5?
+Is there a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NPR3 and NPPC? 
+Is there a protein interaction between NPR3 and NPPC?
+NPPC is a protein that is encoded by the NPPC gene in humans.
+
+NPPC is a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EPHA2 and AKT1? 
+Is there a protein interaction between EPHA2 and AKT1?
+EPHA2 and AKT1 are two proteins that are known to be involved in the regulation of cell growth and survival.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between BMPR1B and TGFB1? 
+I am trying to find a protein interaction between BMPR1B and TGFB1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between UBE2B and SUMO1? 
+UBE2B (ubiquitin-conjugating enzyme E2B) is a ubiquitin-conjugating enzyme that is involved in the ubiquitination of SUMO1 (small ubiquitin-like
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between E2F2 and GABPB2? 
+Is there a protein interaction between E2F2 and GABPB2?
+E2F2 and GABPB2 are two proteins that are known to interact with each other.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between SKP2 and CRY1? 
+Is there a protein interaction between SKP2 and CRY1?
+Is there a protein interaction between SKP2 and CRY1?
+Is there a protein interaction between SKP2
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between DIS3 and EXOSC1? 
+Is there a protein interaction between DIS3 and EXOSC1?
+
+A: Yes, there is a protein interaction between DIS3 and EXOSC1.
+
+A: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PEX11A and PEX13? 
+I am trying to find a protein interaction between PEX11A and PEX13. I have found a few papers that mention this interaction, but I am not sure how to find the interaction
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF3 and PRPF31? 
+I am trying to find a protein interaction between PRPF3 and PRPF31. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CCR3 and CCL4? 
+Is there a protein interaction between CCR3 and CCL4?
+Asked by: A. A.
+The CCR3 and CCL4 proteins are both involved in the immune system. CCR3 is
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and NME5? 
+Is there a protein interaction between TP53 and NME5?
+
+A: Yes, there is a protein interaction between TP53 and NME5.
+
+A: Yes, there
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CRY1 and BTRC? 
+I am trying to find a protein interaction between CRY1 and BTRC. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between ID3 and DUSP6? 
+I am trying to find a protein interaction between ID3 and DUSP6. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RB1 and E2F3? 
+Is there a protein interaction between RB1 and E2F3?
+
+A: Yes, there is a protein interaction between RB1 and E2F3.
+
+A: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between WT1 and WT1? 
+I am trying to find a protein interaction between WT1 and WT1. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDK6 and CDK6? 
+I am trying to find a protein interaction between CDK6 and CDK6. I have found a few papers that mention CDK6 and CDK6, but I am not sure if they are talking about
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RAF1 and RAF1? 
+I am trying to find a protein interaction between RAF1 and RAF1. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between PEX1  and PEX3? 
+I am trying to find a protein interaction between PEX1  and PEX3. I have found a few papers that mention this interaction, but I am not sure how to find the interaction.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between ATF4 and SAP3 BP? 
+Is there a protein interaction between ATF4 and SAP3 BP?
+
+A: Yes, there is a protein interaction between ATF4 and SAP3 BP.
+
+A: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GLIS2 and AKT1? 
+Is there a protein interaction between GLIS2 and AKT1?
+
+A: Yes, there is a protein interaction between GLIS2 and AKT1.
+
+A: Yes, there
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between AXIN1 and PPP2R1A? 
+Is there a protein interaction between AXIN1 and PPP2R1A?
+Is there a protein interaction between AXIN1 and PPP2R1A?
+Is there a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and CDKN2A? 
+Is there a protein interaction between TP53 and CDKN2A?
+
+TP53 is a tumor suppressor gene that is mutated in many cancers. CDKN2A is a tumor suppressor gene
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CSNK2A2 and PIN1? 
+Is there a protein interaction between CSNK2A2 and PIN1?
+CSNK2A2 and PIN1 are two proteins that are known to interact with each other.
+
+CS
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between THRA and PROX1? 
+I am trying to find a protein interaction between THRA and PROX1. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the interactions
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAP2K3 and AURKA? 
+Is there a protein interaction between MAP2K3 and AURKA?
+Is there a protein interaction between MAP2K3 and AURKA?
+Is there a protein interaction between MAP
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ZNF4 8 and MLX? 
+I am trying to find a protein interaction between ZNF4 8 and MLX. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between TBL1X and HDAC9? 
+TBL1X is a transcription factor that is involved in the regulation of gene expression. It is a member of the TBL1 family of transcription factors. TBL1X is a nuclear
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GDI1 and DPF2? 
+Is there a protein interaction between GDI1 and DPF2?
+
+A: Yes, there is a protein interaction between GDI1 and DPF2.
+
+A: Yes
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NCOR1 and NR B2? 
+Is there a protein interaction between NCOR1 and NR B2?
+NCOR1 and NR B2 are two proteins that are involved in the regulation of gene expression. NCOR
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RBPJ and SNW1? 
+I am trying to find a protein interaction between RBPJ and SNW1. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between RBPJ and MAML3? 
+I am trying to find a protein interaction between RBPJ and MAML3. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ERBB2 and CCND2? 
+Is there a protein interaction between ERBB2 and CCND2?
+Is there a protein interaction between ERBB2 and CCND2?
+Is there a protein interaction between ERBB2
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between WASL and BAIAP2L1? 
+Is there a protein interaction between WASL and BAIAP2L1?
+WASL and BAIAP2L1 are two proteins that are involved in the same pathway.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CNOT3 and GNL1? 
+CNOT3 and GNL1 are two proteins that are involved in the regulation of gene expression. CNOT3 is a protein that is involved in the regulation of gene expression. GNL1
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TTLL5 and PPARG? 
+Is there a protein interaction between TTLL5 and PPARG?
+
+A: Yes, there is a protein interaction between TTLL5 and PPARG.
+
+A: Yes, there
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MTREX and EXOSC3? 
+Is there a protein interaction between MTREX and EXOSC3?
+
+A: Yes, there is a protein interaction between MTREX and EXOSC3.
+
+A
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between GNL1 and MLX? 
+I am trying to find a protein interaction between GNL1 and MLX. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CRY2 and FBXO9? 
+Is there a protein interaction between CRY2 and FBXO9?
+Is there a protein interaction between CRY2 and FBXO9?
+Is there a protein interaction between CR
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HDAC1 and HEY2? 
+I am trying to find a protein interaction between HDAC1 and HEY2. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between HIF1A and IKBKG? 
+I am trying to find a protein interaction between HIF1A and IKBKG. I have found a few papers that mention this interaction, but I am not sure how to find the interaction in
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between PTEN and AKT1? 
+I am trying to find a protein interaction between PTEN and AKT1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between YWHAB and TSC1? 
+I am trying to find a protein interaction between YWHAB and TSC1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between TP53 and CDKN1A? 
+Is there a protein interaction between TP53 and CDKN1A?
+
+TP53 is a tumor suppressor gene that is mutated in many cancers. CDKN1A is a tumor suppressor gene
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between HERC1 and TSC1? 
+I am trying to find a protein interaction between HERC1 and TSC1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CRY2 and KDM2A? 
+I am trying to find a protein interaction between CRY2 and KDM2A. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source.
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between JAG2 and UBA52? 
+Is there a protein interaction between JAG2 and UBA52?
+Asked by: JAG2
+UBA52 is a ubiquitin-protein ligase that is involved in the ubiquitination
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between E2F4 and GABPB2? 
+Is there a protein interaction between E2F4 and GABPB2?
+E2F4 and GABPB2 are two proteins that are known to interact with each other.
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CD4 LG and C4BPA? 
+Is there a protein interaction between CD4 LG and C4BPA?
+Is there a protein interaction between CD4 LG and C4BPA?
+Is there a protein interaction between CD
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between RASSF1 and NRAS? 
+I am trying to find a protein interaction between RASSF1 and NRAS. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PDGFRA and MAP2K3? 
+Is there a protein interaction between PDGFRA and MAP2K3?
+PDGFRA and MAP2K3 are two proteins that are known to interact with each other.
+
+References
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC1  and SNW1? 
+I am trying to find a protein interaction between HDAC1  and SNW1. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between VDR and UIMC1? 
+Is there a protein interaction between VDR and UIMC1?
+Vitamin D receptor (VDR) is a nuclear receptor that regulates the expression of genes involved in calcium homeostasis,
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between IHH and PTCH1? 
+IHH is a transcription factor that is expressed in the developing neural tube and is required for the formation of the neural tube. PTCH1 is a transmembrane protein that is expressed in the developing neural
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MED28 and MSN? 
+Is there a protein interaction between MED28 and MSN?
+Asked by: A. A.
+The MED28 protein is a member of the Mediator complex, which is a large protein
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NRG1 and EGF? 
+I am trying to find a protein interaction between NRG1 and EGF. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have tried
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between NOL3 and TRA2B? 
+Is there a protein interaction between NOL3 and TRA2B?
+NOL3 and TRA2B are two proteins that are involved in the same pathway.
+NOL3 is a
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between ARNT and CDK4? 
+I am trying to find a protein interaction between ARNT and CDK4. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the interactions.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AURKA and EPHA2? 
+Is there a protein interaction between AURKA and EPHA2?
+AURKA and EPHA2 are two proteins that are known to interact with each other.
+AURKA is
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between AXIN2 and APC? 
+Is there a protein interaction between AXIN2 and APC?
+Asked by: A.S.
+AXIN2 is a protein that is encoded by the AXIN2 gene in humans.
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SP1 and ASF1A? 
+I am trying to find a protein interaction between SP1 and ASF1A. I have found a few papers that mention this interaction, but I am not sure if they are reliable. I
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CSK and NKX2-3? 
+I am trying to find a protein interaction between CSK and NKX2-3. I have found a few papers that mention the interaction, but I am not sure how to find the interaction
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK6 and CCND1? 
+I am trying to find a protein interaction between CDK6 and CCND1. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ACTN2 and TRIM54? 
+Is there a protein interaction between ACTN2 and TRIM54?
+ACTN2 and TRIM54 are two proteins that are known to interact with each other. ACTN2 is a
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between DAPK3 and MAPK3? 
+I am trying to find a protein interaction between DAPK3 and MAPK3. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between EP3   and CDK8? 
+I am trying to find a protein interaction between EP3   and CDK8. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CEBPA and IL6? 
+I am trying to find a protein interaction between CEBPA and IL6. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGLN3 and EPAS1? 
+I am trying to find a protein interaction between EGLN3 and EPAS1. I have found a few papers that mention this interaction, but I am not sure how to find the interaction
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between FOS and MCM2? 
+I am trying to find a protein interaction between FOS and MCM2. I have found a few papers that mention this interaction, but I am having trouble finding a reliable source. I have
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between MAP2K5 and FGFR4? 
+Is there a protein interaction between MAP2K5 and FGFR4?
+
+A: Yes, there is a protein interaction between MAP2K5 and FGFR4.
+
+A
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between HDAC8 and HDAC4? 
+I am trying to find a protein interaction between HDAC8 and HDAC4. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I have
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SNRPF and SNRPG? 
+I am trying to find a protein interaction between SNRPF and SNRPG. I have found a few papers that mention the interaction, but I am not sure how to find the interaction.
+I
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between SHC1 and EGFR? 
+Is there a protein interaction between SHC1 and EGFR?
+
+A: Yes, there is a protein interaction between SHC1 and EGFR.
+
+A: Yes, there is a
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between CDH1 and CTNNB1? 
+Is there a protein interaction between CDH1 and CTNNB1?
+Is there a protein interaction between CDH1 and CTNNB1?
+Is there a protein interaction between CD
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between NR6A1 and NRIP1? 
+Is there a protein interaction between NR6A1 and NRIP1?
+Is there a protein interaction between NR6A1 and NRIP1?
+Is there a protein interaction between NR
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between PRPF4 A and NEFL? 
+PRPF4 A (protein arginine N-methyltransferase 4  kDa subunit alpha) is a protein that in humans is encoded by the PRPF4 A gene.
+
+Function 
+
+The protein
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDC37 and EGF? 
+I am trying to find a protein interaction between CDC37 and EGF. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I have tried searching
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between SNRNP2   and PRPF6? 
+SNRNP2   (SNRNP2  ) and PRPF6 (PRPF6)
+SNRNP2   has direct interactions with proteins and molecules. Those interactions were detected by several methods
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between UFD1 and UBXN4? 
+I am trying to find a protein interaction between UFD1 and UBXN4. I have found a few papers that mention this interaction, but I am having trouble finding a database that
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between BRCA2 and RAD51? 
+Is there a protein interaction between BRCA2 and RAD51?
+
+A: Yes, there is a protein interaction between BRCA2 and RAD51.
+
+A: Yes, there is a
+Prediction: 1
+True Label: 1
+Generated Sequence: Is there a protein interaction between AURKA and TSC1? 
+I am trying to find a protein interaction between AURKA and TSC1. I have found a few papers that mention this interaction, but I am not sure if they are reliable. I
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between CBL and TRAT1? 
+I am trying to find a protein interaction between CBL and TRAT1. I have found a few papers that mention this interaction, but I am not sure how to find the interaction. I
+Prediction: 0
+True Label: 0
+Generated Sequence: Is there a protein interaction between EGFR and ERBB2? 
+I am trying to find a protein interaction between EGFR and ERBB2. I have found a few papers that mention this interaction, but I am not sure if they are reliable. I have also
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between GNB2 and SAP3 BP? 
+I am trying to find a protein interaction between GNB2 and SAP3 BP. I have found a few papers that mention this interaction, but I am having trouble finding the actual interaction. I
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between TAB1 and RBCK1? 
+I am trying to find a protein interaction between TAB1 and RBCK1. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists the interaction
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between FHOD1 and RAC3? 
+Is there a protein interaction between FHOD1 and RAC3?
+FHOD1 and RAC3 are two proteins that are involved in the regulation of the actin cytoskeleton. FHOD1
+Prediction: 1
+True Label: 0
+Generated Sequence: Is there a protein interaction between CDK4 and CCND2? 
+I am trying to find a protein interaction between CDK4 and CCND2. I have found a few papers that mention this interaction, but I am not sure how to find the evidence for it
+Prediction: 0
+True Label: 1
+Generated Sequence: Is there a protein interaction between ADRB1 and AKAP5? 
+I am trying to find a protein interaction between ADRB1 and AKAP5. I have found a few papers that mention this interaction, but I am having trouble finding a database that lists
+Prediction: 1
+True Label: 0
+Calculating Metrics...
+Accuracy: 0.234375
+MCC: -0.5544197370813743
+AUC: 0.221087049524314
+Specificity: 0.311284046692607
+Micro Precision: 0.234375
+Micro Recall: 0.234375
+Micro F1 Score: 0.234375
+Macro Precision: 0.22448281413507204
+Macro Recall: 0.22108704952431396
+Macro F1 Score: 0.2226589571982861

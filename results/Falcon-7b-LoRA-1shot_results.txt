@@ -1,0 +1,1366 @@
+Loading Dataset...
+Preprocessing Dataset...
+Loading Data for Fold 5...
+Positive classes in Train: 572
+Negative classes in Train: 772
+Positive classes in Validation: 170
+Negative classes in Validation: 279
+Positive classes in Test: 191
+Negative classes in Test: 257
+best model: 4
+Performing Inference...
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Generated Sequence: genetic
+Prediction: 0
+True Label: 1
+Generated Sequence: genetic
+Prediction: 1
+True Label: 0
+Calculating Metrics...
+Accuracy: 0.0
+MCC: -1.0
+AUC: 0.0
+Specificity: 0.0
+Micro Precision: 0.0
+Micro Recall: 0.0
+Micro F1 Score: 0.0
+Macro Precision: 0.0
+Macro Recall: 0.0
+Macro F1 Score: 0.0

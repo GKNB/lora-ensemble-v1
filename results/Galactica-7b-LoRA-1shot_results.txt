@@ -1,0 +1,1366 @@
+Loading Dataset...
+Preprocessing Dataset...
+Loading Data for Fold 5...
+Positive classes in Train: 0
+Negative classes in Train: 0
+Positive classes in Validation: 0
+Negative classes in Validation: 0
+Positive classes in Test: 0
+Negative classes in Test: 0
+best model: 4
+Performing Inference...
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Generated Sequence: yes no
+Prediction: 1
+True Label: 1
+Generated Sequence: yes no
+Prediction: 1
+True Label: 0
+Calculating Metrics...
+Accuracy: 0.4263392857142857
+MCC: 0.0
+AUC: 0.5
+Specificity: 0.0
+Micro Precision: 0.4263392857142857
+Micro Recall: 0.4263392857142857
+Micro F1 Score: 0.42633928571428575
+Macro Precision: 0.21316964285714285
+Macro Recall: 0.5
+Macro F1 Score: 0.2989045383411581
