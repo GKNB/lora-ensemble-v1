@@ -1,0 +1,765 @@
+Evaluation on test set:
+
+Prompt 1: Given the options yes or no, is there a protein interaction between MAML2 and CDK8 in the presence of cancer?
+True Label: Yes
+
+Prompt 2: Given the options yes or no, is there a protein interaction between ERBB2 and PIK3R1 in the presence of cancer?
+True Label: Yes
+
+Prompt 3: Given the options yes or no, is there a protein interaction between MYB and TP53 in the presence of cancer?
+True Label: No
+
+Prompt 4: Given the options yes or no, is there a protein interaction between RXRA and UIMC1 in the presence of cancer?
+True Label: No
+
+Prompt 5: Given the options yes or no, is there a protein interaction between BECN1 and CDKN2A in the presence of cancer?
+True Label: Yes
+
+Prompt 6: Given the options yes or no, is there a protein interaction between NOTCH1 and CCNC in the presence of cancer?
+True Label: Yes
+
+Prompt 7: Given the options yes or no, is there a protein interaction between NANOG and STAT3 in the presence of cancer?
+True Label: Yes
+
+Prompt 8: Given the options yes or no, is there a protein interaction between FHOD1 and CDC42 in the presence of cancer?
+True Label: No
+
+Prompt 9: Given the options yes or no, is there a protein interaction between PRPF3 and PRPF8 in the presence of cancer?
+True Label: No
+
+Prompt 10: Given the options yes or no, is there a protein interaction between MPHOSPH6 and EXOSC1 in the presence of cancer?
+True Label: No
+
+Prompt 11: Given the options yes or no, is there a protein interaction between CDK6 and FGFR4 in the presence of cancer?
+True Label: Yes
+
+Prompt 12: Given the options yes or no, is there a protein interaction between KDELR2 and FGFR4 in the presence of cancer?
+True Label: Yes
+
+Prompt 13: Given the options yes or no, is there a protein interaction between ERBIN and HSP90AA1 in the presence of cancer?
+True Label: Yes
+
+Prompt 14: Given the options yes or no, is there a protein interaction between DPF2 and SAP30BP in the presence of cancer?
+True Label: No
+
+Prompt 15: Given the options yes or no, is there a protein interaction between MAGEA1 and B2M in the presence of cancer?
+True Label: No
+
+Prompt 16: Given the options yes or no, is there a protein interaction between EP300 and EP300 in the presence of cancer?
+True Label: Yes
+
+Prompt 17: Given the options yes or no, is there a protein interaction between DRD4 and KLHL12 in the presence of cancer?
+True Label: No
+
+Prompt 18: Given the options yes or no, is there a protein interaction between TP53 and PTEN in the presence of cancer?
+True Label: No
+
+Prompt 19: Given the options yes or no, is there a protein interaction between ERBB2 and GAB1 in the presence of cancer?
+True Label: Yes
+
+Prompt 20: Given the options yes or no, is there a protein interaction between HSP90AA1 and PIK3CA in the presence of cancer?
+True Label: Yes
+
+Prompt 21: Given the options yes or no, is there a protein interaction between EPS8L2 and EPS8L2 in the presence of cancer?
+True Label: No
+
+Prompt 22: Given the options yes or no, is there a protein interaction between MAGEH1 and ZHX1 in the presence of cancer?
+True Label: No
+
+Prompt 23: Given the options yes or no, is there a protein interaction between HGF and STK11 in the presence of cancer?
+True Label: Yes
+
+Prompt 24: Given the options yes or no, is there a protein interaction between CDKN2A and ORC3 in the presence of cancer?
+True Label: No
+
+Prompt 25: Given the options yes or no, is there a protein interaction between SUMO1 and CHD3 in the presence of cancer?
+True Label: No
+
+Prompt 26: Given the options yes or no, is there a protein interaction between HBEGF and ERBB2 in the presence of cancer?
+True Label: Yes
+
+Prompt 27: Given the options yes or no, is there a protein interaction between GNB2 and GNB2 in the presence of cancer?
+True Label: No
+
+Prompt 28: Given the options yes or no, is there a protein interaction between MAP2K5 and MET in the presence of cancer?
+True Label: Yes
+
+Prompt 29: Given the options yes or no, is there a protein interaction between NFKBIB and RELA in the presence of cancer?
+True Label: No
+
+Prompt 30: Given the options yes or no, is there a protein interaction between KEAP1 and KEAP1 in the presence of cancer?
+True Label: Yes
+
+Prompt 31: Given the options yes or no, is there a protein interaction between RB1 and SIN3A in the presence of cancer?
+True Label: No
+
+Prompt 32: Given the options yes or no, is there a protein interaction between SFN and SFN in the presence of cancer?
+True Label: Yes
+
+Prompt 33: Given the options yes or no, is there a protein interaction between RHOA and ROCK2 in the presence of cancer?
+True Label: Yes
+
+Prompt 34: Given the options yes or no, is there a protein interaction between B2M and ZFP36L1 in the presence of cancer?
+True Label: No
+
+Prompt 35: Given the options yes or no, is there a protein interaction between KDELR2 and CCND2 in the presence of cancer?
+True Label: Yes
+
+Prompt 36: Given the options yes or no, is there a protein interaction between CTNND1 and JUP in the presence of cancer?
+True Label: No
+
+Prompt 37: Given the options yes or no, is there a protein interaction between STK11 and AKT1 in the presence of cancer?
+True Label: Yes
+
+Prompt 38: Given the options yes or no, is there a protein interaction between CASP9 and CASP9 in the presence of cancer?
+True Label: Yes
+
+Prompt 39: Given the options yes or no, is there a protein interaction between CSK and IKZF4 in the presence of cancer?
+True Label: No
+
+Prompt 40: Given the options yes or no, is there a protein interaction between ERBB4 and ERBB4 in the presence of cancer?
+True Label: Yes
+
+Prompt 41: Given the options yes or no, is there a protein interaction between SUFU and GLI1 in the presence of cancer?
+True Label: No
+
+Prompt 42: Given the options yes or no, is there a protein interaction between CD40LG and C4BPA in the presence of cancer?
+True Label: No
+
+Prompt 43: Given the options yes or no, is there a protein interaction between NKX2-3 and PUF60 in the presence of cancer?
+True Label: No
+
+Prompt 44: Given the options yes or no, is there a protein interaction between SOX3 and SOX3 in the presence of cancer?
+True Label: Yes
+
+Prompt 45: Given the options yes or no, is there a protein interaction between MYC and CDK4 in the presence of cancer?
+True Label: Yes
+
+Prompt 46: Given the options yes or no, is there a protein interaction between HNRNPC and B2M in the presence of cancer?
+True Label: No
+
+Prompt 47: Given the options yes or no, is there a protein interaction between COG2 and COG5 in the presence of cancer?
+True Label: No
+
+Prompt 48: Given the options yes or no, is there a protein interaction between NCOR1 and HDAC4 in the presence of cancer?
+True Label: Yes
+
+Prompt 49: Given the options yes or no, is there a protein interaction between FZR1 and CDKN2A in the presence of cancer?
+True Label: Yes
+
+Prompt 50: Given the options yes or no, is there a protein interaction between STK11 and CDKN2B in the presence of cancer?
+True Label: Yes
+
+Prompt 51: Given the options yes or no, is there a protein interaction between NKX2-3 and RND1 in the presence of cancer?
+True Label: No
+
+Prompt 52: Given the options yes or no, is there a protein interaction between HDAC11 and HDAC11 in the presence of cancer?
+True Label: Yes
+
+Prompt 53: Given the options yes or no, is there a protein interaction between MYC and MYC in the presence of cancer?
+True Label: Yes
+
+Prompt 54: Given the options yes or no, is there a protein interaction between NRG3 and ERBB3 in the presence of cancer?
+True Label: Yes
+
+Prompt 55: Given the options yes or no, is there a protein interaction between GDI1 and NKX2-3 in the presence of cancer?
+True Label: No
+
+Prompt 56: Given the options yes or no, is there a protein interaction between RANGAP1 and RANBP2 in the presence of cancer?
+True Label: No
+
+Prompt 57: Given the options yes or no, is there a protein interaction between MCM2 and ORC1 in the presence of cancer?
+True Label: No
+
+Prompt 58: Given the options yes or no, is there a protein interaction between BMPR1A and TGFB1 in the presence of cancer?
+True Label: No
+
+Prompt 59: Given the options yes or no, is there a protein interaction between CNOT3 and ATF3 in the presence of cancer?
+True Label: No
+
+Prompt 60: Given the options yes or no, is there a protein interaction between DPF2 and IKZF4 in the presence of cancer?
+True Label: No
+
+Prompt 61: Given the options yes or no, is there a protein interaction between HDAC5 and HDAC10 in the presence of cancer?
+True Label: Yes
+
+Prompt 62: Given the options yes or no, is there a protein interaction between EEF1G and SUMO3 in the presence of cancer?
+True Label: No
+
+Prompt 63: Given the options yes or no, is there a protein interaction between BRAF and ARAF in the presence of cancer?
+True Label: Yes
+
+Prompt 64: Given the options yes or no, is there a protein interaction between NRG1 and BTC in the presence of cancer?
+True Label: Yes
+
+Prompt 65: Given the options yes or no, is there a protein interaction between ERBB2 and ERBB2 in the presence of cancer?
+True Label: Yes
+
+Prompt 66: Given the options yes or no, is there a protein interaction between EEF1G and APLP1 in the presence of cancer?
+True Label: No
+
+Prompt 67: Given the options yes or no, is there a protein interaction between B2M and SNRPD3 in the presence of cancer?
+True Label: No
+
+Prompt 68: Given the options yes or no, is there a protein interaction between PDPK1 and TCL1B in the presence of cancer?
+True Label: No
+
+Prompt 69: Given the options yes or no, is there a protein interaction between YWHAZ and LATS2 in the presence of cancer?
+True Label: Yes
+
+Prompt 70: Given the options yes or no, is there a protein interaction between NOL3 and SNRPN in the presence of cancer?
+True Label: No
+
+Prompt 71: Given the options yes or no, is there a protein interaction between CRY2 and KDM2B in the presence of cancer?
+True Label: No
+
+Prompt 72: Given the options yes or no, is there a protein interaction between SMAD2 and SMAD4 in the presence of cancer?
+True Label: Yes
+
+Prompt 73: Given the options yes or no, is there a protein interaction between FHL2 and PIP4K2C in the presence of cancer?
+True Label: No
+
+Prompt 74: Given the options yes or no, is there a protein interaction between MAP2K5 and CDK4 in the presence of cancer?
+True Label: Yes
+
+Prompt 75: Given the options yes or no, is there a protein interaction between NRG1 and PIK3R1 in the presence of cancer?
+True Label: Yes
+
+Prompt 76: Given the options yes or no, is there a protein interaction between JAG1 and UBB in the presence of cancer?
+True Label: Yes
+
+Prompt 77: Given the options yes or no, is there a protein interaction between JUP and TCF7L2 in the presence of cancer?
+True Label: Yes
+
+Prompt 78: Given the options yes or no, is there a protein interaction between CDC37 and SHC1 in the presence of cancer?
+True Label: Yes
+
+Prompt 79: Given the options yes or no, is there a protein interaction between BTC and AREG in the presence of cancer?
+True Label: Yes
+
+Prompt 80: Given the options yes or no, is there a protein interaction between DCN and ERBB3 in the presence of cancer?
+True Label: Yes
+
+Prompt 81: Given the options yes or no, is there a protein interaction between CDKN2A and CDK4 in the presence of cancer?
+True Label: No
+
+Prompt 82: Given the options yes or no, is there a protein interaction between GNL1 and CSK in the presence of cancer?
+True Label: No
+
+Prompt 83: Given the options yes or no, is there a protein interaction between DLG4 and GRIN1 in the presence of cancer?
+True Label: No
+
+Prompt 84: Given the options yes or no, is there a protein interaction between TNFRSF1A and CCND2 in the presence of cancer?
+True Label: Yes
+
+Prompt 85: Given the options yes or no, is there a protein interaction between LSM1 and LSM1 in the presence of cancer?
+True Label: No
+
+Prompt 86: Given the options yes or no, is there a protein interaction between PRPF3 and PPIH in the presence of cancer?
+True Label: No
+
+Prompt 87: Given the options yes or no, is there a protein interaction between EIF4E and SCPEP1 in the presence of cancer?
+True Label: No
+
+Prompt 88: Given the options yes or no, is there a protein interaction between LSM2 and LSM4 in the presence of cancer?
+True Label: No
+
+Prompt 89: Given the options yes or no, is there a protein interaction between AXIN1 and APC in the presence of cancer?
+True Label: Yes
+
+Prompt 90: Given the options yes or no, is there a protein interaction between HBEGF and EGFR in the presence of cancer?
+True Label: Yes
+
+Prompt 91: Given the options yes or no, is there a protein interaction between NOTCH1 and MAML1 in the presence of cancer?
+True Label: Yes
+
+Prompt 92: Given the options yes or no, is there a protein interaction between AZGP1 and B2M in the presence of cancer?
+True Label: No
+
+Prompt 93: Given the options yes or no, is there a protein interaction between FZR1 and EPHA2 in the presence of cancer?
+True Label: Yes
+
+Prompt 94: Given the options yes or no, is there a protein interaction between FOS and MCM2 in the presence of cancer?
+True Label: No
+
+Prompt 95: Given the options yes or no, is there a protein interaction between GAB1 and GAB1 in the presence of cancer?
+True Label: Yes
+
+Prompt 96: Given the options yes or no, is there a protein interaction between CHUK and CHUK in the presence of cancer?
+True Label: Yes
+
+Prompt 97: Given the options yes or no, is there a protein interaction between DCN and EGFR in the presence of cancer?
+True Label: Yes
+
+Prompt 98: Given the options yes or no, is there a protein interaction between HDAC11 and SNW1 in the presence of cancer?
+True Label: Yes
+
+Prompt 99: Given the options yes or no, is there a protein interaction between GAS1 and BCL2 in the presence of cancer?
+True Label: No
+
+Prompt 100: Given the options yes or no, is there a protein interaction between AREG and AREG in the presence of cancer?
+True Label: Yes
+
+Prompt 101: Given the options yes or no, is there a protein interaction between PKN2 and RPS6KA3 in the presence of cancer?
+True Label: No
+
+Prompt 102: Given the options yes or no, is there a protein interaction between TJAP1 and TJP1 in the presence of cancer?
+True Label: No
+
+Prompt 103: Given the options yes or no, is there a protein interaction between NFKBIA and RELA in the presence of cancer?
+True Label: No
+
+Prompt 104: Given the options yes or no, is there a protein interaction between HDAC9 and RBPJ in the presence of cancer?
+True Label: Yes
+
+Prompt 105: Given the options yes or no, is there a protein interaction between IGKC and IL12B in the presence of cancer?
+True Label: No
+
+Prompt 106: Given the options yes or no, is there a protein interaction between CBL and CBL in the presence of cancer?
+True Label: Yes
+
+Prompt 107: Given the options yes or no, is there a protein interaction between BRAF and AKT1 in the presence of cancer?
+True Label: Yes
+
+Prompt 108: Given the options yes or no, is there a protein interaction between TBL1X and HDAC7 in the presence of cancer?
+True Label: Yes
+
+Prompt 109: Given the options yes or no, is there a protein interaction between RAB15 and RABGEF1 in the presence of cancer?
+True Label: No
+
+Prompt 110: Given the options yes or no, is there a protein interaction between ENAH and ACTL7A in the presence of cancer?
+True Label: No
+
+Prompt 111: Given the options yes or no, is there a protein interaction between NOL3 and U2AF1 in the presence of cancer?
+True Label: No
+
+Prompt 112: Given the options yes or no, is there a protein interaction between HDAC8 and HDAC2 in the presence of cancer?
+True Label: Yes
+
+Prompt 113: Given the options yes or no, is there a protein interaction between NOL3 and SRSF4 in the presence of cancer?
+True Label: No
+
+Prompt 114: Given the options yes or no, is there a protein interaction between MTREX and MTREX in the presence of cancer?
+True Label: No
+
+Prompt 115: Given the options yes or no, is there a protein interaction between PDCD1 and PTPN11 in the presence of cancer?
+True Label: Yes
+
+Prompt 116: Given the options yes or no, is there a protein interaction between TP53 and BAX in the presence of cancer?
+True Label: No
+
+Prompt 117: Given the options yes or no, is there a protein interaction between HDAC4 and HDAC7 in the presence of cancer?
+True Label: Yes
+
+Prompt 118: Given the options yes or no, is there a protein interaction between ATF3 and ZNF626 in the presence of cancer?
+True Label: No
+
+Prompt 119: Given the options yes or no, is there a protein interaction between PEX7 and PEX16 in the presence of cancer?
+True Label: No
+
+Prompt 120: Given the options yes or no, is there a protein interaction between CNOT3 and ZNF331 in the presence of cancer?
+True Label: No
+
+Prompt 121: Given the options yes or no, is there a protein interaction between MAP2K5 and RAF1 in the presence of cancer?
+True Label: Yes
+
+Prompt 122: Given the options yes or no, is there a protein interaction between DEDD2 and FADD in the presence of cancer?
+True Label: No
+
+Prompt 123: Given the options yes or no, is there a protein interaction between AKAP8L and PRKAR2A in the presence of cancer?
+True Label: No
+
+Prompt 124: Given the options yes or no, is there a protein interaction between ATF4 and GNB2 in the presence of cancer?
+True Label: No
+
+Prompt 125: Given the options yes or no, is there a protein interaction between TCERG1 and SUMO3 in the presence of cancer?
+True Label: No
+
+Prompt 126: Given the options yes or no, is there a protein interaction between RB1 and SMAD3 in the presence of cancer?
+True Label: No
+
+Prompt 127: Given the options yes or no, is there a protein interaction between GAB1 and PIK3CA in the presence of cancer?
+True Label: Yes
+
+Prompt 128: Given the options yes or no, is there a protein interaction between AKT1 and TSC1 in the presence of cancer?
+True Label: Yes
+
+Prompt 129: Given the options yes or no, is there a protein interaction between NF2 and MAP2K3 in the presence of cancer?
+True Label: Yes
+
+Prompt 130: Given the options yes or no, is there a protein interaction between MAML3 and CCNC in the presence of cancer?
+True Label: Yes
+
+Prompt 131: Given the options yes or no, is there a protein interaction between RACK1 and PDE4C in the presence of cancer?
+True Label: No
+
+Prompt 132: Given the options yes or no, is there a protein interaction between ERBB3 and NRG1 in the presence of cancer?
+True Label: Yes
+
+Prompt 133: Given the options yes or no, is there a protein interaction between DKK1 and SOST in the presence of cancer?
+True Label: No
+
+Prompt 134: Given the options yes or no, is there a protein interaction between DLL4 and UBA52 in the presence of cancer?
+True Label: Yes
+
+Prompt 135: Given the options yes or no, is there a protein interaction between CDH1 and JUP in the presence of cancer?
+True Label: Yes
+
+Prompt 136: Given the options yes or no, is there a protein interaction between RAD51C and FANCD2 in the presence of cancer?
+True Label: No
+
+Prompt 137: Given the options yes or no, is there a protein interaction between NCOR2 and HDAC10 in the presence of cancer?
+True Label: Yes
+
+Prompt 138: Given the options yes or no, is there a protein interaction between NCOR1 and HDAC8 in the presence of cancer?
+True Label: Yes
+
+Prompt 139: Given the options yes or no, is there a protein interaction between DGCR8 and XPO5 in the presence of cancer?
+True Label: No
+
+Prompt 140: Given the options yes or no, is there a protein interaction between SNRNP200 and DDX23 in the presence of cancer?
+True Label: No
+
+Prompt 141: Given the options yes or no, is there a protein interaction between ATF4 and DUSP6 in the presence of cancer?
+True Label: No
+
+Prompt 142: Given the options yes or no, is there a protein interaction between PORCN and PORCN in the presence of cancer?
+True Label: Yes
+
+Prompt 143: Given the options yes or no, is there a protein interaction between TP53 and STK11 in the presence of cancer?
+True Label: Yes
+
+Prompt 144: Given the options yes or no, is there a protein interaction between HDAC2 and PHC1 in the presence of cancer?
+True Label: No
+
+Prompt 145: Given the options yes or no, is there a protein interaction between MAPK14 and MAP2K3 in the presence of cancer?
+True Label: Yes
+
+Prompt 146: Given the options yes or no, is there a protein interaction between CD247 and TRAT1 in the presence of cancer?
+True Label: No
+
+Prompt 147: Given the options yes or no, is there a protein interaction between B2M and CTAG1B in the presence of cancer?
+True Label: No
+
+Prompt 148: Given the options yes or no, is there a protein interaction between NF2 and NF2 in the presence of cancer?
+True Label: Yes
+
+Prompt 149: Given the options yes or no, is there a protein interaction between NCOR2 and NCOR2 in the presence of cancer?
+True Label: Yes
+
+Prompt 150: Given the options yes or no, is there a protein interaction between GLIS1 and SOX3 in the presence of cancer?
+True Label: Yes
+
+Prompt 151: Given the options yes or no, is there a protein interaction between RND1 and PUF60 in the presence of cancer?
+True Label: No
+
+Prompt 152: Given the options yes or no, is there a protein interaction between PPIH and PRPF8 in the presence of cancer?
+True Label: No
+
+Prompt 153: Given the options yes or no, is there a protein interaction between NKX2-3 and DPF2 in the presence of cancer?
+True Label: No
+
+Prompt 154: Given the options yes or no, is there a protein interaction between CNOT3 and GNL1 in the presence of cancer?
+True Label: No
+
+Prompt 155: Given the options yes or no, is there a protein interaction between RASSF1 and CDK6 in the presence of cancer?
+True Label: Yes
+
+Prompt 156: Given the options yes or no, is there a protein interaction between PKN1 and RPS6KA3 in the presence of cancer?
+True Label: No
+
+Prompt 157: Given the options yes or no, is there a protein interaction between JAG2 and NOTCH1 in the presence of cancer?
+True Label: Yes
+
+Prompt 158: Given the options yes or no, is there a protein interaction between NR4A1 and NR4A1 in the presence of cancer?
+True Label: Yes
+
+Prompt 159: Given the options yes or no, is there a protein interaction between JAG1 and RPS27A in the presence of cancer?
+True Label: Yes
+
+Prompt 160: Given the options yes or no, is there a protein interaction between EGF and PIK3R1 in the presence of cancer?
+True Label: Yes
+
+Prompt 161: Given the options yes or no, is there a protein interaction between MTA1 and YY1 in the presence of cancer?
+True Label: No
+
+Prompt 162: Given the options yes or no, is there a protein interaction between HDAC8 and HDAC8 in the presence of cancer?
+True Label: Yes
+
+Prompt 163: Given the options yes or no, is there a protein interaction between NRG4 and NRG4 in the presence of cancer?
+True Label: Yes
+
+Prompt 164: Given the options yes or no, is there a protein interaction between PIP4K2C and MLX in the presence of cancer?
+True Label: No
+
+Prompt 165: Given the options yes or no, is there a protein interaction between GSK3B and AXIN2 in the presence of cancer?
+True Label: Yes
+
+Prompt 166: Given the options yes or no, is there a protein interaction between PIP4K2C and IKZF4 in the presence of cancer?
+True Label: No
+
+Prompt 167: Given the options yes or no, is there a protein interaction between MAP2K3 and CDK6 in the presence of cancer?
+True Label: Yes
+
+Prompt 168: Given the options yes or no, is there a protein interaction between ERBB4 and GRB2 in the presence of cancer?
+True Label: Yes
+
+Prompt 169: Given the options yes or no, is there a protein interaction between KDELR2 and GRM1 in the presence of cancer?
+True Label: Yes
+
+Prompt 170: Given the options yes or no, is there a protein interaction between MSN and WASF1 in the presence of cancer?
+True Label: No
+
+Prompt 171: Given the options yes or no, is there a protein interaction between MCM2 and MCM2 in the presence of cancer?
+True Label: No
+
+Prompt 172: Given the options yes or no, is there a protein interaction between MTREX and DIS3 in the presence of cancer?
+True Label: No
+
+Prompt 173: Given the options yes or no, is there a protein interaction between ATF3 and PUF60 in the presence of cancer?
+True Label: No
+
+Prompt 174: Given the options yes or no, is there a protein interaction between PEX7 and PEX13 in the presence of cancer?
+True Label: No
+
+Prompt 175: Given the options yes or no, is there a protein interaction between C4BPA and CD40 in the presence of cancer?
+True Label: No
+
+Prompt 176: Given the options yes or no, is there a protein interaction between TBL1XR1 and HDAC6 in the presence of cancer?
+True Label: Yes
+
+Prompt 177: Given the options yes or no, is there a protein interaction between SHC1 and HBEGF in the presence of cancer?
+True Label: Yes
+
+Prompt 178: Given the options yes or no, is there a protein interaction between GRAP2 and SOS1 in the presence of cancer?
+True Label: No
+
+Prompt 179: Given the options yes or no, is there a protein interaction between JAG2 and JAG2 in the presence of cancer?
+True Label: Yes
+
+Prompt 180: Given the options yes or no, is there a protein interaction between EGF and TGFA in the presence of cancer?
+True Label: Yes
+
+Prompt 181: Given the options yes or no, is there a protein interaction between IL22 and IL10RA in the presence of cancer?
+True Label: No
+
+Prompt 182: Given the options yes or no, is there a protein interaction between PTN and LRIF1 in the presence of cancer?
+True Label: No
+
+Prompt 183: Given the options yes or no, is there a protein interaction between CDKN2A and CDKN2A in the presence of cancer?
+True Label: Yes
+
+Prompt 184: Given the options yes or no, is there a protein interaction between TFDP1 and GABPB2 in the presence of cancer?
+True Label: No
+
+Prompt 185: Given the options yes or no, is there a protein interaction between FZR1 and FZR1 in the presence of cancer?
+True Label: Yes
+
+Prompt 186: Given the options yes or no, is there a protein interaction between NRAS and HRAS in the presence of cancer?
+True Label: Yes
+
+Prompt 187: Given the options yes or no, is there a protein interaction between EPAS1 and ARNT in the presence of cancer?
+True Label: Yes
+
+Prompt 188: Given the options yes or no, is there a protein interaction between GRM1 and EPHA2 in the presence of cancer?
+True Label: Yes
+
+Model Prediction 1: Yes.
+Model Prediction 2: Yes.
+Model Prediction 3: Yes,
+Model Prediction 4: No,
+Model Prediction 5: Yes,
+Model Prediction 6: Yes.
+Model Prediction 7: No,
+Model Prediction 8: No,
+Model Prediction 9: No,
+Model Prediction 10: No,
+Model Prediction 11: Yes.
+Model Prediction 12: Yes.
+Model Prediction 13: No,
+Model Prediction 14: No,
+Model Prediction 15: No,
+Model Prediction 16: Yes,
+Model Prediction 17: No,
+Model Prediction 18: No,
+Model Prediction 19: Yes.
+Model Prediction 20: No,
+Model Prediction 21: No,
+Model Prediction 22: No,
+Model Prediction 23: Yes.
+Model Prediction 24: No,
+Model Prediction 25: No,
+Model Prediction 26: Yes.
+Model Prediction 27: No,
+Model Prediction 28: Yes,
+Model Prediction 29: No,
+Model Prediction 30: Yes,
+Model Prediction 31: No,
+Model Prediction 32: Yes,
+Model Prediction 33: Yes,
+Model Prediction 34: No,
+Model Prediction 35: Yes,
+Model Prediction 36: No,
+Model Prediction 37: Yes.
+Model Prediction 38: No,
+Model Prediction 39: No,
+Model Prediction 40: Yes,
+Model Prediction 41: No,
+Model Prediction 42: No,
+Model Prediction 43: No,
+Model Prediction 44: No,
+Model Prediction 45: Yes.
+Model Prediction 46: No,
+Model Prediction 47: No,
+Model Prediction 48: Yes.
+Model Prediction 49: Yes,
+Model Prediction 50: Yes.
+Model Prediction 51: No,
+Model Prediction 52: Yes,
+Model Prediction 53: Yes,
+Model Prediction 54: Yes.
+Model Prediction 55: No,
+Model Prediction 56: No,
+Model Prediction 57: No,
+Model Prediction 58: No,
+Model Prediction 59: No,
+Model Prediction 60: No,
+Model Prediction 61: Yes.
+Model Prediction 62: No,
+Model Prediction 63: Yes.
+Model Prediction 64: Yes.
+Model Prediction 65: Yes,
+Model Prediction 66: No,
+Model Prediction 67: No,
+Model Prediction 68: No,
+Model Prediction 69: Yes.
+Model Prediction 70: No,
+Model Prediction 71: No,
+Model Prediction 72: Yes,
+Model Prediction 73: No,
+Model Prediction 74: Yes.
+Model Prediction 75: Yes.
+Model Prediction 76: Yes.
+Model Prediction 77: Yes.
+Model Prediction 78: No,
+Model Prediction 79: Yes.
+Model Prediction 80: Yes.
+Model Prediction 81: Yes,
+Model Prediction 82: No,
+Model Prediction 83: No,
+Model Prediction 84: No,
+Model Prediction 85: No,
+Model Prediction 86: No,
+Model Prediction 87: No,
+Model Prediction 88: No,
+Model Prediction 89: Yes.
+Model Prediction 90: Yes.
+Model Prediction 91: Yes.
+Model Prediction 92: No,
+Model Prediction 93: Yes.
+Model Prediction 94: No,
+Model Prediction 95: Yes,
+Model Prediction 96: No,
+Model Prediction 97: Yes.
+Model Prediction 98: Yes.
+Model Prediction 99: No,
+Model Prediction 100: Yes,
+Model Prediction 101: No,
+Model Prediction 102: No,
+Model Prediction 103: No,
+Model Prediction 104: Yes.
+Model Prediction 105: No,
+Model Prediction 106: Yes,
+Model Prediction 107: Yes.
+Model Prediction 108: Yes.
+Model Prediction 109: No,
+Model Prediction 110: No,
+Model Prediction 111: No,
+Model Prediction 112: Yes.
+Model Prediction 113: No,
+Model Prediction 114: No,
+Model Prediction 115: Yes,
+Model Prediction 116: Yes,
+Model Prediction 117: Yes.
+Model Prediction 118: No,
+Model Prediction 119: No,
+Model Prediction 120: No,
+Model Prediction 121: Yes.
+Model Prediction 122: No,
+Model Prediction 123: No,
+Model Prediction 124: No,
+Model Prediction 125: No,
+Model Prediction 126: No,
+Model Prediction 127: Yes.
+Model Prediction 128: Yes,
+Model Prediction 129: Yes.
+Model Prediction 130: Yes.
+Model Prediction 131: No,
+Model Prediction 132: Yes.
+Model Prediction 133: Yes,
+Model Prediction 134: Yes.
+Model Prediction 135: Yes.
+Model Prediction 136: No,
+Model Prediction 137: Yes.
+Model Prediction 138: Yes.
+Model Prediction 139: No,
+Model Prediction 140: No,
+Model Prediction 141: No,
+Model Prediction 142: Yes,
+Model Prediction 143: Yes.
+Model Prediction 144: No,
+Model Prediction 145: Yes,
+Model Prediction 146: No,
+Model Prediction 147: No,
+Model Prediction 148: Yes,
+Model Prediction 149: Yes,
+Model Prediction 150: Yes,
+Model Prediction 151: No,
+Model Prediction 152: No,
+Model Prediction 153: No,
+Model Prediction 154: No,
+Model Prediction 155: Yes,
+Model Prediction 156: No,
+Model Prediction 157: Yes.
+Model Prediction 158: No,
+Model Prediction 159: Yes,
+Model Prediction 160: Yes.
+Model Prediction 161: No,
+Model Prediction 162: Yes.
+Model Prediction 163: Yes,
+Model Prediction 164: No,
+Model Prediction 165: Yes.
+Model Prediction 166: No,
+Model Prediction 167: Yes.
+Model Prediction 168: Yes.
+Model Prediction 169: Yes,
+Model Prediction 170: No,
+Model Prediction 171: No,
+Model Prediction 172: No,
+Model Prediction 173: No,
+Model Prediction 174: No,
+Model Prediction 175: No,
+Model Prediction 176: Yes.
+Model Prediction 177: Yes.
+Model Prediction 178: No,
+Model Prediction 179: Yes,
+Model Prediction 180: Yes,
+Model Prediction 181: No,
+Model Prediction 182: No,
+Model Prediction 183: Yes,
+Model Prediction 184: No,
+Model Prediction 185: Yes,
+Model Prediction 186: Yes,
+Model Prediction 187: No,
+Model Prediction 188: Yes.
+
+Accuracy: 0.925531914893617
+MCC: 0.8528852952470618
+AUC: 0.9258630447085456
+Specificity: 0.956989247311828
+Micro Precision: 0.925531914893617
+Micro Recall: 0.925531914893617
+Micro F1 Score: 0.925531914893617
+Macro Precision: 0.92702303938259
+Macro Recall: 0.9258630447085456
+Macro F1 Score: 0.9254981884057971

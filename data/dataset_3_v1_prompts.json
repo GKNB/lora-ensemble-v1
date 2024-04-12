@@ -1,0 +1,394 @@
+[
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein TAGLN2 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein HIST1H2BG 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein ITGA3 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PTBP1 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPS7 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein DPYSL2 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein TMPO 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein EEF2 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein GPI 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPS4Xl 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein ARF4 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPS24 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein ANXA1 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein FN1 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein LDHA 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein TXNDC5 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PDIA3 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PHB 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PLOD1 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein ANXA5 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein GAPDH 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein ACTR3 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PKM 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein ARF3 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein HIST1H1B 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPS12 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein VIM 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein TUBB 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPS29 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein HNRNPA1 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PPIB  4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPS27A 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein DPYSL3 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein HSP90B1 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein HSPA5 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PDIA6 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein MVP 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PTMA 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPL22 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein ECE1 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein UQCRC2 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RALA 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PLEC 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein S100A10 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPL13A 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein HDLBP 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein EEF1A2 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein KRT7 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein HNRNPH1 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein KRT19 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein NONO 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein MDH2 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein LMNB1 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein KHSRP 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein SPTAN1 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PKM 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein CAD 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein DDX17 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein EIF4A1 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPS2 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein TUBB 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPS7 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPS6 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein TUBB2B 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein TMX3 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein LRPPRC 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein SYNCRIP 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein TMTC3 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein MVP 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein FLNB 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein MYL12A 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein TRIM28 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein LRG_383 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein HSD17B4 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein MATR3 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein GAPDH 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein HSPG2 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein CALR 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein LRG_91 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein TUBB6 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein FLNA 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein ATAD3A 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PSMA7 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein LRG_148 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein TMEM43 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein DHX9 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPL4 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPL36 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PSMB2 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein RPL8 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein HNRNPH3 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein CFL1 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein TUBB4B 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PFKL 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein HSPA9 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein PDIA6 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein TPM4 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be an altered acetylation status of protein KRT14 4 hours after exposure to low dose radiation at 0.5 Gy?",
+        "answer": "No"
+    }
+]

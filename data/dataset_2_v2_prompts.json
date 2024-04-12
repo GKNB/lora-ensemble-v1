@@ -1,0 +1,794 @@
+[
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tanc2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Scn1a 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Osbpl8 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Gcn1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Agpat1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Kpna4 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Kpna3 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Psmd14 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tpp1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hba 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Mtnd4 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Mtnd5 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Gh1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Anxa2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Camk2a 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Vim 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Camk2b 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Vcam1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Drg1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Grin2a 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cpox 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Fyn 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tnks1bp1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hist1h3a 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Urod 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hist1h3b 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein G3bp1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Grin2b 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tmem63b 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Plxnd1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tenm4 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rmdn3 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Iqgap2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Shank3 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Lrrc47 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Slc25a51 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pfas 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ppp2r5c 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Asns 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Abcb7 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Mapre1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Clcn4 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hadh 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Dlg4 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Eif4g2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Raly 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Atp4a 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Mars 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ecm29 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Slc6a7 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Dagla 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Adgrl1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rimbp2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hapln4 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Shank2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Zadh2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Fto 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Dcakd 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rab3gap2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hook3 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cops7b 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Osbpl6 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cpne1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Uba6 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ppm1f 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ccar1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Prmt5 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Lin7a 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Chmp7 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Exoc1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tbc1d22a 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Actr1b 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Reep2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cspg4 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Eif4a3 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Osbpl1a 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Syt12 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Camk2g 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rragc 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Dhrs1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Snrpb2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Slc25a46 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tubb2b 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hdhd3 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ccdc47 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Calml3 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Armc1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Lhpp 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pmpca 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Nif3l1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Spock2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Dguok 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tsnax 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ak1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Dgke 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tusc2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Aldh18a1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pdpk1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rgs6 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rpl27 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Kctd12 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ube2d3 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Vcl 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Kcnip4 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Naxd 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cds2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ccar2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ppp5c 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Dnajc5 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Eif2s3x 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Esd 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Celf1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Mtco1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rph3a 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Atp6v1b2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cplx1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Snx2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Gsn 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rin1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Lrp1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cse1l 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cltb 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Clta 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Kcnj6 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cand1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Arfip2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Gsr 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Aars 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rnmt 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tra2b 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cyb5r1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Exoc6b 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Atp1a2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cul1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Sms 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cyp46a1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pura 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tbc1d10b 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Slc17a7 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Prkag2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Mapk1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Map7d1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Myef2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Dnaja2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Kpna6 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Map2k4 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Mrps23 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Kbtbd11 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Sh3gl2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Eef1a1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Fkbp3 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tpm3 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ptma 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ehd3 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hist1h1c 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Slc12a2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cyb5a 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tuba8 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rps12 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Slc44a1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Sugt1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ndufaf2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Eif3j1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cpsf7 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Gmpr2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Acsl6 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Sarnp 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Mtmr1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Isca1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Gss 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pkp4 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hars 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Gpd1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Eipr1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Stx1a 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pde1a 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Khdrbs1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ryr2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ass1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Gstm1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hspa4 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Map1b 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Syngr1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Synj1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cacna2d3 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tsn 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Clasp1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pcsk1n 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cnrip1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Opa1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Lgi1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Actr3b 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Prmt1 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cox6c 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Anxa7 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Prkar2b 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ephx2 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cs 1 month after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    }
+]

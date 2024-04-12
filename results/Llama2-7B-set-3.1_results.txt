@@ -1,0 +1,53 @@
+Evaluation on test set:
+
+Prompt 1: Given the options yes or no, will there be an altered acetylation status of protein RPS4Xl 4 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 2: Given the options yes or no, will there be an altered acetylation status of protein NDUFA4 4 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 3: Given the options yes or no, will there be an altered acetylation status of protein PTMA 4 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 4: Given the options yes or no, will there be an altered acetylation status of protein ATP1A1 4 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 5: Given the options yes or no, will there be an altered acetylation status of protein TXNDC5 4 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 6: Given the options yes or no, will there be an altered acetylation status of protein RPS3 4 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 7: Given the options yes or no, will there be an altered acetylation status of protein HSPA5 4 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 8: Given the options yes or no, will there be an altered acetylation status of protein RPSA 4 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 9: Given the options yes or no, will there be an altered acetylation status of protein S100A10 4 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 10: Given the options yes or no, will there be an altered acetylation status of protein GSTP1 4 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 11: Given the options yes or no, will there be an altered acetylation status of protein RPL13 4 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Model Prediction 1: no
+Model Prediction 2: no
+Model Prediction 3: yes
+Model Prediction 4: yes
+Model Prediction 5: yes
+Model Prediction 6: yes
+Model Prediction 7: yes
+Model Prediction 8: yes
+Model Prediction 9: no
+Model Prediction 10: yes
+Model Prediction 11: no
+
+Accuracy: 0.36363636363636365
+MCC: -0.21428571428571427
+AUC: 0.39285714285714285
+Specificity: 0.2857142857142857
+Macro Precision: 0.39285714285714285
+Macro F1 Score: 0.36363636363636365

@@ -1,0 +1,818 @@
+[
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Flg2 (filaggrin family member 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Chat (choline acetyltransferase) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Snx17 (sorting nexin 17) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Dsp (desmoplakin) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ahnak (AHNAK nucleoprotein (desmoyokin)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Mapk8ip3 (mitogen-activated protein kinase 8 interacting protein 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Plcb4 (phospholipase C, beta 4) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ccny (cyclin Y) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cdc42bpb (CDC42 binding protein kinase beta) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Dis3l2 (DIS3 mitotic control homolog (S. cerevisiae)-like 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ttc7b (tetratricopeptide repeat domain 7B) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Grm1 (glutamate receptor, metabotropic 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Chmp7 (charged multivesicular body protein 7) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Nutf2 (nuclear transport factor 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Dnm1l (dynamin 1-like) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Hapln4 (hyaluronan and proteoglycan link protein 4) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Stxbp6 (syntaxin binding protein 6 (amisyn)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ccdc22 (coiled-coil domain containing 22) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Srrt (serrate RNA effector molecule homolog (Arabidopsis)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Tnfaip8l3 (tumor necrosis factor, alpha-induced protein 8-like 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Micu3 (mitochondrial calcium uptake family, member 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Crip2 (cysteine rich protein 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Hcn1 (hyperpolarization-activated, cyclic nucleotide-gated K+ 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cnpy3 (canopy 3 homolog (zebrafish)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Serbp1 (serpine1 mRNA binding protein 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Rab31 (RAB31, member RAS oncogene family) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Comt (catechol-O-methyltransferase) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Rab12 (RAB12, member RAS oncogene family) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Nrxn3 (neurexin III) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Gak (cyclin G associated kinase) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Fam213b (family with sequence similarity 213, member B) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Kifap3 (kinesin-associated protein 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Prkaca (protein kinase, cAMP dependent, catalytic, alpha) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Xpo7 (exportin 7) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cdc37 (cell division cycle 37) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ube3a (ubiquitin protein ligase E3A) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ehd4 (EH-domain containing 4) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Nomo1 (nodal modulator 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Car8 (carbonic anhydrase 8) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Pip4k2a (phosphatidylinositol-5-phosphate 4-kinase, type II, alpha) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ufd1l (ubiquitin fusion degradation 1 like) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Eef1a1 (eukaryotic translation elongation factor 1 alpha 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Neo1 (neogenin) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cdk5 (cyclin-dependent kinase 5) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Atic (5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Aldoa (aldolase A, fructose-bisphosphate) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Gabarapl2 (gamma-aminobutyric acid (GABA) A receptor-associated protein-like 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Krt81 (keratin 81) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Pdia3 (protein disulfide isomerase associated 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Prdx1 (peroxiredoxin 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Rps7 (ribosomal protein S7) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Fam162a (family with sequence similarity 162, member A) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Rap1gap (Rap1 GTPase-activating protein) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Npm1 (nucleophosmin 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ruvbl2 (RuvB-like protein 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Nfs1 (nitrogen fixation gene 1 (S. cerevisiae)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Nudc (nuclear distribution gene C homolog (Aspergillus)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Mapre1 (microtubule-associated protein, RP/EB family, member 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Dbt (dihydrolipoamide branched chain transacylase E2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Exog (endo/exonuclease (5'-3'), endonuclease G-like) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Plin3 (perilipin 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Chchd6 (coiled-coil-helix-coiled-coil-helix domain containing 6) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Basp1 (brain abundant, membrane attached signal protein 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Gfm1 (G elongation factor, mitochondrial 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Pycr2 (pyrroline-5-carboxylate reductase family, member 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Btf3 (basic transcription factor 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Pkm (pyruvate kinase, muscle) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cdh2 (cadherin 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Gng12 (guanine nucleotide binding protein (G protein), gamma 12) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Epdr1 (ependymin related protein 1 (zebrafish)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Acaa1a (acetyl-Coenzyme A acyltransferase 1A) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Gpt (glutamic pyruvic transaminase, soluble) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Erp44 (endoplasmic reticulum protein 44) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Lrrc8a (leucine rich repeat containing 8A) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cdc42 (cell division cycle 42) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ccdc6 (coiled-coil domain containing 6) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Naca (nascent polypeptide-associated complex alpha polypeptide) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Pde4d (phosphodiesterase 4D, cAMP specific) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Calm3 (calmodulin 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Macrod1 (MACRO domain containing 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ddx42 (DEAD (Asp-Glu-Ala-Asp) box polypeptide 42) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Tubal3 (tubulin, alpha-like 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Lxn (latexin) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Acy1 (aminoacylase 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Aplp1 (amyloid beta (A4) precursor-like protein 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Nefl (neurofilament, light polypeptide) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Nefm (neurofilament, medium polypeptide) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Eef1b2 (eukaryotic translation elongation factor 1 beta 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Rpl18a (ribosomal protein L18A) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ciapin1 (cytokine induced apoptosis inhibitor 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Tssc1 (tumor suppressing subtransferable candidate 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ina (internexin neuronal intermediate filament protein, alpha) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Coq7 (demethyl-Q 7) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Macrod2 (MACRO domain containing 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Tceal6 (transcription elongation factor A (SII)-like 6) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Pptc7 (PTC7 protein phosphatase homolog (S. cerevisiae)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Fbxl13 (F-box and leucine-rich repeat protein 13) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Slc35c2 (solute carrier family 35, member C2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ube2q2 (ubiquitin-conjugating enzyme E2Q (putative) 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Stt3b (STT3, subunit of the oligosaccharyltransferase complex, homolog B (S. cerevisiae)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Usp11 (ubiquitin specific peptidase 11) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ddt (D-dopachrome tautomerase) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Idi1 (isopentenyl-diphosphate delta isomerase) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Eef1g (eukaryotic translation elongation factor 1 gamma) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cbln1 (cerebellin 1 precursor protein) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Pcsk1n (proprotein convertase subtilisin/kexin type 1 inhibitor) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Galk1 (galactokinase 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cnksr2 (connector enhancer of kinase suppressor of Ras 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Hspa5 (heat shock protein 5) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Pithd1 (PITH (C-terminal proteasome-interacting domain of thioredoxin-like) domain containing 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Mug1 (murinoglobulin 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Tbcd (tubulin-specific chaperone d) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Dhrs1 (dehydrogenase/reductase (SDR family) member 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Hsp90b1 (heat shock protein 90, beta (Grp94), member 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Psmd2 (proteasome (prosome, macropain) 26S subunit, non-ATPase, 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Tcp1 (t-complex protein 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Abhd12 (abhydrolase domain containing 12) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Vta1 (Vps20-associated 1 homolog (S. cerevisiae)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Scn2b (sodium channel, voltage-gated, type II, beta) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Pdxk (pyridoxal (pyridoxine, vitamin B6) kinase) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Atp2b2 (ATPase, Ca++ transporting, plasma membrane 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cox7a2 (cytochrome c oxidase subunit VIIa 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Acyp1 (acylphosphatase 1, erythrocyte (common) type) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Rabl6 (RAB, member RAS oncogene family-like 6) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Fnbp1 (formin binding protein 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ddah1 (dimethylarginine dimethylaminohydrolase 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Tmpo (thymopoietin) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Tomm34 (translocase of outer mitochondrial membrane 34) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cpt1c (carnitine palmitoyltransferase 1c) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Glrx (glutaredoxin) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Fam45a (family with sequence similarity 45, member A) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Mapk1 (mitogen-activated protein kinase 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ap3s1 (adaptor-related protein complex 3, sigma 1 subunit) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Gbas (glioblastoma amplified sequence) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Rasa3 (RAS p21 protein activator 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Sik3 (SIK family kinase 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Dcun1d1 (DCN1, defective in cullin neddylation 1, domain containing 1 (S. cerevisiae)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Fkbp5 (FK506 binding protein 5) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Rtn4ip1 (reticulon 4 interacting protein 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ptpn23 (protein tyrosine phosphatase, non-receptor type 23) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Nit2 (nitrilase family, member 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Dnaja2 (DnaJ (Hsp40) homolog, subfamily A, member 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Stx4a (syntaxin 4A (placental)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Actb (actin, beta) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Calb2 (calbindin 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Wasl (Wiskott-Aldrich syndrome-like (human)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Hnrnpd (heterogeneous nuclear ribonucleoprotein D) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cct8 (chaperonin containing Tcp1, subunit 8 (theta)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Crk (v-crk sarcoma virus CT10 oncogene homolog (avian)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Plxnb2 (plexin B2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Hadh (hydroxyacyl-Coenzyme A dehydrogenase) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Fbxl16 (F-box and leucine-rich repeat protein 16) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Scamp5 (secretory carrier membrane protein 5) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cul1 (cullin 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Grhpr (glyoxylate reductase/hydroxypyruvate reductase) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Rps27a (ribosomal protein S27A) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Hrsp12 (heat-responsive protein 12) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Abhd10 (abhydrolase domain containing 10) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ddx6 (DEAD (Asp-Glu-Ala-Asp) box polypeptide 6) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Nap1l4 (nucleosome assembly protein 1-like 4) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Clmn (calmin) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Hspe1 (heat shock protein 1 (chaperonin 10)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Sptbn2 (spectrin beta, non-erythrocytic 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ctnnb1 (catenin (cadherin associated protein), beta 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Glo1 (glyoxalase 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Acsl3 (acyl-CoA synthetase long-chain family member 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Gng3 (guanine nucleotide binding protein (G protein), gamma 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Psap (prosaposin) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Armc1 (armadillo repeat containing 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Uba5 (ubiquitin-like modifier activating enzyme 5) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Pafah1b3 (platelet-activating factor acetylhydrolase, isoform 1b, subunit 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Bag6 (BCL2-associated athanogene 6) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ndrg4 (N-myc downstream regulated gene 4) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cpne1 (copine I) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cdipt (CDP-diacylglycerol--inositol 3-phosphatidyltransferase (phosphatidylinositol synthase)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ptpn5 (protein tyrosine phosphatase, non-receptor type 5) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Gnal (guanine nucleotide binding protein, alpha stimulating, olfactory type) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Pde10a (phosphodiesterase 10A) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Anxa2 (annexin A2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Tardbp (TAR DNA binding protein) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Slc7a5 (solute carrier family 7 (cationic amino acid transporter, y+ system), member 5) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Gnas (GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Zadh2 (zinc binding alcohol dehydrogenase, domain containing 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Pacsin2 (protein kinase C and casein kinase substrate in neurons 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Uqcc2 (ubiquinol-cytochrome c reductase complex assembly factor 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ndufa2 (NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Eif5a (eukaryotic translation initiation factor 5A) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cend1 (cell cycle exit and neuronal differentiation 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Rptor (regulatory associated protein of MTOR, complex 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Fam63a (family with sequence similarity 63, member A) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ap1b1 (adaptor protein complex AP-1, beta 1 subunit) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ptms (parathymosin) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Lingo1 (leucine rich repeat and Ig domain containing 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Krt31 (keratin 31) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Efhd2 (EF hand domain containing 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Ptgr2 (prostaglandin reductase 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cyb5b (cytochrome b5 type B) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Smap1 (small ArfGAP 1) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Pclo (piccolo (presynaptic cytomatrix protein)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cct6a (chaperonin containing Tcp1, subunit 6a (zeta)) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Cpne4 (copine IV) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Uba3 (ubiquitin-like modifier activating enzyme 3) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of Plxna4 (plexin A4) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options Yes or No, will there be significant deregulation of G3bp2 (GTPase activating protein (SH3 domain) binding protein 2) 24 months after exposure to low-dose radiation at 0.5 Gy?",
+        "answer": "No"
+    }
+]

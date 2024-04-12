@@ -13,3 +13,8 @@ sacremoses
 datasets
 nltk
 einops
+pandas
+openpyxl
+trl==0.4.7
+bitsandbytes==0.40.2
+peft

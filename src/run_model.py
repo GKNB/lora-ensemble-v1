@@ -1,291 +1,102 @@
 import os
-import sys
-import time
-import string
-import argparse
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from datetime import timedelta, datetime
+import torch
 
-# Change the HF cache directory to a scratch directory. 
-# Make sure to set the variable before importing transformers module (including indirect import through galai).
-# ref: https://github.com/paperswithcode/galai/blob/main/notebooks/Introduction%20to%20Galactica%20Models.ipynb
-os.environ["TRANSFORMERS_CACHE"] = "/scratch/rengel/.cache/huggingface"
+# Set the cache directory
+hf_cache_dir = "/hpcgpfs01/scratch/rengel/.cache/huggingface"
 
-# ref: https://huggingface.co/docs/transformers/v4.21.1/en/troubleshooting#troubleshoot
-#os.environ["CUDA_VISIBLE_DEVICES"] = "" # to run on CPU
-os.environ["CUDA_LAUNCH_BLOCKING"] = "1" # to get a better traceback from the GPU error
+# Ensure that the TRANSFORMERS_CACHE environment variable is set
+os.environ["TRANSFORMERS_CACHE"] = hf_cache_dir
+os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
 
-from peft import PeftModel
-from transformers import LlamaForCausalLM, LlamaTokenizer, BioGptForCausalLM, AutoModelForSeq2SeqLM, AutoTokenizer, GPT2LMHeadModel, GPT2Tokenizer
-
-# Must import galai after transformers. 05/19/2023
-# If not, TRANSFORMERS_CACHE directory is set to 'galactica', which overrides the env variable setting above.
-import galai as gal
-
-from data_processors import *
-from evaluators import *
+from transformers import AutoModelForCausalLM, AutoTokenizer, GPT2LMHeadModel, BioGptTokenizer, BioGptForCausalLM
 
 
-def get_data_processor(data_name, *argv):
-	if data_name == "scierc":
-		return SciercProcessor(data_name, *argv)
-	elif data_name == "string":
-		# pass 'task' argument for entity_relation task. 04/12/2023
-		return StringProcessor(data_name, *argv)
-	elif data_name == "kegg":
-		return KeggProcessor(data_name, *argv)
-	elif data_name == "indra":
-		return IndraProcessor(data_name, *argv)
-	else:
-		raise ValueError("Invalid data name: " + data_name)
+def load_model(model_name):
+    # Define the model path as used in Hugging Face Hub
+    model_paths = {
+        #'Llama2': "meta-llama/Llama-2-70b-chat-hf",
+        #'Llama2': "/hpcgpfs01/scratch/rengel/.cache/huggingface/models--meta-llama--Llama-2-70b-chat-hf/snapshots/e1ce257bd76895e0864f3b4d6c7ed3c4cdec93e2",
+        'Llama2': "/hpcgpfs01/scratch/rengel/.cache/huggingface/models--meta-llama--Llama-2-7b-chat-hf/snapshots/c1b0db933684edbfe29a06fa47eb19cc48025e93",
+
+        #'Galactica': "facebook/galactica-30b", 
+        #'Galactica': "/hpcgpfs01/scratch/rengel/.cache/huggingface/models--facebook--galactica-30b/snapshots/80bd55898b06c7c363c467dec877b8b32702a2c4",
+        'Galactica': "/hpcgpfs01/scratch/rengel/.cache/huggingface/models--facebook--galactica-6.7b/snapshots/3a85eca7b4eff2d76ed6b3fa3e287940eed85b10",
+
+        #'Falcon': "tiiuae/falcon-7b",
+        'Falcon': "/hpcgpfs01/scratch/rengel/.cache/huggingface/models--tiiuae--falcon-7b/snapshots/898df1396f35e447d5fe44e0a3ccaaaa69f30d36",
+
+        #'MPT': "mosaicml/mpt-7b",
+        'MPT': "/hpcgpfs01/scratch/rengel/.cache/huggingface/models--mosaicml--mpt-7b/snapshots/ada218f9a93b5f1c6dce48a4cc9ff01fcba431e7",
+
+        #'BioGPT': "microsoft/BioGPT-Large",
+        'BioGPT': "/hpcgpfs01/scratch/rengel/.cache/huggingface/models--microsoft--BioGPT-Large/snapshots/c6a5136a91c5e3150d9f05ab9d33927a3210a22e",
+
+        #'BioMedLM': "stanford-crfm/BioMedLM"
+        'BioMedLM': "/hpcgpfs01/scratch/rengel/.cache/huggingface/models--stanford-crfm--BioMedLM/snapshots/cad400dd9e158cac5e3c71a7b5c407c62e76202c",
+
+        #'Solar': "Upstage/SOLAR-10.7B-v1.0"
+        'Solar': "/hpcgpfs01/scratch/rengel/.cache/huggingface/models--Upstage--SOLAR-10.7B-v1.0/snapshots/399afd2ff676489c2712feb0f92286a77b8d0cd5",
+
+        # 'Mixtral': "mistralai/Mixtral-8x7B-Instruct-v0.1"
+        # 'Mixtral': "mistralai/Mistral-7B-Instruct-v0.2"
+        'Mixtral': "/hpcgpfs01/scratch/rengel/.cache/huggingface/models--mistralai--Mistral-7B-Instruct-v0.2/snapshots/41b61a33a2483885c981aa79e0df6b32407ed873"   
+        # 'Mixtral': "/hpcgpfs01/scratch/rengel/.cache/huggingface/models--mistralai--Mixtral-8x7B-Instruct-v0.1/snapshots/125c431e2ff41a156b9f9076f744d2f35dd6e67a"
+    } 
+
+    model_path = model_paths.get(model_name)
+    if model_path is None:
+        raise ValueError("Invalid model name: " + model_name)
+    
+    if 'BioGPT' in model_name:
+        tokenizer = BioGptTokenizer.from_pretrained(model_path)
+        model = BioGptForCausalLM.from_pretrained(model_path)
+    elif 'BioMedLM' in model_name:
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        model = GPT2LMHeadModel.from_pretrained(model_path)
+    elif 'Mixtral' in model_name:
+        tokenizer = AutoTokenizer.from_pretrained(model_path, token="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", add_eos_token=True, add_bos_token=True, padding_side="left")
+        model = AutoModelForCausalLM.from_pretrained(model_path, token="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", device_map="auto")
+    elif 'Llama2' in model_name:
+        tokenizer = AutoTokenizer.from_pretrained(model_path, token="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", padding_side="left")
+        model = AutoModelForCausalLM.from_pretrained(model_path, token="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", device_map="auto")
+    else:
+        tokenizer = AutoTokenizer.from_pretrained(model_path, token="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")
+        model = AutoModelForCausalLM.from_pretrained(model_path, token="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")
+        
+    print(f"{model_name} has been loaded successfully.")
+    return model, tokenizer
+
+
 
 
 if __name__ == "__main__":
-	"""
-	<Galactica>
-	- To use parallelizm (Parallelformers), put the model load code under if __name__ == "__main__":
-	  ref: https://github.com/tunib-ai/parallelformers#do-your-processes-die-or-stop-working
+    import argparse
+    parser = argparse.ArgumentParser()
+    
+    # Load model
+    parser.add_argument('--model_name', required=False)
+    args = parser.parse_args()
+  
+    model, tokenizer = load_model(args.model_name)
 
-	"""
-	
-	'''
-	Parameter descriptions:
-	
-	Model list
-	============================================
-	- Galactica models: mini (125M), base (1.3B), standard (6.7B), large (30B), huge (120B)
-	- LLaMA:
-	- reStructured: 11b
-		
-	Task list for each dataset
-	============================================
-	- SciERC: entity, entity_type, relation_type
-	- STRING: entity, relation, entity_relation
-	- KEGG: entity, relation, entity_relation
-	- INDRA: relation_type
-	
-	Set a batch size to be processed.
-	- batch size: number of prompts to infer. I.e., the number of input texts for model generation at once. 
-	============================================
-	- STRING entity task: 8, 16, 32
-	- STRING relation & entity_relation task: 32, 64 
-	- KEGG entity task: 8, 16, 32
-	- KEGG relation & entity_relation task: 32, 64 
-	- INDRA relation_type task: 4, 8 
-	
-	Best N-shots for each task
-	============================================
-	- SciERC (entity): TBD
-	- SciERC (entity_type): TBD
-	- SciERC (relation_type): TBD
-	- STRING (entity): 1 (3)
-	- STRING (relation & entity_relation): 1 (0, 2, 3, 5)
-	- KEGG (entity): 1
-	- INDRA (relation_type): 2, 4
-	'''
-	parser = argparse.ArgumentParser()
-	
-	# general arguments
-	parser.add_argument('--model_name', action='store')
-	parser.add_argument('--model_type', action='store')
-	parser.add_argument('--data_repo_path', action='store')
-	parser.add_argument('--output_dir', action='store')
-	parser.add_argument('--data_name', action='store')
-	parser.add_argument('--task', action='store')
-	parser.add_argument('--test_sample_size', action='store', type=int)
-	parser.add_argument('--batch_size', action='store', type=int)
-	parser.add_argument('--n_shots', action='store', type=int)
-	parser.add_argument('--prompt_type', action='store')
+    # After loading the model, check memory usage
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    memory_allocated = torch.cuda.memory_allocated(device=device)
+    memory_cached = torch.cuda.memory_cached(device=device)
+    print(f"Allocated Memory: {memory_allocated / 1024**3:.2f} GB")
+    print(f"Cached Memory: {memory_cached / 1024**3:.2f} GB")
 
-	# model/data specific arguments
-	parser.add_argument("--parallelizm", action="store_true", help="<Galactica> whether to use parallelizm (Parallelformers)")
-	parser.add_argument("--lora_weights", action="store", help="<Alpaca> LoRA weights")
-	parser.add_argument("--kegg_data_type", action="store", default="low-dose", help="<KEGG data> select either 'high-dose' or 'low-dose'")
-	parser.add_argument('--num_of_indra_classes', action='store', type=int)
-	
-	args = parser.parse_args()
-	
-	model_name = args.model_name
-	model_type = args.model_type
-	data_repo_path = os.path.expanduser(args.data_repo_path)
-	output_dir = os.path.expanduser(args.output_dir)
-	data_name = args.data_name
-	task = args.task
-	test_sample_size = args.test_sample_size
-	batch_size = args.batch_size
-	n_shots = args.n_shots
-	prompt_type = args.prompt_type 
-	parallelizm = args.parallelizm
-	lora_weights = args.lora_weights
-	kegg_data_type = args.kegg_data_type
-	num_of_indra_classes = args.num_of_indra_classes
-	
-	# load a model.
-	if model_name == 'Galactica':
-		tokenizer = AutoTokenizer.from_pretrained("facebook/galactica-6.7b")
-		tokenizer.pad_token_id = 1
-		tokenizer.padding_side = 'left'
-		tokenizer.model_max_length = 2020
-		
-		if prompt_type == "trained":
-			#Use small model for testing
-			model = "facebook/galactica-125m"
-			tokenizer = AutoTokenizer.from_pretrained("facebook/galactica-125m")
+    # Print model size
+    num_parameters = model.num_parameters()
+    print(f"Model size: {num_parameters}")
 
-		else:
-			# when parallelize is set, dtype is set to float16. The default dtype is float32.
-			model = gal.load_model(model_type, parallelize=parallelizm)
-		
-		if parallelizm:
-			# To fix the error of parallelize in Galactica - OSError: [Errno 9] Bad file descriptor - 02/04/2023
-			# ref: https://github.com/tunib-ai/parallelformers/issues/42
-			import torch
-			torch.multiprocessing.set_sharing_strategy("file_system")
-		
-	elif model_name == 'LLaMA':
-		tokenizer = AutoTokenizer.from_pretrained(model_type)
-		tokenizer.pad_token = tokenizer.eos_token
-		model = LlamaForCausalLM.from_pretrained(model_type, device_map="auto")
-		
-	elif model_name == 'Alpaca':
-		#tokenizer = AutoTokenizer.from_pretrained(model_type)
-		#tokenizer.pad_token = tokenizer.eos_token
-		# the tokenizer above doesn't work for a batch process in this model. TODO: find why. 05/21/2023 
-		tokenizer = LlamaTokenizer.from_pretrained(model_type)
-		tokenizer.padding_side = "left"
-		
-		#import torch
-		model = LlamaForCausalLM.from_pretrained(
-			model_type,
-			#load_in_8bit=True,
-			#torch_dtype=torch.float16,
-			device_map="auto",
-		)
-		model = PeftModel.from_pretrained(
-			model,
-			lora_weights,
-			#torch_dtype=torch.float16,
-		)
-		
-		# ref: https://github.com/tloen/alpaca-lora/blob/main/generate.py#L75
-		model.config.pad_token_id = tokenizer.pad_token_id = 0  # unk
-		model.config.bos_token_id = 1
-		model.config.eos_token_id = 2
-		
+    from model_trainers.SURP_2024.model_trainer import model_trainer
+    trainer = model_trainer()
+    trainer.init(model, tokenizer)
+    trainer.load_data()
+    trainer.preprocess_data()
+    trainer.train_model()
+    # trainer.pretrained_model_inference()
+    # trainer.calculate_metrics() 
 
-	elif model_name == 'RST':
-		# RST model (https://huggingface.co/XLab) - the model is very heavy. 01/20/2023
-		tokenizer = AutoTokenizer.from_pretrained(model_type)
-		model = AutoModelForSeq2SeqLM.from_pretrained(model_type, device_map="auto")
-		
-	elif model_name == 'BioGPT':
-		tokenizer = AutoTokenizer.from_pretrained(model_type)
-		tokenizer.padding_side = "left"
-		model = BioGptForCausalLM.from_pretrained(model_type).to("cuda")
-	
-	elif model_name == 'BioMedLM':
-		tokenizer = AutoTokenizer.from_pretrained(model_type)
-		tokenizer.pad_token = tokenizer.eos_token
-		tokenizer.padding_side = 'left'
-		model = GPT2LMHeadModel.from_pretrained(model_type).to("cuda")
-		model.config.pad_token_id = tokenizer.pad_token_id = 28895
-	
-	else:
-		raise ValueError("Invalid model name: " + model_name)	
-	
-	# run a task.
-	st = time.time()
-	
-	# If we are using trained prompts, call the trainer class instead of the data processor class
-	if prompt_type == "trained":
 
-		sys.path.append('../data_trainers')
-		
-		
-		from data_trainers.pubmedqa_trainer import pubmedqa_trainer
-		trainer = pubmedqa_trainer()
-		trainer.init(model, 'log1.txt')
-		trainer.load_dataset()
-		trainer.preprocess_data()
-		trainer.data_loader()
-		trainer.train_model()
-		trainer.infer()
-		trainer.plot_metrics()
-		'''
-		from data_trainers.string_trainer import string_trainer
-		trainer = string_trainer()
-		data_processor = get_data_processor(data_name, data_repo_path, task, test_sample_size, model_name, tokenizer)
-		trainer.init(model, tokenizer, 'log2.txt', data_processor)
-		trainer.load_dataset()
-		trainer.preprocess_data()
-		trainer.data_loader()
-		trainer.train_model()
-		trainer.infer()
-		'''
-		
-		
-		
-	else:
-		print("MANUAL")
-		if data_name == "kegg":
-			# kegg_data_type parameter is only used for KEGG data.
-			data_processor = get_data_processor(data_name, data_repo_path, task, test_sample_size, model_name, tokenizer, kegg_data_type)
-		elif data_name == "indra":
-			# num_of_indra_classes parameter is only used for INDRA data.
-			data_processor = get_data_processor(data_name, data_repo_path, task, test_sample_size, model_name, tokenizer, num_of_indra_classes)
-		else:
-			data_processor = get_data_processor(data_name, data_repo_path, task, test_sample_size, model_name, tokenizer)
-		
-		data_processor.create_prompt(n_shots)	
-		results = data_processor.infer(model, batch_size)
-		
-		et = time.time()
-		elapsed_time = et - st
-		exec_time = timedelta(seconds=elapsed_time)
-		exec_time = str(exec_time)
-		print('>> Execution time in hh:mm:ss:', exec_time)
-
-		if len(results[task]) == 3:
-			# store the source item in the query to be used in entity_relation task for STRING, KEGG. 04/12/2023
-			src, pred, true = results[task]
-		else:
-			src = None
-			pred, true = results[task]
-		
-		output_dir = os.path.join(output_dir, model_name)
-		output_dir = os.path.join(output_dir, model_type.rsplit('/', 1)[1] if '/' in model_type else model_type)
-		output_dir = os.path.join(output_dir, data_name)
-
-		if not os.path.exists(output_dir):
-			os.makedirs(output_dir)
-		
-		if hasattr(data_processor.data_reader, "rel_types"):
-			labels = data_processor.data_reader.rel_types
-		elif task in ["relation", "entity_relation"]:
-			labels = data_processor.relation_query_answers
-		else:
-			labels = None
-		
-		compute_metrics_and_save_results(
-			src, 
-			pred, 
-			true, 
-			task, 
-			labels, 
-			output_dir,
-			batch_size,
-			n_shots,
-			test_sample_size,
-			data_processor.task_prompt[task],
-			data_name,
-			kegg_data_type,
-			num_of_indra_classes,
-			exec_time,
-		)
-
-	# get current date and time
-	current_datetime = datetime.now()
-	# convert datetime obj to string
-	str_current_datetime = str(current_datetime)
-	print('>> Current date and time:', str_current_datetime)
-	

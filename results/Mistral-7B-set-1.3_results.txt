@@ -1,0 +1,93 @@
+Evaluation on test set:
+
+Prompt 1: Given the options Yes or No, will there be significant deregulation of Srrt (serrate RNA effector molecule homolog (Arabidopsis)) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 2: Given the options Yes or No, will there be significant deregulation of G3bp2 (GTPase activating protein (SH3 domain) binding protein 2) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 3: Given the options Yes or No, will there be significant deregulation of Dnaja2 (DnaJ (Hsp40) homolog, subfamily A, member 2) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 4: Given the options Yes or No, will there be significant deregulation of Coq7 (demethyl-Q 7) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 5: Given the options Yes or No, will there be significant deregulation of Prdx1 (peroxiredoxin 1) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 6: Given the options Yes or No, will there be significant deregulation of Actb (actin, beta) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 7: Given the options Yes or No, will there be significant deregulation of Wasl (Wiskott-Aldrich syndrome-like (human)) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 8: Given the options Yes or No, will there be significant deregulation of Nutf2 (nuclear transport factor 2) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 9: Given the options Yes or No, will there be significant deregulation of Idi1 (isopentenyl-diphosphate delta isomerase) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 10: Given the options Yes or No, will there be significant deregulation of Grm1 (glutamate receptor, metabotropic 1) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 11: Given the options Yes or No, will there be significant deregulation of Ptgr2 (prostaglandin reductase 2) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 12: Given the options Yes or No, will there be significant deregulation of Eef1g (eukaryotic translation elongation factor 1 gamma) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 13: Given the options Yes or No, will there be significant deregulation of Macrod2 (MACRO domain containing 2) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 14: Given the options Yes or No, will there be significant deregulation of Eif5a (eukaryotic translation initiation factor 5A) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 15: Given the options Yes or No, will there be significant deregulation of Cdh2 (cadherin 2) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 16: Given the options Yes or No, will there be significant deregulation of Cdc37 (cell division cycle 37) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 17: Given the options Yes or No, will there be significant deregulation of Mug1 (murinoglobulin 1) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 18: Given the options Yes or No, will there be significant deregulation of Rab12 (RAB12, member RAS oncogene family) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 19: Given the options Yes or No, will there be significant deregulation of Snx17 (sorting nexin 17) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 20: Given the options Yes or No, will there be significant deregulation of Fkbp5 (FK506 binding protein 5) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 21: Given the options Yes or No, will there be significant deregulation of Lrrc8a (leucine rich repeat containing 8A) 24 months after exposure to low-dose radiation at 0.5 Gy?
+True Label: Yes
+
+Model Prediction 1: yes
+Model Prediction 2: no
+Model Prediction 3: no
+Model Prediction 4: yes
+Model Prediction 5: no
+Model Prediction 6: yes
+Model Prediction 7: yes
+Model Prediction 8: yes
+Model Prediction 9: yes
+Model Prediction 10: yes
+Model Prediction 11: no
+Model Prediction 12: yes
+Model Prediction 13: yes
+Model Prediction 14: yes
+Model Prediction 15: yes
+Model Prediction 16: yes
+Model Prediction 17: yes
+Model Prediction 18: yes
+Model Prediction 19: no
+Model Prediction 20: no
+Model Prediction 21: yes
+
+Accuracy: 0.6190476190476191
+MCC: 0.2412090756622109
+AUC: 0.6090909090909091
+Specificity: 0.4
+Macro Precision: 0.6333333333333333
+Macro F1 Score: 0.5961538461538461

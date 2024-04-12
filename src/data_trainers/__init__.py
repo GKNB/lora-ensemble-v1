@@ -1,2 +1,0 @@
-from .pubmedqa_trainer import pubmedqa_trainer
-from .string_trainer import string_trainer

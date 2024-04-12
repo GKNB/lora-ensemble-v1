@@ -1,0 +1,642 @@
+[
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Fry 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Nrp2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cacna1b 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Psmc3 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Krt1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Araf 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tln1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Slc6a9 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Grin2a 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Grin1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Matk 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Itgav 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Adsl 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cdh11 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Usp46 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Atp6v0c 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Kcnj3 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Kifap3 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cacna1a 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Sec23a 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Jup 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Trio 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Flg2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Krt2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Wnk2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Sec31a 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Unc13a 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Prune2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Spag9 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Slc27a1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Asns 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ppm1g 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Fxr1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pzp 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Raly 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Kiaa1549 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pkp4 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cdc5l 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Krt42 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Nwd2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ppp2r5a 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Camk2d 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Robo2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Fnbp1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Dtx3 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tdrkh 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Htatsf1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Krt75 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tiprl 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Sgsm1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Kiaa1671 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ppfia2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Q8BWQ6 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Fam234b 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Mboat7 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Gfm1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Eif3l 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hnrnpl 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Otud7a 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rcc1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Srsf4 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rbm39 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Irgq 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Nln 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ptbp2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ppp6r3 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Krt5 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Camk2g 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Me2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Emc3 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Epdr1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Vps28 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Acad8 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Mgea5 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Arhgef7 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Krt17 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tsnax 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tenm2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Nos1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Uba2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "Yes"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ina 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Myadm 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cpeb3 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hepacam 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Serpinb6 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cdc42 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ap1m1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rdx 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tmem33 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Nck2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Asna1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein SEPT4 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rabl6 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hadh 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Prodh 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Calu 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ric8a 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cyb5b 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Myl6 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Slc25a22 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Vat1l 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ccdc6 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pfn1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Chchd3 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Scamp1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Gabbr2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rab3c 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Vps13a 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Copa 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Canx 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Nap1l1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Wasl 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Prkar2b 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Tbc1d22a 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hacd3 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Sort1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hnrnpa2b1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pgam1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hrsp12 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ncald 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cox5b 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Sv2b 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pex19 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Calb2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rplp0 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rbbp9 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Abcb7 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rap2a 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Prdx3 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pde1a 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rab23 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ndufa11 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Psmd2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Eif4e 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cspg4 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Abhd6 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Vps51 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Kctd12 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hist1h1c 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Lxn 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Omg 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ptn 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cpne8 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Pip4k2c 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Syne1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Arcn1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Eri3 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hsp90b1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Prdx2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Snca 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Maob 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Hibadh 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ube2o 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Gpd1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Shank3 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Cops7b 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Lrrc47 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Ak1 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Gorasp2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    },
+    {
+        "question": "Given the options yes or no, will there be significant deregulation of the protein Rpn2 72 hours after exposure to low dose radiation at 2.0 Gy?",
+        "answer": "No"
+    }
+]

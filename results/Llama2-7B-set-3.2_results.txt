@@ -1,0 +1,73 @@
+Evaluation on test set:
+
+Prompt 1: Given the options yes or no, will there be an altered acetylation status of protein S100A10 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 2: Given the options yes or no, will there be an altered acetylation status of protein TXNDC5 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 3: Given the options yes or no, will there be an altered acetylation status of protein SERPINH1 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 4: Given the options yes or no, will there be an altered acetylation status of protein IQGAP1 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 5: Given the options yes or no, will there be an altered acetylation status of protein ELAVL1 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 6: Given the options yes or no, will there be an altered acetylation status of protein RPS13 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 7: Given the options yes or no, will there be an altered acetylation status of protein ANXA5 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 8: Given the options yes or no, will there be an altered acetylation status of protein RPS4X 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 9: Given the options yes or no, will there be an altered acetylation status of protein DPYSL3 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 10: Given the options yes or no, will there be an altered acetylation status of protein RPL13 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 11: Given the options yes or no, will there be an altered acetylation status of protein ATP1A1 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 12: Given the options yes or no, will there be an altered acetylation status of protein FBLIM1 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 13: Given the options yes or no, will there be an altered acetylation status of protein ACTG1 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 14: Given the options yes or no, will there be an altered acetylation status of protein HSP90B1 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: Yes
+
+Prompt 15: Given the options yes or no, will there be an altered acetylation status of protein RBM3 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Prompt 16: Given the options yes or no, will there be an altered acetylation status of protein TRAJ56 24 hours after exposure to low dose radiation at 0.5 Gy?
+True Label: No
+
+Model Prediction 1: no
+Model Prediction 2: no
+Model Prediction 3: no
+Model Prediction 4: no
+Model Prediction 5: no
+Model Prediction 6: no
+Model Prediction 7: no
+Model Prediction 8: no
+Model Prediction 9: no
+Model Prediction 10: no
+Model Prediction 11: no
+Model Prediction 12: no
+Model Prediction 13: no
+Model Prediction 14: no
+Model Prediction 15: no
+Model Prediction 16: no
+
+Accuracy: 0.5625
+MCC: 0.0
+AUC: 0.5
+Specificity: 1.0
+Macro Precision: 0.28125
+Macro F1 Score: 0.36

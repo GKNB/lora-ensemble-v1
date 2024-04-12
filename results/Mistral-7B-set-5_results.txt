@@ -1,0 +1,4121 @@
+Evaluation on test set:
+
+Prompt 1: Given the options yes or no, is there a protein interaction between ALB and OLR1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 2: Given the options yes or no, is there a protein interaction between PHB and CHGA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 3: Given the options yes or no, is there a protein interaction between GHR and MTCH2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 4: Given the options yes or no, is there a protein interaction between APP and PPIA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 5: Given the options yes or no, is there a protein interaction between CASP3 and PRKCZ in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 6: Given the options yes or no, is there a protein interaction between CCR5 and POTEF in the presence of metabolic diseases?
+True Label: No
+
+Prompt 7: Given the options yes or no, is there a protein interaction between ESR1 and PTPN6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 8: Given the options yes or no, is there a protein interaction between S100A1 and PLB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 9: Given the options yes or no, is there a protein interaction between TLR2 and EGFR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 10: Given the options yes or no, is there a protein interaction between BCL2L1 and MAPK14 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 11: Given the options yes or no, is there a protein interaction between SIGLEC7 and MAPK14 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 12: Given the options yes or no, is there a protein interaction between ATF3 and NFKB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 13: Given the options yes or no, is there a protein interaction between CRP and KLB in the presence of metabolic diseases?
+True Label: No
+
+Prompt 14: Given the options yes or no, is there a protein interaction between ALDH2 and PSEN1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 15: Given the options yes or no, is there a protein interaction between FGF2 and FGFR4 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 16: Given the options yes or no, is there a protein interaction between UBE2E2 and PPIA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 17: Given the options yes or no, is there a protein interaction between SHC1 and MAPK8 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 18: Given the options yes or no, is there a protein interaction between SERPINE1 and NOS2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 19: Given the options yes or no, is there a protein interaction between FGFR1 and CTNNB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 20: Given the options yes or no, is there a protein interaction between ADIPOR1 and APPL1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 21: Given the options yes or no, is there a protein interaction between GNAO1 and CEBPD in the presence of metabolic diseases?
+True Label: No
+
+Prompt 22: Given the options yes or no, is there a protein interaction between POTEF and CASP3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 23: Given the options yes or no, is there a protein interaction between BBS1 and AFP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 24: Given the options yes or no, is there a protein interaction between IGF2 and SH2B1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 25: Given the options yes or no, is there a protein interaction between INSIG1 and RAP1A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 26: Given the options yes or no, is there a protein interaction between SAT1 and IDE in the presence of metabolic diseases?
+True Label: No
+
+Prompt 27: Given the options yes or no, is there a protein interaction between EEF1A2 and SLC38A7 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 28: Given the options yes or no, is there a protein interaction between HK2 and SIRT3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 29: Given the options yes or no, is there a protein interaction between ATP12A and IGFBP2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 30: Given the options yes or no, is there a protein interaction between LCT and REG3A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 31: Given the options yes or no, is there a protein interaction between KMT2D and SELE in the presence of metabolic diseases?
+True Label: No
+
+Prompt 32: Given the options yes or no, is there a protein interaction between DNMT1 and STAT3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 33: Given the options yes or no, is there a protein interaction between SERPINA6 and SERPINF1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 34: Given the options yes or no, is there a protein interaction between HSPB1 and SOCS3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 35: Given the options yes or no, is there a protein interaction between EGFR and SLC3A2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 36: Given the options yes or no, is there a protein interaction between CREB1 and XRCC1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 37: Given the options yes or no, is there a protein interaction between KLB and MTHFR in the presence of metabolic diseases?
+True Label: No
+
+Prompt 38: Given the options yes or no, is there a protein interaction between RPS6KA3 and MRAP2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 39: Given the options yes or no, is there a protein interaction between APP and YWHAZ in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 40: Given the options yes or no, is there a protein interaction between DGCR2 and VWF in the presence of metabolic diseases?
+True Label: No
+
+Prompt 41: Given the options yes or no, is there a protein interaction between FLNA and CAV1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 42: Given the options yes or no, is there a protein interaction between LCAT and MAS1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 43: Given the options yes or no, is there a protein interaction between SOCS1 and IL1R1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 44: Given the options yes or no, is there a protein interaction between PLAGL1 and FABP3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 45: Given the options yes or no, is there a protein interaction between MMP1 and CMA1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 46: Given the options yes or no, is there a protein interaction between IL10 and MFN2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 47: Given the options yes or no, is there a protein interaction between CCND1 and MAPK1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 48: Given the options yes or no, is there a protein interaction between CCK and IARS1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 49: Given the options yes or no, is there a protein interaction between IL4R and MT1A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 50: Given the options yes or no, is there a protein interaction between NOCT and CD59 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 51: Given the options yes or no, is there a protein interaction between EDN1 and ADRA2B in the presence of metabolic diseases?
+True Label: No
+
+Prompt 52: Given the options yes or no, is there a protein interaction between SNRNP70 and SNRPN in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 53: Given the options yes or no, is there a protein interaction between RAI1 and CXCR3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 54: Given the options yes or no, is there a protein interaction between EGFR and HSPB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 55: Given the options yes or no, is there a protein interaction between IGFBP1 and DRD1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 56: Given the options yes or no, is there a protein interaction between AHSG and INSR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 57: Given the options yes or no, is there a protein interaction between HSPD1 and CCAR2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 58: Given the options yes or no, is there a protein interaction between TSLP and RMC1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 59: Given the options yes or no, is there a protein interaction between ADIPOR2 and ASPM in the presence of metabolic diseases?
+True Label: No
+
+Prompt 60: Given the options yes or no, is there a protein interaction between NHLH2 and BRINP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 61: Given the options yes or no, is there a protein interaction between HLA-DRA and MEF2A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 62: Given the options yes or no, is there a protein interaction between UCP2 and OPRM1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 63: Given the options yes or no, is there a protein interaction between BDNF and SOSTDC1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 64: Given the options yes or no, is there a protein interaction between SMAD2 and MC1R in the presence of metabolic diseases?
+True Label: No
+
+Prompt 65: Given the options yes or no, is there a protein interaction between IL10 and GAA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 66: Given the options yes or no, is there a protein interaction between MAP4K4 and WNT5A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 67: Given the options yes or no, is there a protein interaction between TRPM2 and TLE1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 68: Given the options yes or no, is there a protein interaction between MEN1 and SREBF1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 69: Given the options yes or no, is there a protein interaction between NAT2 and YWHAZ in the presence of metabolic diseases?
+True Label: No
+
+Prompt 70: Given the options yes or no, is there a protein interaction between JAK2 and MAP3K5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 71: Given the options yes or no, is there a protein interaction between IRS4 and TNFRSF1B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 72: Given the options yes or no, is there a protein interaction between ESR1 and NR0B1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 73: Given the options yes or no, is there a protein interaction between YWHAZ and KSR2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 74: Given the options yes or no, is there a protein interaction between TOMM40 and P2RX7 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 75: Given the options yes or no, is there a protein interaction between TFAM and SORT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 76: Given the options yes or no, is there a protein interaction between PPID and LCAT in the presence of metabolic diseases?
+True Label: No
+
+Prompt 77: Given the options yes or no, is there a protein interaction between ADCY3 and UBE3A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 78: Given the options yes or no, is there a protein interaction between MMP1 and CD44 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 79: Given the options yes or no, is there a protein interaction between IL1B and APP in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 80: Given the options yes or no, is there a protein interaction between PLG and PPARA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 81: Given the options yes or no, is there a protein interaction between KDR and CAV1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 82: Given the options yes or no, is there a protein interaction between SCD and PTPRU in the presence of metabolic diseases?
+True Label: No
+
+Prompt 83: Given the options yes or no, is there a protein interaction between ESR1 and HSPD1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 84: Given the options yes or no, is there a protein interaction between SOX6 and CCL5 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 85: Given the options yes or no, is there a protein interaction between ATF6 and GFAP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 86: Given the options yes or no, is there a protein interaction between FGF2 and FGFR1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 87: Given the options yes or no, is there a protein interaction between ATF3 and ANXA6 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 88: Given the options yes or no, is there a protein interaction between HMGCR and IL17A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 89: Given the options yes or no, is there a protein interaction between CPT2 and SCARB1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 90: Given the options yes or no, is there a protein interaction between TTR and AGER in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 91: Given the options yes or no, is there a protein interaction between CD2AP and RBM45 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 92: Given the options yes or no, is there a protein interaction between CCL5 and CCR5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 93: Given the options yes or no, is there a protein interaction between FSHR and BAX in the presence of metabolic diseases?
+True Label: No
+
+Prompt 94: Given the options yes or no, is there a protein interaction between HGF and SDC2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 95: Given the options yes or no, is there a protein interaction between ATF6 and NNMT in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 96: Given the options yes or no, is there a protein interaction between RIMS2 and AKR1C2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 97: Given the options yes or no, is there a protein interaction between EGFR and PC in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 98: Given the options yes or no, is there a protein interaction between BFAR and IGF2BP2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 99: Given the options yes or no, is there a protein interaction between INSR and SHC1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 100: Given the options yes or no, is there a protein interaction between KRAS and PYY in the presence of metabolic diseases?
+True Label: No
+
+Prompt 101: Given the options yes or no, is there a protein interaction between APOC2 and WRN in the presence of metabolic diseases?
+True Label: No
+
+Prompt 102: Given the options yes or no, is there a protein interaction between JAK2 and IGF1R in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 103: Given the options yes or no, is there a protein interaction between CERS6 and RGS6 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 104: Given the options yes or no, is there a protein interaction between ATP2A2 and NOS2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 105: Given the options yes or no, is there a protein interaction between AR and ZNF318 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 106: Given the options yes or no, is there a protein interaction between AKT1 and ACTB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 107: Given the options yes or no, is there a protein interaction between RPS6KB1 and MAPK1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 108: Given the options yes or no, is there a protein interaction between CEBPB and ATF3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 109: Given the options yes or no, is there a protein interaction between EHMT1 and APOC1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 110: Given the options yes or no, is there a protein interaction between TRPV1 and GATA6 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 111: Given the options yes or no, is there a protein interaction between ESR1 and NOS3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 112: Given the options yes or no, is there a protein interaction between LGALS3 and LPAR2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 113: Given the options yes or no, is there a protein interaction between NLRP3 and MTPAP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 114: Given the options yes or no, is there a protein interaction between ESR1 and ANGPTL4 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 115: Given the options yes or no, is there a protein interaction between ROPN1L and UCP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 116: Given the options yes or no, is there a protein interaction between SOD1 and GAPDH in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 117: Given the options yes or no, is there a protein interaction between NPY and NR3C1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 118: Given the options yes or no, is there a protein interaction between HSPB2 and ADRA2A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 119: Given the options yes or no, is there a protein interaction between PIK3CG and INSIG2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 120: Given the options yes or no, is there a protein interaction between POMC and PPARGC1A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 121: Given the options yes or no, is there a protein interaction between AGTR1 and CAV1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 122: Given the options yes or no, is there a protein interaction between MMP3 and IGFBP3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 123: Given the options yes or no, is there a protein interaction between ITGB3 and TXNRD2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 124: Given the options yes or no, is there a protein interaction between GFAP and CRY2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 125: Given the options yes or no, is there a protein interaction between DCN and MRAP2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 126: Given the options yes or no, is there a protein interaction between CRK and GFPT1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 127: Given the options yes or no, is there a protein interaction between MTR and IL6ST in the presence of metabolic diseases?
+True Label: No
+
+Prompt 128: Given the options yes or no, is there a protein interaction between EIF4EBP1 and LCAT in the presence of metabolic diseases?
+True Label: No
+
+Prompt 129: Given the options yes or no, is there a protein interaction between ADRB2 and GRK5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 130: Given the options yes or no, is there a protein interaction between PARL and RMC1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 131: Given the options yes or no, is there a protein interaction between CYP3A4 and CYP2C9 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 132: Given the options yes or no, is there a protein interaction between FTL and GABPA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 133: Given the options yes or no, is there a protein interaction between NOS1 and PTPRN in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 134: Given the options yes or no, is there a protein interaction between HTR2A and PER2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 135: Given the options yes or no, is there a protein interaction between FCGR3A and CD38 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 136: Given the options yes or no, is there a protein interaction between HSPA2 and SELENOP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 137: Given the options yes or no, is there a protein interaction between GNAO1 and PTHLH in the presence of metabolic diseases?
+True Label: No
+
+Prompt 138: Given the options yes or no, is there a protein interaction between FN1 and TRIB3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 139: Given the options yes or no, is there a protein interaction between S100A1 and CNR1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 140: Given the options yes or no, is there a protein interaction between ICAM1 and WT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 141: Given the options yes or no, is there a protein interaction between LTC4S and CHN2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 142: Given the options yes or no, is there a protein interaction between KRT18 and PKD1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 143: Given the options yes or no, is there a protein interaction between YY1 and PRMT1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 144: Given the options yes or no, is there a protein interaction between SREBF1 and IL2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 145: Given the options yes or no, is there a protein interaction between ACTL8 and MEF2A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 146: Given the options yes or no, is there a protein interaction between STX1A and BRINP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 147: Given the options yes or no, is there a protein interaction between SCGB1A1 and GLP1R in the presence of metabolic diseases?
+True Label: No
+
+Prompt 148: Given the options yes or no, is there a protein interaction between ADA and ATP2A3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 149: Given the options yes or no, is there a protein interaction between AGER and MYD88 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 150: Given the options yes or no, is there a protein interaction between NR1H4 and CYP1B1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 151: Given the options yes or no, is there a protein interaction between BRINP1 and SELENBP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 152: Given the options yes or no, is there a protein interaction between MAPK1 and SREBF2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 153: Given the options yes or no, is there a protein interaction between CREB1 and DOK5 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 154: Given the options yes or no, is there a protein interaction between CASP3 and CD80 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 155: Given the options yes or no, is there a protein interaction between MFN2 and DDIT3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 156: Given the options yes or no, is there a protein interaction between HHEX and IL2RB in the presence of metabolic diseases?
+True Label: No
+
+Prompt 157: Given the options yes or no, is there a protein interaction between MMP1 and CCL2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 158: Given the options yes or no, is there a protein interaction between IL23A and STAT3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 159: Given the options yes or no, is there a protein interaction between IL2RG and IL21 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 160: Given the options yes or no, is there a protein interaction between CFTR and GORASP2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 161: Given the options yes or no, is there a protein interaction between CTSK and FADS2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 162: Given the options yes or no, is there a protein interaction between PKLR and EEF1A2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 163: Given the options yes or no, is there a protein interaction between HSPB3 and HSPB2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 164: Given the options yes or no, is there a protein interaction between ARNTL and VPS51 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 165: Given the options yes or no, is there a protein interaction between LTA and TIMP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 166: Given the options yes or no, is there a protein interaction between ACAD8 and ADRB3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 167: Given the options yes or no, is there a protein interaction between CD80 and HMGA1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 168: Given the options yes or no, is there a protein interaction between EGFR and TNFRSF1A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 169: Given the options yes or no, is there a protein interaction between IL4 and IL2RB in the presence of metabolic diseases?
+True Label: No
+
+Prompt 170: Given the options yes or no, is there a protein interaction between ESR2 and PIK3CD in the presence of metabolic diseases?
+True Label: No
+
+Prompt 171: Given the options yes or no, is there a protein interaction between VPS26A and FOXO3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 172: Given the options yes or no, is there a protein interaction between HNF4A and SLC2A1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 173: Given the options yes or no, is there a protein interaction between PARP1 and POU2F1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 174: Given the options yes or no, is there a protein interaction between GSTM1 and CD163 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 175: Given the options yes or no, is there a protein interaction between YY1 and KAT2B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 176: Given the options yes or no, is there a protein interaction between PLAGL1 and IL6ST in the presence of metabolic diseases?
+True Label: No
+
+Prompt 177: Given the options yes or no, is there a protein interaction between SPARC and HSPG2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 178: Given the options yes or no, is there a protein interaction between TLR4 and ASPA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 179: Given the options yes or no, is there a protein interaction between NR3C1 and UBE3A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 180: Given the options yes or no, is there a protein interaction between EPHX2 and RPS6KA3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 181: Given the options yes or no, is there a protein interaction between CAPN1 and BCL2L1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 182: Given the options yes or no, is there a protein interaction between PARP1 and DNMT1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 183: Given the options yes or no, is there a protein interaction between HSPA5 and MAPK7 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 184: Given the options yes or no, is there a protein interaction between CD14 and PRKAA1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 185: Given the options yes or no, is there a protein interaction between SHBG and AKR1B1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 186: Given the options yes or no, is there a protein interaction between SREBF1 and HNF4A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 187: Given the options yes or no, is there a protein interaction between APOC2 and APOB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 188: Given the options yes or no, is there a protein interaction between MAPK14 and DUSP9 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 189: Given the options yes or no, is there a protein interaction between LCAT and TRPV5 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 190: Given the options yes or no, is there a protein interaction between NR3C1 and CYP2A6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 191: Given the options yes or no, is there a protein interaction between PPP1R3C and BCAR1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 192: Given the options yes or no, is there a protein interaction between MYC and ICA1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 193: Given the options yes or no, is there a protein interaction between CYP1A1 and PKN2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 194: Given the options yes or no, is there a protein interaction between SPRY2 and ZFP36 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 195: Given the options yes or no, is there a protein interaction between ESR2 and PPARGC1A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 196: Given the options yes or no, is there a protein interaction between NR1H4 and CFH in the presence of metabolic diseases?
+True Label: No
+
+Prompt 197: Given the options yes or no, is there a protein interaction between CASP3 and BECN1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 198: Given the options yes or no, is there a protein interaction between PTEN and TUBB4B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 199: Given the options yes or no, is there a protein interaction between AR and APPL1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 200: Given the options yes or no, is there a protein interaction between ATP6AP2 and CD2AP in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 201: Given the options yes or no, is there a protein interaction between BCL2 and PPID in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 202: Given the options yes or no, is there a protein interaction between NOX5 and TERF2IP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 203: Given the options yes or no, is there a protein interaction between NELFE and CYP2E1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 204: Given the options yes or no, is there a protein interaction between SERPINA12 and SERPINA3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 205: Given the options yes or no, is there a protein interaction between RELA and BIRC2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 206: Given the options yes or no, is there a protein interaction between LCK and STAT3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 207: Given the options yes or no, is there a protein interaction between PRKAR1A and GRB10 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 208: Given the options yes or no, is there a protein interaction between GP6 and FOXD3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 209: Given the options yes or no, is there a protein interaction between TRA2B and YWHAZ in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 210: Given the options yes or no, is there a protein interaction between APP and RPS6KB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 211: Given the options yes or no, is there a protein interaction between YWHAZ and ANKRD55 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 212: Given the options yes or no, is there a protein interaction between CDKN2B and ISL1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 213: Given the options yes or no, is there a protein interaction between ADRA2A and YWHAZ in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 214: Given the options yes or no, is there a protein interaction between LCK and CSK in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 215: Given the options yes or no, is there a protein interaction between HDAC4 and CDK5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 216: Given the options yes or no, is there a protein interaction between TP53 and PPIF in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 217: Given the options yes or no, is there a protein interaction between NFKB1 and HSPA2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 218: Given the options yes or no, is there a protein interaction between CRHR2 and APOC3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 219: Given the options yes or no, is there a protein interaction between GFAP and SMAD2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 220: Given the options yes or no, is there a protein interaction between GCG and GPX1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 221: Given the options yes or no, is there a protein interaction between CYBB and ACTB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 222: Given the options yes or no, is there a protein interaction between CLU and NOX5 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 223: Given the options yes or no, is there a protein interaction between SLC29A1 and TSC22D1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 224: Given the options yes or no, is there a protein interaction between CCL4 and GRB10 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 225: Given the options yes or no, is there a protein interaction between NPY and RENBP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 226: Given the options yes or no, is there a protein interaction between PTPN1 and ACTB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 227: Given the options yes or no, is there a protein interaction between HMG20A and TXN2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 228: Given the options yes or no, is there a protein interaction between LPL and PPIG in the presence of metabolic diseases?
+True Label: No
+
+Prompt 229: Given the options yes or no, is there a protein interaction between SERPINA3 and MMP1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 230: Given the options yes or no, is there a protein interaction between IRS4 and PIK3CA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 231: Given the options yes or no, is there a protein interaction between FOXO3 and ESR1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 232: Given the options yes or no, is there a protein interaction between SIRT6 and XYLT2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 233: Given the options yes or no, is there a protein interaction between AKT2 and UCP2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 234: Given the options yes or no, is there a protein interaction between S100A8 and TERF1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 235: Given the options yes or no, is there a protein interaction between IL6R and ADAM17 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 236: Given the options yes or no, is there a protein interaction between MMP3 and RELA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 237: Given the options yes or no, is there a protein interaction between CRHR2 and SELENOP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 238: Given the options yes or no, is there a protein interaction between ANXA1 and TGM2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 239: Given the options yes or no, is there a protein interaction between SERPINE1 and PRKAR1A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 240: Given the options yes or no, is there a protein interaction between SAT1 and NNMT in the presence of metabolic diseases?
+True Label: No
+
+Prompt 241: Given the options yes or no, is there a protein interaction between TGM2 and PINK1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 242: Given the options yes or no, is there a protein interaction between SLC22A2 and EXT2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 243: Given the options yes or no, is there a protein interaction between CTSK and GSTT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 244: Given the options yes or no, is there a protein interaction between GYS1 and BECN1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 245: Given the options yes or no, is there a protein interaction between F2 and F5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 246: Given the options yes or no, is there a protein interaction between MTOR and TERF1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 247: Given the options yes or no, is there a protein interaction between LBP and ASPA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 248: Given the options yes or no, is there a protein interaction between RPS6KA3 and ADCYAP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 249: Given the options yes or no, is there a protein interaction between OGA and GSTT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 250: Given the options yes or no, is there a protein interaction between PPIA and DGCR2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 251: Given the options yes or no, is there a protein interaction between S100A8 and SHC1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 252: Given the options yes or no, is there a protein interaction between LDLR and MTPAP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 253: Given the options yes or no, is there a protein interaction between AHSA1 and PPID in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 254: Given the options yes or no, is there a protein interaction between POU2F1 and CREB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 255: Given the options yes or no, is there a protein interaction between THY1 and SIRT3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 256: Given the options yes or no, is there a protein interaction between GABPA and IL2RA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 257: Given the options yes or no, is there a protein interaction between YWHAZ and FOXO1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 258: Given the options yes or no, is there a protein interaction between NPY and PSIP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 259: Given the options yes or no, is there a protein interaction between PSMB6 and PSMA6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 260: Given the options yes or no, is there a protein interaction between PHB and ACTB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 261: Given the options yes or no, is there a protein interaction between AHSA1 and IARS1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 262: Given the options yes or no, is there a protein interaction between POTEF and MAS1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 263: Given the options yes or no, is there a protein interaction between CXCR4 and ADIPOQ in the presence of metabolic diseases?
+True Label: No
+
+Prompt 264: Given the options yes or no, is there a protein interaction between ITGA2 and LGALS3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 265: Given the options yes or no, is there a protein interaction between ACTB and EEF1A2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 266: Given the options yes or no, is there a protein interaction between IGFBP3 and STK11 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 267: Given the options yes or no, is there a protein interaction between TNFRSF1A and RBM45 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 268: Given the options yes or no, is there a protein interaction between CCL2 and CCR3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 269: Given the options yes or no, is there a protein interaction between BCL2L1 and ATG5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 270: Given the options yes or no, is there a protein interaction between UCHL1 and AKT2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 271: Given the options yes or no, is there a protein interaction between EGFR and FAS in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 272: Given the options yes or no, is there a protein interaction between PPIA and PCK2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 273: Given the options yes or no, is there a protein interaction between TNFRSF11A and DNAH8 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 274: Given the options yes or no, is there a protein interaction between LCK and ESR2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 275: Given the options yes or no, is there a protein interaction between KCNA3 and PLA2G6 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 276: Given the options yes or no, is there a protein interaction between MYOD1 and FBXO32 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 277: Given the options yes or no, is there a protein interaction between NLRP3 and TXNIP in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 278: Given the options yes or no, is there a protein interaction between FN1 and TAC1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 279: Given the options yes or no, is there a protein interaction between VCAM1 and CDKN2B in the presence of metabolic diseases?
+True Label: No
+
+Prompt 280: Given the options yes or no, is there a protein interaction between SHC1 and IRS1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 281: Given the options yes or no, is there a protein interaction between ARNT and LEPR in the presence of metabolic diseases?
+True Label: No
+
+Prompt 282: Given the options yes or no, is there a protein interaction between CAD and MAPK1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 283: Given the options yes or no, is there a protein interaction between BRCA1 and BECN1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 284: Given the options yes or no, is there a protein interaction between CFTR and HCLS1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 285: Given the options yes or no, is there a protein interaction between GATA6 and KLF2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 286: Given the options yes or no, is there a protein interaction between RPS6KB1 and PDK1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 287: Given the options yes or no, is there a protein interaction between AKT2 and ABCG8 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 288: Given the options yes or no, is there a protein interaction between GPD2 and CCK in the presence of metabolic diseases?
+True Label: No
+
+Prompt 289: Given the options yes or no, is there a protein interaction between ABCA1 and MZB1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 290: Given the options yes or no, is there a protein interaction between MSTN and DNMT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 291: Given the options yes or no, is there a protein interaction between VEGFC and ADORA2B in the presence of metabolic diseases?
+True Label: No
+
+Prompt 292: Given the options yes or no, is there a protein interaction between TRPC6 and NR1I2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 293: Given the options yes or no, is there a protein interaction between PDHX and FDFT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 294: Given the options yes or no, is there a protein interaction between WFS1 and EPHB2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 295: Given the options yes or no, is there a protein interaction between EEF1A2 and MGLL in the presence of metabolic diseases?
+True Label: No
+
+Prompt 296: Given the options yes or no, is there a protein interaction between BACE2 and POMC in the presence of metabolic diseases?
+True Label: No
+
+Prompt 297: Given the options yes or no, is there a protein interaction between KLF7 and NPC1L1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 298: Given the options yes or no, is there a protein interaction between SFRP5 and HIF1A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 299: Given the options yes or no, is there a protein interaction between FADS2 and EGFR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 300: Given the options yes or no, is there a protein interaction between SOCS1 and LCK in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 301: Given the options yes or no, is there a protein interaction between FABP3 and BBS1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 302: Given the options yes or no, is there a protein interaction between GYS1 and SIRT2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 303: Given the options yes or no, is there a protein interaction between GAPDH and MAPK7 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 304: Given the options yes or no, is there a protein interaction between TP53 and SMAD2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 305: Given the options yes or no, is there a protein interaction between MGAM and NCF1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 306: Given the options yes or no, is there a protein interaction between WNT5A and GCLM in the presence of metabolic diseases?
+True Label: No
+
+Prompt 307: Given the options yes or no, is there a protein interaction between VLDLR and NFKB1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 308: Given the options yes or no, is there a protein interaction between PTPN1 and CD36 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 309: Given the options yes or no, is there a protein interaction between LMNA and PARP1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 310: Given the options yes or no, is there a protein interaction between TUB and RALBP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 311: Given the options yes or no, is there a protein interaction between TFAP2B and EDN1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 312: Given the options yes or no, is there a protein interaction between CLOCK and TIMP4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 313: Given the options yes or no, is there a protein interaction between ATP2A2 and IRS1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 314: Given the options yes or no, is there a protein interaction between SOCS3 and LCK in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 315: Given the options yes or no, is there a protein interaction between CTNNB1 and MAPK8 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 316: Given the options yes or no, is there a protein interaction between DRD2 and PARP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 317: Given the options yes or no, is there a protein interaction between HDAC4 and FOXP3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 318: Given the options yes or no, is there a protein interaction between FOXD3 and KCNJ6 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 319: Given the options yes or no, is there a protein interaction between ARHGEF11 and BCAR1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 320: Given the options yes or no, is there a protein interaction between CEBPD and FANCD2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 321: Given the options yes or no, is there a protein interaction between CD163 and MAF in the presence of metabolic diseases?
+True Label: No
+
+Prompt 322: Given the options yes or no, is there a protein interaction between KRT18 and RPS6KA3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 323: Given the options yes or no, is there a protein interaction between CLPS and KLK1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 324: Given the options yes or no, is there a protein interaction between TPD52 and YWHAZ in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 325: Given the options yes or no, is there a protein interaction between VDR and HP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 326: Given the options yes or no, is there a protein interaction between TLR2 and PIK3R1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 327: Given the options yes or no, is there a protein interaction between PRSS1 and CHN2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 328: Given the options yes or no, is there a protein interaction between TOMM40 and PLA2G1B in the presence of metabolic diseases?
+True Label: No
+
+Prompt 329: Given the options yes or no, is there a protein interaction between CD44 and FLNA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 330: Given the options yes or no, is there a protein interaction between ZBTB7C and TLE1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 331: Given the options yes or no, is there a protein interaction between KLF6 and SELP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 332: Given the options yes or no, is there a protein interaction between CARTPT and BBS2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 333: Given the options yes or no, is there a protein interaction between PTPN22 and FGF19 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 334: Given the options yes or no, is there a protein interaction between MAF and AHR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 335: Given the options yes or no, is there a protein interaction between NR1I2 and FGF19 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 336: Given the options yes or no, is there a protein interaction between G6PD and TGM2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 337: Given the options yes or no, is there a protein interaction between ATP6AP2 and ADRA1A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 338: Given the options yes or no, is there a protein interaction between PIK3CG and CXCR4 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 339: Given the options yes or no, is there a protein interaction between FGF21 and IGF1R in the presence of metabolic diseases?
+True Label: No
+
+Prompt 340: Given the options yes or no, is there a protein interaction between NISCH and IRS2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 341: Given the options yes or no, is there a protein interaction between KIR2DL3 and CXCL10 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 342: Given the options yes or no, is there a protein interaction between ATM and IL7 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 343: Given the options yes or no, is there a protein interaction between AGTR2 and CEBPB in the presence of metabolic diseases?
+True Label: No
+
+Prompt 344: Given the options yes or no, is there a protein interaction between THBS1 and CYP2E1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 345: Given the options yes or no, is there a protein interaction between TCF4 and FLAD1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 346: Given the options yes or no, is there a protein interaction between HMGCR and SLC2A4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 347: Given the options yes or no, is there a protein interaction between KRAS and RAF1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 348: Given the options yes or no, is there a protein interaction between TXNRD1 and CHPT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 349: Given the options yes or no, is there a protein interaction between FGF2 and CD44 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 350: Given the options yes or no, is there a protein interaction between BBS2 and NR1H4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 351: Given the options yes or no, is there a protein interaction between RAPGEF1 and HLA-DPB1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 352: Given the options yes or no, is there a protein interaction between PHB and CETP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 353: Given the options yes or no, is there a protein interaction between AKR1B1 and FABP5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 354: Given the options yes or no, is there a protein interaction between EGFR and PLA2G7 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 355: Given the options yes or no, is there a protein interaction between PPARGC1B and DCN in the presence of metabolic diseases?
+True Label: No
+
+Prompt 356: Given the options yes or no, is there a protein interaction between GRAP2 and AR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 357: Given the options yes or no, is there a protein interaction between S100A1 and PCSK7 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 358: Given the options yes or no, is there a protein interaction between IL6R and TIPARP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 359: Given the options yes or no, is there a protein interaction between RELA and SIRT2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 360: Given the options yes or no, is there a protein interaction between KRT18 and ACAD8 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 361: Given the options yes or no, is there a protein interaction between NRF1 and LEPR in the presence of metabolic diseases?
+True Label: No
+
+Prompt 362: Given the options yes or no, is there a protein interaction between MVK and LPIN1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 363: Given the options yes or no, is there a protein interaction between PAEP and PDE4D in the presence of metabolic diseases?
+True Label: No
+
+Prompt 364: Given the options yes or no, is there a protein interaction between MAPK8 and NFE2L2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 365: Given the options yes or no, is there a protein interaction between SIRT1 and SUMO4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 366: Given the options yes or no, is there a protein interaction between NR3C1 and TXN in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 367: Given the options yes or no, is there a protein interaction between HMGB1 and GRB10 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 368: Given the options yes or no, is there a protein interaction between FABP5 and POU5F1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 369: Given the options yes or no, is there a protein interaction between CCL11 and CCR3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 370: Given the options yes or no, is there a protein interaction between MYC and SORBS1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 371: Given the options yes or no, is there a protein interaction between SREBF1 and SREBF2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 372: Given the options yes or no, is there a protein interaction between PEA15 and SFRP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 373: Given the options yes or no, is there a protein interaction between IL10 and PTPN22 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 374: Given the options yes or no, is there a protein interaction between REN and KLF15 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 375: Given the options yes or no, is there a protein interaction between MYC and TXN in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 376: Given the options yes or no, is there a protein interaction between AR and BRD2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 377: Given the options yes or no, is there a protein interaction between HSPB3 and CD163 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 378: Given the options yes or no, is there a protein interaction between S100A1 and UCP3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 379: Given the options yes or no, is there a protein interaction between BIRC2 and CASP8 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 380: Given the options yes or no, is there a protein interaction between TGFB1 and ERBB2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 381: Given the options yes or no, is there a protein interaction between MLXIPL and IGFBP7 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 382: Given the options yes or no, is there a protein interaction between AKT2 and MAP3K5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 383: Given the options yes or no, is there a protein interaction between CHRNA3 and PER2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 384: Given the options yes or no, is there a protein interaction between SLC3A2 and NOS2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 385: Given the options yes or no, is there a protein interaction between DECR1 and ADCYAP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 386: Given the options yes or no, is there a protein interaction between PFKM and KIF11 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 387: Given the options yes or no, is there a protein interaction between XYLT2 and NPPA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 388: Given the options yes or no, is there a protein interaction between TXN and UBL5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 389: Given the options yes or no, is there a protein interaction between INS and CD44 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 390: Given the options yes or no, is there a protein interaction between ESR1 and TSC1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 391: Given the options yes or no, is there a protein interaction between GHR and PTPN6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 392: Given the options yes or no, is there a protein interaction between NFKB1 and PPARGC1A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 393: Given the options yes or no, is there a protein interaction between FGF2 and PTX3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 394: Given the options yes or no, is there a protein interaction between ERBB2 and CISH in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 395: Given the options yes or no, is there a protein interaction between PIK3R1 and GRB10 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 396: Given the options yes or no, is there a protein interaction between STAT5B and CXCR4 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 397: Given the options yes or no, is there a protein interaction between PARP1 and CTNNB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 398: Given the options yes or no, is there a protein interaction between ESR1 and PTPN1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 399: Given the options yes or no, is there a protein interaction between OGT and BRCA1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 400: Given the options yes or no, is there a protein interaction between FOS and IL17A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 401: Given the options yes or no, is there a protein interaction between SELP and PTX3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 402: Given the options yes or no, is there a protein interaction between TERF1 and SLC29A1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 403: Given the options yes or no, is there a protein interaction between CAST and PSMA6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 404: Given the options yes or no, is there a protein interaction between PTPRU and MTR in the presence of metabolic diseases?
+True Label: No
+
+Prompt 405: Given the options yes or no, is there a protein interaction between MYOD1 and KAT2B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 406: Given the options yes or no, is there a protein interaction between TP53 and SNRPN in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 407: Given the options yes or no, is there a protein interaction between TSLP and MTR in the presence of metabolic diseases?
+True Label: No
+
+Prompt 408: Given the options yes or no, is there a protein interaction between IRS1 and ATP2A3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 409: Given the options yes or no, is there a protein interaction between VPS26A and AZGP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 410: Given the options yes or no, is there a protein interaction between TTR and CEBPA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 411: Given the options yes or no, is there a protein interaction between NAT2 and MGAM in the presence of metabolic diseases?
+True Label: No
+
+Prompt 412: Given the options yes or no, is there a protein interaction between POTEF and ROBO1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 413: Given the options yes or no, is there a protein interaction between SOCS3 and AR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 414: Given the options yes or no, is there a protein interaction between EIF2AK3 and SULT1E1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 415: Given the options yes or no, is there a protein interaction between PRMT1 and IFNA1; IFNA13 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 416: Given the options yes or no, is there a protein interaction between JAK2 and PPIA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 417: Given the options yes or no, is there a protein interaction between APP and MMP2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 418: Given the options yes or no, is there a protein interaction between TGM2 and YWHAZ in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 419: Given the options yes or no, is there a protein interaction between JAG1 and MAP3K8 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 420: Given the options yes or no, is there a protein interaction between ATP6AP2 and PON2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 421: Given the options yes or no, is there a protein interaction between PRMT1 and IL6ST in the presence of metabolic diseases?
+True Label: No
+
+Prompt 422: Given the options yes or no, is there a protein interaction between GAPDH and ADRB2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 423: Given the options yes or no, is there a protein interaction between FOXO3 and BRCA1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 424: Given the options yes or no, is there a protein interaction between FNDC5 and RALBP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 425: Given the options yes or no, is there a protein interaction between SLC19A2 and GBE1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 426: Given the options yes or no, is there a protein interaction between APP and LPL in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 427: Given the options yes or no, is there a protein interaction between HIRA and COX8A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 428: Given the options yes or no, is there a protein interaction between DDIT3 and KEAP1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 429: Given the options yes or no, is there a protein interaction between SELP and HNF4A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 430: Given the options yes or no, is there a protein interaction between RAI1 and TCF20 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 431: Given the options yes or no, is there a protein interaction between HOXB5 and UCP2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 432: Given the options yes or no, is there a protein interaction between ACAD8 and INPPL1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 433: Given the options yes or no, is there a protein interaction between ACSM3 and IL1A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 434: Given the options yes or no, is there a protein interaction between VCAM1 and YWHAZ in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 435: Given the options yes or no, is there a protein interaction between NR1H4 and REG1A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 436: Given the options yes or no, is there a protein interaction between CD40 and UBE3A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 437: Given the options yes or no, is there a protein interaction between TP53 and NQO1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 438: Given the options yes or no, is there a protein interaction between AMBP and CTSB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 439: Given the options yes or no, is there a protein interaction between CFH and CASP3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 440: Given the options yes or no, is there a protein interaction between NDN and DHCR7 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 441: Given the options yes or no, is there a protein interaction between CDKN2B and DGCR2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 442: Given the options yes or no, is there a protein interaction between ADIPOQ and MFN2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 443: Given the options yes or no, is there a protein interaction between ALOX5 and SLCO6A1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 444: Given the options yes or no, is there a protein interaction between SOSTDC1 and MUSK in the presence of metabolic diseases?
+True Label: No
+
+Prompt 445: Given the options yes or no, is there a protein interaction between ACAD8 and PTPN22 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 446: Given the options yes or no, is there a protein interaction between CFTR and IGFBP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 447: Given the options yes or no, is there a protein interaction between ABCA1 and FLNA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 448: Given the options yes or no, is there a protein interaction between ICAM1 and YY1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 449: Given the options yes or no, is there a protein interaction between TGM2 and HNF4A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 450: Given the options yes or no, is there a protein interaction between VLDLR and NNMT in the presence of metabolic diseases?
+True Label: No
+
+Prompt 451: Given the options yes or no, is there a protein interaction between PTPN1 and STAT3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 452: Given the options yes or no, is there a protein interaction between CIDEA and DGAT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 453: Given the options yes or no, is there a protein interaction between UCHL1 and TIPARP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 454: Given the options yes or no, is there a protein interaction between HLA-DPB1 and STAT5B in the presence of metabolic diseases?
+True Label: No
+
+Prompt 455: Given the options yes or no, is there a protein interaction between HSPB1 and NAMPT in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 456: Given the options yes or no, is there a protein interaction between POTEF and CNDP1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 457: Given the options yes or no, is there a protein interaction between RYR2 and TXNRD2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 458: Given the options yes or no, is there a protein interaction between BAMBI and CCL4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 459: Given the options yes or no, is there a protein interaction between PLAGL1 and ATP2A2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 460: Given the options yes or no, is there a protein interaction between IL5RA and PFKP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 461: Given the options yes or no, is there a protein interaction between BSCL2 and EDNRB in the presence of metabolic diseases?
+True Label: No
+
+Prompt 462: Given the options yes or no, is there a protein interaction between NGF and MTTP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 463: Given the options yes or no, is there a protein interaction between PRKAB2 and MAP3K5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 464: Given the options yes or no, is there a protein interaction between SOCS3 and NFKB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 465: Given the options yes or no, is there a protein interaction between AKT1 and PINK1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 466: Given the options yes or no, is there a protein interaction between MAPK8 and TNFRSF11A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 467: Given the options yes or no, is there a protein interaction between POTEF and AHSG in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 468: Given the options yes or no, is there a protein interaction between TXN and TMBIM4 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 469: Given the options yes or no, is there a protein interaction between ERBB2 and SHC1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 470: Given the options yes or no, is there a protein interaction between ARNTL and AHR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 471: Given the options yes or no, is there a protein interaction between CDKAL1 and FBXO32 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 472: Given the options yes or no, is there a protein interaction between LTC4S and TCF7L2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 473: Given the options yes or no, is there a protein interaction between IGF2R and MZB1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 474: Given the options yes or no, is there a protein interaction between SLC9A1 and YWHAZ in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 475: Given the options yes or no, is there a protein interaction between MMP2 and LGALS3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 476: Given the options yes or no, is there a protein interaction between EGFR and PIK3CB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 477: Given the options yes or no, is there a protein interaction between ITGB3 and TGM2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 478: Given the options yes or no, is there a protein interaction between FOXP3 and SFRP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 479: Given the options yes or no, is there a protein interaction between APP and CAV1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 480: Given the options yes or no, is there a protein interaction between FOXO3 and NR1H3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 481: Given the options yes or no, is there a protein interaction between SCD and GABPA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 482: Given the options yes or no, is there a protein interaction between PPARGC1A and IL1R1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 483: Given the options yes or no, is there a protein interaction between JAK2 and IL23R in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 484: Given the options yes or no, is there a protein interaction between MYC and CTNNB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 485: Given the options yes or no, is there a protein interaction between PPARG and KLF5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 486: Given the options yes or no, is there a protein interaction between SGCG and ASPM in the presence of metabolic diseases?
+True Label: No
+
+Prompt 487: Given the options yes or no, is there a protein interaction between IL10 and SORT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 488: Given the options yes or no, is there a protein interaction between FOS and CCND1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 489: Given the options yes or no, is there a protein interaction between CYP2C9 and HMGA1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 490: Given the options yes or no, is there a protein interaction between SFRP5 and HSPA5 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 491: Given the options yes or no, is there a protein interaction between ESR2 and AGER in the presence of metabolic diseases?
+True Label: No
+
+Prompt 492: Given the options yes or no, is there a protein interaction between CDK5 and MFN2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 493: Given the options yes or no, is there a protein interaction between HGF and PRKAA2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 494: Given the options yes or no, is there a protein interaction between WFS1 and BCL11A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 495: Given the options yes or no, is there a protein interaction between CDK4 and KCNJ1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 496: Given the options yes or no, is there a protein interaction between DGCR2 and HTR2C in the presence of metabolic diseases?
+True Label: No
+
+Prompt 497: Given the options yes or no, is there a protein interaction between CCN2 and BRD2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 498: Given the options yes or no, is there a protein interaction between ATXN2 and RBFOX1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 499: Given the options yes or no, is there a protein interaction between ADRB3 and GCLM in the presence of metabolic diseases?
+True Label: No
+
+Prompt 500: Given the options yes or no, is there a protein interaction between CAPN1 and BAX in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 501: Given the options yes or no, is there a protein interaction between ESR1 and BDNF in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 502: Given the options yes or no, is there a protein interaction between IL6 and HDAC4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 503: Given the options yes or no, is there a protein interaction between ITGB3 and KDR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 504: Given the options yes or no, is there a protein interaction between SERPINF1 and HSD11B1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 505: Given the options yes or no, is there a protein interaction between PPARD and CCR2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 506: Given the options yes or no, is there a protein interaction between CNDP2 and FTO in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 507: Given the options yes or no, is there a protein interaction between CAV1 and P2RY12 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 508: Given the options yes or no, is there a protein interaction between NAT2 and CCKAR in the presence of metabolic diseases?
+True Label: No
+
+Prompt 509: Given the options yes or no, is there a protein interaction between CTNNB1 and TBL1XR1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 510: Given the options yes or no, is there a protein interaction between TNFRSF1B and PFKP in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 511: Given the options yes or no, is there a protein interaction between HSPA5 and DNMT1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 512: Given the options yes or no, is there a protein interaction between ATP4A and KCNQ1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 513: Given the options yes or no, is there a protein interaction between ANK1 and IL4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 514: Given the options yes or no, is there a protein interaction between FN1 and EIF4EBP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 515: Given the options yes or no, is there a protein interaction between GIP and CCR5 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 516: Given the options yes or no, is there a protein interaction between OXT and SHC1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 517: Given the options yes or no, is there a protein interaction between FABP1 and SERPINA6 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 518: Given the options yes or no, is there a protein interaction between FGF2 and SPRR2A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 519: Given the options yes or no, is there a protein interaction between CEBPB and CFH in the presence of metabolic diseases?
+True Label: No
+
+Prompt 520: Given the options yes or no, is there a protein interaction between CEBPB and BRCA1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 521: Given the options yes or no, is there a protein interaction between EHMT1 and SHBG in the presence of metabolic diseases?
+True Label: No
+
+Prompt 522: Given the options yes or no, is there a protein interaction between CXCL10 and CCR3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 523: Given the options yes or no, is there a protein interaction between BIRC2 and TNFRSF12A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 524: Given the options yes or no, is there a protein interaction between KRAS and CCL5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 525: Given the options yes or no, is there a protein interaction between EGFR and IRS1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 526: Given the options yes or no, is there a protein interaction between DLL1 and PSEN1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 527: Given the options yes or no, is there a protein interaction between ARHGEF11 and CRK in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 528: Given the options yes or no, is there a protein interaction between NR1I2 and CEBPA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 529: Given the options yes or no, is there a protein interaction between PRKAB2 and PRKAA1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 530: Given the options yes or no, is there a protein interaction between APOB and P2RY12 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 531: Given the options yes or no, is there a protein interaction between SERPINA6 and RALBP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 532: Given the options yes or no, is there a protein interaction between HSD11B1 and FSHR in the presence of metabolic diseases?
+True Label: No
+
+Prompt 533: Given the options yes or no, is there a protein interaction between COX4I1 and PHB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 534: Given the options yes or no, is there a protein interaction between ABCA1 and RIMS2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 535: Given the options yes or no, is there a protein interaction between PPARG and CDK5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 536: Given the options yes or no, is there a protein interaction between CD40LG and ACACA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 537: Given the options yes or no, is there a protein interaction between CHRNA3 and PPARA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 538: Given the options yes or no, is there a protein interaction between VPS26A and MUL1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 539: Given the options yes or no, is there a protein interaction between CPT2 and TCN2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 540: Given the options yes or no, is there a protein interaction between NLRP3 and SLN in the presence of metabolic diseases?
+True Label: No
+
+Prompt 541: Given the options yes or no, is there a protein interaction between PPARA and DRD2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 542: Given the options yes or no, is there a protein interaction between CASP8 and ROS1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 543: Given the options yes or no, is there a protein interaction between SCARB1 and TIMP4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 544: Given the options yes or no, is there a protein interaction between HMGA1 and TSLP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 545: Given the options yes or no, is there a protein interaction between PER2 and CRY2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 546: Given the options yes or no, is there a protein interaction between PTEN and PTK2B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 547: Given the options yes or no, is there a protein interaction between EGFR and PDK1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 548: Given the options yes or no, is there a protein interaction between PIK3R1 and CRK in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 549: Given the options yes or no, is there a protein interaction between GTF3A and NPR1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 550: Given the options yes or no, is there a protein interaction between RNASEL and ADRB1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 551: Given the options yes or no, is there a protein interaction between FN1 and MMP9 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 552: Given the options yes or no, is there a protein interaction between NSA2 and PRKCB in the presence of metabolic diseases?
+True Label: No
+
+Prompt 553: Given the options yes or no, is there a protein interaction between HSPB1 and KRT18 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 554: Given the options yes or no, is there a protein interaction between PPARD and SDCCAG8 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 555: Given the options yes or no, is there a protein interaction between PAEP and SLC9A1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 556: Given the options yes or no, is there a protein interaction between PCNA and GCK in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 557: Given the options yes or no, is there a protein interaction between LDLR and CD36 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 558: Given the options yes or no, is there a protein interaction between PPARGC1B and ANKRD55 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 559: Given the options yes or no, is there a protein interaction between EGFR and CNBP in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 560: Given the options yes or no, is there a protein interaction between ADCYAP1 and KHSRP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 561: Given the options yes or no, is there a protein interaction between ACSL1 and ATM in the presence of metabolic diseases?
+True Label: No
+
+Prompt 562: Given the options yes or no, is there a protein interaction between PPP1R3A and PHB in the presence of metabolic diseases?
+True Label: No
+
+Prompt 563: Given the options yes or no, is there a protein interaction between PRKCB and TERF1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 564: Given the options yes or no, is there a protein interaction between CCR5 and CYP2D6 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 565: Given the options yes or no, is there a protein interaction between GFAP and UBE3A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 566: Given the options yes or no, is there a protein interaction between CRK and CELSR2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 567: Given the options yes or no, is there a protein interaction between CLPS and MAF in the presence of metabolic diseases?
+True Label: No
+
+Prompt 568: Given the options yes or no, is there a protein interaction between INSIG1 and S100A8 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 569: Given the options yes or no, is there a protein interaction between HSPA5 and ACTB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 570: Given the options yes or no, is there a protein interaction between VIP and MTR in the presence of metabolic diseases?
+True Label: No
+
+Prompt 571: Given the options yes or no, is there a protein interaction between MYCBP and GNAO1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 572: Given the options yes or no, is there a protein interaction between KNG1 and CTSK in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 573: Given the options yes or no, is there a protein interaction between GIMAP5 and CAST in the presence of metabolic diseases?
+True Label: No
+
+Prompt 574: Given the options yes or no, is there a protein interaction between HSPB2 and IL4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 575: Given the options yes or no, is there a protein interaction between FAS and PIK3R1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 576: Given the options yes or no, is there a protein interaction between TLE1 and LTA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 577: Given the options yes or no, is there a protein interaction between PIK3CG and BECN1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 578: Given the options yes or no, is there a protein interaction between PSMD9 and VCAM1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 579: Given the options yes or no, is there a protein interaction between CTNNB1 and CAV1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 580: Given the options yes or no, is there a protein interaction between MTNR1B and PFKP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 581: Given the options yes or no, is there a protein interaction between MUL1 and SOCS3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 582: Given the options yes or no, is there a protein interaction between SOD1 and PSMA6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 583: Given the options yes or no, is there a protein interaction between NR1H2 and BDNF in the presence of metabolic diseases?
+True Label: No
+
+Prompt 584: Given the options yes or no, is there a protein interaction between CASP9 and SELE in the presence of metabolic diseases?
+True Label: No
+
+Prompt 585: Given the options yes or no, is there a protein interaction between FBN1 and FANCD2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 586: Given the options yes or no, is there a protein interaction between RBM45 and KIR2DL3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 587: Given the options yes or no, is there a protein interaction between AFP and MAF in the presence of metabolic diseases?
+True Label: No
+
+Prompt 588: Given the options yes or no, is there a protein interaction between DNAH8 and TFAP2B in the presence of metabolic diseases?
+True Label: No
+
+Prompt 589: Given the options yes or no, is there a protein interaction between S100A9 and SHC1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 590: Given the options yes or no, is there a protein interaction between IGF2 and IGF2R in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 591: Given the options yes or no, is there a protein interaction between STAT3 and RRAD in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 592: Given the options yes or no, is there a protein interaction between SPHK1 and IL7 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 593: Given the options yes or no, is there a protein interaction between CCR2 and NOTCH2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 594: Given the options yes or no, is there a protein interaction between BAX and CASP8 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 595: Given the options yes or no, is there a protein interaction between SNAP23 and FN1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 596: Given the options yes or no, is there a protein interaction between STK11 and FAIM2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 597: Given the options yes or no, is there a protein interaction between TBL1XR1 and MAS1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 598: Given the options yes or no, is there a protein interaction between SERPINA3 and DHPS in the presence of metabolic diseases?
+True Label: No
+
+Prompt 599: Given the options yes or no, is there a protein interaction between FADS2 and PPID in the presence of metabolic diseases?
+True Label: No
+
+Prompt 600: Given the options yes or no, is there a protein interaction between CXCR2 and APOC1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 601: Given the options yes or no, is there a protein interaction between NPC1 and MYT1L in the presence of metabolic diseases?
+True Label: No
+
+Prompt 602: Given the options yes or no, is there a protein interaction between MAPK14 and TCF20 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 603: Given the options yes or no, is there a protein interaction between MAPK1 and RABGEF1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 604: Given the options yes or no, is there a protein interaction between CRK and PPIA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 605: Given the options yes or no, is there a protein interaction between ROS1 and PGC in the presence of metabolic diseases?
+True Label: No
+
+Prompt 606: Given the options yes or no, is there a protein interaction between PPARG and PTPRF in the presence of metabolic diseases?
+True Label: No
+
+Prompt 607: Given the options yes or no, is there a protein interaction between PPARG and NR0B2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 608: Given the options yes or no, is there a protein interaction between PRKCZ and GRB14 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 609: Given the options yes or no, is there a protein interaction between INSR and PON2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 610: Given the options yes or no, is there a protein interaction between CASP3 and BIRC2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 611: Given the options yes or no, is there a protein interaction between SERPINA3 and NFKB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 612: Given the options yes or no, is there a protein interaction between MAEA and IL2RA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 613: Given the options yes or no, is there a protein interaction between SFRP4 and NMB in the presence of metabolic diseases?
+True Label: No
+
+Prompt 614: Given the options yes or no, is there a protein interaction between CEBPD and HDAC4 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 615: Given the options yes or no, is there a protein interaction between KNG1 and BDKRB2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 616: Given the options yes or no, is there a protein interaction between KLF5 and AVP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 617: Given the options yes or no, is there a protein interaction between HSPA5 and TNFRSF1A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 618: Given the options yes or no, is there a protein interaction between LCT and TCF4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 619: Given the options yes or no, is there a protein interaction between HSPA5 and LRP1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 620: Given the options yes or no, is there a protein interaction between TNF and IFNG in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 621: Given the options yes or no, is there a protein interaction between CDK4 and POMC in the presence of metabolic diseases?
+True Label: No
+
+Prompt 622: Given the options yes or no, is there a protein interaction between CTNNB1 and SIRT1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 623: Given the options yes or no, is there a protein interaction between INSIG2 and S100B in the presence of metabolic diseases?
+True Label: No
+
+Prompt 624: Given the options yes or no, is there a protein interaction between MBL2 and TWIST1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 625: Given the options yes or no, is there a protein interaction between NUDT3 and VPS51 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 626: Given the options yes or no, is there a protein interaction between ATN1 and TERF1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 627: Given the options yes or no, is there a protein interaction between TFB1M and EDNRB in the presence of metabolic diseases?
+True Label: No
+
+Prompt 628: Given the options yes or no, is there a protein interaction between FN1 and HSPB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 629: Given the options yes or no, is there a protein interaction between PIK3CA and PDK1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 630: Given the options yes or no, is there a protein interaction between SLC25A3 and SMAD2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 631: Given the options yes or no, is there a protein interaction between CDK4 and PTPN1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 632: Given the options yes or no, is there a protein interaction between CCL2 and STEAP4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 633: Given the options yes or no, is there a protein interaction between UBL5 and FADS1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 634: Given the options yes or no, is there a protein interaction between CRH and ADIPOR1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 635: Given the options yes or no, is there a protein interaction between AKT2 and SPRR2A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 636: Given the options yes or no, is there a protein interaction between RPS6KB1 and EIF4EBP1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 637: Given the options yes or no, is there a protein interaction between KNG1 and FTL in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 638: Given the options yes or no, is there a protein interaction between ARNTL and NOD2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 639: Given the options yes or no, is there a protein interaction between TP53 and TXNRD1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 640: Given the options yes or no, is there a protein interaction between CCL2 and STK33 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 641: Given the options yes or no, is there a protein interaction between JAK2 and PTPN11 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 642: Given the options yes or no, is there a protein interaction between CCL4 and IDE in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 643: Given the options yes or no, is there a protein interaction between INS and APP in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 644: Given the options yes or no, is there a protein interaction between CEBPD and PIK3CA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 645: Given the options yes or no, is there a protein interaction between NPY and GHRL in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 646: Given the options yes or no, is there a protein interaction between CD36 and KLF2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 647: Given the options yes or no, is there a protein interaction between PIK3CB and ANKRD55 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 648: Given the options yes or no, is there a protein interaction between AGRP and HNF1A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 649: Given the options yes or no, is there a protein interaction between ELANE and GRN in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 650: Given the options yes or no, is there a protein interaction between FGF21 and UCP3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 651: Given the options yes or no, is there a protein interaction between APOA1 and APP in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 652: Given the options yes or no, is there a protein interaction between POU5F1 and CCAR2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 653: Given the options yes or no, is there a protein interaction between ANKRD55 and CEBPB in the presence of metabolic diseases?
+True Label: No
+
+Prompt 654: Given the options yes or no, is there a protein interaction between MYC and ANGPTL4 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 655: Given the options yes or no, is there a protein interaction between LEP and CERS6 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 656: Given the options yes or no, is there a protein interaction between CCL4 and ATP2A3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 657: Given the options yes or no, is there a protein interaction between PRKAA2 and SLC27A4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 658: Given the options yes or no, is there a protein interaction between HMGB1 and MTG1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 659: Given the options yes or no, is there a protein interaction between APOL1 and APOA1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 660: Given the options yes or no, is there a protein interaction between AR and CRK in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 661: Given the options yes or no, is there a protein interaction between EEF1A2 and STK11 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 662: Given the options yes or no, is there a protein interaction between TSLP and CSK in the presence of metabolic diseases?
+True Label: No
+
+Prompt 663: Given the options yes or no, is there a protein interaction between FOXO1 and SETD7 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 664: Given the options yes or no, is there a protein interaction between TCF4 and NEUROG3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 665: Given the options yes or no, is there a protein interaction between HSPB1 and PSMD6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 666: Given the options yes or no, is there a protein interaction between NISCH and TBC1D1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 667: Given the options yes or no, is there a protein interaction between TNF and LMNA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 668: Given the options yes or no, is there a protein interaction between ANXA1 and GAPDH in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 669: Given the options yes or no, is there a protein interaction between TSC22D1 and MTR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 670: Given the options yes or no, is there a protein interaction between HMGCR and LTA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 671: Given the options yes or no, is there a protein interaction between AGTR1 and MPO in the presence of metabolic diseases?
+True Label: No
+
+Prompt 672: Given the options yes or no, is there a protein interaction between PIK3CG and PTPN11 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 673: Given the options yes or no, is there a protein interaction between EGFR and ICAM1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 674: Given the options yes or no, is there a protein interaction between SAT1 and AOC3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 675: Given the options yes or no, is there a protein interaction between CAD and AHI1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 676: Given the options yes or no, is there a protein interaction between ADRA2A and HSPB3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 677: Given the options yes or no, is there a protein interaction between ITGB2 and CD14 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 678: Given the options yes or no, is there a protein interaction between AR and RAI1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 679: Given the options yes or no, is there a protein interaction between MEF2A and SH2B1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 680: Given the options yes or no, is there a protein interaction between BHMT and EPHB2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 681: Given the options yes or no, is there a protein interaction between MIF and GBE1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 682: Given the options yes or no, is there a protein interaction between PIK3R1 and PTPN6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 683: Given the options yes or no, is there a protein interaction between SHC1 and IFNA1; IFNA13 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 684: Given the options yes or no, is there a protein interaction between DNMT1 and ACTB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 685: Given the options yes or no, is there a protein interaction between MYC and HOXB5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 686: Given the options yes or no, is there a protein interaction between CEBPB and PPARG in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 687: Given the options yes or no, is there a protein interaction between FOXO1 and ABCA1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 688: Given the options yes or no, is there a protein interaction between CYBA and TNFRSF1A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 689: Given the options yes or no, is there a protein interaction between TOMM40 and NR3C1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 690: Given the options yes or no, is there a protein interaction between FDFT1 and GLP1R in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 691: Given the options yes or no, is there a protein interaction between TSC1 and MTR in the presence of metabolic diseases?
+True Label: No
+
+Prompt 692: Given the options yes or no, is there a protein interaction between GSTT1 and HPSE in the presence of metabolic diseases?
+True Label: No
+
+Prompt 693: Given the options yes or no, is there a protein interaction between ACTB and AIMP2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 694: Given the options yes or no, is there a protein interaction between SLC2A1 and PTK2B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 695: Given the options yes or no, is there a protein interaction between PCK1 and DNMT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 696: Given the options yes or no, is there a protein interaction between LMNA and VCAM1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 697: Given the options yes or no, is there a protein interaction between PARP1 and NRF1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 698: Given the options yes or no, is there a protein interaction between BLK and DECR1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 699: Given the options yes or no, is there a protein interaction between FASN and GFPT1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 700: Given the options yes or no, is there a protein interaction between CIDEC and CPT1A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 701: Given the options yes or no, is there a protein interaction between CCR5 and GSTT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 702: Given the options yes or no, is there a protein interaction between EGFR and CLU in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 703: Given the options yes or no, is there a protein interaction between NDN and CISD2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 704: Given the options yes or no, is there a protein interaction between FN1 and GSTP1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 705: Given the options yes or no, is there a protein interaction between MMP3 and SPP1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 706: Given the options yes or no, is there a protein interaction between DHPS and DNAH8 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 707: Given the options yes or no, is there a protein interaction between CPT1A and USF1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 708: Given the options yes or no, is there a protein interaction between HNF4A and PPARGC1B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 709: Given the options yes or no, is there a protein interaction between TLR2 and CYBB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 710: Given the options yes or no, is there a protein interaction between CYP2D6 and CNDP2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 711: Given the options yes or no, is there a protein interaction between FOXD3 and F2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 712: Given the options yes or no, is there a protein interaction between RELA and TXN2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 713: Given the options yes or no, is there a protein interaction between TLR4 and AHSG in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 714: Given the options yes or no, is there a protein interaction between EIF2AK3 and ATP4A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 715: Given the options yes or no, is there a protein interaction between APOA1 and CD40LG in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 716: Given the options yes or no, is there a protein interaction between PDHX and STAT5B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 717: Given the options yes or no, is there a protein interaction between CCHCR1 and MMP3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 718: Given the options yes or no, is there a protein interaction between NPR1 and NPPB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 719: Given the options yes or no, is there a protein interaction between NR3C2 and AR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 720: Given the options yes or no, is there a protein interaction between NOX5 and TP53 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 721: Given the options yes or no, is there a protein interaction between CRP and SORT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 722: Given the options yes or no, is there a protein interaction between CISD2 and CFH in the presence of metabolic diseases?
+True Label: No
+
+Prompt 723: Given the options yes or no, is there a protein interaction between MT1A and DGAT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 724: Given the options yes or no, is there a protein interaction between POMC and ITGB3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 725: Given the options yes or no, is there a protein interaction between VCAM1 and PSMB6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 726: Given the options yes or no, is there a protein interaction between VWF and ITGA2B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 727: Given the options yes or no, is there a protein interaction between SPAG8 and PLAGL1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 728: Given the options yes or no, is there a protein interaction between ADORA2B and PSMB6 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 729: Given the options yes or no, is there a protein interaction between TLR4 and DCN in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 730: Given the options yes or no, is there a protein interaction between ICAM1 and PER1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 731: Given the options yes or no, is there a protein interaction between KCNA3 and BAX in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 732: Given the options yes or no, is there a protein interaction between GPR55 and TH in the presence of metabolic diseases?
+True Label: No
+
+Prompt 733: Given the options yes or no, is there a protein interaction between CNBP and IGF2BP2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 734: Given the options yes or no, is there a protein interaction between CCND2 and EIF5A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 735: Given the options yes or no, is there a protein interaction between MVK and TSC22D1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 736: Given the options yes or no, is there a protein interaction between CCND1 and KLF6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 737: Given the options yes or no, is there a protein interaction between LDLR and APOE in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 738: Given the options yes or no, is there a protein interaction between INS and DCN in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 739: Given the options yes or no, is there a protein interaction between RNF19A and CETP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 740: Given the options yes or no, is there a protein interaction between HSPA5 and FASN in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 741: Given the options yes or no, is there a protein interaction between NPY and CARTPT in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 742: Given the options yes or no, is there a protein interaction between KCNJ6 and STAT5B in the presence of metabolic diseases?
+True Label: No
+
+Prompt 743: Given the options yes or no, is there a protein interaction between ESR2 and MTHFR in the presence of metabolic diseases?
+True Label: No
+
+Prompt 744: Given the options yes or no, is there a protein interaction between SOSTDC1 and NOS1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 745: Given the options yes or no, is there a protein interaction between EHMT1 and KRT20 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 746: Given the options yes or no, is there a protein interaction between IGF1R and CTNNB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 747: Given the options yes or no, is there a protein interaction between WFS1 and ATF6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 748: Given the options yes or no, is there a protein interaction between PPARGC1B and RALBP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 749: Given the options yes or no, is there a protein interaction between TP53 and AR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 750: Given the options yes or no, is there a protein interaction between SLC30A8 and HPSE in the presence of metabolic diseases?
+True Label: No
+
+Prompt 751: Given the options yes or no, is there a protein interaction between BDNF and ARNTL in the presence of metabolic diseases?
+True Label: No
+
+Prompt 752: Given the options yes or no, is there a protein interaction between NOS1AP and PCNA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 753: Given the options yes or no, is there a protein interaction between APOA1 and LGALS3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 754: Given the options yes or no, is there a protein interaction between MAS1 and ATM in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 755: Given the options yes or no, is there a protein interaction between KRAS and PHB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 756: Given the options yes or no, is there a protein interaction between AKT1 and MAPK9 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 757: Given the options yes or no, is there a protein interaction between CYP1A1 and CPE in the presence of metabolic diseases?
+True Label: No
+
+Prompt 758: Given the options yes or no, is there a protein interaction between LMNA and AGRP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 759: Given the options yes or no, is there a protein interaction between ALOX12 and LTA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 760: Given the options yes or no, is there a protein interaction between RFX6 and ESR2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 761: Given the options yes or no, is there a protein interaction between PFKM and GPD2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 762: Given the options yes or no, is there a protein interaction between TP53 and ASPM in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 763: Given the options yes or no, is there a protein interaction between CYBB and ANGPTL4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 764: Given the options yes or no, is there a protein interaction between RELA and SIRT6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 765: Given the options yes or no, is there a protein interaction between JAK2 and APOD in the presence of metabolic diseases?
+True Label: No
+
+Prompt 766: Given the options yes or no, is there a protein interaction between SELE and RELA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 767: Given the options yes or no, is there a protein interaction between PIK3CG and PDE3B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 768: Given the options yes or no, is there a protein interaction between SNRPN and GRB10 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 769: Given the options yes or no, is there a protein interaction between MTNR1B and BCL2L1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 770: Given the options yes or no, is there a protein interaction between AHR and ALDH2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 771: Given the options yes or no, is there a protein interaction between TTR and PINK1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 772: Given the options yes or no, is there a protein interaction between CYP2C9 and ITGAX in the presence of metabolic diseases?
+True Label: No
+
+Prompt 773: Given the options yes or no, is there a protein interaction between HMGB1 and BECN1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 774: Given the options yes or no, is there a protein interaction between KRT18 and CFTR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 775: Given the options yes or no, is there a protein interaction between DNMT1 and RGS6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 776: Given the options yes or no, is there a protein interaction between XBP1 and KAT2B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 777: Given the options yes or no, is there a protein interaction between MTPAP and GFPT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 778: Given the options yes or no, is there a protein interaction between LMNA and SERPINE1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 779: Given the options yes or no, is there a protein interaction between ACACB and POU5F1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 780: Given the options yes or no, is there a protein interaction between MBL2 and HIF1A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 781: Given the options yes or no, is there a protein interaction between MUL1 and AFP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 782: Given the options yes or no, is there a protein interaction between MYC and BCL2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 783: Given the options yes or no, is there a protein interaction between TWIST1 and KAT2B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 784: Given the options yes or no, is there a protein interaction between CYP2C9 and RALBP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 785: Given the options yes or no, is there a protein interaction between BBS1 and BHMT in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 786: Given the options yes or no, is there a protein interaction between ALB and ITGA2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 787: Given the options yes or no, is there a protein interaction between BECN1 and ALDH2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 788: Given the options yes or no, is there a protein interaction between APOA1 and KRT16 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 789: Given the options yes or no, is there a protein interaction between TRPV1 and NAT2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 790: Given the options yes or no, is there a protein interaction between RELA and ADCY5 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 791: Given the options yes or no, is there a protein interaction between PARP1 and BCL2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 792: Given the options yes or no, is there a protein interaction between PTPRF and MRAP2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 793: Given the options yes or no, is there a protein interaction between ALB and APP in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 794: Given the options yes or no, is there a protein interaction between LMNA and SIRT6 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 795: Given the options yes or no, is there a protein interaction between PTX3 and PAEP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 796: Given the options yes or no, is there a protein interaction between SPRY2 and XYLT2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 797: Given the options yes or no, is there a protein interaction between IL1A and CAPN1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 798: Given the options yes or no, is there a protein interaction between EGFR and UCHL1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 799: Given the options yes or no, is there a protein interaction between MYOD1 and STAT3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 800: Given the options yes or no, is there a protein interaction between TRPC1 and TAL1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 801: Given the options yes or no, is there a protein interaction between ADRB2 and ANKRD55 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 802: Given the options yes or no, is there a protein interaction between AZGP1 and DGCR2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 803: Given the options yes or no, is there a protein interaction between CCL2 and RALBP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 804: Given the options yes or no, is there a protein interaction between TFAM and SELE in the presence of metabolic diseases?
+True Label: No
+
+Prompt 805: Given the options yes or no, is there a protein interaction between AKT1 and GRB10 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 806: Given the options yes or no, is there a protein interaction between IGF1R and SH2B1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 807: Given the options yes or no, is there a protein interaction between MYC and SMAD2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 808: Given the options yes or no, is there a protein interaction between COMT and DCN in the presence of metabolic diseases?
+True Label: No
+
+Prompt 809: Given the options yes or no, is there a protein interaction between SOCS1 and FBN1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 810: Given the options yes or no, is there a protein interaction between HSPA5 and MAP3K8 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 811: Given the options yes or no, is there a protein interaction between NAT2 and TNFRSF9 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 812: Given the options yes or no, is there a protein interaction between FSHR and DNMT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 813: Given the options yes or no, is there a protein interaction between ELMO1 and HOXB5 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 814: Given the options yes or no, is there a protein interaction between PPARA and PPARGC1A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 815: Given the options yes or no, is there a protein interaction between HSPB3 and REG1A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 816: Given the options yes or no, is there a protein interaction between MYC and YY1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 817: Given the options yes or no, is there a protein interaction between HSPA14 and PARP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 818: Given the options yes or no, is there a protein interaction between CFTR and GRN in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 819: Given the options yes or no, is there a protein interaction between TLR3 and MYD88 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 820: Given the options yes or no, is there a protein interaction between ABCA1 and APOC1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 821: Given the options yes or no, is there a protein interaction between YY1 and NFE2L2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 822: Given the options yes or no, is there a protein interaction between IL21 and IRS4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 823: Given the options yes or no, is there a protein interaction between RAP1A and RAPGEF1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 824: Given the options yes or no, is there a protein interaction between ANXA1 and PLA2G4A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 825: Given the options yes or no, is there a protein interaction between BIRC2 and PCSK9 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 826: Given the options yes or no, is there a protein interaction between CLU and MAPK9 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 827: Given the options yes or no, is there a protein interaction between EGFR and PTPN22 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 828: Given the options yes or no, is there a protein interaction between VEGFA and AKT1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 829: Given the options yes or no, is there a protein interaction between PYY and DPP4 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 830: Given the options yes or no, is there a protein interaction between PRKAG2 and MUL1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 831: Given the options yes or no, is there a protein interaction between APOE and APOB in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 832: Given the options yes or no, is there a protein interaction between CCL11 and GSTM1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 833: Given the options yes or no, is there a protein interaction between TBL1XR1 and SHC1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 834: Given the options yes or no, is there a protein interaction between FOXO3 and FANCD2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 835: Given the options yes or no, is there a protein interaction between FGF19 and NPY1R in the presence of metabolic diseases?
+True Label: No
+
+Prompt 836: Given the options yes or no, is there a protein interaction between BRCA1 and TRA2B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 837: Given the options yes or no, is there a protein interaction between IL2RA and STAT5A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 838: Given the options yes or no, is there a protein interaction between INSR and GRB14 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 839: Given the options yes or no, is there a protein interaction between GNAO1 and ADORA1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 840: Given the options yes or no, is there a protein interaction between TXN2 and TNFSF10 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 841: Given the options yes or no, is there a protein interaction between CYP3A4 and LIPC in the presence of metabolic diseases?
+True Label: No
+
+Prompt 842: Given the options yes or no, is there a protein interaction between PTX3 and LTA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 843: Given the options yes or no, is there a protein interaction between ACP5 and MUSK in the presence of metabolic diseases?
+True Label: No
+
+Prompt 844: Given the options yes or no, is there a protein interaction between UCP3 and SELE in the presence of metabolic diseases?
+True Label: No
+
+Prompt 845: Given the options yes or no, is there a protein interaction between SLC6A4 and STX1A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 846: Given the options yes or no, is there a protein interaction between PPIA and YWHAZ in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 847: Given the options yes or no, is there a protein interaction between MMRN1 and SFRP4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 848: Given the options yes or no, is there a protein interaction between ROS1 and PTPN1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 849: Given the options yes or no, is there a protein interaction between FOXD3 and TXNRD2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 850: Given the options yes or no, is there a protein interaction between CAMK1D and GIPR in the presence of metabolic diseases?
+True Label: No
+
+Prompt 851: Given the options yes or no, is there a protein interaction between UCP1 and PRCP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 852: Given the options yes or no, is there a protein interaction between HMGA1 and POU5F1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 853: Given the options yes or no, is there a protein interaction between FOS and CLU in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 854: Given the options yes or no, is there a protein interaction between CIDEC and GGT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 855: Given the options yes or no, is there a protein interaction between MMP3 and CYP2C9 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 856: Given the options yes or no, is there a protein interaction between APC and FASN in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 857: Given the options yes or no, is there a protein interaction between EGFR and BLK in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 858: Given the options yes or no, is there a protein interaction between SCD and FLAD1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 859: Given the options yes or no, is there a protein interaction between FN1 and RELA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 860: Given the options yes or no, is there a protein interaction between CXCR2 and POLDIP2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 861: Given the options yes or no, is there a protein interaction between MAPK1 and GORASP2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 862: Given the options yes or no, is there a protein interaction between CD14 and CD36 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 863: Given the options yes or no, is there a protein interaction between FCGR3B and MSTN in the presence of metabolic diseases?
+True Label: No
+
+Prompt 864: Given the options yes or no, is there a protein interaction between HSPA5 and GFAP in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 865: Given the options yes or no, is there a protein interaction between TCF4 and EIF4EBP1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 866: Given the options yes or no, is there a protein interaction between PRKCB and RRAD in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 867: Given the options yes or no, is there a protein interaction between CPT2 and APLNR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 868: Given the options yes or no, is there a protein interaction between CEBPD and MTG1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 869: Given the options yes or no, is there a protein interaction between IL1B and ADRB2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 870: Given the options yes or no, is there a protein interaction between S100A8 and BECN1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 871: Given the options yes or no, is there a protein interaction between FGF2 and SLC2A4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 872: Given the options yes or no, is there a protein interaction between PDK1 and BMP4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 873: Given the options yes or no, is there a protein interaction between KIR3DL1 and ALDH2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 874: Given the options yes or no, is there a protein interaction between FGG and ITGB3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 875: Given the options yes or no, is there a protein interaction between RABGEF1 and MUSK in the presence of metabolic diseases?
+True Label: No
+
+Prompt 876: Given the options yes or no, is there a protein interaction between RRAD and CASP9 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 877: Given the options yes or no, is there a protein interaction between NOS1AP and HSPD1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 878: Given the options yes or no, is there a protein interaction between MEFV and APOD in the presence of metabolic diseases?
+True Label: No
+
+Prompt 879: Given the options yes or no, is there a protein interaction between NSA2 and MGLL in the presence of metabolic diseases?
+True Label: No
+
+Prompt 880: Given the options yes or no, is there a protein interaction between CAT and KEAP1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 881: Given the options yes or no, is there a protein interaction between SCNN1A and PSIP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 882: Given the options yes or no, is there a protein interaction between KSR2 and BSCL2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 883: Given the options yes or no, is there a protein interaction between BCL2L1 and BFAR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 884: Given the options yes or no, is there a protein interaction between GRK2 and ACACA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 885: Given the options yes or no, is there a protein interaction between PRKAA2 and DLL1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 886: Given the options yes or no, is there a protein interaction between EGFR and IRS2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 887: Given the options yes or no, is there a protein interaction between NPY and VPS26A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 888: Given the options yes or no, is there a protein interaction between IGF1 and IGFBP3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 889: Given the options yes or no, is there a protein interaction between IL2RA and NFKB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 890: Given the options yes or no, is there a protein interaction between SELPLG and STAT5A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 891: Given the options yes or no, is there a protein interaction between PPP1R3A and IFIH1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 892: Given the options yes or no, is there a protein interaction between NQO1 and TNF in the presence of metabolic diseases?
+True Label: No
+
+Prompt 893: Given the options yes or no, is there a protein interaction between HIF1A and KAT2B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 894: Given the options yes or no, is there a protein interaction between YWHAZ and PFKP in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 895: Given the options yes or no, is there a protein interaction between CISH and ARHGEF12 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 896: Given the options yes or no, is there a protein interaction between STAT3 and FOXP3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 897: Given the options yes or no, is there a protein interaction between GFER and DHPS in the presence of metabolic diseases?
+True Label: No
+
+Prompt 898: Given the options yes or no, is there a protein interaction between SCD and SLC25A3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 899: Given the options yes or no, is there a protein interaction between CCND1 and NEUROD1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 900: Given the options yes or no, is there a protein interaction between GABRA6 and CCNL1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 901: Given the options yes or no, is there a protein interaction between YWHAZ and STK11 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 902: Given the options yes or no, is there a protein interaction between PSMB6 and UCP2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 903: Given the options yes or no, is there a protein interaction between GSTT1 and TIMP4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 904: Given the options yes or no, is there a protein interaction between GPR55 and MTOR in the presence of metabolic diseases?
+True Label: No
+
+Prompt 905: Given the options yes or no, is there a protein interaction between PLIN1 and TXNRD2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 906: Given the options yes or no, is there a protein interaction between LETM1 and PPARG in the presence of metabolic diseases?
+True Label: No
+
+Prompt 907: Given the options yes or no, is there a protein interaction between BRCA1 and TUBB4B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 908: Given the options yes or no, is there a protein interaction between IL17A and MRAP2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 909: Given the options yes or no, is there a protein interaction between MMP9 and PIK3CA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 910: Given the options yes or no, is there a protein interaction between CTSB and SPHK1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 911: Given the options yes or no, is there a protein interaction between STAT3 and CXCR4 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 912: Given the options yes or no, is there a protein interaction between BECN1 and ATG5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 913: Given the options yes or no, is there a protein interaction between TAC1 and DPP4 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 914: Given the options yes or no, is there a protein interaction between PTPN1 and DHCR7 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 915: Given the options yes or no, is there a protein interaction between IGFBP3 and SLC2A1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 916: Given the options yes or no, is there a protein interaction between TFAM and DRD4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 917: Given the options yes or no, is there a protein interaction between NCF1 and IL4R in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 918: Given the options yes or no, is there a protein interaction between HSPA5 and SUMO4 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 919: Given the options yes or no, is there a protein interaction between HSPB3 and BHMT in the presence of metabolic diseases?
+True Label: No
+
+Prompt 920: Given the options yes or no, is there a protein interaction between MAPK9 and CXCR3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 921: Given the options yes or no, is there a protein interaction between NSA2 and NR1H3 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 922: Given the options yes or no, is there a protein interaction between IFIH1 and AGPAT2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 923: Given the options yes or no, is there a protein interaction between EPHX2 and ADIPOR2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 924: Given the options yes or no, is there a protein interaction between SAT1 and CCHCR1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 925: Given the options yes or no, is there a protein interaction between GSTK1 and NPPA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 926: Given the options yes or no, is there a protein interaction between TNFSF10 and LTC4S in the presence of metabolic diseases?
+True Label: No
+
+Prompt 927: Given the options yes or no, is there a protein interaction between PARP1 and PRKAA1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 928: Given the options yes or no, is there a protein interaction between TOMM40 and PINK1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 929: Given the options yes or no, is there a protein interaction between AHSA1 and AKT1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 930: Given the options yes or no, is there a protein interaction between BCL2 and BLK in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 931: Given the options yes or no, is there a protein interaction between ANGPTL4 and SLC29A1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 932: Given the options yes or no, is there a protein interaction between WT1 and AGER in the presence of metabolic diseases?
+True Label: No
+
+Prompt 933: Given the options yes or no, is there a protein interaction between ALDH2 and GAPDH in the presence of metabolic diseases?
+True Label: No
+
+Prompt 934: Given the options yes or no, is there a protein interaction between SREBF1 and SIRT1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 935: Given the options yes or no, is there a protein interaction between TXN and DOK5 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 936: Given the options yes or no, is there a protein interaction between MBL2 and PRMT1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 937: Given the options yes or no, is there a protein interaction between LGALS3 and MICA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 938: Given the options yes or no, is there a protein interaction between MTOR and CD274 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 939: Given the options yes or no, is there a protein interaction between PCNA and POLDIP2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 940: Given the options yes or no, is there a protein interaction between AGTR1 and APOL1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 941: Given the options yes or no, is there a protein interaction between HSPB3 and COX8A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 942: Given the options yes or no, is there a protein interaction between PARP1 and HMGA1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 943: Given the options yes or no, is there a protein interaction between CYP3A4 and UGT1A1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 944: Given the options yes or no, is there a protein interaction between PTPN6 and PTK2B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 945: Given the options yes or no, is there a protein interaction between AFP and PGC in the presence of metabolic diseases?
+True Label: No
+
+Prompt 946: Given the options yes or no, is there a protein interaction between APP and CLU in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 947: Given the options yes or no, is there a protein interaction between SLC38A7 and SUMO4 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 948: Given the options yes or no, is there a protein interaction between RPS6KB1 and KAT2B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 949: Given the options yes or no, is there a protein interaction between TBC1D1 and NPC1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 950: Given the options yes or no, is there a protein interaction between CYP2A6 and TXN in the presence of metabolic diseases?
+True Label: No
+
+Prompt 951: Given the options yes or no, is there a protein interaction between INPPL1 and TUBB4B in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 952: Given the options yes or no, is there a protein interaction between TP53 and DNMT1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 953: Given the options yes or no, is there a protein interaction between NOCT and MRAP2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 954: Given the options yes or no, is there a protein interaction between BBS1 and BBS4 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 955: Given the options yes or no, is there a protein interaction between FTO and TSLP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 956: Given the options yes or no, is there a protein interaction between BRCA1 and UBE2E2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 957: Given the options yes or no, is there a protein interaction between PARP1 and FASN in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 958: Given the options yes or no, is there a protein interaction between AKT1 and MUL1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 959: Given the options yes or no, is there a protein interaction between PRKAA2 and IL17A in the presence of metabolic diseases?
+True Label: No
+
+Prompt 960: Given the options yes or no, is there a protein interaction between SGIP1 and RALBP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 961: Given the options yes or no, is there a protein interaction between NCF1 and PRKCZ in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 962: Given the options yes or no, is there a protein interaction between TIMP1 and HSPA14 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 963: Given the options yes or no, is there a protein interaction between SNRNP70 and HGF in the presence of metabolic diseases?
+True Label: No
+
+Prompt 964: Given the options yes or no, is there a protein interaction between RORC and EIF4EBP1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 965: Given the options yes or no, is there a protein interaction between FABP2 and DGCR2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 966: Given the options yes or no, is there a protein interaction between NFKB1 and ACACA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 967: Given the options yes or no, is there a protein interaction between ANXA1 and HSPB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 968: Given the options yes or no, is there a protein interaction between NPC1 and CAV1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 969: Given the options yes or no, is there a protein interaction between PDX1 and NEUROD1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 970: Given the options yes or no, is there a protein interaction between RAF1 and BCL2L1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 971: Given the options yes or no, is there a protein interaction between PLG and MMP3 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 972: Given the options yes or no, is there a protein interaction between SREBF1 and NR1H2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 973: Given the options yes or no, is there a protein interaction between TNFRSF11B and TNFRSF11A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 974: Given the options yes or no, is there a protein interaction between ELOVL5 and NAMPT in the presence of metabolic diseases?
+True Label: No
+
+Prompt 975: Given the options yes or no, is there a protein interaction between MAPK8 and GPT in the presence of metabolic diseases?
+True Label: No
+
+Prompt 976: Given the options yes or no, is there a protein interaction between TWIST1 and CHGA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 977: Given the options yes or no, is there a protein interaction between KIR3DL1 and PTPN11 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 978: Given the options yes or no, is there a protein interaction between BLK and SLC30A8 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 979: Given the options yes or no, is there a protein interaction between CASP8 and MAPK14 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 980: Given the options yes or no, is there a protein interaction between CASP9 and CHGA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 981: Given the options yes or no, is there a protein interaction between CDK5 and STX1A in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 982: Given the options yes or no, is there a protein interaction between IL1B and RORC in the presence of metabolic diseases?
+True Label: No
+
+Prompt 983: Given the options yes or no, is there a protein interaction between FAT1 and IFNA1; IFNA13 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 984: Given the options yes or no, is there a protein interaction between IL2RB and PIK3R1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 985: Given the options yes or no, is there a protein interaction between SOCS3 and GHR in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 986: Given the options yes or no, is there a protein interaction between CP and MAF in the presence of metabolic diseases?
+True Label: No
+
+Prompt 987: Given the options yes or no, is there a protein interaction between EXT2 and PTPRF in the presence of metabolic diseases?
+True Label: No
+
+Prompt 988: Given the options yes or no, is there a protein interaction between CDK5 and NPY in the presence of metabolic diseases?
+True Label: No
+
+Prompt 989: Given the options yes or no, is there a protein interaction between ELANE and HSPD1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 990: Given the options yes or no, is there a protein interaction between APOC3 and STAT5B in the presence of metabolic diseases?
+True Label: No
+
+Prompt 991: Given the options yes or no, is there a protein interaction between CAD and RELA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 992: Given the options yes or no, is there a protein interaction between AR and IARS1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 993: Given the options yes or no, is there a protein interaction between CYP3A4 and TCN2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 994: Given the options yes or no, is there a protein interaction between FOS and CTNNB1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 995: Given the options yes or no, is there a protein interaction between APP and MS4A2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 996: Given the options yes or no, is there a protein interaction between CCR2 and CXCR4 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 997: Given the options yes or no, is there a protein interaction between ABHD6 and ZBTB7C in the presence of metabolic diseases?
+True Label: No
+
+Prompt 998: Given the options yes or no, is there a protein interaction between ACAD8 and MLXIPL in the presence of metabolic diseases?
+True Label: No
+
+Prompt 999: Given the options yes or no, is there a protein interaction between APP and GRB10 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 1000: Given the options yes or no, is there a protein interaction between VDR and NR0B2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 1: Given the options yes or no, is there a protein interaction between MAPK8 and CDKN1C in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 2: Given the options yes or no, is there a protein interaction between PRCP and MYC in the presence of metabolic diseases?
+True Label: No
+
+Prompt 3: Given the options yes or no, is there a protein interaction between LIG4 and SFRP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 4: Given the options yes or no, is there a protein interaction between EGFR and DOK5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 5: Given the options yes or no, is there a protein interaction between PPIF and GABPA in the presence of metabolic diseases?
+True Label: No
+
+Prompt 6: Given the options yes or no, is there a protein interaction between IL18R1 and MUSK in the presence of metabolic diseases?
+True Label: No
+
+Prompt 7: Given the options yes or no, is there a protein interaction between APOE and MMRN1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 8: Given the options yes or no, is there a protein interaction between HMG20A and DOK5 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 9: Given the options yes or no, is there a protein interaction between AGTR1 and GRK5 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 10: Given the options yes or no, is there a protein interaction between ANKRD55 and TSLP in the presence of metabolic diseases?
+True Label: No
+
+Prompt 11: Given the options yes or no, is there a protein interaction between CCL11 and FOS in the presence of metabolic diseases?
+True Label: No
+
+Prompt 12: Given the options yes or no, is there a protein interaction between TP53 and KSR2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 13: Given the options yes or no, is there a protein interaction between LGALS1 and HSPB2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 14: Given the options yes or no, is there a protein interaction between EEF1A2 and GORASP2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 15: Given the options yes or no, is there a protein interaction between NR3C1 and NTRK2 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 16: Given the options yes or no, is there a protein interaction between LGALS1 and FAS in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 17: Given the options yes or no, is there a protein interaction between ISL1 and RALBP1 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 18: Given the options yes or no, is there a protein interaction between DOK5 and ANKRD55 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 19: Given the options yes or no, is there a protein interaction between TCF4 and FLNA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 20: Given the options yes or no, is there a protein interaction between PLA2G7 and ITGA2 in the presence of metabolic diseases?
+True Label: No
+
+Prompt 21: Given the options yes or no, is there a protein interaction between EGFR and APRT in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 22: Given the options yes or no, is there a protein interaction between GHR and PTPN22 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 23: Given the options yes or no, is there a protein interaction between IGF1R and SHC1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 24: Given the options yes or no, is there a protein interaction between PDX1 and MAFA in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 25: Given the options yes or no, is there a protein interaction between CLOCK and SIRT1 in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 26: Given the options yes or no, is there a protein interaction between NFKB1 and PFKP in the presence of metabolic diseases?
+True Label: Yes
+
+Prompt 27: Given the options yes or no, is there a protein interaction between EGFR and NTRK2 in the presence of metabolic diseases?
+True Label: Yes
+
+Model Prediction 1: Yes,
+Model Prediction 2: No,
+Model Prediction 3: No,
+Model Prediction 4: Yes,
+Model Prediction 5: Yes,
+Model Prediction 6: No.
+Model Prediction 7: Yes,
+Model Prediction 8: Yes,
+Model Prediction 9: Yes,
+Model Prediction 10: Yes,
+Model Prediction 11: No.
+Model Prediction 12: Yes,
+Model Prediction 13: Yes,
+Model Prediction 14: No,
+Model Prediction 15: Yes,
+Model Prediction 16: No,
+Model Prediction 17: Yes,
+Model Prediction 18: No,
+Model Prediction 19: Yes,
+Model Prediction 20: Yes.
+Model Prediction 21: No.
+Model Prediction 22: No,
+Model Prediction 23: No.
+Model Prediction 24: No.
+Model Prediction 25: No.
+Model Prediction 26: No.
+Model Prediction 27: No,
+Model Prediction 28: No,
+Model Prediction 29: No.
+Model Prediction 30: No,
+Model Prediction 31: No,
+Model Prediction 32: Yes.
+Model Prediction 33: Yes,
+Model Prediction 34: No,
+Model Prediction 35: Yes,
+Model Prediction 36: No,
+Model Prediction 37: No.
+Model Prediction 38: No,
+Model Prediction 39: Yes.
+Model Prediction 40: No.
+Model Prediction 41: Yes,
+Model Prediction 42: No.
+Model Prediction 43: Yes,
+Model Prediction 44: No.
+Model Prediction 45: No,
+Model Prediction 46: No.
+Model Prediction 47: Yes,
+Model Prediction 48: No.
+Model Prediction 49: No.
+Model Prediction 50: No,
+Model Prediction 51: No.
+Model Prediction 52: Yes,
+Model Prediction 53: No.
+Model Prediction 54: Yes.
+Model Prediction 55: No,
+Model Prediction 56: No,
+Model Prediction 57: Yes,
+Model Prediction 58: No.
+Model Prediction 59: No.
+Model Prediction 60: No,
+Model Prediction 61: No,
+Model Prediction 62: No.
+Model Prediction 63: No,
+Model Prediction 64: no
+Model Prediction 65: no
+Model Prediction 66: No,
+Model Prediction 67: No,
+Model Prediction 68: Yes.
+Model Prediction 69: Yes,
+Model Prediction 70: Yes,
+Model Prediction 71: No,
+Model Prediction 72: Yes,
+Model Prediction 73: Yes,
+Model Prediction 74: No,
+Model Prediction 75: No.
+Model Prediction 76: No.
+Model Prediction 77: Yes,
+Model Prediction 78: No,
+Model Prediction 79: Yes,
+Model Prediction 80: No.
+Model Prediction 81: Yes.
+Model Prediction 82: No.
+Model Prediction 83: Yes.
+Model Prediction 84: no
+Model Prediction 85: Yes,
+Model Prediction 86: Yes,
+Model Prediction 87: No,
+Model Prediction 88: No.
+Model Prediction 89: No.
+Model Prediction 90: No,
+Model Prediction 91: No.
+Model Prediction 92: Yes,
+Model Prediction 93: No,
+Model Prediction 94: Yes.
+Model Prediction 95: No,
+Model Prediction 96: No.
+Model Prediction 97: Yes,
+Model Prediction 98: No,
+Model Prediction 99: Yes.
+Model Prediction 100: No.
+Model Prediction 101: No,
+Model Prediction 102: Yes,
+Model Prediction 103: No,
+Model Prediction 104: Yes,
+Model Prediction 105: Yes,
+Model Prediction 106: Yes,
+Model Prediction 107: Yes.
+Model Prediction 108: Yes,
+Model Prediction 109: No.
+Model Prediction 110: No,
+Model Prediction 111: Yes,
+Model Prediction 112: Yes,
+Model Prediction 113: No,
+Model Prediction 114: No,
+Model Prediction 115: No.
+Model Prediction 116: Yes,
+Model Prediction 117: No,
+Model Prediction 118: No,
+Model Prediction 119: No.
+Model Prediction 120: No,
+Model Prediction 121: Yes.
+Model Prediction 122: Yes,
+Model Prediction 123: No,
+Model Prediction 124: Yes,
+Model Prediction 125: No,
+Model Prediction 126: Yes,
+Model Prediction 127: No.
+Model Prediction 128: No.
+Model Prediction 129: Yes.
+Model Prediction 130: No,
+Model Prediction 131: Yes,
+Model Prediction 132: No,
+Model Prediction 133: Yes,
+Model Prediction 134: No.
+Model Prediction 135: Yes,
+Model Prediction 136: No,
+Model Prediction 137: No.
+Model Prediction 138: Yes,
+Model Prediction 139: No.
+Model Prediction 140: No,
+Model Prediction 141: No.
+Model Prediction 142: Yes,
+Model Prediction 143: Yes.
+Model Prediction 144: No.
+Model Prediction 145: Yes,
+Model Prediction 146: No,
+Model Prediction 147: No.
+Model Prediction 148: Yes,
+Model Prediction 149: Yes.
+Model Prediction 150: Yes,
+Model Prediction 151: No,
+Model Prediction 152: Yes.
+Model Prediction 153: No,
+Model Prediction 154: Yes,
+Model Prediction 155: No,
+Model Prediction 156: No.
+Model Prediction 157: No,
+Model Prediction 158: No,
+Model Prediction 159: Yes,
+Model Prediction 160: No,
+Model Prediction 161: No.
+Model Prediction 162: No,
+Model Prediction 163: Yes,
+Model Prediction 164: Yes,
+Model Prediction 165: No,
+Model Prediction 166: No.
+Model Prediction 167: No,
+Model Prediction 168: Yes,
+Model Prediction 169: Yes,
+Model Prediction 170: No.
+Model Prediction 171: No,
+Model Prediction 172: No.
+Model Prediction 173: Yes,
+Model Prediction 174: No,
+Model Prediction 175: Yes,
+Model Prediction 176: No.
+Model Prediction 177: Yes,
+Model Prediction 178: No.
+Model Prediction 179: Yes,
+Model Prediction 180: No,
+Model Prediction 181: No,
+Model Prediction 182: Yes.
+Model Prediction 183: Yes,
+Model Prediction 184: No,
+Model Prediction 185: No,
+Model Prediction 186: Yes.
+Model Prediction 187: Yes,
+Model Prediction 188: Yes,
+Model Prediction 189: No,
+Model Prediction 190: No,
+Model Prediction 191: No.
+Model Prediction 192: Yes,
+Model Prediction 193: No,
+Model Prediction 194: Yes,
+Model Prediction 195: Yes,
+Model Prediction 196: No.
+Model Prediction 197: Yes.
+Model Prediction 198: Yes,
+Model Prediction 199: Yes,
+Model Prediction 200: Yes,
+Model Prediction 201: Yes,
+Model Prediction 202: No,
+Model Prediction 203: No.
+Model Prediction 204: Yes,
+Model Prediction 205: Yes,
+Model Prediction 206: Yes,
+Model Prediction 207: Yes.
+Model Prediction 208: No.
+Model Prediction 209: Yes,
+Model Prediction 210: Yes,
+Model Prediction 211: No,
+Model Prediction 212: Yes,
+Model Prediction 213: Yes.
+Model Prediction 214: Yes,
+Model Prediction 215: Yes,
+Model Prediction 216: Yes,
+Model Prediction 217: Yes,
+Model Prediction 218: No.
+Model Prediction 219: Yes,
+Model Prediction 220: No.
+Model Prediction 221: Yes,
+Model Prediction 222: Yes,
+Model Prediction 223: No,
+Model Prediction 224: No.
+Model Prediction 225: No.
+Model Prediction 226: Yes,
+Model Prediction 227: Yes,
+Model Prediction 228: No,
+Model Prediction 229: Yes,
+Model Prediction 230: Yes.
+Model Prediction 231: Yes.
+Model Prediction 232: No.
+Model Prediction 233: Yes,
+Model Prediction 234: Yes,
+Model Prediction 235: Yes,
+Model Prediction 236: No,
+Model Prediction 237: No.
+Model Prediction 238: Yes.
+Model Prediction 239: No,
+Model Prediction 240: No,
+Model Prediction 241: Yes,
+Model Prediction 242: No,
+Model Prediction 243: No.
+Model Prediction 244: Yes,
+Model Prediction 245: Yes,
+Model Prediction 246: Yes,
+Model Prediction 247: No,
+Model Prediction 248: No,
+Model Prediction 249: No.
+Model Prediction 250: No,
+Model Prediction 251: No,
+Model Prediction 252: Yes,
+Model Prediction 253: Yes,
+Model Prediction 254: Yes.
+Model Prediction 255: No,
+Model Prediction 256: No.
+Model Prediction 257: Yes,
+Model Prediction 258: No,
+Model Prediction 259: Yes,
+Model Prediction 260: Yes,
+Model Prediction 261: Yes,
+Model Prediction 262: No,
+Model Prediction 263: No.
+Model Prediction 264: Yes,
+Model Prediction 265: Yes,
+Model Prediction 266: No,
+Model Prediction 267: No,
+Model Prediction 268: Yes.
+Model Prediction 269: Yes,
+Model Prediction 270: Yes,
+Model Prediction 271: Yes,
+Model Prediction 272: No,
+Model Prediction 273: No.
+Model Prediction 274: Yes,
+Model Prediction 275: No,
+Model Prediction 276: Yes,
+Model Prediction 277: Yes.
+Model Prediction 278: No,
+Model Prediction 279: No,
+Model Prediction 280: Yes.
+Model Prediction 281: No,
+Model Prediction 282: Yes,
+Model Prediction 283: Yes.
+Model Prediction 284: Yes,
+Model Prediction 285: Yes,
+Model Prediction 286: Yes,
+Model Prediction 287: Yes,
+Model Prediction 288: No.
+Model Prediction 289: No.
+Model Prediction 290: No,
+Model Prediction 291: No.
+Model Prediction 292: No.
+Model Prediction 293: No.
+Model Prediction 294: Yes,
+Model Prediction 295: No.
+Model Prediction 296: No.
+Model Prediction 297: No.
+Model Prediction 298: No,
+Model Prediction 299: Yes,
+Model Prediction 300: Yes.
+Model Prediction 301: No,
+Model Prediction 302: Yes.
+Model Prediction 303: Yes,
+Model Prediction 304: Yes.
+Model Prediction 305: No,
+Model Prediction 306: Yes,
+Model Prediction 307: No,
+Model Prediction 308: Yes,
+Model Prediction 309: Yes,
+Model Prediction 310: No,
+Model Prediction 311: No.
+Model Prediction 312: No,
+Model Prediction 313: Yes.
+Model Prediction 314: Yes.
+Model Prediction 315: Yes,
+Model Prediction 316: No,
+Model Prediction 317: Yes.
+Model Prediction 318: No.
+Model Prediction 319: No,
+Model Prediction 320: Yes,
+Model Prediction 321: No.
+Model Prediction 322: Yes,
+Model Prediction 323: No.
+Model Prediction 324: Yes,
+Model Prediction 325: No,
+Model Prediction 326: Yes,
+Model Prediction 327: No,
+Model Prediction 328: No,
+Model Prediction 329: Yes,
+Model Prediction 330: No,
+Model Prediction 331: No.
+Model Prediction 332: No,
+Model Prediction 333: No.
+Model Prediction 334: Yes,
+Model Prediction 335: No.
+Model Prediction 336: Yes,
+Model Prediction 337: No,
+Model Prediction 338: Yes,
+Model Prediction 339: No,
+Model Prediction 340: No,
+Model Prediction 341: No.
+Model Prediction 342: No,
+Model Prediction 343: No.
+Model Prediction 344: No.
+Model Prediction 345: Yes,
+Model Prediction 346: No.
+Model Prediction 347: Yes.
+Model Prediction 348: No,
+Model Prediction 349: Yes,
+Model Prediction 350: No,
+Model Prediction 351: No.
+Model Prediction 352: No,
+Model Prediction 353: No,
+Model Prediction 354: Yes,
+Model Prediction 355: No.
+Model Prediction 356: Yes,
+Model Prediction 357: No,
+Model Prediction 358: No,
+Model Prediction 359: Yes.
+Model Prediction 360: No,
+Model Prediction 361: No.
+Model Prediction 362: No,
+Model Prediction 363: No,
+Model Prediction 364: Yes,
+Model Prediction 365: Yes,
+Model Prediction 366: Yes,
+Model Prediction 367: No,
+Model Prediction 368: Yes,
+Model Prediction 369: Yes.
+Model Prediction 370: Yes,
+Model Prediction 371: Yes,
+Model Prediction 372: No.
+Model Prediction 373: No,
+Model Prediction 374: No,
+Model Prediction 375: Yes,
+Model Prediction 376: Yes,
+Model Prediction 377: No.
+Model Prediction 378: No,
+Model Prediction 379: Yes,
+Model Prediction 380: Yes.
+Model Prediction 381: No.
+Model Prediction 382: Yes,
+Model Prediction 383: No.
+Model Prediction 384: No,
+Model Prediction 385: No.
+Model Prediction 386: Yes,
+Model Prediction 387: No.
+Model Prediction 388: Yes,
+Model Prediction 389: Yes,
+Model Prediction 390: Yes.
+Model Prediction 391: Yes.
+Model Prediction 392: Yes,
+Model Prediction 393: Yes,
+Model Prediction 394: Yes,
+Model Prediction 395: Yes.
+Model Prediction 396: Yes,
+Model Prediction 397: Yes.
+Model Prediction 398: Yes,
+Model Prediction 399: Yes,
+Model Prediction 400: No,
+Model Prediction 401: No,
+Model Prediction 402: No,
+Model Prediction 403: No,
+Model Prediction 404: No.
+Model Prediction 405: Yes.
+Model Prediction 406: Yes,
+Model Prediction 407: No.
+Model Prediction 408: No,
+Model Prediction 409: Yes,
+Model Prediction 410: No,
+Model Prediction 411: No,
+Model Prediction 412: No,
+Model Prediction 413: No,
+Model Prediction 414: No.
+Model Prediction 415: No.
+Model Prediction 416: Yes,
+Model Prediction 417: Yes,
+Model Prediction 418: Yes.
+Model Prediction 419: No,
+Model Prediction 420: Yes,
+Model Prediction 421: No,
+Model Prediction 422: Yes.
+Model Prediction 423: Yes.
+Model Prediction 424: No,
+Model Prediction 425: No.
+Model Prediction 426: Yes,
+Model Prediction 427: No.
+Model Prediction 428: Yes.
+Model Prediction 429: No.
+Model Prediction 430: Yes,
+Model Prediction 431: No,
+Model Prediction 432: No,
+Model Prediction 433: No.
+Model Prediction 434: Yes,
+Model Prediction 435: No,
+Model Prediction 436: Yes,
+Model Prediction 437: Yes,
+Model Prediction 438: Yes,
+Model Prediction 439: No,
+Model Prediction 440: No,
+Model Prediction 441: No.
+Model Prediction 442: No.
+Model Prediction 443: No.
+Model Prediction 444: No.
+Model Prediction 445: No,
+Model Prediction 446: No.
+Model Prediction 447: Yes.
+Model Prediction 448: No,
+Model Prediction 449: No,
+Model Prediction 450: No.
+Model Prediction 451: Yes.
+Model Prediction 452: No,
+Model Prediction 453: No,
+Model Prediction 454: Yes,
+Model Prediction 455: Yes,
+Model Prediction 456: No,
+Model Prediction 457: Yes,
+Model Prediction 458: No.
+Model Prediction 459: No.
+Model Prediction 460: No.
+Model Prediction 461: No.
+Model Prediction 462: No,
+Model Prediction 463: Yes,
+Model Prediction 464: Yes,
+Model Prediction 465: Yes.
+Model Prediction 466: No,
+Model Prediction 467: No,
+Model Prediction 468: Yes,
+Model Prediction 469: Yes,
+Model Prediction 470: Yes,
+Model Prediction 471: No,
+Model Prediction 472: No.
+Model Prediction 473: No,
+Model Prediction 474: Yes.
+Model Prediction 475: Yes,
+Model Prediction 476: Yes.
+Model Prediction 477: Yes,
+Model Prediction 478: No.
+Model Prediction 479: Yes,
+Model Prediction 480: Yes,
+Model Prediction 481: No.
+Model Prediction 482: No.
+Model Prediction 483: No,
+Model Prediction 484: Yes.
+Model Prediction 485: Yes.
+Model Prediction 486: No.
+Model Prediction 487: No,
+Model Prediction 488: Yes.
+Model Prediction 489: No,
+Model Prediction 490: No.
+Model Prediction 491: No,
+Model Prediction 492: Yes,
+Model Prediction 493: No,
+Model Prediction 494: No,
+Model Prediction 495: No.
+Model Prediction 496: No.
+Model Prediction 497: No,
+Model Prediction 498: No,
+Model Prediction 499: No.
+Model Prediction 500: Yes,
+Model Prediction 501: No,
+Model Prediction 502: No,
+Model Prediction 503: Yes,
+Model Prediction 504: No,
+Model Prediction 505: No.
+Model Prediction 506: No,
+Model Prediction 507: Yes,
+Model Prediction 508: No.
+Model Prediction 509: Yes,
+Model Prediction 510: No,
+Model Prediction 511: Yes,
+Model Prediction 512: Yes,
+Model Prediction 513: No.
+Model Prediction 514: No,
+Model Prediction 515: No.
+Model Prediction 516: No,
+Model Prediction 517: No,
+Model Prediction 518: Yes,
+Model Prediction 519: No.
+Model Prediction 520: Yes,
+Model Prediction 521: No.
+Model Prediction 522: Yes.
+Model Prediction 523: No,
+Model Prediction 524: No,
+Model Prediction 525: Yes,
+Model Prediction 526: No,
+Model Prediction 527: Yes,
+Model Prediction 528: Yes,
+Model Prediction 529: Yes,
+Model Prediction 530: No,
+Model Prediction 531: No,
+Model Prediction 532: No.
+Model Prediction 533: No,
+Model Prediction 534: No,
+Model Prediction 535: Yes,
+Model Prediction 536: No.
+Model Prediction 537: No.
+Model Prediction 538: No,
+Model Prediction 539: No.
+Model Prediction 540: No,
+Model Prediction 541: No,
+Model Prediction 542: Yes,
+Model Prediction 543: No,
+Model Prediction 544: No,
+Model Prediction 545: Yes.
+Model Prediction 546: Yes,
+Model Prediction 547: Yes,
+Model Prediction 548: Yes.
+Model Prediction 549: No.
+Model Prediction 550: No.
+Model Prediction 551: Yes.
+Model Prediction 552: No,
+Model Prediction 553: Yes.
+Model Prediction 554: No,
+Model Prediction 555: No,
+Model Prediction 556: No,
+Model Prediction 557: Yes,
+Model Prediction 558: No,
+Model Prediction 559: Yes,
+Model Prediction 560: No,
+Model Prediction 561: No,
+Model Prediction 562: No,
+Model Prediction 563: Yes,
+Model Prediction 564: No.
+Model Prediction 565: Yes,
+Model Prediction 566: Yes,
+Model Prediction 567: No.
+Model Prediction 568: No.
+Model Prediction 569: Yes,
+Model Prediction 570: No.
+Model Prediction 571: No,
+Model Prediction 572: No,
+Model Prediction 573: No,
+Model Prediction 574: No,
+Model Prediction 575: Yes.
+Model Prediction 576: No.
+Model Prediction 577: Yes.
+Model Prediction 578: Yes,
+Model Prediction 579: Yes.
+Model Prediction 580: No,
+Model Prediction 581: No.
+Model Prediction 582: Yes,
+Model Prediction 583: No.
+Model Prediction 584: No,
+Model Prediction 585: Yes,
+Model Prediction 586: No.
+Model Prediction 587: No,
+Model Prediction 588: No.
+Model Prediction 589: No,
+Model Prediction 590: Yes,
+Model Prediction 591: Yes,
+Model Prediction 592: No.
+Model Prediction 593: No,
+Model Prediction 594: Yes.
+Model Prediction 595: No,
+Model Prediction 596: No,
+Model Prediction 597: No.
+Model Prediction 598: No,
+Model Prediction 599: No,
+Model Prediction 600: No.
+Model Prediction 601: No,
+Model Prediction 602: Yes,
+Model Prediction 603: Yes,
+Model Prediction 604: Yes,
+Model Prediction 605: No.
+Model Prediction 606: No,
+Model Prediction 607: Yes,
+Model Prediction 608: Yes,
+Model Prediction 609: Yes,
+Model Prediction 610: Yes,
+Model Prediction 611: Yes,
+Model Prediction 612: No.
+Model Prediction 613: No.
+Model Prediction 614: Yes,
+Model Prediction 615: No,
+Model Prediction 616: No.
+Model Prediction 617: Yes,
+Model Prediction 618: No.
+Model Prediction 619: Yes,
+Model Prediction 620: Yes,
+Model Prediction 621: No.
+Model Prediction 622: Yes.
+Model Prediction 623: No.
+Model Prediction 624: No,
+Model Prediction 625: No,
+Model Prediction 626: Yes,
+Model Prediction 627: No.
+Model Prediction 628: Yes,
+Model Prediction 629: Yes.
+Model Prediction 630: Yes,
+Model Prediction 631: Yes,
+Model Prediction 632: No,
+Model Prediction 633: No.
+Model Prediction 634: No.
+Model Prediction 635: No,
+Model Prediction 636: Yes,
+Model Prediction 637: Yes,
+Model Prediction 638: No,
+Model Prediction 639: Yes,
+Model Prediction 640: No,
+Model Prediction 641: Yes.
+Model Prediction 642: No,
+Model Prediction 643: Yes,
+Model Prediction 644: No.
+Model Prediction 645: Yes.
+Model Prediction 646: No,
+Model Prediction 647: No,
+Model Prediction 648: Yes,
+Model Prediction 649: No,
+Model Prediction 650: No,
+Model Prediction 651: Yes.
+Model Prediction 652: Yes,
+Model Prediction 653: No,
+Model Prediction 654: Yes,
+Model Prediction 655: No,
+Model Prediction 656: No.
+Model Prediction 657: Yes,
+Model Prediction 658: No,
+Model Prediction 659: No,
+Model Prediction 660: Yes,
+Model Prediction 661: No,
+Model Prediction 662: No.
+Model Prediction 663: Yes,
+Model Prediction 664: Yes,
+Model Prediction 665: Yes,
+Model Prediction 666: No,
+Model Prediction 667: Yes,
+Model Prediction 668: Yes,
+Model Prediction 669: No,
+Model Prediction 670: No.
+Model Prediction 671: No.
+Model Prediction 672: Yes.
+Model Prediction 673: Yes,
+Model Prediction 674: No,
+Model Prediction 675: No,
+Model Prediction 676: No.
+Model Prediction 677: No,
+Model Prediction 678: Yes,
+Model Prediction 679: Yes,
+Model Prediction 680: No.
+Model Prediction 681: No,
+Model Prediction 682: Yes.
+Model Prediction 683: No.
+Model Prediction 684: Yes,
+Model Prediction 685: Yes,
+Model Prediction 686: Yes,
+Model Prediction 687: No,
+Model Prediction 688: No,
+Model Prediction 689: Yes,
+Model Prediction 690: No,
+Model Prediction 691: No.
+Model Prediction 692: No.
+Model Prediction 693: Yes,
+Model Prediction 694: Yes,
+Model Prediction 695: Yes,
+Model Prediction 696: Yes,
+Model Prediction 697: Yes,
+Model Prediction 698: No,
+Model Prediction 699: Yes,
+Model Prediction 700: No.
+Model Prediction 701: No.
+Model Prediction 702: Yes,
+Model Prediction 703: No,
+Model Prediction 704: Yes,
+Model Prediction 705: Yes.
+Model Prediction 706: No,
+Model Prediction 707: No,
+Model Prediction 708: Yes,
+Model Prediction 709: No,
+Model Prediction 710: No.
+Model Prediction 711: No.
+Model Prediction 712: Yes.
+Model Prediction 713: Yes,
+Model Prediction 714: No.
+Model Prediction 715: Yes,
+Model Prediction 716: Yes,
+Model Prediction 717: No.
+Model Prediction 718: No,
+Model Prediction 719: Yes,
+Model Prediction 720: No,
+Model Prediction 721: No,
+Model Prediction 722: No.
+Model Prediction 723: No.
+Model Prediction 724: No.
+Model Prediction 725: No,
+Model Prediction 726: Yes,
+Model Prediction 727: No,
+Model Prediction 728: No.
+Model Prediction 729: Yes,
+Model Prediction 730: No,
+Model Prediction 731: No,
+Model Prediction 732: No,
+Model Prediction 733: Yes,
+Model Prediction 734: Yes,
+Model Prediction 735: No,
+Model Prediction 736: Yes,
+Model Prediction 737: Yes,
+Model Prediction 738: Yes,
+Model Prediction 739: No.
+Model Prediction 740: Yes,
+Model Prediction 741: Yes,
+Model Prediction 742: No,
+Model Prediction 743: No.
+Model Prediction 744: No.
+Model Prediction 745: No.
+Model Prediction 746: Yes,
+Model Prediction 747: No,
+Model Prediction 748: No,
+Model Prediction 749: Yes,
+Model Prediction 750: No.
+Model Prediction 751: No,
+Model Prediction 752: No,
+Model Prediction 753: Yes.
+Model Prediction 754: No,
+Model Prediction 755: Yes,
+Model Prediction 756: Yes.
+Model Prediction 757: No.
+Model Prediction 758: Yes,
+Model Prediction 759: No.
+Model Prediction 760: Yes.
+Model Prediction 761: Yes,
+Model Prediction 762: Yes,
+Model Prediction 763: No.
+Model Prediction 764: Yes.
+Model Prediction 765: No,
+Model Prediction 766: No,
+Model Prediction 767: Yes,
+Model Prediction 768: No,
+Model Prediction 769: No,
+Model Prediction 770: No,
+Model Prediction 771: No,
+Model Prediction 772: No.
+Model Prediction 773: Yes,
+Model Prediction 774: Yes,
+Model Prediction 775: No,
+Model Prediction 776: Yes,
+Model Prediction 777: No.
+Model Prediction 778: Yes,
+Model Prediction 779: Yes,
+Model Prediction 780: No.
+Model Prediction 781: No.
+Model Prediction 782: Yes.
+Model Prediction 783: Yes.
+Model Prediction 784: No.
+Model Prediction 785: No,
+Model Prediction 786: Yes,
+Model Prediction 787: No.
+Model Prediction 788: Yes,
+Model Prediction 789: No,
+Model Prediction 790: No.
+Model Prediction 791: Yes.
+Model Prediction 792: No,
+Model Prediction 793: Yes,
+Model Prediction 794: Yes,
+Model Prediction 795: No,
+Model Prediction 796: No.
+Model Prediction 797: No,
+Model Prediction 798: Yes,
+Model Prediction 799: Yes.
+Model Prediction 800: No.
+Model Prediction 801: No,
+Model Prediction 802: No,
+Model Prediction 803: No,
+Model Prediction 804: No.
+Model Prediction 805: Yes.
+Model Prediction 806: Yes.
+Model Prediction 807: Yes.
+Model Prediction 808: No,
+Model Prediction 809: No,
+Model Prediction 810: Yes,
+Model Prediction 811: No.
+Model Prediction 812: No,
+Model Prediction 813: No,
+Model Prediction 814: Yes,
+Model Prediction 815: No,
+Model Prediction 816: Yes,
+Model Prediction 817: No,
+Model Prediction 818: Yes,
+Model Prediction 819: Yes.
+Model Prediction 820: No.
+Model Prediction 821: Yes,
+Model Prediction 822: No.
+Model Prediction 823: Yes,
+Model Prediction 824: Yes.
+Model Prediction 825: Yes,
+Model Prediction 826: Yes,
+Model Prediction 827: Yes,
+Model Prediction 828: Yes,
+Model Prediction 829: Yes,
+Model Prediction 830: No,
+Model Prediction 831: Yes,
+Model Prediction 832: No.
+Model Prediction 833: No.
+Model Prediction 834: Yes.
+Model Prediction 835: No.
+Model Prediction 836: Yes,
+Model Prediction 837: Yes,
+Model Prediction 838: Yes,
+Model Prediction 839: Yes,
+Model Prediction 840: No,
+Model Prediction 841: No.
+Model Prediction 842: No,
+Model Prediction 843: No,
+Model Prediction 844: No.
+Model Prediction 845: Yes.
+Model Prediction 846: Yes,
+Model Prediction 847: No.
+Model Prediction 848: Yes,
+Model Prediction 849: No,
+Model Prediction 850: No.
+Model Prediction 851: No.
+Model Prediction 852: Yes,
+Model Prediction 853: Yes.
+Model Prediction 854: No,
+Model Prediction 855: No.
+Model Prediction 856: Yes,
+Model Prediction 857: Yes,
+Model Prediction 858: No,
+Model Prediction 859: Yes,
+Model Prediction 860: No,
+Model Prediction 861: Yes,
+Model Prediction 862: Yes,
+Model Prediction 863: No.
+Model Prediction 864: Yes,
+Model Prediction 865: Yes,
+Model Prediction 866: No,
+Model Prediction 867: No,
+Model Prediction 868: No.
+Model Prediction 869: No,
+Model Prediction 870: Yes,
+Model Prediction 871: No,
+Model Prediction 872: No.
+Model Prediction 873: No.
+Model Prediction 874: Yes,
+Model Prediction 875: No,
+Model Prediction 876: No,
+Model Prediction 877: Yes,
+Model Prediction 878: No,
+Model Prediction 879: No,
+Model Prediction 880: Yes,
+Model Prediction 881: No.
+Model Prediction 882: No,
+Model Prediction 883: No,
+Model Prediction 884: No,
+Model Prediction 885: No.
+Model Prediction 886: Yes,
+Model Prediction 887: No,
+Model Prediction 888: Yes,
+Model Prediction 889: No,
+Model Prediction 890: No,
+Model Prediction 891: No,
+Model Prediction 892: No,
+Model Prediction 893: Yes.
+Model Prediction 894: Yes,
+Model Prediction 895: No.
+Model Prediction 896: Yes.
+Model Prediction 897: No.
+Model Prediction 898: No,
+Model Prediction 899: Yes,
+Model Prediction 900: No.
+Model Prediction 901: Yes,
+Model Prediction 902: No,
+Model Prediction 903: No,
+Model Prediction 904: No.
+Model Prediction 905: No.
+Model Prediction 906: No,
+Model Prediction 907: Yes,
+Model Prediction 908: No,
+Model Prediction 909: No,
+Model Prediction 910: No,
+Model Prediction 911: Yes.
+Model Prediction 912: Yes.
+Model Prediction 913: Yes.
+Model Prediction 914: No,
+Model Prediction 915: No.
+Model Prediction 916: No.
+Model Prediction 917: No,
+Model Prediction 918: Yes,
+Model Prediction 919: No,
+Model Prediction 920: No,
+Model Prediction 921: No,
+Model Prediction 922: No,
+Model Prediction 923: No.
+Model Prediction 924: Yes,
+Model Prediction 925: No.
+Model Prediction 926: No.
+Model Prediction 927: Yes,
+Model Prediction 928: Yes,
+Model Prediction 929: Yes,
+Model Prediction 930: Yes,
+Model Prediction 931: No.
+Model Prediction 932: No,
+Model Prediction 933: No,
+Model Prediction 934: Yes.
+Model Prediction 935: No,
+Model Prediction 936: No,
+Model Prediction 937: Yes,
+Model Prediction 938: Yes.
+Model Prediction 939: Yes,
+Model Prediction 940: No.
+Model Prediction 941: No,
+Model Prediction 942: Yes,
+Model Prediction 943: Yes,
+Model Prediction 944: Yes,
+Model Prediction 945: No,
+Model Prediction 946: Yes,
+Model Prediction 947: No,
+Model Prediction 948: Yes,
+Model Prediction 949: Yes,
+Model Prediction 950: No.
+Model Prediction 951: Yes,
+Model Prediction 952: Yes.
+Model Prediction 953: No,
+Model Prediction 954: Yes,
+Model Prediction 955: No,
+Model Prediction 956: Yes,
+Model Prediction 957: Yes,
+Model Prediction 958: Yes,
+Model Prediction 959: No.
+Model Prediction 960: No,
+Model Prediction 961: Yes,
+Model Prediction 962: No,
+Model Prediction 963: No.
+Model Prediction 964: No,
+Model Prediction 965: No,
+Model Prediction 966: Yes,
+Model Prediction 967: Yes.
+Model Prediction 968: Yes,
+Model Prediction 969: Yes,
+Model Prediction 970: Yes,
+Model Prediction 971: Yes.
+Model Prediction 972: Yes,
+Model Prediction 973: Yes,
+Model Prediction 974: No.
+Model Prediction 975: No,
+Model Prediction 976: No.
+Model Prediction 977: Yes,
+Model Prediction 978: No,
+Model Prediction 979: Yes,
+Model Prediction 980: No.
+Model Prediction 981: Yes,
+Model Prediction 982: Yes,
+Model Prediction 983: No.
+Model Prediction 984: Yes.
+Model Prediction 985: Yes.
+Model Prediction 986: No,
+Model Prediction 987: No,
+Model Prediction 988: No.
+Model Prediction 989: Yes,
+Model Prediction 990: No,
+Model Prediction 991: Yes,
+Model Prediction 992: Yes,
+Model Prediction 993: No.
+Model Prediction 994: Yes.
+Model Prediction 995: Yes,
+Model Prediction 996: Yes,
+Model Prediction 997: No.
+Model Prediction 998: No,
+Model Prediction 999: Yes,
+Model Prediction 1000: Yes,
+Model Prediction 1001: Yes,
+Model Prediction 1002: Yes,
+Model Prediction 1003: No.
+Model Prediction 1004: Yes,
+Model Prediction 1005: No,
+Model Prediction 1006: no
+Model Prediction 1007: Yes,
+Model Prediction 1008: No,
+Model Prediction 1009: Yes.
+Model Prediction 1010: No.
+Model Prediction 1011: No.
+Model Prediction 1012: Yes,
+Model Prediction 1013: Yes,
+Model Prediction 1014: Yes,
+Model Prediction 1015: No,
+Model Prediction 1016: Yes,
+Model Prediction 1017: No,
+Model Prediction 1018: No,
+Model Prediction 1019: Yes,
+Model Prediction 1020: No,
+Model Prediction 1021: Yes,
+Model Prediction 1022: Yes,
+Model Prediction 1023: Yes.
+Model Prediction 1024: Yes,
+Model Prediction 1025: Yes.
+Model Prediction 1026: Yes.
+Model Prediction 1027: Yes,
+
+Accuracy: 0.8656280428432327
+MCC: 0.7364584820207364
+AUC: 0.8667271182067897
+Specificity: 0.9204771371769384
+Micro Precision: 0.8656280428432327
+Micro Recall: 0.8656280428432327
+Micro F1 Score: 0.8656280428432327
+Macro Precision: 0.8697375165438785
+Macro Recall: 0.8667271182067897
+Macro F1 Score: 0.86545340624288

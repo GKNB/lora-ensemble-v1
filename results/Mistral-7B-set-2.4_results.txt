@@ -1,0 +1,49 @@
+Evaluation on test set:
+
+Prompt 1: Given the options yes or no, will there be significant deregulation of the protein Copg1 6 months after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 2: Given the options yes or no, will there be significant deregulation of the protein Ube2l3 6 months after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 3: Given the options yes or no, will there be significant deregulation of the protein Lin7a 6 months after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 4: Given the options yes or no, will there be significant deregulation of the protein Tsnax 6 months after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 5: Given the options yes or no, will there be significant deregulation of the protein Necab1 6 months after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 6: Given the options yes or no, will there be significant deregulation of the protein Psmb2 6 months after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 7: Given the options yes or no, will there be significant deregulation of the protein U2af2 6 months after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 8: Given the options yes or no, will there be significant deregulation of the protein Hdgf 6 months after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 9: Given the options yes or no, will there be significant deregulation of the protein Atp1b2 6 months after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 10: Given the options yes or no, will there be significant deregulation of the protein Arpc5 6 months after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Model Prediction 1: no
+Model Prediction 2: no
+Model Prediction 3: no
+Model Prediction 4: no
+Model Prediction 5: yes
+Model Prediction 6: no
+Model Prediction 7: no
+Model Prediction 8: no
+Model Prediction 9: no
+Model Prediction 10: no
+
+Accuracy: 0.5
+MCC: 0.2721655269759087
+AUC: 0.5833333333333334
+Specificity: 1.0
+Macro Precision: 0.7222222222222222
+Macro F1 Score: 0.4505494505494505

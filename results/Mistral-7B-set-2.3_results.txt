@@ -1,0 +1,41 @@
+Evaluation on test set:
+
+Prompt 1: Given the options yes or no, will there be significant deregulation of the protein Raly 3 months after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 2: Given the options yes or no, will there be significant deregulation of the protein Armc1 3 months after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 3: Given the options yes or no, will there be significant deregulation of the protein Clcn4 3 months after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 4: Given the options yes or no, will there be significant deregulation of the protein Hpx 3 months after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 5: Given the options yes or no, will there be significant deregulation of the protein Tubb3 3 months after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 6: Given the options yes or no, will there be significant deregulation of the protein Sec23a 3 months after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 7: Given the options yes or no, will there be significant deregulation of the protein Myo1d 3 months after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 8: Given the options yes or no, will there be significant deregulation of the protein Atp6v0c 3 months after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Model Prediction 1: Yes,
+Model Prediction 2: No,
+Model Prediction 3: No,
+Model Prediction 4: No,
+Model Prediction 5: No,
+Model Prediction 6: No,
+Model Prediction 7: No,
+Model Prediction 8: No,
+
+Accuracy: 0.5
+MCC: 0.29277002188455997
+AUC: 0.6
+Specificity: 1.0
+Macro Precision: 0.7142857142857143
+Macro F1 Score: 0.4666666666666667
