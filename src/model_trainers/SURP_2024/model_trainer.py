@@ -16,16 +16,8 @@ import torch.nn.functional as F
 import shutil
 import json
 
-    
-def worker_init_fn(worker_id):
-    worker_info = torch.utils.data.get_worker_info()
-    seed = worker_info.seed % (2**32) 
-    seed += worker_id
-    np.random.seed(seed)
-    random.seed(seed)
-    torch.manual_seed(seed)
 
-
+# Set random seeds for consistent experiments
 def set_seeds(seed=237):
     random.seed(seed)
     np.random.seed(seed)
@@ -48,46 +40,48 @@ class model_trainer():
         os.environ["WANDB_DISABLED"] = "true"
 
         # Initialize file paths
-        model_name = "TEMP"
-        self.log_file_path = f"/direct/sdcc+u/rengel/results/{model_name}_results.txt"
-        self.plot_file_path = f"/direct/sdcc+u/rengel/results/{model_name}_losses.png"
-        self.plot_title = f"Loss values for {model_name}"
+        self.model_name = "Llama3-8B-set-4" 
+        self.json_file_path = '/direct/sdcc+u/rengel/data/dataset_4_prompts.json'
+        self.log_file_path = f"/direct/sdcc+u/rengel/results/experiments_v2/{self.model_name}_results.txt"
+        self.plot_file_path = f"/direct/sdcc+u/rengel/results/experiments_v2/{self.model_name}_losses.png"
+        self.plot_title = f"Loss values for {self.model_name}" 
 
         # Open the log file in write mode, this will clear previous contents
         with open(self.log_file_path, 'w') as file:
-            file.write("")  
- 
+            file.write("") 
+
         # Hyperparameters
-        self.lr = 1e-4 
+        self.lr = 1e-4   
         self.num_epochs = 4
         self.batch_size = 4
         self.new_tokens = 5 
-        self.max_length = 120
+        self.max_length = 50
+        #420 for multishot
+ 
+        # datasets 1-3 
+            # max_length = 120 
+            # num_epochs = 4 
+            # dataset 1.1 - Batch Size = 8 
+            # dataset 1.2 - Batch Size = 16 
+            # dataset 1.3 - Batch Size = 4
+            # dataset 2.1 - Batch Size = 2 
+            # dataset 2.2 - Batch Size = 1 
+            # dataset 2.3 - Batch Size = 2
+            # dataset 2.4 - Batch Size = 1 
+            # dataset 3.1 - Batch Size = 2 
+            # dataset 3.2 - Batch Size = 1 
+            # dataset 3c - Batch Size = 16
 
-        # Both Models
-        # datasets 1-3
-            # max_length = 120
-            # num_epochs = 4
         # datasets 4-5
-            # max_length = 60
-            # num_epochs = 5
-            # batch_size = 32
+            # max_length = 50
+            # num_epochs = 4
+            # batch_size = 16 
+
         # dataset 6
-            # max_length = 60
-            # num_epochs = 5
-            # batch_size = 16
-
-        # dataset 1.1 - Batch Size = 4
-        # dataset 1.2 - Batch Size = 4
-        # dataset 1.3 - Batch Size = 1
-        # dataset 2.1 - Batch Size = 2
-        # dataset 2.2 - Batch Size = 4
-        # dataset 2.3 - Batch Size = 2
-        # dataset 2.4 - Batch Size = 2
-        # dataset 3.1 - Batch Size = 2 
-        # dataset 3.2 - Batch Size = 1
-
-
+            # max_length = 50
+            # num_epochs = 4
+            # batch_size = 8, Llama-3 uses 16
+        
         # Loss values for plots
         self.train_losses = []
         self.valid_losses = []
@@ -97,7 +91,7 @@ class model_trainer():
         self.tokenizer = tokenizer
         self.tokenizer.pad_token = self.tokenizer.eos_token 
          
-        # print("Model: ", self.model)
+        print("Model: ", self.model)
 
         
 
@@ -111,162 +105,15 @@ class model_trainer():
 
 
     def load_data(self):
-
+        # Append path to data loader
         os.chdir('../src/data_processors')
         sys.path.append(os.getcwd())
 
-        # Uncomment the code below for the dataset and prompt you are using
-        # This is only necessary for changing the prompts and saving them as json files
-        # For loading the current json files skip to the next function
-        self.list1 = []
-        self.list2 = []
-
-        # Dataset 1
-        # set 1: 446 x 2 = 892
-        # set 2: 666 x 2 = 1,332
-        # set 3: 102 x 2 = 204
-        # prompt = f"Given the options Yes or No, will there be significant deregulation of {protein} 24 months after exposure to low-dose radiation at 0.063 Gy?" 
-        # prompt = f"Given the options Yes or No, will there be significant deregulation of {protein} 24 months after exposure to low-dose radiation at 0.125 Gy?"
-        # prompt = f"Given the options Yes or No, will there be significant deregulation of {protein} 24 months after exposure to low-dose radiation at 0.5 Gy?"
-        from dataset_1_processor import d1_processor
-        data_file_path = "/direct/sdcc+u/rengel/data/dataset_1_original.xls"
-        p1 = d1_processor(data_file_path)
-        d1, d2, d3 = p1.load_excel_spreadsheets() 
-        for item in d3: # Change this to d1, d2, or d3 depending on the subset of data
-            self.list1.append(item[0])  
-            self.list2.append(item[1]) 
-        print("Length of dataset: ", len(self.list1))
-        print("Length of dataset: ", len(self.list2))
-
-
-        # Dataset 2
-        # set 1: 80 x 2 = 160
-        # set 2: 99 x 2 = 198
-        # set 3: 37 x 2 = 74
-        # set 4: 47 x 2 = 94
-        # prompt = f"Given the options yes or no, will there be significant deregulation of the protein {protein} 72 hours after exposure to low dose radiation at 2.0 Gy?"
-        # prompt = f"Given the options yes or no, will there be significant deregulation of the protein {protein} 1 month after exposure to low dose radiation at 2.0 Gy?"
-        # prompt = f"Given the options yes or no, will there be significant deregulation of the protein {protein} 3 months after exposure to low dose radiation at 2.0 Gy?"  
-        # prompt = f"Given the options yes or no, will there be significant deregulation of the protein {protein} 6 months after exposure to low dose radiation at 2.0 Gy?"
-        # from dataset_2_processor import d2_processor
-        # data_file_path = "/direct/sdcc+u/rengel/data/dataset_2_original.xlsx"
-        # p2 = d2_processor(data_file_path)
-        # d1, d2, d3, d4 = p2.load_excel_spreadsheets()
-        # for item in d4[0]:
-        #     self.list1.append(item)  
-        # for item in d4[1]:
-        #     self.list2.append(item)  
-        # print("Length of dataset: ", len(self.list1))
-        # print("Length of dataset: ", len(self.list2))
-        
-
-        # Dataset 3
-        # set 1: 49 x 2 = 98
-        # set 2: 77 x 2 = 154
-        # prompt = f"Given the options yes or no, will there be an altered acetylation status of protein {protein} 4 hours after exposure to low dose radiation at 0.5 Gy?" 
-        # prompt = f"Given the options yes or no, will there be an altered acetylation status of protein {protein} 24 hours after exposure to low dose radiation at 0.5 Gy?" 
-        # from dataset_3_processor import d3_processor
-        # data_file_path = "/direct/sdcc+u/rengel/data/dataset_3_original.xlsx"
-        # p3 = d3_processor(data_file_path)
-        # d1, d2  = p3.load_excel_spreadsheets()
-        # for item in d1[0]:
-        #     self.list1.append(item)  
-        # for item in d1[1]:
-        #     self.list2.append(item)  
-        # print("Length of dataset: ", len(self.list1))
-        # print("Length of dataset: ", len(self.list2))
-
-
-        # Dataset 3c
-        # 1,111 x 2 = 2,222 
-        # prompt = f"Given the options yes or no, will there be deregulation of the protein {protein} after low-dose radiation exposure?""
-        # from dataset_3c_processor import d3c_processor
-        # data_file_path_1 = "/direct/sdcc+u/rengel/data/dataset_1_original.xls"
-        # data_file_path_2 = "/direct/sdcc+u/rengel/data/dataset_2_original.xlsx"
-        # data_file_path_3 = "/direct/sdcc+u/rengel/data/dataset_3_original.xlsx"
-        # p3c = d3c_processor(data_file_path_1, data_file_path_2, data_file_path_3)
-        # d1, d2 = p3c.load_excel_spreadsheets()
-        # for item in d1:
-        #     self.list1.append(item)
-        # for item in d2:
-        #     self.list2.append(item)
-        # print("Length of dataset: ", len(self.list1))
-        # print("Length of dataset: ", len(self.list2))
-
-
-        # Dataset 4
-        # 5,881 x 2 = 11,762 pairs
-        # prompt = f"Given the options yes or no, is there a protein interaction between {protein1} and {protein2} in the presence of neurodegenerative diseases?"
-        # from dataset_4_5_processor import d4_5_processor
-        # data_file_path_1 = "/direct/sdcc+u/rengel/data/dataset_4_original_pros.txt"
-        # data_file_path_2 = "/direct/sdcc+u/rengel/data/dataset_4_original_index.txt"
-        # p4 = d4_5_processor(data_file_path_1, data_file_path_2)
-        # d1, d2  = p4.load_data()
-        # for item in d1: self.list1.append(item)   
-        # for item in d2: self.list2.append(item) 
-        # print("Length of dataset: ", len(self.list1))
-        # print("Length of dataset: ", len(self.list2))
-        
-
-        # Dataset 5
-        # 5,131 x 2 = 10,262 pairs
-        # prompt = f"Given the options yes or no, is there a protein interaction between {protein1} and {protein2} in the presence of metabolic diseases?"
-        # from dataset_4_5_processor import d4_5_processor
-        # data_file_path_1 = "/direct/sdcc+u/rengel/data/dataset_5_original_pros.txt"
-        # data_file_path_2 = "/direct/sdcc+u/rengel/data/dataset_5_original_index.txt"
-        # p5 = d4_5_processor(data_file_path_1, data_file_path_2)
-        # d1, d2  = p5.load_data()
-        # for item in d1: self.list1.append(item)   
-        # for item in d2: self.list2.append(item)
-        # print("Length of dataset: ", len(self.list1))
-        # print("Length of dataset: ", len(self.list2))
-
-        # Dataset 6
-        # 933 x 2 = 1,866 pairs
-        # prompt = f"Given the options yes or no, is there a protein interaction between {protein1} and {protein2} in the presence of cancer?"
-        # from dataset_6_processor import d6_processor
-        # data_file_path = "/direct/sdcc+u/rengel/data/dataset_6_original.txt"
-        # p4 = d6_processor(data_file_path)
-        # d1, d2  = p4.load_data()
-        # for item in d1: self.list1.append(item)   
-        # for item in d2: self.list2.append(item)
-        # print("Length of dataset: ", len(self.list1))
-        # print("Length of dataset: ", len(self.list2))
-
-
-
-        # The following code was used to save the above datasets/prompts into json files
-       
-        # Datasets 1-3
-        # Copy/paste the prompt from above to use for each list
-        self.dataset_examples = []
-        for protein in self.list1:
-            prompt = f"Given the options Yes or No, will there be significant deregulation of {protein} 24 months after exposure to low-dose radiation at 0.063 Gy?" 
-            self.dataset_examples.append({'question': prompt, 'answer': 'Yes'})
-        for protein in self.list2:
-            prompt = f"Given the options Yes or No, will there be significant deregulation of {protein} 24 months after exposure to low-dose radiation at 0.063 Gy?" 
-            self.dataset_examples.append({'question': prompt, 'answer': 'No'})
-
-        # Datasets 4-6
-        # Copy/paste the prompt from above to use for each list
-        # self.dataset_examples = [] 
-        # for pos_pair in self.list1:
-        #     protein1 = pos_pair[0]
-        #     protein2 = pos_pair[1]
-        #     prompt = f"Given the options yes or no, is there a protein interaction between {protein1} and {protein2} in the presence of cancer?"
-        #     self.dataset_examples.append({'question': prompt, 'answer': 'Yes'})
-        # for neg_pair in self.list2:
-        #     protein1 = neg_pair[0]
-        #     protein2 = neg_pair[1]
-        #     prompt = f"Given the options yes or no, is there a protein interaction between {protein1} and {protein2} in the presence of cancer?"
-        #     self.dataset_examples.append({'question': prompt, 'answer': 'No'})
-
-        # Use this code to save the prompts to json files
-        # with open('/direct/sdcc+u/rengel/data/dataset_1_v3_prompts.json', 'w') as file:
-        #     json.dump(self.dataset_examples, file, indent=4)
-        # quit()
-
-
+        # Make call to data loader
+        from data_loader import dataset_loader 
+        loader = dataset_loader()
+        loader.load_datasets()
+        print("Done")
 
 
 
@@ -275,12 +122,11 @@ class model_trainer():
         # Initialize dataset 
         self.dataset_examples = []
 
-        # Path to the JSON file
-        json_file_path = '/direct/sdcc+u/rengel/data/dataset_1_v3_prompts.json'
-
         # Open and read the JSON file
-        with open(json_file_path, 'r') as file:
+        with open(self.json_file_path, 'r') as file:
             prompts_data = json.load(file)
+
+        print("Size of dataset: ", len(prompts_data))
 
         # Iterate through each entry in the JSON file
         for prompt in prompts_data:
@@ -307,25 +153,28 @@ class model_trainer():
         self.valid_dataset = valid_dataset
         self.test_dataset = test_dataset
 
-        # print("Training dataset: ", self.train_dataset)
-        # print("Validation dataset: ", self.valid_dataset)
-        # print("Testing dataset: ", self.test_dataset)
+        print("Training dataset: ", self.train_dataset)
+        print("Validation dataset: ", self.valid_dataset)
+        print("Testing dataset: ", self.test_dataset)
 
         # Determine distribution of tokens in each prompt
-        # prompt_lengths = []
-        # for example in self.test_dataset:  # Assuming dataset_examples is your dataset
-        #     # Llama
-        #     # prompt = f"### Question: {example['question']}\n### Answer: "
+        prompt_lengths = []
+        for example in self.test_dataset: 
+            # Llama
+            if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower():
+                prompt = f"### Question: {example['question']}\n### Answer: "
 
-        #     # Mixtral
-        #     prompt = f"{self.tokenizer.eos_token}[INST]### Question: {example['question']}[/INST]\n### Answer: "
+            # Mistral
+            if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower():
+                prompt = f"{self.tokenizer.eos_token}[INST]### Question: {example['question']}[/INST]\n### Answer: "
             
-        #     prompt_length = len(self.tokenizer.tokenize(prompt))
-        #     prompt_lengths.append(prompt_length)
+            prompt_length = len(self.tokenizer.tokenize(prompt))
+            prompt_lengths.append(prompt_length)
 
-        # # Analyze the distribution of prompt lengths
-        # print(f"Maximum prompt length: {max(prompt_lengths)}")
-        # print(f"Average prompt length: {sum(prompt_lengths) / len(prompt_lengths)}")
+        # Analyze the distribution of prompt lengths
+        print(f"Maximum prompt length: {max(prompt_lengths)}")
+        print(f"Average prompt length: {sum(prompt_lengths) / len(prompt_lengths)}")
+
 
 
 
@@ -375,81 +224,126 @@ class model_trainer():
             for i in range(len(example['question'])):
 
                 # Llama 
-                text = f"### Question: {example['question'][i]}\n### Answer: {example['answer'][i]}"
+                if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower():
+                    text = f"### Question: {example['question'][i]}\n### Answer: {example['answer'][i]}"
 
                 # Mistral 
-                # text = f"{self.tokenizer.eos_token}[INST]### Question: {example['question'][i]}[/INST]\n### Answer: {example['answer'][i]}"
+                if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower():
+                    text = f"{self.tokenizer.eos_token}[INST]### Question: {example['question'][i]}[/INST]\n### Answer: {example['answer'][i]}"
                 
                 output_texts.append(text)
             return output_texts
         
         def process_test_set(example):
 
+            tokenized_inputs = {key: [] for key in ['input_ids', 'attention_mask', 'token_type_ids'] if key in self.tokenizer.model_input_names}
+
             for i, (q, a) in enumerate(zip(example['question'], example['answer'])):
+                # Log and Debug
                 self.log(f"Prompt {i+1}: {q}\nTrue Label: {a}\n")  
+                print(f"Prompt {i+1}: {q}\nTrue Label: {a}\n")
 
-            tokenized_inputs = self.tokenizer(
-                # Llama
-                [f"### Question: {q}\n### Answer: {a}" for q, a in zip(example['question'], example['answer'])],
+                # Format Prompt
+                formatted_qa = f"### Question: {q}\n### Answer: {a}"
+                if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower():
+                    formatted_qa = f"{self.tokenizer.eos_token}[INST]### Question: {q}[/INST]\n### Answer: {a}"
+                
+                # Tokenize Immediately
+                tokenized = self.tokenizer(
+                    formatted_qa,
+                    padding="max_length",
+                    truncation=True,
+                    max_length=self.max_length,
+                    return_tensors="pt"
+                )
+                
+                # Convert batch encoding data structure to python list
+                for key in tokenized_inputs.keys():
+                    tokenized_inputs[key].extend(tokenized[key].numpy().tolist())
 
-                # Mistral
-                # [f"{self.tokenizer.eos_token}[INST]### Question: {q}[/INST]\n### Answer: {a}" for q, a in zip(example['question'], example['answer'])],
-
-                padding="max_length",
-                truncation=True,
-                max_length=self.max_length,
-                return_tensors="pt"
-            )
             return tokenized_inputs
         
 
-        def compute_metrics(eval_preds):         
+        def compute_metrics(eval_preds):       
+
+            print("\nDEBUG: Computing Metrics")  
+            torch.cuda.empty_cache()
             
-            label_ids = eval_preds.label_ids
-            true_labels = []
-
-            # Iterate over each label_id sequence in label_ids
-            for i, single_label_ids in enumerate(label_ids):
-                if torch.is_tensor(single_label_ids):
-                    single_label_ids = single_label_ids.tolist()
-
-                # Filter out -100 values before decoding
-                valid_ids = [id_ for id_ in single_label_ids if id_ != -100]
-
-                # Convert valid_ids to a tensor and decode
-                ids = torch.tensor(valid_ids)
-                decoded_label = self.tokenizer.decode(ids, skip_special_tokens=True, clean_up_tokenization_spaces=True)
-
-                if "yes" in decoded_label.lower(): true_labels.append(1)
-                elif "no" in decoded_label.lower():  true_labels.append(0)
-                else: true_labels.append(None)
- 
             logits = eval_preds.predictions
-            probabilities = F.softmax(torch.tensor(logits), dim=-1)
-            token_ids = torch.argmax(probabilities, dim=-1).tolist()
-            decoded_texts = [self.tokenizer.decode(ids, skip_special_tokens=True, clean_up_tokenization_spaces=True) for ids in token_ids]
+            label_ids = eval_preds.label_ids
 
-            preds = []
-            for i, text in enumerate(decoded_texts):
-                # Find the start of the answer
-                answer_start_idx = text.lower().find("answer: ") + len("answer: ")
+            # Convert logits from NumPy array to PyTorch tensor
+            logits_tensor = torch.from_numpy(logits).to('cuda')
+
+            # Split logits_tensor into smaller chunks
+            chunk_size = 1024  # Adjust this value as needed
+            num_chunks = (logits_tensor.size(0) + chunk_size - 1) // chunk_size
+
+            # Initialize lists to store probabilities and predictions
+            all_probabilities = []
+            all_predictions = []
+
+            for i in range(num_chunks):
+                start = i * chunk_size
+                end = start + chunk_size
+                chunk = logits_tensor[start:end]
+
+                # Apply softmax on GPU for each chunk
+                probabilities = F.softmax(chunk, dim=-1)
+                predictions = torch.argmax(probabilities, dim=-1)
+
+                # Append to lists
+                all_probabilities.append(probabilities.cpu().numpy())
+                all_predictions.append(predictions.cpu().numpy())
+
+            # Concatenate probabilities and predictions
+            probabilities = np.concatenate(all_probabilities)
+            predictions = np.concatenate(all_predictions)
+
+            # Filter out -100 values before decoding
+            label_ids = [label[label != -100] for label in label_ids]
+
+            # Pre-decode all necessary token IDs to text (on CPU)
+            decoded_texts = self.tokenizer.batch_decode(predictions, skip_special_tokens=True, clean_up_tokenization_spaces=True)
+            decoded_labels = self.tokenizer.batch_decode(label_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True)
+
+            print(f"Size of logits: {logits.nbytes}")
+            print(f"Size of probabilities: {probabilities.nbytes}")
+
+            # Initialize true_labels and preds lists
+            true_labels, preds = [], []
+            
+            # Process decoded texts to classify responses 
+            i = 0
+            for decoded_text, decoded_label in zip(decoded_texts, decoded_labels):
+
+                # Normalize and find "yes" or "no"
+                normalized_text = decoded_text.lower()
+                normalized_label = decoded_label.lower()
+
+                # Determine true label from decoded_label
+                true_label = 1 if "yes" in normalized_label else 0 if "no" in normalized_label else None
+                true_labels.append(true_label)
+
+                # Determine predicted answer
+                answer_start_idx = normalized_text.lower().find("answer: ") + len("answer: ")
 
                 # DEBUG
                 # print("------------------------------")
                 
                 # Extract the substring starting from the answer
-                answer_text = text[answer_start_idx:]
+                answer_text = normalized_text[answer_start_idx:]
 
                 # Parse the model output to get the first word after the "answer:"
                 matches = re.findall(r'\byes\b|\bno\b', answer_text.lower())
                 if matches:
                     first_word = matches[0]  
                 else:
-                    # If we cannot immediatelyl find the answer in the first word, find the first word after a newline character
-                    answer_start_idx = text.lower().find("\n") + len("\n")
+                    # If we cannot immediately find the answer in the first word, find the first word after a newline character
+                    answer_start_idx = normalized_text.lower().find("\n") + len("\n")
 
                     # Extract the substring starting from the answer
-                    answer_text = text[answer_start_idx:]
+                    answer_text = normalized_text[answer_start_idx:]
 
                     # Parse the model output to get the first word after the "answer:"
                     matches = re.findall(r'\byes\b|\bno\b', answer_text)
@@ -458,10 +352,11 @@ class model_trainer():
                     else:
                         first_word = answer_text.split()[0]
 
-                # DEBUG
-                # print("decoded text: ", text)
-                # print("answer text: ", answer_text)
-                # print("first word: ", first_word)
+                if testing:
+                    # DEBUG
+                    print("model output: ", normalized_text)
+                    print("predicted answer: ", first_word)
+                    print("True Label: ", true_labels[i])
 
                 if "yes" in first_word.lower(): 
                     preds.append(1)
@@ -469,7 +364,6 @@ class model_trainer():
                     preds.append(0)
                 else: 
                     # Append the opposite of the true label, checking for None
-                    print("DEBUG: True Label: ", true_labels[i])
                     if true_labels[i] is not None:
                         if true_labels[i] == 0:
                             opposite_value = 1 
@@ -477,7 +371,7 @@ class model_trainer():
                         else:
                             opposite_value = 0
                             first_word = "no"
-                        print("DEBUG: Opposite value: ", opposite_value, "\n\n\n")
+                        # print("DEBUG: Opposite value: ", opposite_value, "\n\n\n")
                         preds.append(opposite_value)
 
                 # Print model outputs
@@ -485,31 +379,22 @@ class model_trainer():
                     #self.log(f"Prompt: {decoded_texts}")
                     self.log(f"Model Prediction {i+1}: {first_word}")
 
+                i += 1
+
             # Compute metrics
             accuracy = accuracy_score(true_labels, preds)
             mcc = matthews_corrcoef(true_labels, preds)
             auc = roc_auc_score(true_labels, preds)
             tn, fp, fn, tp = confusion_matrix(true_labels, preds).ravel()
             specificity = tn / (tn+fp)
-
-            # Calculate precision, recall, and F1-score for both micro and macro averaging
-            precision_micro = precision_score(true_labels, preds, average='micro')
-            recall_micro = recall_score(true_labels, preds, average='micro')
-            f1_micro = f1_score(true_labels, preds, average='micro')
-
             precision_macro = precision_score(true_labels, preds, average='macro')
-            recall_macro = recall_score(true_labels, preds, average='macro')
             f1_macro = f1_score(true_labels, preds, average='macro')
 
             metrics = [("Accuracy", accuracy), 
                     ("MCC", mcc), 
                     ("AUC", auc), 
                     ("Specificity", specificity), 
-                    ("Micro Precision", precision_micro), 
-                    ("Micro Recall", recall_micro), 
-                    ("Micro F1 Score", f1_micro),
                     ("Macro Precision", precision_macro), 
-                    ("Macro Recall", recall_macro), 
                     ("Macro F1 Score", f1_macro)]
             
             # Convert list of tuples into a dictionary
@@ -520,10 +405,8 @@ class model_trainer():
                 for metric_name, metric_value in metrics_dict.items():
                     self.log(f"{metric_name}: {metric_value}")
 
-            print("\n\n")
+            # print("\n\n")
             return metrics_dict
-
-
 
         # LoRA CONFIG 
         # https://moon-ci-docs.huggingface.co/docs/peft/pr_721/en/package_reference/tuners#peft.LoraConfig
@@ -540,7 +423,7 @@ class model_trainer():
         )
 
         training_arguments = TrainingArguments(
-            output_dir="/direct/sdcc+u/rengel/results", 
+            output_dir=f"/direct/sdcc+u/rengel/results/{self.model_name}", 
             num_train_epochs=self.num_epochs,
             per_device_train_batch_size=self.batch_size,
             optim="adamw_torch", 
@@ -552,10 +435,12 @@ class model_trainer():
         )
         
         # Llama 
-        response_template_with_context = "\n### Answer:" 
+        if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower():
+            response_template_with_context = "\n### Answer:" 
 
         # Mistral
-        # response_template_with_context = "[/INST]\n### Answer:" 
+        if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower():
+            response_template_with_context = "[/INST]\n### Answer:" 
 
         response_template_ids = self.tokenizer.encode(response_template_with_context, add_special_tokens=False)[2:]
         collator = DataCollatorForCompletionOnlyLM(response_template=response_template_ids, tokenizer=self.tokenizer)
@@ -582,7 +467,7 @@ class model_trainer():
         # Evaluate the model on the test set
         testing = True
         self.log("Evaluation on test set:\n")
-        tokenized_test_dataset = self.test_dataset.map(process_test_set, batched=True)
+        tokenized_test_dataset = self.test_dataset.map(process_test_set, batched=True, batch_size=self.batch_size)
         results = trainer.predict(tokenized_test_dataset)
         print("Evaluation Results:", results)
 
@@ -593,36 +478,98 @@ class model_trainer():
 
         self.model.eval()
         predictions, labels = [], []
+        self.prompt_counter = 1 
+        self.label_counter = 1   
+        self.output_counter = 1   
+        self.tokenizer.padding_side='left'
+        self.tokenizer.pad_token_id=self.tokenizer.eos_token_id
 
         def tokenize_test_set(example):
+            # Log the prompt and label with the current counter
+            tokenized_inputs = {key: [] for key in ['input_ids', 'attention_mask', 'token_type_ids'] if key in self.tokenizer.model_input_names}
+
+            for index, question in enumerate(example['question']):
+                self.log(f"Prompt {self.prompt_counter}: {question}")
+                self.prompt_counter += 1  
+                self.log(f"Label {self.label_counter}: {example['answer'][index]}\n")
+                self.label_counter += 1
+
+            # Dataset 1 prompts:
+            # Llama
+            # [f"### Question: Given the options Yes or No, will there be significant deregulation of ACTB (Actin) 24 months after exposure to low-dose radiation at 0.5 Gy?\n### Answer: No\n### Question: Given the options Yes or No, will there be significant deregulation of TUBA1A (Tubulin) 24 months after exposure to low-dose radiation at 0.5 Gy?\n### Answer: No\n### Question: Given the options Yes or No, will there be significant deregulation of MYH7 (Myosin) 24 months after exposure to low-dose radiation at 0.5 Gy?\n### Answer: Yes\n### Question: {q}\n### Answer: " for q in example['question']] if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower() else 
+            # # Mistral
+            # [f"{self.tokenizer.eos_token}[INST]### Question: Given the options Yes or No, will there be significant deregulation of ACTB (Actin) 24 months after exposure to low-dose radiation at 0.5 Gy?[/INST]\n### Answer: No\n[INST]### Question: Given the options Yes or No, will there be significant deregulation of TUBA1A (Tubulin) 24 months after exposure to low-dose radiation at 0.5 Gy?[/INST]\n### Answer: No\n[INST]### Question: Given the options Yes or No, will there be significant deregulation of MYH7 (Myosin) 24 months after exposure to low-dose radiation at 0.5 Gy?[/INST]\n### Answer: Yes\n[INST]### Question: {q}[/INST]\n### Answer: " for q in example['question']] if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower() else [],  
+                
+            # Dataset 2 prompts:
+            # Llama
+            # [f"### Question: Given the options yes or no, will there be significant deregulation of the protein KRT5 72 hours after exposure to low dose radiation at 2.0 Gy?\n### Answer: No\n### Question: Given the options yes or no, will there be significant deregulation of the protein GAPDH 72 hours after exposure to low dose radiation at 2.0 Gy?\n### Answer: No\n### Question: Given the options yes or no, will there be significant deregulation of the protein ALB 72 hours after exposure to low dose radiation at 2.0 Gy?\n### Answer: Yes\n### Question: {q}\n### Answer: " for q in example['question']] if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower() else 
+            # # Mistral
+            # [f"{self.tokenizer.eos_token}[INST]### Question: Given the options yes or no, will there be significant deregulation of the protein KRT5 72 hours after exposure to low dose radiation at 2.0 Gy?[/INST]\n### Answer: No\n[INST]### Question: Given the options yes or no, will there be significant deregulation of the protein GAPDH 72 hours after exposure to low dose radiation at 2.0 Gy?[/INST]\n### Answer: No\n[INST]### Question: Given the options yes or no, will there be significant deregulation of the protein ALB 72 hours after exposure to low dose radiation at 2.0 Gy?[/INST]\n### Answer: Yes\n[INST]### Question: {q}[/INST]\n### Answer: " for q in example['question']] if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower() else [],  
+                
+            # Dataset 3 prompts:
+            # Llama
+            # [f"### Question: Given the options yes or no, will there be an altered acetylation status of protein G6PD 4 hours after exposure to low dose radiation at 0.5 Gy?\n### Answer: No\n### Question: Given the options yes or no, will there be an altered acetylation status of protein FGFR1 4 hours after exposure to low dose radiation at 0.5 Gy?\n### Answer: No\n### Question: Given the options yes or no, will there be an altered acetylation status of protein CDKN1A 4 hours after exposure to low dose radiation at 0.5 Gy?\n### Answer: Yes\n### Question: {q}\n### Answer: " for q in example['question']] if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower() else 
+            # # Mistral
+            # [f"{self.tokenizer.eos_token}[INST]### Question: Given the options yes or no, will there be an altered acetylation status of protein G6PD 4 hours after exposure to low dose radiation at 0.5 Gy?[/INST]\n### Answer: No\n[INST]### Question: Given the options yes or no, will there be an altered acetylation status of protein FGFR1 4 hours after exposure to low dose radiation at 0.5 Gy?[/INST]\n### Answer: No\n[INST]### Question: Given the options yes or no, will there be an altered acetylation status of protein CDKN1A 4 hours after exposure to low dose radiation at 0.5 Gy?[/INST]\n### Answer: Yes\n[INST]### Question: {q}[/INST]\n### Answer: " for q in example['question']] if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower() else [],  
+                
+            # Dataset 3c prompts:
+            # Llama
+            # [f"### Question: Given the options yes or no, will there be deregulation of the protein TP53 after low-dose radiation exposure?\n### Answer: No\n### Question: Given the options yes or no, will there be deregulation of the protein PTEN after low-dose radiation exposure?\n### Answer: No\n### Question: Given the options yes or no, will there be deregulation of the protein BCL2 after low-dose radiation exposure?\n### Answer: Yes\n### Question: {q}\n### Answer: " for q in example['question']] if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower() else 
+            # # Mistral
+            # [f"{self.tokenizer.eos_token}[INST]### Question: Given the options yes or no, will there be deregulation of the protein TP53 after low-dose radiation exposure?[/INST]\n### Answer: No\n[INST]### Question: Given the options yes or no, will there be deregulation of the protein PTEN after low-dose radiation exposure?[/INST]\n### Answer: No\n[INST]### Question: Given the options yes or no, will there be deregulation of the protein BCL2 after low-dose radiation exposure?[/INST]\n### Answer: Yes\n[INST]### Question: {q}[/INST]\n### Answer: " for q in example['question']] if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower() else [],  
+              
+            # Dataset 4 prompts:
+            # Llama
+            # [f"### Question: Given the options yes or no, is there a protein interaction between ENOL and KRT5 in the presence of neurodegenerative diseases?\n### Answer: Yes\n### Question: Given the options yes or no, is there a protein interaction between HBA1 and LDHA in the presence of neurodegenerative diseases?\n### Answer: No\n### Question: Given the options yes or no, is there a protein interaction between CFTR and INS in the presence of neurodegenerative diseases?\n### Answer: Yes\n### Question: {q}\n### Answer: " for q in example['question']] if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower() else 
+            # # Mistral
+            # [f"{self.tokenizer.eos_token}[INST]### Question: Given the options yes or no, is there a protein interaction between ENOL and KRT5 in the presence of neurodegenerative diseases?[/INST]\n### Answer: Yes\n[INST]### Question: Given the options yes or no, is there a protein interaction between HBA1 and LDHA in the presence of neurodegenerative diseases?[/INST]\n### Answer: No\n[INST]### Question: Given the options yes or no, is there a protein interaction between CFTR and INS in the presence of neurodegenerative diseases?[/INST]\n### Answer: Yes\n[INST]### Question: {q}[/INST]\n### Answer: " for q in example['question']] if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower() else [],  
+              
+            # Dataset 5 prompts:
+            # Llama
+            # [f"### Question: Given the options yes or no, is there a protein interaction between BCL2 and FGFR1 in the presence of metabolic diseases?\n### Answer: Yes\n### Question: Given the options yes or no, is there a protein interaction between MYH7 and KRT5 in the presence of metabolic diseases?\n### Answer: No\n### Question: Given the options yes or no, is there a protein interaction between CFTR and ACTB in the presence of metabolic diseases?\n### Answer: No\n### Question: {q}\n### Answer: " for q in example['question']] if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower() else 
+            # # Mistral
+            # [f"{self.tokenizer.eos_token}[INST]### Question: Given the options yes or no, is there a protein interaction between BCL2 and FGFR1 in the presence of metabolic diseases?[/INST]\n### Answer: Yes\n[INST]### Question: Given the options yes or no, is there a protein interaction between MYH7 and KRT5 in the presence of metabolic diseases?[/INST]\n### Answer: No\n[INST]### Question: Given the options yes or no, is there a protein interaction between CFTR and ACTB in the presence of metabolic diseases?[/INST]\n### Answer: No\n[INST]### Question: {q}[/INST]\n### Answer: " for q in example['question']] if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower() else [],  
+
+            # Dataset 6 prompts:
+            # Llama
+            # [f"### Question: Given the options yes or no, is there a protein interaction between ALB and CDKN1A in the presence of cancer?\n### Answer: Yes\n### Question: Given the options yes or no, is there a protein interaction between GAPDH and TUBA1A in the presence of cancer?\n### Answer: Yes\n### Question: Given the options yes or no, is there a protein interaction between TP53 and PTEN in the presence of cancer?\n### Answer: No\n### Question: {q}\n### Answer: " for q in example['question']] if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower() else 
+            # # Mistral
+            # [f"{self.tokenizer.eos_token}[INST]### Question: Given the options yes or no, is there a protein interaction between ALB and CDKN1A in the presence of cancer?[/INST]\n### Answer: Yes\n[INST]### Question: Given the options yes or no, is there a protein interaction between GAPDH and TUBA1A in the presence of cancer?[/INST]\n### Answer: Yes\n[INST]### Question: Given the options yes or no, is there a protein interaction between TP53 and PTEN in the presence of cancer?[/INST]\n### Answer: No\n[INST]### Question: {q}[/INST]\n### Answer: " for q in example['question']] if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower() else [],  
+             
+
             # Tokenize Inputs
-            tokenized_inputs = self.tokenizer(
-                [f"{self.tokenizer.eos_token}[INST]### Question: {q}[/INST]\n### Answer: " # Note this must change based on each model
-                for q in example['question']],  
+            tokenized = self.tokenizer(
+                # Llama
+                [f"### Question: Given the options Yes or No, will there be significant deregulation of ACTB (Actin) 24 months after exposure to low-dose radiation at 0.125 Gy?\n### Answer: No\n### Question: Given the options Yes or No, will there be significant deregulation of TUBA1A (Tubulin) 24 months after exposure to low-dose radiation at 0.125 Gy?\n### Answer: No\n### Question: Given the options Yes or No, will there be significant deregulation of MYH7 (Myosin) 24 months after exposure to low-dose radiation at 0.125 Gy?\n### Answer: Yes\n### Question: {q}\n### Answer: " for q in example['question']] if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower() else 
+                # Mistral
+                [f"{self.tokenizer.eos_token}[INST]### Question: Given the options Yes or No, will there be significant deregulation of ACTB (Actin) 24 months after exposure to low-dose radiation at 0.5 Gy?[/INST]\n### Answer: No\n[INST]### Question: Given the options Yes or No, will there be significant deregulation of TUBA1A (Tubulin) 24 months after exposure to low-dose radiation at 0.5 Gy?[/INST]\n### Answer: No\n[INST]### Question: Given the options Yes or No, will there be significant deregulation of MYH7 (Myosin) 24 months after exposure to low-dose radiation at 0.5 Gy?[/INST]\n### Answer: Yes\n[INST]### Question: {q}[/INST]\n### Answer: " for q in example['question']] if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower() else [],  
                 padding="max_length",
                 truncation=True,
                 max_length=self.max_length,
                 return_tensors="pt"
-            )
-            
-            return tokenized_inputs
+            ) 
 
-        tokenized_test_dataset = self.test_dataset.map(
-            tokenize_test_set, 
-            batched=True, 
-            batch_size=self.batch_size 
-        )
+            # Convert batch encoding data structure to python list
+            for key in tokenized_inputs.keys():
+                tokenized_inputs[key].extend(tokenized[key].numpy().tolist())
+
+            return tokenized_inputs
+        
+
+        tokenized_test_dataset = self.test_dataset.map(tokenize_test_set, batched=True)
 
         with torch.no_grad():
+            index = 0
             for batch in tokenized_test_dataset:
-                # Modify the part where you prepare inputs for the model
                 inputs = {
                     k: torch.tensor(v, dtype=torch.long) for k, v in batch.items() if k in ['input_ids', 'attention_mask']
                 }
 
                 # Ensure each tensor in inputs has a batch dimension
                 inputs = {k: v.unsqueeze(0) if v.dim() == 1 else v for k, v in inputs.items()}
-                inputs = {k: v.to(self.device) for k, v in inputs.items()}  # Move tensors to the device after unsqueezing
+
+                # Move tensors to the device after unsqueezing
+                inputs = {k: v.to(self.device) for k, v in inputs.items()}  
 
                 true_label = batch['answer']  
 
@@ -634,58 +581,69 @@ class model_trainer():
                 for idx, sequence in enumerate(generated_sequences):
                     text = self.tokenizer.decode(sequence, skip_special_tokens=True).lower().strip()
 
-                    # Find the start of the answer
+                    # Find the start of the answer (0-shot)
                     answer_start_idx = text.lower().find("answer: ") + len("answer: ")
 
+                    # Find the 3rd answer keyword that appears (3-shot)
+                    idx = -len("answer: ")  # Start at -length of search term to compensate for the addition inside the loop
+                    for _ in range(4):
+                        idx = text.lower().find("answer: ", idx + len("answer: "))
+                    answer_start_idx = idx + len("answer: ")
+                        
                     # Extract the substring starting from the answer
                     answer_text = text[answer_start_idx:]
 
                     # Parse the model output to get the first word after the "answer:"
-                    matches = re.findall(r'\byes\b|\bno\b', answer_text)
-                    first_word = matches[0] if matches else answer_text.split()[0]
+                    matches = re.findall(r'\byes\b|\bno\b', answer_text.lower())
+                    if matches:
+                        answer = matches[0]  
+                    else:
+                        # If we cannot immediatelyl find the answer in the first word, find the first word after a newline character
+                        answer = answer_text.split()[0]
 
                     # DEBUG
-                    # print("------------------------------")
-                    # print("decoded text: ", text)
-                    # print("answer text: ", answer_text)
-                    # print("first word: ", first_word)
+                    print("\n------------------------------")
+                    print("model output: ", text)
+                    print("answer: ", answer)
+                    print("true label: ", true_label)
+                    print("IDX: ", index)
 
-                    if "yes" in true_label:
+                    if "yes" in true_label.lower():
                         labels.append(1)
-                    else:
+                    elif "no" in true_label.lower():
                         labels.append(0)
-                    
-                    if "yes" in first_word.lower(): 
+                    else:
+                        print("DEBUG")
+                        quit()
+
+                    if "yes" in answer.lower(): 
                         predictions.append(1)
-                    elif "no" in first_word.lower():  
+                    elif "no" in answer.lower():  
                         predictions.append(0)
                     else: 
                         # Append the opposite of the true label, checking for None
-                        print("DEBUG: True Label: ", labels[idx])
-                        if labels[idx] is not None:
-                            if labels[idx] == 0:
+                        print("DEBUG: True Label: ", labels[index])
+                        if labels[index] is not None:
+                            if labels[index] == 0:
                                 opposite_value = 1 
-                                first_word = "yes"
+                                answer = "yes"
                             else:
                                 opposite_value = 0
-                                first_word = "no"
+                                answer = "no"
                             print("DEBUG: Opposite value: ", opposite_value, "\n\n\n")
                             predictions.append(opposite_value)
 
+                    print("\n")
                     # Print model outputs
-                    self.log(f"Model Prediction {idx+1}: {first_word}")
-
-        self.predictions = predictions
-        self.labels = labels
-
-        print("Preds: ", len(self.predictions))
-        print("Labels: ", len(self.labels))
+                    self.log(f"Model Prediction {self.output_counter}: {answer}")
+                    self.output_counter += 1
+                    index += 1
 
 
-
-    def calculate_metrics(self):
-        labels = self.labels
-        predictions = self.predictions
+        print("Preds: ", predictions)
+        print("Labels: ", labels)
+        print("Preds: ", len(predictions))
+        print("Labels: ", len(labels))
 
         metrics = []
 
@@ -718,31 +676,22 @@ class model_trainer():
             print(f"Error calculating Specificity: {e}")
             metrics.append(("Specificity", None))
 
-        # Micro and Macro Precision, Recall, and F1 Score
-        for average in ['micro', 'macro']:
-            try:
-                precision = precision_score(labels, predictions, average=average)
-                metrics.append((f"{average.capitalize()} Precision", precision))
-            except Exception as e:
-                print(f"Error calculating {average.capitalize()} Precision: {e}")
-                metrics.append((f"{average.capitalize()} Precision", None))
-                
-            try:
-                recall = recall_score(labels, predictions, average=average)
-                metrics.append((f"{average.capitalize()} Recall", recall))
-            except Exception as e:
-                print(f"Error calculating {average.capitalize()} Recall: {e}")
-                metrics.append((f"{average.capitalize()} Recall", None))
-                
-            try:
-                f1 = f1_score(labels, predictions, average=average)
-                metrics.append((f"{average.capitalize()} F1 Score", f1))
-            except Exception as e:
-                print(f"Error calculating {average.capitalize()} F1 Score: {e}")
-                metrics.append((f"{average.capitalize()} F1 Score", None))
+        try:
+            precision = precision_score(labels, predictions, average="macro")
+            metrics.append((f"Macro Precision", precision))
+        except Exception as e:
+            print(f"Error calculating Macro Precision: {e}")
+            metrics.append((f"Macro Precision", None))
+            
+        try:
+            f1 = f1_score(labels, predictions, average="macro")
+            metrics.append((f"Macro F1 Score", f1))
+        except Exception as e:
+            print(f"Error calculating Macro F1 Score: {e}")
+            metrics.append((f"Macro F1 Score", None))
 
         # Log and print metrics
+        self.log("")
         for metric_name, metric_value in metrics:
             print(f"{metric_name}: {metric_value}")
             self.log(f"{metric_name}: {metric_value}")
-
