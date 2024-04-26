@@ -1,0 +1,899 @@
+Prompt 1: Given the options yes or no, will there be deregulation of the protein adgrl1 after low-dose radiation exposure?
+Label 1: Yes
+
+Prompt 2: Given the options yes or no, will there be deregulation of the protein armc10 after low-dose radiation exposure?
+Label 2: No
+
+Prompt 3: Given the options yes or no, will there be deregulation of the protein eml2 after low-dose radiation exposure?
+Label 3: Yes
+
+Prompt 4: Given the options yes or no, will there be deregulation of the protein apeh after low-dose radiation exposure?
+Label 4: No
+
+Prompt 5: Given the options yes or no, will there be deregulation of the protein arf3 after low-dose radiation exposure?
+Label 5: Yes
+
+Prompt 6: Given the options yes or no, will there be deregulation of the protein tmem126a after low-dose radiation exposure?
+Label 6: No
+
+Prompt 7: Given the options yes or no, will there be deregulation of the protein usp46 after low-dose radiation exposure?
+Label 7: Yes
+
+Prompt 8: Given the options yes or no, will there be deregulation of the protein cryab after low-dose radiation exposure?
+Label 8: No
+
+Prompt 9: Given the options yes or no, will there be deregulation of the protein necab1 after low-dose radiation exposure?
+Label 9: Yes
+
+Prompt 10: Given the options yes or no, will there be deregulation of the protein ngef after low-dose radiation exposure?
+Label 10: Yes
+
+Prompt 11: Given the options yes or no, will there be deregulation of the protein fus after low-dose radiation exposure?
+Label 11: Yes
+
+Prompt 12: Given the options yes or no, will there be deregulation of the protein ap2a2 after low-dose radiation exposure?
+Label 12: No
+
+Prompt 13: Given the options yes or no, will there be deregulation of the protein etf1 after low-dose radiation exposure?
+Label 13: No
+
+Prompt 14: Given the options yes or no, will there be deregulation of the protein itga5 after low-dose radiation exposure?
+Label 14: No
+
+Prompt 15: Given the options yes or no, will there be deregulation of the protein lasp1 after low-dose radiation exposure?
+Label 15: No
+
+Prompt 16: Given the options yes or no, will there be deregulation of the protein copg1 after low-dose radiation exposure?
+Label 16: Yes
+
+Prompt 17: Given the options yes or no, will there be deregulation of the protein ndufaf2 after low-dose radiation exposure?
+Label 17: No
+
+Prompt 18: Given the options yes or no, will there be deregulation of the protein pld3 after low-dose radiation exposure?
+Label 18: No
+
+Prompt 19: Given the options yes or no, will there be deregulation of the protein me1 after low-dose radiation exposure?
+Label 19: No
+
+Prompt 20: Given the options yes or no, will there be deregulation of the protein rpsa after low-dose radiation exposure?
+Label 20: Yes
+
+Prompt 21: Given the options yes or no, will there be deregulation of the protein hras after low-dose radiation exposure?
+Label 21: Yes
+
+Prompt 22: Given the options yes or no, will there be deregulation of the protein rab3gap2 after low-dose radiation exposure?
+Label 22: Yes
+
+Prompt 23: Given the options yes or no, will there be deregulation of the protein sypl after low-dose radiation exposure?
+Label 23: Yes
+
+Prompt 24: Given the options yes or no, will there be deregulation of the protein nptn after low-dose radiation exposure?
+Label 24: Yes
+
+Prompt 25: Given the options yes or no, will there be deregulation of the protein capza2 after low-dose radiation exposure?
+Label 25: No
+
+Prompt 26: Given the options yes or no, will there be deregulation of the protein ahcy after low-dose radiation exposure?
+Label 26: Yes
+
+Prompt 27: Given the options yes or no, will there be deregulation of the protein ak1 after low-dose radiation exposure?
+Label 27: Yes
+
+Prompt 28: Given the options yes or no, will there be deregulation of the protein dcakd after low-dose radiation exposure?
+Label 28: Yes
+
+Prompt 29: Given the options yes or no, will there be deregulation of the protein smap2 after low-dose radiation exposure?
+Label 29: Yes
+
+Prompt 30: Given the options yes or no, will there be deregulation of the protein opa1 after low-dose radiation exposure?
+Label 30: Yes
+
+Prompt 31: Given the options yes or no, will there be deregulation of the protein gm9833 after low-dose radiation exposure?
+Label 31: Yes
+
+Prompt 32: Given the options yes or no, will there be deregulation of the protein eps8l2 after low-dose radiation exposure?
+Label 32: No
+
+Prompt 33: Given the options yes or no, will there be deregulation of the protein alyref after low-dose radiation exposure?
+Label 33: Yes
+
+Prompt 34: Given the options yes or no, will there be deregulation of the protein rpl24 after low-dose radiation exposure?
+Label 34: Yes
+
+Prompt 35: Given the options yes or no, will there be deregulation of the protein gnaq after low-dose radiation exposure?
+Label 35: No
+
+Prompt 36: Given the options yes or no, will there be deregulation of the protein aldh3b1 after low-dose radiation exposure?
+Label 36: No
+
+Prompt 37: Given the options yes or no, will there be deregulation of the protein rps11 after low-dose radiation exposure?
+Label 37: Yes
+
+Prompt 38: Given the options yes or no, will there be deregulation of the protein s100b after low-dose radiation exposure?
+Label 38: Yes
+
+Prompt 39: Given the options yes or no, will there be deregulation of the protein arl6ip1 after low-dose radiation exposure?
+Label 39: No
+
+Prompt 40: Given the options yes or no, will there be deregulation of the protein grhpr after low-dose radiation exposure?
+Label 40: No
+
+Prompt 41: Given the options yes or no, will there be deregulation of the protein cmas after low-dose radiation exposure?
+Label 41: No
+
+Prompt 42: Given the options yes or no, will there be deregulation of the protein rpl22 after low-dose radiation exposure?
+Label 42: Yes
+
+Prompt 43: Given the options yes or no, will there be deregulation of the protein lrpap1 after low-dose radiation exposure?
+Label 43: No
+
+Prompt 44: Given the options yes or no, will there be deregulation of the protein snrpa1 after low-dose radiation exposure?
+Label 44: No
+
+Prompt 45: Given the options yes or no, will there be deregulation of the protein dst after low-dose radiation exposure?
+Label 45: Yes
+
+Prompt 46: Given the options yes or no, will there be deregulation of the protein mtco1 after low-dose radiation exposure?
+Label 46: No
+
+Prompt 47: Given the options yes or no, will there be deregulation of the protein cand1 after low-dose radiation exposure?
+Label 47: No
+
+Prompt 48: Given the options yes or no, will there be deregulation of the protein aldh1l1 after low-dose radiation exposure?
+Label 48: No
+
+Prompt 49: Given the options yes or no, will there be deregulation of the protein nfs1 after low-dose radiation exposure?
+Label 49: Yes
+
+Prompt 50: Given the options yes or no, will there be deregulation of the protein calb2 after low-dose radiation exposure?
+Label 50: Yes
+
+Prompt 51: Given the options yes or no, will there be deregulation of the protein eif3c after low-dose radiation exposure?
+Label 51: No
+
+Prompt 52: Given the options yes or no, will there be deregulation of the protein synpr after low-dose radiation exposure?
+Label 52: No
+
+Prompt 53: Given the options yes or no, will there be deregulation of the protein slc2a3 after low-dose radiation exposure?
+Label 53: Yes
+
+Prompt 54: Given the options yes or no, will there be deregulation of the protein lrrc57 after low-dose radiation exposure?
+Label 54: Yes
+
+Prompt 55: Given the options yes or no, will there be deregulation of the protein tubb4a after low-dose radiation exposure?
+Label 55: Yes
+
+Prompt 56: Given the options yes or no, will there be deregulation of the protein lgi3 after low-dose radiation exposure?
+Label 56: No
+
+Prompt 57: Given the options yes or no, will there be deregulation of the protein rpl9 after low-dose radiation exposure?
+Label 57: Yes
+
+Prompt 58: Given the options yes or no, will there be deregulation of the protein acap2 after low-dose radiation exposure?
+Label 58: Yes
+
+Prompt 59: Given the options yes or no, will there be deregulation of the protein tubb after low-dose radiation exposure?
+Label 59: Yes
+
+Prompt 60: Given the options yes or no, will there be deregulation of the protein vdac3 after low-dose radiation exposure?
+Label 60: Yes
+
+Prompt 61: Given the options yes or no, will there be deregulation of the protein psat1 after low-dose radiation exposure?
+Label 61: Yes
+
+Prompt 62: Given the options yes or no, will there be deregulation of the protein cpt2 after low-dose radiation exposure?
+Label 62: No
+
+Prompt 63: Given the options yes or no, will there be deregulation of the protein synrg after low-dose radiation exposure?
+Label 63: Yes
+
+Prompt 64: Given the options yes or no, will there be deregulation of the protein gipc1 after low-dose radiation exposure?
+Label 64: Yes
+
+Prompt 65: Given the options yes or no, will there be deregulation of the protein bag2 after low-dose radiation exposure?
+Label 65: No
+
+Prompt 66: Given the options yes or no, will there be deregulation of the protein mcts1 after low-dose radiation exposure?
+Label 66: No
+
+Prompt 67: Given the options yes or no, will there be deregulation of the protein cap1 after low-dose radiation exposure?
+Label 67: No
+
+Prompt 68: Given the options yes or no, will there be deregulation of the protein ndufa12 after low-dose radiation exposure?
+Label 68: Yes
+
+Prompt 69: Given the options yes or no, will there be deregulation of the protein napb after low-dose radiation exposure?
+Label 69: No
+
+Prompt 70: Given the options yes or no, will there be deregulation of the protein gsk3b after low-dose radiation exposure?
+Label 70: Yes
+
+Prompt 71: Given the options yes or no, will there be deregulation of the protein cops6 after low-dose radiation exposure?
+Label 71: No
+
+Prompt 72: Given the options yes or no, will there be deregulation of the protein dcps after low-dose radiation exposure?
+Label 72: Yes
+
+Prompt 73: Given the options yes or no, will there be deregulation of the protein khdrbs1 after low-dose radiation exposure?
+Label 73: No
+
+Prompt 74: Given the options yes or no, will there be deregulation of the protein oscp1 after low-dose radiation exposure?
+Label 74: No
+
+Prompt 75: Given the options yes or no, will there be deregulation of the protein lmnb2 after low-dose radiation exposure?
+Label 75: Yes
+
+Prompt 76: Given the options yes or no, will there be deregulation of the protein pdpr after low-dose radiation exposure?
+Label 76: Yes
+
+Prompt 77: Given the options yes or no, will there be deregulation of the protein vps28 after low-dose radiation exposure?
+Label 77: Yes
+
+Prompt 78: Given the options yes or no, will there be deregulation of the protein flg2 after low-dose radiation exposure?
+Label 78: Yes
+
+Prompt 79: Given the options yes or no, will there be deregulation of the protein fam120a after low-dose radiation exposure?
+Label 79: Yes
+
+Prompt 80: Given the options yes or no, will there be deregulation of the protein gas7 after low-dose radiation exposure?
+Label 80: Yes
+
+Prompt 81: Given the options yes or no, will there be deregulation of the protein vat1l after low-dose radiation exposure?
+Label 81: No
+
+Prompt 82: Given the options yes or no, will there be deregulation of the protein atp6v1g1 after low-dose radiation exposure?
+Label 82: No
+
+Prompt 83: Given the options yes or no, will there be deregulation of the protein entpd2 after low-dose radiation exposure?
+Label 83: No
+
+Prompt 84: Given the options yes or no, will there be deregulation of the protein ssr4 after low-dose radiation exposure?
+Label 84: No
+
+Prompt 85: Given the options yes or no, will there be deregulation of the protein slc9a6 after low-dose radiation exposure?
+Label 85: No
+
+Prompt 86: Given the options yes or no, will there be deregulation of the protein sar1a after low-dose radiation exposure?
+Label 86: No
+
+Prompt 87: Given the options yes or no, will there be deregulation of the protein tspan7 after low-dose radiation exposure?
+Label 87: Yes
+
+Prompt 88: Given the options yes or no, will there be deregulation of the protein pnpo after low-dose radiation exposure?
+Label 88: No
+
+Prompt 89: Given the options yes or no, will there be deregulation of the protein actr1b after low-dose radiation exposure?
+Label 89: Yes
+
+Prompt 90: Given the options yes or no, will there be deregulation of the protein wdr44 after low-dose radiation exposure?
+Label 90: Yes
+
+Prompt 91: Given the options yes or no, will there be deregulation of the protein ndufv2 after low-dose radiation exposure?
+Label 91: No
+
+Prompt 92: Given the options yes or no, will there be deregulation of the protein kctd16 after low-dose radiation exposure?
+Label 92: Yes
+
+Prompt 93: Given the options yes or no, will there be deregulation of the protein ubr4 after low-dose radiation exposure?
+Label 93: Yes
+
+Prompt 94: Given the options yes or no, will there be deregulation of the protein rps25 after low-dose radiation exposure?
+Label 94: Yes
+
+Prompt 95: Given the options yes or no, will there be deregulation of the protein vps26b after low-dose radiation exposure?
+Label 95: No
+
+Prompt 96: Given the options yes or no, will there be deregulation of the protein camk2a after low-dose radiation exposure?
+Label 96: Yes
+
+Prompt 97: Given the options yes or no, will there be deregulation of the protein vcpip1 after low-dose radiation exposure?
+Label 97: No
+
+Prompt 98: Given the options yes or no, will there be deregulation of the protein snrpb2 after low-dose radiation exposure?
+Label 98: Yes
+
+Prompt 99: Given the options yes or no, will there be deregulation of the protein hapln1 after low-dose radiation exposure?
+Label 99: No
+
+Prompt 100: Given the options yes or no, will there be deregulation of the protein cdc42ep4 after low-dose radiation exposure?
+Label 100: No
+
+Prompt 101: Given the options yes or no, will there be deregulation of the protein adrbk1 after low-dose radiation exposure?
+Label 101: No
+
+Prompt 102: Given the options yes or no, will there be deregulation of the protein timm13 after low-dose radiation exposure?
+Label 102: Yes
+
+Prompt 103: Given the options yes or no, will there be deregulation of the protein slc3a2 after low-dose radiation exposure?
+Label 103: No
+
+Prompt 104: Given the options yes or no, will there be deregulation of the protein ak4 after low-dose radiation exposure?
+Label 104: No
+
+Prompt 105: Given the options yes or no, will there be deregulation of the protein kiaa1671 after low-dose radiation exposure?
+Label 105: Yes
+
+Prompt 106: Given the options yes or no, will there be deregulation of the protein adcy2 after low-dose radiation exposure?
+Label 106: No
+
+Prompt 107: Given the options yes or no, will there be deregulation of the protein rabl6 after low-dose radiation exposure?
+Label 107: Yes
+
+Prompt 108: Given the options yes or no, will there be deregulation of the protein hnrnpab after low-dose radiation exposure?
+Label 108: No
+
+Prompt 109: Given the options yes or no, will there be deregulation of the protein pdhx after low-dose radiation exposure?
+Label 109: No
+
+Prompt 110: Given the options yes or no, will there be deregulation of the protein psmd13 after low-dose radiation exposure?
+Label 110: Yes
+
+Prompt 111: Given the options yes or no, will there be deregulation of the protein snta1 after low-dose radiation exposure?
+Label 111: No
+
+Prompt 112: Given the options yes or no, will there be deregulation of the protein actr10 after low-dose radiation exposure?
+Label 112: Yes
+
+Prompt 113: Given the options yes or no, will there be deregulation of the protein dnal1 after low-dose radiation exposure?
+Label 113: Yes
+
+Prompt 114: Given the options yes or no, will there be deregulation of the protein scrn3 after low-dose radiation exposure?
+Label 114: Yes
+
+Prompt 115: Given the options yes or no, will there be deregulation of the protein myo6 after low-dose radiation exposure?
+Label 115: No
+
+Prompt 116: Given the options yes or no, will there be deregulation of the protein fam234b after low-dose radiation exposure?
+Label 116: Yes
+
+Prompt 117: Given the options yes or no, will there be deregulation of the protein rsu1 after low-dose radiation exposure?
+Label 117: No
+
+Prompt 118: Given the options yes or no, will there be deregulation of the protein emc8 after low-dose radiation exposure?
+Label 118: No
+
+Prompt 119: Given the options yes or no, will there be deregulation of the protein tomm40l after low-dose radiation exposure?
+Label 119: No
+
+Prompt 120: Given the options yes or no, will there be deregulation of the protein snca after low-dose radiation exposure?
+Label 120: No
+
+Prompt 121: Given the options yes or no, will there be deregulation of the protein fam134a after low-dose radiation exposure?
+Label 121: Yes
+
+Prompt 122: Given the options yes or no, will there be deregulation of the protein aqp4 after low-dose radiation exposure?
+Label 122: Yes
+
+Prompt 123: Given the options yes or no, will there be deregulation of the protein hspa4 after low-dose radiation exposure?
+Label 123: Yes
+
+Prompt 124: Given the options yes or no, will there be deregulation of the protein ric8a after low-dose radiation exposure?
+Label 124: No
+
+Prompt 125: Given the options yes or no, will there be deregulation of the protein crmp1 after low-dose radiation exposure?
+Label 125: No
+
+Prompt 126: Given the options yes or no, will there be deregulation of the protein arhgef7 after low-dose radiation exposure?
+Label 126: Yes
+
+Prompt 127: Given the options yes or no, will there be deregulation of the protein chl1 after low-dose radiation exposure?
+Label 127: Yes
+
+Prompt 128: Given the options yes or no, will there be deregulation of the protein rps13 after low-dose radiation exposure?
+Label 128: Yes
+
+Prompt 129: Given the options yes or no, will there be deregulation of the protein tenm2 after low-dose radiation exposure?
+Label 129: Yes
+
+Prompt 130: Given the options yes or no, will there be deregulation of the protein rps27rt after low-dose radiation exposure?
+Label 130: Yes
+
+Prompt 131: Given the options yes or no, will there be deregulation of the protein slc27a4 after low-dose radiation exposure?
+Label 131: No
+
+Prompt 132: Given the options yes or no, will there be deregulation of the protein gak after low-dose radiation exposure?
+Label 132: Yes
+
+Prompt 133: Given the options yes or no, will there be deregulation of the protein robo2 after low-dose radiation exposure?
+Label 133: Yes
+
+Prompt 134: Given the options yes or no, will there be deregulation of the protein phb after low-dose radiation exposure?
+Label 134: Yes
+
+Prompt 135: Given the options yes or no, will there be deregulation of the protein srsf7 after low-dose radiation exposure?
+Label 135: Yes
+
+Prompt 136: Given the options yes or no, will there be deregulation of the protein exoc1 after low-dose radiation exposure?
+Label 136: Yes
+
+Prompt 137: Given the options yes or no, will there be deregulation of the protein raly after low-dose radiation exposure?
+Label 137: Yes
+
+Prompt 138: Given the options yes or no, will there be deregulation of the protein actb after low-dose radiation exposure?
+Label 138: Yes
+
+Prompt 139: Given the options yes or no, will there be deregulation of the protein ptges2 after low-dose radiation exposure?
+Label 139: Yes
+
+Prompt 140: Given the options yes or no, will there be deregulation of the protein prdx3 after low-dose radiation exposure?
+Label 140: No
+
+Prompt 141: Given the options yes or no, will there be deregulation of the protein dnajc11 after low-dose radiation exposure?
+Label 141: No
+
+Prompt 142: Given the options yes or no, will there be deregulation of the protein apod after low-dose radiation exposure?
+Label 142: Yes
+
+Prompt 143: Given the options yes or no, will there be deregulation of the protein ak5 after low-dose radiation exposure?
+Label 143: No
+
+Prompt 144: Given the options yes or no, will there be deregulation of the protein rcc1 after low-dose radiation exposure?
+Label 144: Yes
+
+Prompt 145: Given the options yes or no, will there be deregulation of the protein camk4 after low-dose radiation exposure?
+Label 145: Yes
+
+Prompt 146: Given the options yes or no, will there be deregulation of the protein rpl15 after low-dose radiation exposure?
+Label 146: Yes
+
+Prompt 147: Given the options yes or no, will there be deregulation of the protein gnal after low-dose radiation exposure?
+Label 147: Yes
+
+Prompt 148: Given the options yes or no, will there be deregulation of the protein clic6 after low-dose radiation exposure?
+Label 148: No
+
+Prompt 149: Given the options yes or no, will there be deregulation of the protein arl2 after low-dose radiation exposure?
+Label 149: No
+
+Prompt 150: Given the options yes or no, will there be deregulation of the protein ktn1 after low-dose radiation exposure?
+Label 150: Yes
+
+Prompt 151: Given the options yes or no, will there be deregulation of the protein bcam after low-dose radiation exposure?
+Label 151: No
+
+Prompt 152: Given the options yes or no, will there be deregulation of the protein cfdp1 after low-dose radiation exposure?
+Label 152: Yes
+
+Prompt 153: Given the options yes or no, will there be deregulation of the protein slc1a1 after low-dose radiation exposure?
+Label 153: No
+
+Prompt 154: Given the options yes or no, will there be deregulation of the protein pdlim5 after low-dose radiation exposure?
+Label 154: Yes
+
+Prompt 155: Given the options yes or no, will there be deregulation of the protein bcap31 after low-dose radiation exposure?
+Label 155: Yes
+
+Prompt 156: Given the options yes or no, will there be deregulation of the protein cmtm5 after low-dose radiation exposure?
+Label 156: No
+
+Prompt 157: Given the options yes or no, will there be deregulation of the protein lin7c after low-dose radiation exposure?
+Label 157: No
+
+Prompt 158: Given the options yes or no, will there be deregulation of the protein rhoa after low-dose radiation exposure?
+Label 158: No
+
+Prompt 159: Given the options yes or no, will there be deregulation of the protein cdh11 after low-dose radiation exposure?
+Label 159: Yes
+
+Prompt 160: Given the options yes or no, will there be deregulation of the protein rbmxl1 after low-dose radiation exposure?
+Label 160: Yes
+
+Prompt 161: Given the options yes or no, will there be deregulation of the protein rcn1 after low-dose radiation exposure?
+Label 161: No
+
+Prompt 162: Given the options yes or no, will there be deregulation of the protein rnh1 after low-dose radiation exposure?
+Label 162: No
+
+Prompt 163: Given the options yes or no, will there be deregulation of the protein atp6v0c after low-dose radiation exposure?
+Label 163: Yes
+
+Prompt 164: Given the options yes or no, will there be deregulation of the protein coro7 after low-dose radiation exposure?
+Label 164: Yes
+
+Prompt 165: Given the options yes or no, will there be deregulation of the protein prepl after low-dose radiation exposure?
+Label 165: No
+
+Prompt 166: Given the options yes or no, will there be deregulation of the protein zfr after low-dose radiation exposure?
+Label 166: Yes
+
+Prompt 167: Given the options yes or no, will there be deregulation of the protein map2k2 after low-dose radiation exposure?
+Label 167: Yes
+
+Prompt 168: Given the options yes or no, will there be deregulation of the protein fbxl13 after low-dose radiation exposure?
+Label 168: Yes
+
+Prompt 169: Given the options yes or no, will there be deregulation of the protein ptms after low-dose radiation exposure?
+Label 169: Yes
+
+Prompt 170: Given the options yes or no, will there be deregulation of the protein dync1i1 after low-dose radiation exposure?
+Label 170: No
+
+Prompt 171: Given the options yes or no, will there be deregulation of the protein ugp2 after low-dose radiation exposure?
+Label 171: Yes
+
+Prompt 172: Given the options yes or no, will there be deregulation of the protein tomm40 after low-dose radiation exposure?
+Label 172: Yes
+
+Prompt 173: Given the options yes or no, will there be deregulation of the protein mapre1 after low-dose radiation exposure?
+Label 173: Yes
+
+Prompt 174: Given the options yes or no, will there be deregulation of the protein hsp90aa1 after low-dose radiation exposure?
+Label 174: No
+
+Prompt 175: Given the options yes or no, will there be deregulation of the protein anp32b after low-dose radiation exposure?
+Label 175: Yes
+
+Prompt 176: Given the options yes or no, will there be deregulation of the protein icam5 after low-dose radiation exposure?
+Label 176: Yes
+
+Prompt 177: Given the options yes or no, will there be deregulation of the protein scrn1 after low-dose radiation exposure?
+Label 177: Yes
+
+Prompt 178: Given the options yes or no, will there be deregulation of the protein usp5 after low-dose radiation exposure?
+Label 178: No
+
+Prompt 179: Given the options yes or no, will there be deregulation of the protein ccdc136 after low-dose radiation exposure?
+Label 179: No
+
+Prompt 180: Given the options yes or no, will there be deregulation of the protein fh1 after low-dose radiation exposure?
+Label 180: Yes
+
+Prompt 181: Given the options yes or no, will there be deregulation of the protein pfn1 after low-dose radiation exposure?
+Label 181: No
+
+Prompt 182: Given the options yes or no, will there be deregulation of the protein pgm3 after low-dose radiation exposure?
+Label 182: Yes
+
+Prompt 183: Given the options yes or no, will there be deregulation of the protein plec after low-dose radiation exposure?
+Label 183: Yes
+
+Prompt 184: Given the options yes or no, will there be deregulation of the protein cfl1 after low-dose radiation exposure?
+Label 184: No
+
+Prompt 185: Given the options yes or no, will there be deregulation of the protein ubqln2 after low-dose radiation exposure?
+Label 185: No
+
+Prompt 186: Given the options yes or no, will there be deregulation of the protein matr3 after low-dose radiation exposure?
+Label 186: Yes
+
+Prompt 187: Given the options yes or no, will there be deregulation of the protein fuom after low-dose radiation exposure?
+Label 187: No
+
+Prompt 188: Given the options yes or no, will there be deregulation of the protein rab3b after low-dose radiation exposure?
+Label 188: No
+
+Prompt 189: Given the options yes or no, will there be deregulation of the protein necap1 after low-dose radiation exposure?
+Label 189: No
+
+Prompt 190: Given the options yes or no, will there be deregulation of the protein vta1 after low-dose radiation exposure?
+Label 190: No
+
+Prompt 191: Given the options yes or no, will there be deregulation of the protein camk2d after low-dose radiation exposure?
+Label 191: Yes
+
+Prompt 192: Given the options yes or no, will there be deregulation of the protein tmem63b after low-dose radiation exposure?
+Label 192: Yes
+
+Prompt 193: Given the options yes or no, will there be deregulation of the protein slc38a3 after low-dose radiation exposure?
+Label 193: No
+
+Prompt 194: Given the options yes or no, will there be deregulation of the protein abcd3 after low-dose radiation exposure?
+Label 194: No
+
+Prompt 195: Given the options yes or no, will there be deregulation of the protein grid2 after low-dose radiation exposure?
+Label 195: No
+
+Prompt 196: Given the options yes or no, will there be deregulation of the protein pkp4 after low-dose radiation exposure?
+Label 196: Yes
+
+Prompt 197: Given the options yes or no, will there be deregulation of the protein tmx1 after low-dose radiation exposure?
+Label 197: No
+
+Prompt 198: Given the options yes or no, will there be deregulation of the protein gnao1 after low-dose radiation exposure?
+Label 198: Yes
+
+Prompt 199: Given the options yes or no, will there be deregulation of the protein cacna2d3 after low-dose radiation exposure?
+Label 199: No
+
+Prompt 200: Given the options yes or no, will there be deregulation of the protein clvs1 after low-dose radiation exposure?
+Label 200: No
+
+Prompt 201: Given the options yes or no, will there be deregulation of the protein cirbp after low-dose radiation exposure?
+Label 201: No
+
+Prompt 202: Given the options yes or no, will there be deregulation of the protein gpx1 after low-dose radiation exposure?
+Label 202: No
+
+Prompt 203: Given the options yes or no, will there be deregulation of the protein krt77 after low-dose radiation exposure?
+Label 203: Yes
+
+Prompt 204: Given the options yes or no, will there be deregulation of the protein calm3 after low-dose radiation exposure?
+Label 204: Yes
+
+Prompt 205: Given the options yes or no, will there be deregulation of the protein echdc1 after low-dose radiation exposure?
+Label 205: No
+
+Prompt 206: Given the options yes or no, will there be deregulation of the protein ndufa8 after low-dose radiation exposure?
+Label 206: No
+
+Prompt 207: Given the options yes or no, will there be deregulation of the protein marc2 after low-dose radiation exposure?
+Label 207: No
+
+Prompt 208: Given the options yes or no, will there be deregulation of the protein fkbp1a after low-dose radiation exposure?
+Label 208: Yes
+
+Prompt 209: Given the options yes or no, will there be deregulation of the protein actr3 after low-dose radiation exposure?
+Label 209: Yes
+
+Prompt 210: Given the options yes or no, will there be deregulation of the protein tmx4 after low-dose radiation exposure?
+Label 210: No
+
+Prompt 211: Given the options yes or no, will there be deregulation of the protein sgta after low-dose radiation exposure?
+Label 211: No
+
+Prompt 212: Given the options yes or no, will there be deregulation of the protein sri after low-dose radiation exposure?
+Label 212: No
+
+Prompt 213: Given the options yes or no, will there be deregulation of the protein akap5 after low-dose radiation exposure?
+Label 213: Yes
+
+Prompt 214: Given the options yes or no, will there be deregulation of the protein erlin2 after low-dose radiation exposure?
+Label 214: No
+
+Prompt 215: Given the options yes or no, will there be deregulation of the protein ero1l after low-dose radiation exposure?
+Label 215: Yes
+
+Prompt 216: Given the options yes or no, will there be deregulation of the protein olfm1 after low-dose radiation exposure?
+Label 216: No
+
+Prompt 217: Given the options yes or no, will there be deregulation of the protein etfb after low-dose radiation exposure?
+Label 217: No
+
+Prompt 218: Given the options yes or no, will there be deregulation of the protein ruvbl1 after low-dose radiation exposure?
+Label 218: Yes
+
+Prompt 219: Given the options yes or no, will there be deregulation of the protein diras2 after low-dose radiation exposure?
+Label 219: Yes
+
+Prompt 220: Given the options yes or no, will there be deregulation of the protein gng7 after low-dose radiation exposure?
+Label 220: No
+
+Prompt 221: Given the options yes or no, will there be deregulation of the protein vcam1 after low-dose radiation exposure?
+Label 221: Yes
+
+Prompt 222: Given the options yes or no, will there be deregulation of the protein pycr2 after low-dose radiation exposure?
+Label 222: Yes
+
+Prompt 223: Given the options yes or no, will there be deregulation of the protein eef1d after low-dose radiation exposure?
+Label 223: No
+
+Model Prediction 1: no
+Model Prediction 2: no
+Model Prediction 3: no
+Model Prediction 4: no
+Model Prediction 5: no
+Model Prediction 6: yes
+Model Prediction 7: yes
+Model Prediction 8: no
+Model Prediction 9: no
+Model Prediction 10: yes
+Model Prediction 11: yes
+Model Prediction 12: yes
+Model Prediction 13: yes
+Model Prediction 14: no
+Model Prediction 15: yes
+Model Prediction 16: no
+Model Prediction 17: no
+Model Prediction 18: no
+Model Prediction 19: yes
+Model Prediction 20: no
+Model Prediction 21: no
+Model Prediction 22: no
+Model Prediction 23: no
+Model Prediction 24: yes
+Model Prediction 25: no
+Model Prediction 26: yes
+Model Prediction 27: no
+Model Prediction 28: no
+Model Prediction 29: no
+Model Prediction 30: yes
+Model Prediction 31: no
+Model Prediction 32: no
+Model Prediction 33: no
+Model Prediction 34: no
+Model Prediction 35: yes
+Model Prediction 36: no
+Model Prediction 37: yes
+Model Prediction 38: yes
+Model Prediction 39: no
+Model Prediction 40: no
+Model Prediction 41: yes
+Model Prediction 42: no
+Model Prediction 43: no
+Model Prediction 44: no
+Model Prediction 45: no
+Model Prediction 46: no
+Model Prediction 47: no
+Model Prediction 48: yes
+Model Prediction 49: no
+Model Prediction 50: no
+Model Prediction 51: no
+Model Prediction 52: no
+Model Prediction 53: yes
+Model Prediction 54: no
+Model Prediction 55: no
+Model Prediction 56: yes
+Model Prediction 57: no
+Model Prediction 58: no
+Model Prediction 59: no
+Model Prediction 60: no
+Model Prediction 61: no
+Model Prediction 62: no
+Model Prediction 63: no
+Model Prediction 64: no
+Model Prediction 65: no
+Model Prediction 66: no
+Model Prediction 67: no
+Model Prediction 68: no
+Model Prediction 69: no
+Model Prediction 70: yes
+Model Prediction 71: yes
+Model Prediction 72: no
+Model Prediction 73: no
+Model Prediction 74: no
+Model Prediction 75: no
+Model Prediction 76: no
+Model Prediction 77: no
+Model Prediction 78: no
+Model Prediction 79: no
+Model Prediction 80: no
+Model Prediction 81: no
+Model Prediction 82: no
+Model Prediction 83: no
+Model Prediction 84: no
+Model Prediction 85: no
+Model Prediction 86: no
+Model Prediction 87: no
+Model Prediction 88: no
+Model Prediction 89: yes
+Model Prediction 90: no
+Model Prediction 91: yes
+Model Prediction 92: yes
+Model Prediction 93: yes
+Model Prediction 94: no
+Model Prediction 95: no
+Model Prediction 96: no
+Model Prediction 97: no
+Model Prediction 98: no
+Model Prediction 99: no
+Model Prediction 100: no
+Model Prediction 101: no
+Model Prediction 102: no
+Model Prediction 103: no
+Model Prediction 104: no
+Model Prediction 105: no
+Model Prediction 106: no
+Model Prediction 107: no
+Model Prediction 108: no
+Model Prediction 109: no
+Model Prediction 110: no
+Model Prediction 111: no
+Model Prediction 112: no
+Model Prediction 113: no
+Model Prediction 114: no
+Model Prediction 115: no
+Model Prediction 116: no
+Model Prediction 117: no
+Model Prediction 118: no
+Model Prediction 119: no
+Model Prediction 120: no
+Model Prediction 121: yes
+Model Prediction 122: no
+Model Prediction 123: no
+Model Prediction 124: no
+Model Prediction 125: no
+Model Prediction 126: no
+Model Prediction 127: no
+Model Prediction 128: no
+Model Prediction 129: yes
+Model Prediction 130: no
+Model Prediction 131: yes
+Model Prediction 132: no
+Model Prediction 133: no
+Model Prediction 134: no
+Model Prediction 135: no
+Model Prediction 136: no
+Model Prediction 137: no
+Model Prediction 138: no
+Model Prediction 139: yes
+Model Prediction 140: no
+Model Prediction 141: yes
+Model Prediction 142: no
+Model Prediction 143: no
+Model Prediction 144: no
+Model Prediction 145: no
+Model Prediction 146: no
+Model Prediction 147: no
+Model Prediction 148: no
+Model Prediction 149: no
+Model Prediction 150: no
+Model Prediction 151: no
+Model Prediction 152: no
+Model Prediction 153: yes
+Model Prediction 154: no
+Model Prediction 155: no
+Model Prediction 156: no
+Model Prediction 157: yes
+Model Prediction 158: yes
+Model Prediction 159: no
+Model Prediction 160: no
+Model Prediction 161: no
+Model Prediction 162: no
+Model Prediction 163: no
+Model Prediction 164: no
+Model Prediction 165: no
+Model Prediction 166: no
+Model Prediction 167: no
+Model Prediction 168: yes
+Model Prediction 169: no
+Model Prediction 170: no
+Model Prediction 171: no
+Model Prediction 172: yes
+Model Prediction 173: no
+Model Prediction 174: yes
+Model Prediction 175: yes
+Model Prediction 176: no
+Model Prediction 177: yes
+Model Prediction 178: no
+Model Prediction 179: no
+Model Prediction 180: no
+Model Prediction 181: yes
+Model Prediction 182: no
+Model Prediction 183: no
+Model Prediction 184: yes
+Model Prediction 185: yes
+Model Prediction 186: no
+Model Prediction 187: no
+Model Prediction 188: yes
+Model Prediction 189: no
+Model Prediction 190: no
+Model Prediction 191: yes
+Model Prediction 192: yes
+Model Prediction 193: no
+Model Prediction 194: no
+Model Prediction 195: no
+Model Prediction 196: no
+Model Prediction 197: no
+Model Prediction 198: no
+Model Prediction 199: no
+Model Prediction 200: no
+Model Prediction 201: no
+Model Prediction 202: no
+Model Prediction 203: no
+Model Prediction 204: yes
+Model Prediction 205: no
+Model Prediction 206: no
+Model Prediction 207: no
+Model Prediction 208: no
+Model Prediction 209: no
+Model Prediction 210: no
+Model Prediction 211: no
+Model Prediction 212: yes
+Model Prediction 213: no
+Model Prediction 214: yes
+Model Prediction 215: yes
+Model Prediction 216: yes
+Model Prediction 217: no
+Model Prediction 218: yes
+Model Prediction 219: no
+Model Prediction 220: no
+Model Prediction 221: yes
+Model Prediction 222: no
+Model Prediction 223: no
+
+Accuracy: 0.47533632286995514
+MCC: -0.014690797887764577
+AUC: 0.49385908209437623
+Specificity: 0.7692307692307693
+Macro Precision: 0.49121387283236995
+Macro F1 Score: 0.44265481810608165

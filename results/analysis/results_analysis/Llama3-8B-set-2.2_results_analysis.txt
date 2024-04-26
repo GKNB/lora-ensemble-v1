@@ -1,0 +1,27 @@
+Correct:
+Hspa4
+Cse1l
+Osbpl8
+Syngr1
+Dnajc5
+Pkp4
+Pcsk1n
+Tra2b
+Ass1
+Ccar2
+Gsr
+
+Incorrect:
+Khdrbs1
+Tnks1bp1
+Slc12a2
+Slc17a7
+Acsl6
+Raly
+Vim
+Cops7b
+Dlg4
+Slc44a1
+
+Correct predictions: 11
+Incorrect predictions: 10

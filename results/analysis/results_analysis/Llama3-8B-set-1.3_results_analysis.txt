@@ -1,0 +1,27 @@
+Correct:
+Gnal
+Atp2b2
+Snx17
+Zadh2
+Hspa5
+Pafah1b3
+Acsl3
+Aldoa
+Hapln4
+Galk1
+Plin3
+Cdk5
+
+Incorrect:
+Eif5a
+Hcn1
+Rps27a
+Rtn4ip1
+Cend1
+Glrx
+Anxa2
+Tmpo
+Nap1l4
+
+Correct predictions: 12
+Incorrect predictions: 9

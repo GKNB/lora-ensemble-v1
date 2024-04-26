@@ -1,0 +1,14 @@
+Unique Overlapping Proteins: {'itm2b', 'maoa', 'dnm1', 'mfn2', 'aldh2', 'srpk2', 'ank1', 'lmnb1', 'ywhaz', 'prrt2', 'cox5a', 'adap1', 'eef2', 'nefl', 'gapdh', 'ube2k', 'rps6', 'ece1', 'cbs', 'celf1', 'ckb', 'map2k1', 'grin1', 'apod', 'tppp', 'srsf2', 'glul', 'ttr', 'elavl2', 'grm2', 'dlg4', 'shank2', 'dpysl2', 'khsrp', 'ogt', 'tomm40', 'grin2a', 'set', 'kng1', 'anxa5', 'hnrnpa1', 'fkbp5', 'camk2a', 'rmdn3', 'eef1a2', 'ptbp1', 's100b', 'gsk3b', 'thy1', 'rtn3', 'fyn', 'c3', 'grin2b', 'fto', 'chat', 'lmna', 'slc30a3', 'nos1', 'actb', 'dbn1', 'ank3', 'hspa4', 'eif2s1', 'map2k2', 'gga3', 'vcam1', 'gh1', 'dlst', 'mark1', 'fn1', 'denr', 'calr', 'anxa1', 'vcp', 'aplp1', 'ppid', 'prdx1', 'aqp4', 'ppp1r1b', 'akr1a1', 'apba1', 'rpsa', 'chm', 'hspa9', 'slc6a3', 'comt', 'camk2g', 'hspd1', 'cpox', 'htt', 'ace', 'cdk5', 'hspa5', 'mvp', 'ctnnb1', 'ptpra', 'map2', 'gja1', 'calb1', 'gfap', 'app', 'lnpep', 'pak1', 'rab5a', 'mapt', 'dpysl3', 'appl1', 'dctn4', 'vim', 'ogdh', 'hspa8', 'dnm1l', 'mthfd1l', 'aplp2', 'blvra'}
+
+Percentage of Overlap (Unique): 14.02%
+Jaccard Index (Unique): 0.0633
+Multiset Coverage: 22.21%
+Weighted Jaccard Index: 0.2546
+
+Number of Overlapping Proteins: 2612
+Number of LDR Proteins: 1111
+Number of Interacting Proteins: 11762
+
+Number of Unique Overlapping Proteins: 115
+Number of Unique LDR-affected Proteins: 1111
+Number of Unique Interacting Proteins: 820

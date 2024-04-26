@@ -1,0 +1,14 @@
+Unique Overlapping Proteins: {'pak1', 'grm1', 'ank1', 'cdc37', 'araf', 'ctnnb1', 'rock2', 'ctnna1', 'gsk3b', 'rps27a', 'pdpk1', 'ywhaz', 'cdc42', 'ank3', 'hras', 'nras', 'jup', 'ank2', 'pten'}
+
+Percentage of Overlap (Unique): 8.84%
+Jaccard Index (Unique): 0.0145
+Multiset Coverage: 4.72%
+Weighted Jaccard Index: 0.0305
+
+Number of Overlapping Proteins: 88
+Number of LDR Proteins: 1111
+Number of Interacting Proteins: 1866
+
+Number of Unique Overlapping Proteins: 19
+Number of Unique LDR-affected Proteins: 1111
+Number of Unique Interacting Proteins: 215

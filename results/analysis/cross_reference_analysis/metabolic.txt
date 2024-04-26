@@ -1,0 +1,14 @@
+Unique Overlapping Proteins: {'aldh2', 'apod', 'hspa5', 'ace', 'rgs6', 'atp6ap2', 'gpt', 'ppid', 'sorbs1', 'acad8', 'pde4d', 'ctnnb1', 'adcy5', 'psmb6', 'prkcb', 'pten', 'atp4a', 'mgll', 'fasn', 'ptges2', 'cdk5', 'acsl1', 'app', 'snrnp70', 'nos1', 'comt', 'prss1', 'gnao1', 'fto', 'gfap', 'rap1a', 'kng1', 'akr1a1', 'eef1a2', 'slc6a3', 'txnrd2', 'lmna', 'tomm40', 'hspd1', 'ywhaz', 'stx1a', 'dbi', 'cbs', 'krt16', 'prkar2b', 'glul', 'prmt1', 'gh1', 'mfn2', 'ttr', 'hmgb1', 'hspa2', 'pck2', 'fgg', 'appl1', 'anxa1', 'ptk2b', 'c3', 'phb', 'thy1', 'gapdh', 'ccar2', 'cox4i1', 'actb', 'got2', 'fn1', 'ogt', 'ube3a', 'ank1', 's100b', 'ahsg', 'vcam1', 'cndp2', 'khsrp'}
+
+Percentage of Overlap (Unique): 7.14%
+Jaccard Index (Unique): 0.0357
+Multiset Coverage: 13.78%
+Weighted Jaccard Index: 0.1420
+
+Number of Overlapping Proteins: 1414
+Number of LDR Proteins: 1111
+Number of Interacting Proteins: 10262
+
+Number of Unique Overlapping Proteins: 74
+Number of Unique LDR-affected Proteins: 1111
+Number of Unique Interacting Proteins: 1036

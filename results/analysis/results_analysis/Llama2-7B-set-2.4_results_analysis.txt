@@ -1,0 +1,16 @@
+Correct:
+Cltb
+Rbbp9
+Farsa
+Lmtk3
+
+Incorrect:
+Gabra1
+Tnpo3
+Tsnax
+Tuba8
+Inpp4a
+Arpc5
+
+Correct predictions: 4
+Incorrect predictions: 6

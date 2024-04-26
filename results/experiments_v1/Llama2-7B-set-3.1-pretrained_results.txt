@@ -1,0 +1,51 @@
+Prompt 1: Given the options yes or no, will there be an altered acetylation status of protein DHX9 4 hours after exposure to low dose radiation at 0.5 Gy?
+Label 1: No
+
+Prompt 2: Given the options yes or no, will there be an altered acetylation status of protein PSMA7 4 hours after exposure to low dose radiation at 0.5 Gy?
+Label 2: No
+
+Prompt 3: Given the options yes or no, will there be an altered acetylation status of protein TMX3 4 hours after exposure to low dose radiation at 0.5 Gy?
+Label 3: No
+
+Prompt 4: Given the options yes or no, will there be an altered acetylation status of protein PKM 4 hours after exposure to low dose radiation at 0.5 Gy?
+Label 4: Yes
+
+Prompt 5: Given the options yes or no, will there be an altered acetylation status of protein RPL8 4 hours after exposure to low dose radiation at 0.5 Gy?
+Label 5: No
+
+Prompt 6: Given the options yes or no, will there be an altered acetylation status of protein EEF2 4 hours after exposure to low dose radiation at 0.5 Gy?
+Label 6: Yes
+
+Prompt 7: Given the options yes or no, will there be an altered acetylation status of protein KHSRP 4 hours after exposure to low dose radiation at 0.5 Gy?
+Label 7: No
+
+Prompt 8: Given the options yes or no, will there be an altered acetylation status of protein PPIB  4 hours after exposure to low dose radiation at 0.5 Gy?
+Label 8: Yes
+
+Prompt 9: Given the options yes or no, will there be an altered acetylation status of protein ACTR3 4 hours after exposure to low dose radiation at 0.5 Gy?
+Label 9: Yes
+
+Prompt 10: Given the options yes or no, will there be an altered acetylation status of protein TUBB2B 4 hours after exposure to low dose radiation at 0.5 Gy?
+Label 10: No
+
+Prompt 11: Given the options yes or no, will there be an altered acetylation status of protein TUBB6 4 hours after exposure to low dose radiation at 0.5 Gy?
+Label 11: No
+
+Model Prediction 1: no
+Model Prediction 2: yes
+Model Prediction 3: yes
+Model Prediction 4: no
+Model Prediction 5: no
+Model Prediction 6: no
+Model Prediction 7: no
+Model Prediction 8: no
+Model Prediction 9: no
+Model Prediction 10: yes
+Model Prediction 11: no
+
+Accuracy: 0.36363636363636365
+MCC: -0.4629100498862757
+AUC: 0.2857142857142857
+Specificity: 0.5714285714285714
+Macro Precision: 0.25
+Macro F1 Score: 0.26666666666666666

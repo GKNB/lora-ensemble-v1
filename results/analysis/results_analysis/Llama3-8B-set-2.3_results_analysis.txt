@@ -1,0 +1,14 @@
+Correct:
+Maip1
+Vcam1
+Cndp2
+Krt75
+
+Incorrect:
+G3bp2
+Clcn4
+Lap3
+Celf1
+
+Correct predictions: 4
+Incorrect predictions: 4
