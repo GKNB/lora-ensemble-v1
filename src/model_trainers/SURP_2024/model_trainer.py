@@ -1,20 +1,21 @@
 #Necessary Imports
-from peft import get_peft_model, TaskType, PeftModel, LoraConfig
+
+import os
+import re
+import sys
+import json
 import torch
-from datasets import Dataset
 import random
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, matthews_corrcoef, roc_auc_score, confusion_matrix
+import shutil
 import numpy as np
 import matplotlib.pyplot as plt
-import re
-import pandas as pd
-from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
-from transformers import TrainingArguments
-import sys
-import os
 import torch.nn.functional as F
-import shutil
-import json
+
+from datasets import Dataset
+from peft import TaskType, LoraConfig
+from transformers import TrainingArguments
+from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
+from sklearn.metrics import accuracy_score, precision_score, f1_score, matthews_corrcoef, roc_auc_score, confusion_matrix
 
 
 # Set random seeds for consistent experiments
@@ -56,7 +57,7 @@ class model_trainer():
         self.batch_size = 4
         self.new_tokens = 5 
         self.max_length = 50
-        #420 for multishot
+        # max length is 420 for multishot
  
         # datasets 1-3 
             # max_length = 120 
@@ -114,7 +115,6 @@ class model_trainer():
         loader = dataset_loader()
         loader.load_datasets()
         print("Done")
-
 
 
     def preprocess_data(self):
@@ -176,8 +176,6 @@ class model_trainer():
         print(f"Average prompt length: {sum(prompt_lengths) / len(prompt_lengths)}")
 
 
-
-
     def plot_losses(self, log_history):
         train_losses = []
         eval_losses = []
@@ -212,7 +210,6 @@ class model_trainer():
             plt.show()
         except OSError as e:
             print(f"Error saving or showing plot: {e}. Plotting operation skipped.")
-
 
 
     def train_model(self):
@@ -276,13 +273,14 @@ class model_trainer():
             logits_tensor = torch.from_numpy(logits).to('cuda')
 
             # Split logits_tensor into smaller chunks
-            chunk_size = 1024  # Adjust this value as needed
+            chunk_size = 1024 
             num_chunks = (logits_tensor.size(0) + chunk_size - 1) // chunk_size
 
             # Initialize lists to store probabilities and predictions
             all_probabilities = []
             all_predictions = []
 
+            # This code converts the logits to probabilities in chunks for memory efficiency
             for i in range(num_chunks):
                 start = i * chunk_size
                 end = start + chunk_size
@@ -494,6 +492,8 @@ class model_trainer():
                 self.log(f"Label {self.label_counter}: {example['answer'][index]}\n")
                 self.label_counter += 1
 
+            # The following prompts are used for the multi-shot prompting strategy
+
             # Dataset 1 prompts:
             # Llama
             # [f"### Question: Given the options Yes or No, will there be significant deregulation of ACTB (Actin) 24 months after exposure to low-dose radiation at 0.5 Gy?\n### Answer: No\n### Question: Given the options Yes or No, will there be significant deregulation of TUBA1A (Tubulin) 24 months after exposure to low-dose radiation at 0.5 Gy?\n### Answer: No\n### Question: Given the options Yes or No, will there be significant deregulation of MYH7 (Myosin) 24 months after exposure to low-dose radiation at 0.5 Gy?\n### Answer: Yes\n### Question: {q}\n### Answer: " for q in example['question']] if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower() else 
@@ -536,7 +536,6 @@ class model_trainer():
             # # Mistral
             # [f"{self.tokenizer.eos_token}[INST]### Question: Given the options yes or no, is there a protein interaction between ALB and CDKN1A in the presence of cancer?[/INST]\n### Answer: Yes\n[INST]### Question: Given the options yes or no, is there a protein interaction between GAPDH and TUBA1A in the presence of cancer?[/INST]\n### Answer: Yes\n[INST]### Question: Given the options yes or no, is there a protein interaction between TP53 and PTEN in the presence of cancer?[/INST]\n### Answer: No\n[INST]### Question: {q}[/INST]\n### Answer: " for q in example['question']] if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower() else [],  
              
-
             # Tokenize Inputs
             tokenized = self.tokenizer(
                 # Llama
@@ -598,7 +597,7 @@ class model_trainer():
                     if matches:
                         answer = matches[0]  
                     else:
-                        # If we cannot immediatelyl find the answer in the first word, find the first word after a newline character
+                        # If we cannot immediately find the answer in the first word, find the first word after a newline character
                         answer = answer_text.split()[0]
 
                     # DEBUG
@@ -638,7 +637,6 @@ class model_trainer():
                     self.log(f"Model Prediction {self.output_counter}: {answer}")
                     self.output_counter += 1
                     index += 1
-
 
         print("Preds: ", predictions)
         print("Labels: ", labels)
