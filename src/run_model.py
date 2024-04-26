@@ -120,7 +120,7 @@ if __name__ == "__main__":
 
     # Load model
     parser.add_argument('--model_name', required=False)
-    args = parser.parse_args()
+    args = parser.parse_args() 
     model, tokenizer = load_model(args.model_name)
 
     # Calculate the total number of parameters in the model

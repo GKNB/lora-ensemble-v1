@@ -37,7 +37,7 @@ class model_trainer():
         # Initialize device and random seed
         self.device = "cuda"
         self.generator = set_seeds(237)
-        os.environ["WANDB_DISABLED"] = "true"
+        os.environ["WANDB_DISABLED"] = "true" 
 
         # Initialize file paths
         self.model_name = "Llama3-8B-set-4" 
