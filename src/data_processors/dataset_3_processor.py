@@ -45,8 +45,4 @@ class d3_processor:
             # Add the processed data to the datasets list
             datasets.append((list1, list2))
 
-        # print("datasets: ", datasets[0][0])
-        # print("datasets: ", datasets[0][1])
-
         return datasets
-                

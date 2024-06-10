@@ -6,6 +6,8 @@
 
 import re
 import json
+import matplotlib.pyplot as plt
+from matplotlib_venn import venn2
 from collections import Counter
 
 class cross_reference_analysis:
@@ -24,11 +26,8 @@ class cross_reference_analysis:
                     ldr_proteins.append(match.group(1))
 
         # Get positive interactions from either dataset 4, dataset 5, or dataset 6
-        with open('/direct/sdcc+u/rengel/data/dataset_4_prompts.json', 'r') as file:
+        with open('/direct/sdcc+u/rengel/data/dataset_6_prompts.json', 'r') as file:
             interaction_data = json.load(file) 
-
-        # DEBUG
-        # print("Number of Interaction Pairs: ", len(interaction_data))
 
         interaction_proteins = []
         interaction_proteins_counter = Counter()
@@ -54,11 +53,6 @@ class cross_reference_analysis:
                     other.append((item['answer'], item['question']))
             else:
                 print(item['answer'].lower())
-                
-        # DEBUG
-        # print("Number of Positive Proteins: ", len(interaction_proteins))
-        # print("Number of Negative Proteins: ", len(neg_proteins))
-        # print("other: ", other)
 
         # Convert to sets for unique datasets
         unique_ldr_proteins = set(ldr_proteins)
@@ -83,6 +77,15 @@ class cross_reference_analysis:
         # Weighted Jaccard Index
         weighted_jaccard_index = len(overlapping_proteins) / (len(interaction_proteins) + len(ldr_proteins) - len(overlapping_proteins))
 
+        # Use matplotlib_venn to create the Venn diagram
+        plt.figure(figsize=(8, 8))
+        venn_diagram = venn2([unique_ldr_proteins, unique_interaction_proteins], ('LDR Proteins', 'Interaction Proteins'))
+        plt.title("Dataset 6 - Cancer")
+
+        # Save the Venn diagram to the specified path
+        plt.savefig('/direct/sdcc+u/rengel/results/analysis/cross_reference_analysis/cancer_diagram.png')
+        plt.close()
+
         # Print all protein names that are in both datasets
         print("Unique Overlapping Proteins: ", unique_overlapping_proteins)
         print(f"\nPercentage of Overlap (Unique): {percentage*100:.2f}%")
@@ -96,8 +99,8 @@ class cross_reference_analysis:
         print(f"Number of Unique LDR-affected Proteins: {len(ldr_proteins)}")
         print(f"Number of Unique Interacting Proteins: {len(unique_interaction_proteins)}")
 
-        # Write results to a file, change file name depending on the dataset used
-        with open('/direct/sdcc+u/rengel/results/analysis/cross_reference_analysis/neurodegenerative.txt', 'w') as file: 
+        # Write results to a file, change file name depending on the dataset used 
+        with open('/direct/sdcc+u/rengel/results/analysis/cross_reference_analysis/cancer.txt', 'w') as file: 
             file.write("Unique Overlapping Proteins: {}\n".format(unique_overlapping_proteins))
             file.write("\nPercentage of Overlap (Unique): {:.2f}%\n".format(percentage*100))
             file.write("Jaccard Index (Unique): {:.4f}\n".format(jaccard_index))

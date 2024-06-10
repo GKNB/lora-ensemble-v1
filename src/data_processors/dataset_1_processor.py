@@ -100,17 +100,10 @@ class d1_processor:
 
             datasets[i] = list(zip(deregulated_proteins, unaffected_proteins))
 
-        # print("Test: ", datasets[0][0])
-        # print("Test: ", datasets[0][1])
-        # print("Test: ", datasets[0][2])
-        # print("Test: ", datasets[1][0])
-        
         # For each dataset, index 0 represents a protein name-description pair that is deregulated by LDR exposure
         # For each dataset, index 1 represents a protein name-description pair that is NOT deregulated by LDR exposure
         # The negative samples were taken from the corresponding list of proteins identified
         # they were sampled only if there were not already in the list of proteins affected, thus there are no repeats
-        return datasets[0], datasets[1], datasets[2]
-        # Datasets 1.1, 1.2, and 1.3
-    
 
-    
+        # Return Datasets 1.1, 1.2, and 1.3
+        return datasets[0], datasets[1], datasets[2]

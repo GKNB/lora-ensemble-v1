@@ -14,7 +14,7 @@ class d2_processor:
         datasets = []
 
         # Define the columns for fold-change values for each dataset iteration
-        fold_change_columns = [4, 6, 8, 10]  # Adjusted for 0-based indexing in the loop below
+        fold_change_columns = [4, 6, 8, 10] 
 
         for col in fold_change_columns:
             # Load data from the Excel file
@@ -44,8 +44,7 @@ class d2_processor:
             
             # Randomly sample from candidates to match the size of list2
             list3 = random.sample(candidates_for_list3, min(len(list2), len(candidates_for_list3)))
-
-            assert len(list2) == len(list3), "Lists do not meet the specified criteria."
+            assert len(list2) == len(list3), "Lists do not match sizes"
 
             # List 2 is the proteins deregulated, list 3 is proteins unaffected
             datasets.append((list2, list3))

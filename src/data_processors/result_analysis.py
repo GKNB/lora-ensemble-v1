@@ -8,7 +8,7 @@ class result_analysis:
     def init(self, file_name):
         # Initialize with the file name
         self.file_name = file_name
-        self.file_path = f"../results/experiments_v1/{file_name}"
+        self.file_path = f"../results/experiments_v2/{file_name}"
 
     def load_data(self):
         # Open and read the text file
@@ -19,7 +19,7 @@ class result_analysis:
         # Load the data from the file
         text = self.load_data()
 
-        # Extracting information 
+        # Uncomment the following code to conduct results analysis of the first 3 datasets
 
         # Use for dataset 1
         # prompts = re.findall(r'Prompt \d+: .*? of (.*?) \(.*?\)\s.*?True Label: (\w+)', text, re.DOTALL)
@@ -83,7 +83,7 @@ class result_analysis:
 
 
 
-        # Use for datasets 4, 5, and 6
+        # Use this code for results analysis of datasets 4, 5, and 6
         prompts = re.findall(r'Prompt \d+: Given the options yes or no, is there a protein interaction between (.*?) and (.*?) in the presence of (.*?)\?\nTrue Label: (\w+)', text, re.DOTALL)
         predictions = re.findall(r'Model Prediction \d+: (\w+)', text, re.DOTALL)
 

@@ -2,7 +2,6 @@
 # Dataset 6 ref: https://pubmed.ncbi.nlm.nih.gov/34727106/
 
 import random
-import pandas as pd
 
 class d6_processor:
 

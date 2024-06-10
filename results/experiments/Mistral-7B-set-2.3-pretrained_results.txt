@@ -1,0 +1,39 @@
+Prompt 1: Given the options yes or no, will there be significant deregulation of the protein G3bp2 3 months after exposure to low dose radiation at 2.0 Gy?
+Label 1: No
+
+Prompt 2: Given the options yes or no, will there be significant deregulation of the protein Clcn4 3 months after exposure to low dose radiation at 2.0 Gy?
+Label 2: No
+
+Prompt 3: Given the options yes or no, will there be significant deregulation of the protein Maip1 3 months after exposure to low dose radiation at 2.0 Gy?
+Label 3: Yes
+
+Prompt 4: Given the options yes or no, will there be significant deregulation of the protein Vcam1 3 months after exposure to low dose radiation at 2.0 Gy?
+Label 4: Yes
+
+Prompt 5: Given the options yes or no, will there be significant deregulation of the protein Lap3 3 months after exposure to low dose radiation at 2.0 Gy?
+Label 5: No
+
+Prompt 6: Given the options yes or no, will there be significant deregulation of the protein Cndp2 3 months after exposure to low dose radiation at 2.0 Gy?
+Label 6: Yes
+
+Prompt 7: Given the options yes or no, will there be significant deregulation of the protein Krt75 3 months after exposure to low dose radiation at 2.0 Gy?
+Label 7: Yes
+
+Prompt 8: Given the options yes or no, will there be significant deregulation of the protein Celf1 3 months after exposure to low dose radiation at 2.0 Gy?
+Label 8: No
+
+Model Prediction 1: yes
+Model Prediction 2: no
+Model Prediction 3: no
+Model Prediction 4: yes
+Model Prediction 5: yes
+Model Prediction 6: no
+Model Prediction 7: no
+Model Prediction 8: yes
+
+Accuracy: 0.25
+MCC: -0.5
+AUC: 0.25
+Specificity: 0.25
+Macro Precision: 0.25
+Macro F1 Score: 0.25

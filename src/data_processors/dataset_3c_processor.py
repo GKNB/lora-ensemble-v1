@@ -1,5 +1,4 @@
-# This script will be used to get each of the 3 radiation groups data from dataset 1
-# Dataset 1 ref: https://www.storedb.org/store_v3/study.jsp?studyId=1153
+# This script will be used to create the combined dataset 3c
 
 import random
 import pandas as pd
@@ -95,9 +94,6 @@ class d3c_processor:
                 list2.append(name)
                 # Remove the item from new_data to avoid reselection
                 new_data.remove(item)
-
-        print("Length of list1: ", len(list1))
-        print("Length of list2: ", len(list2))
 
         # Return both lists
         # List 1 represents the proteins affected by radiation across datasets 1, 2, and 3

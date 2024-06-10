@@ -1,0 +1,91 @@
+Prompt 1: Given the options Yes or No, will there be significant deregulation of Eif5a (eukaryotic translation initiation factor 5A) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 1: No
+
+Prompt 2: Given the options Yes or No, will there be significant deregulation of Gnal (guanine nucleotide binding protein, alpha stimulating, olfactory type) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 2: No
+
+Prompt 3: Given the options Yes or No, will there be significant deregulation of Hcn1 (hyperpolarization-activated, cyclic nucleotide-gated K+ 1) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 3: Yes
+
+Prompt 4: Given the options Yes or No, will there be significant deregulation of Rps27a (ribosomal protein S27A) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 4: No
+
+Prompt 5: Given the options Yes or No, will there be significant deregulation of Atp2b2 (ATPase, Ca++ transporting, plasma membrane 2) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 5: No
+
+Prompt 6: Given the options Yes or No, will there be significant deregulation of Snx17 (sorting nexin 17) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 6: Yes
+
+Prompt 7: Given the options Yes or No, will there be significant deregulation of Zadh2 (zinc binding alcohol dehydrogenase, domain containing 2) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 7: No
+
+Prompt 8: Given the options Yes or No, will there be significant deregulation of Rtn4ip1 (reticulon 4 interacting protein 1) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 8: No
+
+Prompt 9: Given the options Yes or No, will there be significant deregulation of Hspa5 (heat shock protein 5) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 9: No
+
+Prompt 10: Given the options Yes or No, will there be significant deregulation of Pafah1b3 (platelet-activating factor acetylhydrolase, isoform 1b, subunit 3) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 10: No
+
+Prompt 11: Given the options Yes or No, will there be significant deregulation of Acsl3 (acyl-CoA synthetase long-chain family member 3) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 11: No
+
+Prompt 12: Given the options Yes or No, will there be significant deregulation of Cend1 (cell cycle exit and neuronal differentiation 1) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 12: No
+
+Prompt 13: Given the options Yes or No, will there be significant deregulation of Glrx (glutaredoxin) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 13: No
+
+Prompt 14: Given the options Yes or No, will there be significant deregulation of Aldoa (aldolase A, fructose-bisphosphate) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 14: Yes
+
+Prompt 15: Given the options Yes or No, will there be significant deregulation of Anxa2 (annexin A2) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 15: No
+
+Prompt 16: Given the options Yes or No, will there be significant deregulation of Hapln4 (hyaluronan and proteoglycan link protein 4) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 16: Yes
+
+Prompt 17: Given the options Yes or No, will there be significant deregulation of Galk1 (galactokinase 1) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 17: No
+
+Prompt 18: Given the options Yes or No, will there be significant deregulation of Plin3 (perilipin 3) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 18: Yes
+
+Prompt 19: Given the options Yes or No, will there be significant deregulation of Cdk5 (cyclin-dependent kinase 5) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 19: Yes
+
+Prompt 20: Given the options Yes or No, will there be significant deregulation of Tmpo (thymopoietin) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 20: No
+
+Prompt 21: Given the options Yes or No, will there be significant deregulation of Nap1l4 (nucleosome assembly protein 1-like 4) 24 months after exposure to low-dose radiation at 0.5 Gy?
+Label 21: No
+
+Model Prediction 1: yes
+Model Prediction 2: no
+Model Prediction 3: yes
+Model Prediction 4: yes
+Model Prediction 5: yes
+Model Prediction 6: no
+Model Prediction 7: yes
+Model Prediction 8: yes
+Model Prediction 9: yes
+Model Prediction 10: yes
+Model Prediction 11: yes
+Model Prediction 12: yes
+Model Prediction 13: yes
+Model Prediction 14: no
+Model Prediction 15: yes
+Model Prediction 16: yes
+Model Prediction 17: no
+Model Prediction 18: yes
+Model Prediction 19: yes
+Model Prediction 20: yes
+Model Prediction 21: yes
+
+Accuracy: 0.2857142857142857
+MCC: -0.23008949665421113
+AUC: 0.3999999999999999
+Specificity: 0.13333333333333333
+Macro Precision: 0.36764705882352944
+Macro F1 Score: 0.27917620137299776

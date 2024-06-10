@@ -1,0 +1,72 @@
+Evaluation on test set:
+
+Prompt 1: Given the options yes or no, will there be significant deregulation of the protein Rap2a 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 2: Given the options yes or no, will there be significant deregulation of the protein Eri3 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 3: Given the options yes or no, will there be significant deregulation of the protein Rabl6 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 4: Given the options yes or no, will there be significant deregulation of the protein Flg2 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 5: Given the options yes or no, will there be significant deregulation of the protein Cox5b 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 6: Given the options yes or no, will there be significant deregulation of the protein Cacna1b 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 7: Given the options yes or no, will there be significant deregulation of the protein Hist1h1c 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 8: Given the options yes or no, will there be significant deregulation of the protein Copa 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 9: Given the options yes or no, will there be significant deregulation of the protein Pde1a 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 10: Given the options yes or no, will there be significant deregulation of the protein Tdrkh 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 11: Given the options yes or no, will there be significant deregulation of the protein Atp6v0c 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 12: Given the options yes or no, will there be significant deregulation of the protein Rab3c 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 13: Given the options yes or no, will there be significant deregulation of the protein Srsf4 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 14: Given the options yes or no, will there be significant deregulation of the protein Fnbp1 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 15: Given the options yes or no, will there be significant deregulation of the protein Abcb7 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 16: Given the options yes or no, will there be significant deregulation of the protein Rpn2 72 hours after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Model Prediction 1: yes
+Model Prediction 2: yes
+Model Prediction 3: no
+Model Prediction 4: yes
+Model Prediction 5: no
+Model Prediction 6: yes
+Model Prediction 7: no
+Model Prediction 8: no
+Model Prediction 9: yes
+Model Prediction 10: no
+Model Prediction 11: yes
+Model Prediction 12: no
+Model Prediction 13: yes
+Model Prediction 14: yes
+Model Prediction 15: no
+Model Prediction 16: yes
+Accuracy: 0.6875
+MCC: 0.42289003161103106
+AUC: 0.7166666666666668
+Specificity: 0.6
+Macro Precision: 0.7063492063492063
+Macro F1 Score: 0.6862745098039216

@@ -1,0 +1,92 @@
+Evaluation on test set:
+
+Prompt 1: Given the options yes or no, will there be significant deregulation of the protein Hspa4 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 2: Given the options yes or no, will there be significant deregulation of the protein Khdrbs1 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 3: Given the options yes or no, will there be significant deregulation of the protein Tnks1bp1 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 4: Given the options yes or no, will there be significant deregulation of the protein Slc12a2 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 5: Given the options yes or no, will there be significant deregulation of the protein Cse1l 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 6: Given the options yes or no, will there be significant deregulation of the protein Osbpl8 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 7: Given the options yes or no, will there be significant deregulation of the protein Syngr1 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 8: Given the options yes or no, will there be significant deregulation of the protein Slc17a7 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 9: Given the options yes or no, will there be significant deregulation of the protein Dnajc5 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 10: Given the options yes or no, will there be significant deregulation of the protein Pkp4 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 11: Given the options yes or no, will there be significant deregulation of the protein Acsl6 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 12: Given the options yes or no, will there be significant deregulation of the protein Pcsk1n 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 13: Given the options yes or no, will there be significant deregulation of the protein Tra2b 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 14: Given the options yes or no, will there be significant deregulation of the protein Raly 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 15: Given the options yes or no, will there be significant deregulation of the protein Ass1 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 16: Given the options yes or no, will there be significant deregulation of the protein Vim 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 17: Given the options yes or no, will there be significant deregulation of the protein Ccar2 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 18: Given the options yes or no, will there be significant deregulation of the protein Cops7b 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 19: Given the options yes or no, will there be significant deregulation of the protein Dlg4 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: Yes
+
+Prompt 20: Given the options yes or no, will there be significant deregulation of the protein Gsr 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Prompt 21: Given the options yes or no, will there be significant deregulation of the protein Slc44a1 1 month after exposure to low dose radiation at 2.0 Gy?
+True Label: No
+
+Model Prediction 1: no
+Model Prediction 2: no
+Model Prediction 3: no
+Model Prediction 4: no
+Model Prediction 5: no
+Model Prediction 6: no
+Model Prediction 7: no
+Model Prediction 8: no
+Model Prediction 9: no
+Model Prediction 10: no
+Model Prediction 11: no
+Model Prediction 12: no
+Model Prediction 13: no
+Model Prediction 14: no
+Model Prediction 15: no
+Model Prediction 16: no
+Model Prediction 17: no
+Model Prediction 18: no
+Model Prediction 19: no
+Model Prediction 20: no
+Model Prediction 21: no
+Accuracy: 0.7142857142857143
+MCC: 0.0
+AUC: 0.5
+Specificity: 1.0
+Macro Precision: 0.35714285714285715
+Macro F1 Score: 0.41666666666666663
