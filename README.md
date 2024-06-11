@@ -13,11 +13,6 @@ If running experiments for training a model:
 - Change self.model_name to determine the naming convention for the saved training and inference results.
 - Update self.json_file_path to point to the dataset you are using.
 - Modify the hyperparameters based on the dataset to replicate the results presented in the paper.
-- For datasets 4 and 5, update the training arguments in the train_model function:
-training_args = TrainingArguments(
-    evaluation_strategy="no"
-)
-This adjustment is necessary because these datasets use a 5-fold cross-validation (CV) approach without a validation set.
 
 If running experiments with a pre-trained model:
 - Copy the few-shot prompt for the corresponding dataset from the pretrained_model_inference function.
