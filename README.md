@@ -3,9 +3,8 @@
 This repository contains the code used to run the experiments presented in the paper titled "Evaluating Large Language Models for Predicting Protein Behavior under Radiation Exposure and Disease Conditions."
 
 ### Prerequisites
-python 3.11
-Install the required packages using:
-pip install -r requirements.txt
+- python 3.11
+- Install the required packages using: pip install -r requirements.txt
 
 ### Running Experiments
 To run the experiments, you need to modify certain parameters in the model_trainer.py script:
