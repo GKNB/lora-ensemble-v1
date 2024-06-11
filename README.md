@@ -15,5 +15,8 @@ If running experiments for training a model:
 - Modify the hyperparameters based on the dataset to replicate the results presented in the paper.
 
 If running experiments with a pre-trained model:
+- Change self.model_name to determine the naming convention for the saved training and inference results.
+- Update self.json_file_path to point to the dataset you are using.
+- Modify the self.max_length hyperparameter to be 425, for the few-shot prompts.
 - Copy the few-shot prompt for the corresponding dataset from the pretrained_model_inference function.
 - Paste the copied prompt into the tokenizer section immediately below.
