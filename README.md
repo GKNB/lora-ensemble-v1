@@ -7,7 +7,7 @@ This repository contains the code used to run the experiments presented in the p
 - Install the required packages using: pip install -r requirements.txt
 
 ### Running Experiments
-All file paths should be updated for each user.
+All file paths should be updated to accomodate different programming environments.
 To run the experiments, modify the parameters in the model_trainer.py script:
 
 If running experiments for training a model:
