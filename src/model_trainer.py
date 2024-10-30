@@ -8,14 +8,27 @@ import shutil
 import numpy as np
 import re
 import gc
+import importlib
 import matplotlib.pyplot as plt
 import torch.nn.functional as F
+import torch.nn as nn
+from typing import Any
 from datasets import Dataset
-from peft import TaskType, LoraConfig
+from peft import TaskType, get_peft_model, LoraConfig
 from transformers import TrainingArguments
 from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
 from sklearn.model_selection import KFold, train_test_split
 from sklearn.metrics import accuracy_score, precision_score, f1_score, matthews_corrcoef, roc_auc_score, confusion_matrix
+from torchmetrics.classification import (
+    BinaryAccuracy,
+    BinaryMatthewsCorrCoef,
+    BinaryAUROC,
+    BinaryConfusionMatrix,
+    BinarySpecificity,
+    MulticlassPrecision,
+    MulticlassF1Score,
+    BinaryCalibrationError,
+)
 
 
 # Set random seeds for consistent experiments
@@ -23,30 +36,37 @@ def set_seeds(seed=237):
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
-    generator = torch.Generator().manual_seed(seed)  
+    generator = torch.Generator().manual_seed(seed)
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed)
         torch.backends.cudnn.deterministic = True
         torch.backends.cudnn.benchmark = False
-    return generator  
+    return generator
      
 
 class model_trainer():
 
-    def init(self, model, tokenizer):
+    def init(self, model, tokenizer, args):
 
         # Initialize device and random seed
-        self.device = "cuda"
+        self.device = "cuda:0" if torch.cuda.is_available() else "cpu"
+        self.n_ensemble = args.n_ensemble
+        self.seeds = [237 + i * 10093 for i in range(self.n_ensemble)]
         self.generator = set_seeds(237)
-        os.environ["WANDB_DISABLED"] = "true" 
+        # os.environ["WANDB_DISABLED"] = "true" 
 
         # Initialize file paths 
-        self.model_name = "Mistral-7B-set-3.1"
-        self.json_file_path = '/direct/sdcc+u/rengel/data/dataset_3_v1_prompts.json'
-        self.output_dir = f"/direct/sdcc+u/rengel/results/models/{self.model_name}"
-        self.fold_dir = f"/direct/sdcc+u/rengel/results/folds/{self.model_name}"
-        self.log_file_path = f"/direct/sdcc+u/rengel/results/experiments/{self.model_name}-results.txt"
-        self.plot_file_path = f"/direct/sdcc+u/rengel/results/experiments/{self.model_name}-losses.png"
+#        self.model_name = "Mistral-7B-set-3c"
+#        self.model_name = "Llama3-8B-set-3.1"
+        self.model_name = "Llama3-8B-set-3c"
+
+#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3_v1_prompts.json'
+        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3c_prompts.json'
+
+        self.output_dir = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/models/{self.model_name}"
+        self.fold_dir = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/folds/{self.model_name}"
+        self.log_file_path = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/experiments/{self.model_name}-results.txt"
+        self.plot_file_path = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/experiments/{self.model_name}-losses.png"
         self.plot_title = f"Loss values for {self.model_name}"
 
         # Open the log file in write mode, this will clear previous contents 
@@ -57,7 +77,7 @@ class model_trainer():
         self.lr = 1e-4 # Learning rate remains the same for all experiments
         self.new_tokens = 5  # New tokens remains the same for all experiments
         self.num_epochs = 4 
-        self.batch_size = 2
+        self.batch_size = 16
         self.max_length = 120
         # max length is 425 for multishot (Pre-trained) Experiments
  
@@ -298,7 +318,7 @@ class model_trainer():
                     tokenized_inputs[key].extend(tokenized[key].numpy().tolist())
 
             return tokenized_inputs
-        
+
         def compute_metrics(eval_preds):       
 
             torch.cuda.empty_cache()
@@ -306,7 +326,7 @@ class model_trainer():
             label_ids = eval_preds.label_ids
 
             # Convert logits from NumPy array to PyTorch tensor
-            logits_tensor = torch.from_numpy(logits).to('cuda')
+            logits_tensor = torch.from_numpy(logits).to('cuda:0')
 
             # Split logits_tensor into smaller chunks
             chunk_size = 1
@@ -423,77 +443,190 @@ class model_trainer():
                     self.log(f"{metric_name}: {metric_value}")
             return metrics_dict
 
+        def custom_collate_fn(batch):
+            # Extract questions and answers from the batch
+            prompt = """Answer the following question with Yes or No.\n\nQuestion: {question}\n\nAnswer (Yes or No):"""
+            prompts = [prompt.format(question=item['question']) for item in batch]
+            classes = torch.tensor([1 if item['answer'] == 'Yes' else 0 for item in batch])
+            return prompts, classes
+        
+        labels = [f" Yes", f" No"]
+        target_ids = self.tokenizer(
+            labels, return_tensors="pt", add_special_tokens=False
+        ).input_ids[:, -1:]
+
+        tokenizer_run_kwargs = {
+                        "return_tensors": "pt",
+                        "padding": "max_length",
+                        "truncation": True,
+                        "max_length": self.max_length,
+                    }
+
         # LoRA CONFIG 
         # https://moon-ci-docs.huggingface.co/docs/peft/pr_721/en/package_reference/tuners#peft.LoraConfig
         target_modules = ['q_proj', 'v_proj']
-        peft_config = LoraConfig(
-            task_type=TaskType.CAUSAL_LM, 
-            target_modules=target_modules, 
-            inference_mode=False, 
-            r=16, 
-            lora_alpha=32, 
-            lora_dropout=0.05, 
-            bias="none"
-        )
-
-        training_arguments = TrainingArguments(
-            output_dir=self.output_dir, 
-            num_train_epochs=self.num_epochs,
-            per_device_train_batch_size=self.batch_size,
-            optim="adamw_torch", 
-            learning_rate=self.lr,
-            warmup_steps=0, 
-            lr_scheduler_type='constant',
-            evaluation_strategy="epoch", # Change this to "no" when using datasets 4 and 5, otherwise use "epoch"
-            logging_strategy="epoch",
-        )
         
-        # Llama 
-        if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower(): response_template_with_context = "\n### Answer:" 
-        # Mistral
-        if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower(): response_template_with_context = "[/INST]\n### Answer:" 
-
-        response_template_ids = self.tokenizer.encode(response_template_with_context, add_special_tokens=False)[2:]
-        collator = DataCollatorForCompletionOnlyLM(response_template=response_template_ids, tokenizer=self.tokenizer)
-
         # Here we differentiate the training process depending on the dataset
         if "set-1" in self.model_name or "set-2" in self.model_name or "set-3" in self.model_name:
-            trainer = SFTTrainer(
-                model=self.model,
-                peft_config=peft_config,
-                args=training_arguments,
-                train_dataset=self.train_dataset,
-                eval_dataset=self.valid_dataset, 
-                tokenizer=self.tokenizer,
-                max_seq_length=self.max_length,
-                data_collator=collator,
-                packing=False,
-                formatting_func=formatting_prompts_func,
-                compute_metrics=compute_metrics,
-            )
 
-            trainer.train()
-            print("LOG HISTORY: ", trainer.state.log_history)
-            self.plot_losses(trainer.state.log_history)
+            test_ensemble_probabilities = []
 
-            # Save the model after training
-            model_path = os.path.join('/hpcgpfs01/scratch/rengel/.cache/huggingface/saved_models/', f'{self.model_name}.pth')
-            with open(model_path, 'wb') as f:
-                torch.save(self.model.state_dict(), f)
+            #Here use the uniform test_loader without shuffle to handle all lora instance
+            #This is important since we later need to average prob, and need to make sure all models access test dataset in the same order
+            test_loader = torch.utils.data.DataLoader(self.test_dataset, collate_fn=custom_collate_fn, batch_size = self.batch_size, shuffle=False)
 
-            # Clear GPU memory before evaluation
-            torch.cuda.empty_cache() # Clear unused memory from the cache
-            gc.collect() # Manual garbage collection
-            torch.cuda.synchronize() # Ensure that CUDA memory is freed
+            for i in range(self.n_ensemble):
+                self.log(f"Training lora instance {i}")
 
-            # Evaluate the model on the test set 
-            self.testing = True
-            self.count = 0
-            self.log("Evaluation on test set:\n")
-            tokenized_test_dataset = self.test_dataset.map(process_test_set, batched=True, batch_size=1)
-            with torch.no_grad():
-                results = trainer.predict(tokenized_test_dataset)
-            print("Evaluation Results:", results)
+                self.generator = set_seeds(self.seeds[i])
+                train_loader = torch.utils.data.DataLoader(self.train_dataset, collate_fn=custom_collate_fn, batch_size = self.batch_size)
+                
+                peft_config = LoraConfig(
+                    task_type=TaskType.CAUSAL_LM, 
+                    target_modules=target_modules, 
+                    inference_mode=False, 
+                    r=16, 
+                    lora_alpha=32, 
+                    lora_dropout=0.05, 
+                    bias="none"
+                )
+                lora_model = get_peft_model(self.model, peft_config)
+                model_instance_path = f"{self.output_dir}/model_instance_{i}.pth"
+#                total_params = sum(p.numel() for p in lora_model.parameters())
+#                trainable_params = sum(p.numel() for p in lora_model.parameters() if p.requires_grad)
+#                print(f"DEBUG: Total parameters: {total_params}")
+#                print(f"DEBUG: Trainable parameters: {trainable_params}")
+  
+                opt_cfg = {
+                    "module": "torch.optim",
+                    "classname": "AdamW",
+                    "lr": self.lr,
+                    "betas": (0.9, 0.999),
+                    "eps": 1e-8,  # 1e-5
+                }
+                
+                optclass = getattr(
+                    importlib.import_module(opt_cfg.pop("module")),
+                    opt_cfg.pop("classname"),
+                )
+    
+                opt = optclass(lora_model.parameters(), **opt_cfg)
+                lora_model.train()
+
+                grad_steps = 0
+                for epoch in range(self.num_epochs):
+                    self.log(f"Beginning epoch {epoch}")
+                    for batch in train_loader:
+                        opt.zero_grad()
+                        prompts, classes = batch
+                        inputs = self.tokenizer(prompts, **tokenizer_run_kwargs).to(self.device)
+                        logits = lora_model(**inputs).logits[:, -1, target_ids.squeeze(-1)]
+                        loss = F.cross_entropy(logits, classes.to(self.device))
+                        print(f"In grad_steps = {grad_steps}, loss = {loss}")
+#                        print(f"logits = {logits} \nclasses = {classes}")
+                        loss.backward()
+                        opt.step()
+                        grad_steps += 1
+                
+#                self.log(f"Saving lora instance {i} after finetuning to {model_instance_path}")
+#                lora_model.save_pretrained(model_instance_path)
+
+
+                lora_model.eval()
+                
+                test_probabilities = []
+                test_true_class = []
+                with torch.no_grad():
+                    for batch in test_loader:
+                        prompts, classes = batch
+                        inputs = self.tokenizer(prompts, **tokenizer_run_kwargs).to(self.device)
+                        logits = lora_model(**inputs).logits[:, -1, target_ids.squeeze(-1)]
+                        probabilities = F.softmax(logits, dim=-1)
+                        test_probabilities.append(probabilities.cpu().numpy())
+                        test_true_class.append(classes.cpu().numpy())
+
+                test_ensemble_probabilities.append(np.concatenate(test_probabilities))
+                test_true_class = np.concatenate(test_true_class)
+                print(f"i = {i}, Test ensemble probabilities = \n{test_ensemble_probabilities}")
+                print(f"i = {i}, Test true class= \n{test_true_class}")
+                self.log(f"lora instance i = {i} Successfully finished.")
+
+            test_average_probabilities = np.mean(test_ensemble_probabilities, axis=0)
+            print(f"Final, Test average ensemble probabilities = \n{test_average_probabilities}")
+
+            prob_positive = test_average_probabilities[:, 1]
+            pred_label = (prob_positive >= 0.5).astype(int)
+            test_true_class = torch.from_numpy(test_true_class)
+            prob_positive = torch.from_numpy(prob_positive)
+            pred_label = torch.from_numpy(pred_label)
+
+            accuracy_metric = BinaryAccuracy()
+            mcc_metric = BinaryMatthewsCorrCoef()
+            auroc_metric = BinaryAUROC()
+            confmat_metric = BinaryConfusionMatrix()
+            specificity_metric = BinarySpecificity()
+            precision_macro_metric = MulticlassPrecision(num_classes=2, average='macro')
+            f1_macro_metric = MulticlassF1Score(num_classes=2, average='macro')
+            ece_metric = BinaryCalibrationError()
+            
+            accuracy = accuracy_metric(pred_label, test_true_class)
+            mcc_score = mcc_metric(pred_label, test_true_class)
+            roc_auc = auroc_metric(prob_positive, test_true_class)
+            confusion_matrix = confmat_metric(pred_label, test_true_class)
+            specificity = specificity_metric(pred_label, test_true_class)
+            precision_macro = precision_macro_metric(pred_label, test_true_class)
+            f1_macro = f1_macro_metric(pred_label, test_true_class)
+            ece = ece_metric(prob_positive, test_true_class)
+            nll = -np.mean(np.log(test_average_probabilities[np.arange(len(test_true_class)), test_true_class]))
+            
+            print(f"Accuracy: {accuracy.item():.4f}")
+            print(f"MCC: {mcc_score.item():.4f}")
+            print(f"AUC: {roc_auc.item():.4f}")
+            print(f"Confusion Matrix:\n{confusion_matrix}")
+            print(f"Specificity: {specificity.item():.4f}")
+            print(f"Precision (Macro): {precision_macro.item():.4f}")
+            print(f"F1 Score (Macro): {f1_macro.item():.4f}")
+            print(f"Expected Calibration Error (ECE): {ece.item():.4f}")
+            print(f"NLL loss: {nll:.4f}")
+
+            print("Main task is done! Can finish")
+
+#            trainer = SFTTrainer(
+#                model=self.model,
+#                peft_config=peft_config,
+#                args=training_arguments,
+#                train_dataset=self.train_dataset,
+#                eval_dataset=self.valid_dataset, 
+#                tokenizer=self.tokenizer,
+#                max_seq_length=self.max_length,
+#                data_collator=collator,
+#                packing=False,
+#                formatting_func=formatting_prompts_func,
+#                compute_metrics=compute_metrics,
+#            )
+#
+#            trainer.train()
+#            print("LOG HISTORY: ", trainer.state.log_history)
+#            self.plot_losses(trainer.state.log_history)
+#
+#            # Save the model after training
+#            model_path = os.path.join('/pscratch/sd/t/tianle/myWork/transformers/cache/saved_models/', f'{self.model_name}.pth')
+#            with open(model_path, 'wb') as f:
+#                torch.save(self.model.state_dict(), f)
+#
+#            # Clear GPU memory before evaluation
+#            torch.cuda.empty_cache() # Clear unused memory from the cache
+#            gc.collect() # Manual garbage collection
+#            torch.cuda.synchronize() # Ensure that CUDA memory is freed
+#
+#            # Evaluate the model on the test set 
+#            self.testing = True
+#            self.count = 0
+#            self.log("Evaluation on test set:\n")
+#            tokenized_test_dataset = self.test_dataset.map(process_test_set, batched=True, batch_size=1)
+#            with torch.no_grad():
+#                results = trainer.predict(tokenized_test_dataset)
+#            print("Evaluation Results:", results)
 
         elif "set-4" in self.model_name or "set-5" in self.model_name:
             i = 0
@@ -523,11 +656,11 @@ class model_trainer():
                 print("LOG HISTORY: ", trainer.state.log_history)
 
                 # Plot the training loss
-                self.plot_file_path = f"/direct/sdcc+u/rengel/results/experiments/{self.model_name}-fold-{i}-losses.png"
+                self.plot_file_path = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/experiments/{self.model_name}-fold-{i}-losses.png"
                 self.plot_losses(trainer.state.log_history)
 
                 # Save the model after training
-                model_path = os.path.join('/hpcgpfs01/scratch/rengel/.cache/huggingface/saved_models/', f'{self.model_name}-fold-{i}.pth')
+                model_path = os.path.join('/pscratch/sd/t/tianle/myWork/transformers/cache/saved_models/', f'{self.model_name}-fold-{i}.pth')
                 with open(model_path, 'wb') as f:
                     torch.save(self.model.state_dict(), f)
 
@@ -539,7 +672,7 @@ class model_trainer():
                 # Evaluate on the test set
                 self.testing = True  
                 self.count = 0 
-                self.log_file_path = f"/direct/sdcc+u/rengel/results/experiments/{self.model_name}-fold-{i}-results.txt"
+                self.log_file_path = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/experiments/{self.model_name}-fold-{i}-results.txt"
                 self.log("Evaluation on test set:\n")
                 tokenized_test_dataset = fold[1].map(process_test_set, batched=True, batch_size=self.batch_size)
                 with torch.no_grad():
@@ -575,11 +708,11 @@ class model_trainer():
                 print("LOG HISTORY: ", trainer.state.log_history)
 
                 # Plot the training loss 
-                self.plot_file_path = f"/direct/sdcc+u/rengel/results/experiments/{self.model_name}-fold-{i}-losses.png"
+                self.plot_file_path = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/experiments/{self.model_name}-fold-{i}-losses.png"
                 self.plot_losses(trainer.state.log_history)
 
                 # Save the model after training
-                model_path = os.path.join('/hpcgpfs01/scratch/rengel/.cache/huggingface/saved_models/', f'{self.model_name}-fold-{i}.pth')
+                model_path = os.path.join('/pscratch/sd/t/tianle/myWork/transformers/cache/saved_models/', f'{self.model_name}-fold-{i}.pth')
                 with open(model_path, 'wb') as f:
                     torch.save(self.model.state_dict(), f)
 
@@ -590,7 +723,7 @@ class model_trainer():
 
                 # Evaluate on the test set 
                 self.testing = True
-                self.log_file_path = f"/direct/sdcc+u/rengel/results/experiments/{self.model_name}-fold-{i}-results.txt"
+                self.log_file_path = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/experiments/{self.model_name}-fold-{i}-results.txt"
                 self.log("Evaluation on test set:\n")
                 tokenized_test_dataset = fold[2].map(process_test_set, batched=True, batch_size=1)
                 with torch.no_grad():
@@ -661,11 +794,10 @@ class model_trainer():
             # Tokenize Inputs
             tokenized = self.tokenizer(
                 # Paste Prompt here:
-
                 # Llama
-                [f"### Question: Given the options yes or no, is there a protein interaction between ENOL and KRT5 in the presence of neurodegenerative diseases?\n### Answer: Yes\n### Question: Given the options yes or no, is there a protein interaction between HBA1 and LDHA in the presence of neurodegenerative diseases?\n### Answer: No\n### Question: Given the options yes or no, is there a protein interaction between CFTR and INS in the presence of neurodegenerative diseases?\n### Answer: Yes\n### Question: {q}\n### Answer: " for q in example['question']] if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower() else 
+                [f"### Question: Given the options yes or no, will there be an altered acetylation status of protein G6PD 4 hours after exposure to low dose radiation at 0.5 Gy?\n### Answer: No\n### Question: Given the options yes or no, will there be an altered acetylation status of protein FGFR1 4 hours after exposure to low dose radiation at 0.5 Gy?\n### Answer: No\n### Question: Given the options yes or no, will there be an altered acetylation status of protein CDKN1A 4 hours after exposure to low dose radiation at 0.5 Gy?\n### Answer: Yes\n### Question: {q}\n### Answer: " for q in example['question']] if "llama2" in self.model_name.lower() or "llama3" in self.model_name.lower() else 
                 # Mistral
-                [f"{self.tokenizer.eos_token}[INST]### Question: Given the options yes or no, is there a protein interaction between ENOL and KRT5 in the presence of neurodegenerative diseases?[/INST]\n### Answer: Yes\n[INST]### Question: Given the options yes or no, is there a protein interaction between HBA1 and LDHA in the presence of neurodegenerative diseases?[/INST]\n### Answer: No\n[INST]### Question: Given the options yes or no, is there a protein interaction between CFTR and INS in the presence of neurodegenerative diseases?[/INST]\n### Answer: Yes\n[INST]### Question: {q}[/INST]\n### Answer: " for q in example['question']] if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower() else [],  
+                [f"{self.tokenizer.eos_token}[INST]### Question: Given the options yes or no, will there be an altered acetylation status of protein G6PD 4 hours after exposure to low dose radiation at 0.5 Gy?[/INST]\n### Answer: No\n[INST]### Question: Given the options yes or no, will there be an altered acetylation status of protein FGFR1 4 hours after exposure to low dose radiation at 0.5 Gy?[/INST]\n### Answer: No\n[INST]### Question: Given the options yes or no, will there be an altered acetylation status of protein CDKN1A 4 hours after exposure to low dose radiation at 0.5 Gy?[/INST]\n### Answer: Yes\n[INST]### Question: {q}[/INST]\n### Answer: " for q in example['question']] if "mistral" in self.model_name.lower() or "mixtral" in self.model_name.lower() else [],  
                 padding="max_length",
                 truncation=True,
                 max_length=self.max_length,
@@ -689,7 +821,7 @@ class model_trainer():
             for fold in self.fold_data:
                 i += 1
                 print("Fold Data: ", fold)
-                self.log_file_path = f"/direct/sdcc+u/rengel/results/experiments/{self.model_name}-fold-{i}-results.txt"
+                self.log_file_path = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/experiments/{self.model_name}-fold-{i}-results.txt"
                 self.log("Evaluation on test set:\n")
                 self.model.eval()
                 self.prompt_counter = 1 

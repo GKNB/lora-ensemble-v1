@@ -15,7 +15,7 @@ class cross_reference_analysis:
     def run(self):
 
         # Get positive proteins from dataset 3c:
-        with open('/direct/sdcc+u/rengel/data/dataset_3c_prompts.json', 'r') as file:
+        with open('/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3c_prompts.json', 'r') as file:
             prompts_data = json.load(file)
 
         ldr_proteins = []
@@ -26,7 +26,7 @@ class cross_reference_analysis:
                     ldr_proteins.append(match.group(1))
 
         # Get positive interactions from either dataset 4, dataset 5, or dataset 6
-        with open('/direct/sdcc+u/rengel/data/dataset_6_prompts.json', 'r') as file:
+        with open('/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_6_prompts.json', 'r') as file:
             interaction_data = json.load(file) 
 
         interaction_proteins = []
@@ -83,7 +83,7 @@ class cross_reference_analysis:
         plt.title("Dataset 6 - Cancer")
 
         # Save the Venn diagram to the specified path
-        plt.savefig('/direct/sdcc+u/rengel/results/analysis/cross_reference_analysis/cancer_diagram.png')
+        plt.savefig('/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/analysis/cross_reference_analysis/cancer_diagram.png')
         plt.close()
 
         # Print all protein names that are in both datasets
@@ -100,7 +100,7 @@ class cross_reference_analysis:
         print(f"Number of Unique Interacting Proteins: {len(unique_interaction_proteins)}")
 
         # Write results to a file, change file name depending on the dataset used 
-        with open('/direct/sdcc+u/rengel/results/analysis/cross_reference_analysis/cancer.txt', 'w') as file: 
+        with open('/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/analysis/cross_reference_analysis/cancer.txt', 'w') as file: 
             file.write("Unique Overlapping Proteins: {}\n".format(unique_overlapping_proteins))
             file.write("\nPercentage of Overlap (Unique): {:.2f}%\n".format(percentage*100))
             file.write("Jaccard Index (Unique): {:.4f}\n".format(jaccard_index))

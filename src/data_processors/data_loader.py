@@ -25,7 +25,7 @@ class dataset_loader:
         # prompt = f"Given the options Yes or No, will there be significant deregulation of {protein} 24 months after exposure to low-dose radiation at 0.125 Gy?"
         # prompt = f"Given the options Yes or No, will there be significant deregulation of {protein} 24 months after exposure to low-dose radiation at 0.5 Gy?"
         # from dataset_1_processor import d1_processor
-        # data_file_path = "/direct/sdcc+u/rengel/data/dataset_1_original.xls"
+        # data_file_path = "/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_1_original.xls"
         # p1 = d1_processor(data_file_path)
         # d1, d2, d3 = p1.load_excel_spreadsheets() 
         # for item in d3: # Change this to d1, d2, or d3 depending on the subset of data
@@ -44,7 +44,7 @@ class dataset_loader:
         # prompt = f"Given the options yes or no, will there be significant deregulation of the protein {protein} 3 months after exposure to low dose radiation at 2.0 Gy?"  
         # prompt = f"Given the options yes or no, will there be significant deregulation of the protein {protein} 6 months after exposure to low dose radiation at 2.0 Gy?"
         # from dataset_2_processor import d2_processor
-        # data_file_path = "/direct/sdcc+u/rengel/data/dataset_2_original.xlsx"
+        # data_file_path = "/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_2_original.xlsx"
         # p2 = d2_processor(data_file_path)
         # d1, d2, d3, d4 = p2.load_excel_spreadsheets()
         # for item in d4[0]:
@@ -60,7 +60,7 @@ class dataset_loader:
         # prompt = f"Given the options yes or no, will there be an altered acetylation status of protein {protein} 4 hours after exposure to low dose radiation at 0.5 Gy?" 
         # prompt = f"Given the options yes or no, will there be an altered acetylation status of protein {protein} 24 hours after exposure to low dose radiation at 0.5 Gy?" 
         # from dataset_3_processor import d3_processor
-        # data_file_path = "/direct/sdcc+u/rengel/data/dataset_3_original.xlsx"
+        # data_file_path = "/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3_original.xlsx"
         # p3 = d3_processor(data_file_path)
         # d1, d2  = p3.load_excel_spreadsheets()
         # for item in d1[0]:
@@ -74,9 +74,9 @@ class dataset_loader:
         # 1,111 x 2 = 2,222 
         # prompt = f"Given the options yes or no, will there be deregulation of the protein {protein} after low-dose radiation exposure?"
         # from dataset_3c_processor import d3c_processor
-        # data_file_path_1 = "/direct/sdcc+u/rengel/data/dataset_1_original.xls"
-        # data_file_path_2 = "/direct/sdcc+u/rengel/data/dataset_2_original.xlsx"
-        # data_file_path_3 = "/direct/sdcc+u/rengel/data/dataset_3_original.xlsx"
+        # data_file_path_1 = "/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_1_original.xls"
+        # data_file_path_2 = "/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_2_original.xlsx"
+        # data_file_path_3 = "/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3_original.xlsx"
         # p3c = d3c_processor(data_file_path_1, data_file_path_2, data_file_path_3)
         # d1, d2 = p3c.load_excel_spreadsheets()
         # for item in d1:
@@ -90,8 +90,8 @@ class dataset_loader:
         # 5,881 x 2 = 11,762 pairs
         # prompt = f"Given the options yes or no, is there a protein interaction between {protein1} and {protein2} in the presence of neurodegenerative diseases?"
         # from dataset_4_5_processor import d4_5_processor
-        # data_file_path_1 = "/direct/sdcc+u/rengel/data/dataset_4_original_pros.txt"
-        # data_file_path_2 = "/direct/sdcc+u/rengel/data/dataset_4_original_index.txt"
+        # data_file_path_1 = "/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_4_original_pros.txt"
+        # data_file_path_2 = "/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_4_original_index.txt"
         # p4 = d4_5_processor(data_file_path_1, data_file_path_2)
         # d1, d2  = p4.load_data()
         # for item in d1: self.list1.append(item)   
@@ -103,8 +103,8 @@ class dataset_loader:
         # 5,131 x 2 = 10,262 pairs
         # prompt = f"Given the options yes or no, is there a protein interaction between {protein1} and {protein2} in the presence of metabolic diseases?"
         # from dataset_4_5_processor import d4_5_processor
-        # data_file_path_1 = "/direct/sdcc+u/rengel/data/dataset_5_original_pros.txt"
-        # data_file_path_2 = "/direct/sdcc+u/rengel/data/dataset_5_original_index.txt"
+        # data_file_path_1 = "/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_5_original_pros.txt"
+        # data_file_path_2 = "/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_5_original_index.txt"
         # p5 = d4_5_processor(data_file_path_1, data_file_path_2)
         # d1, d2  = p5.load_data()
         # for item in d1: self.list1.append(item)   
@@ -116,7 +116,7 @@ class dataset_loader:
         # 933 x 2 = 1,866 pairs
         # prompt = f"Given the options yes or no, is there a protein interaction between {protein1} and {protein2} in the presence of cancer?"
         # from dataset_6_processor import d6_processor
-        # data_file_path = "/direct/sdcc+u/rengel/data/dataset_6_original.txt"
+        # data_file_path = "/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_6_original.txt"
         # p4 = d6_processor(data_file_path)
         # d1, d2  = p4.load_data()
         # for item in d1: self.list1.append(item)   
@@ -150,7 +150,7 @@ class dataset_loader:
         #     self.dataset_examples.append({'question': prompt, 'answer': 'No'})
 
         # Use this code to save the prompts to json files
-        # with open('/direct/sdcc+u/rengel/data/dataset_1_v3_prompts.json', 'w') as file:
+        # with open('/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_1_v3_prompts.json', 'w') as file:
         #     json.dump(self.dataset_examples, file, indent=4)
 
 
@@ -179,7 +179,7 @@ class dataset_loader:
 
         # Load all datasets and record their sizes
         for filename, label in dataset_files:
-            with open(f'/direct/sdcc+u/rengel/data/{filename}', 'r') as file:
+            with open(f'/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/{filename}', 'r') as file:
                 data = json.load(file)
                 dataset_sizes[label] = len(data)
 
@@ -209,7 +209,7 @@ class dataset_loader:
             plt.title(title, fontsize=16, fontweight='bold')
             plt.xticks(x_positions, sorted_labels, fontsize=16, rotation=45, ha='right')
             plt.tight_layout()
-            plt.savefig(f'/direct/sdcc+u/rengel/results/{filename}.png')
+            plt.savefig(f'/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/{filename}.png')
             plt.close()
 
         # Create plots for each group 
