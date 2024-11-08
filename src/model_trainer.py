@@ -57,11 +57,23 @@ class model_trainer():
 
         # Initialize file paths 
 #        self.model_name = "Mistral-7B-set-3c"
+#        self.model_name = "Llama3-8B-set-1.1"
+#        self.model_name = "Llama3-8B-set-1.2"
+#        self.model_name = "Llama3-8B-set-1.3"
+#        self.model_name = "Llama3-8B-set-2.1"
+        self.model_name = "Llama3-8B-set-2.2"
 #        self.model_name = "Llama3-8B-set-3.1"
-        self.model_name = "Llama3-8B-set-3c"
+#        self.model_name = "Llama3-8B-set-3.2"
+#        self.model_name = "Llama3-8B-set-3c"
 
+#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_1_v1_prompts.json'
+#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_1_v2_prompts.json'
+#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_1_v3_prompts.json'
+#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_2_v1_prompts.json'
+        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_2_v2_prompts.json'
 #        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3_v1_prompts.json'
-        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3c_prompts.json'
+#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3_v2_prompts.json'
+#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3c_prompts.json'
 
         self.output_dir = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/models/{self.model_name}"
         self.fold_dir = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/folds/{self.model_name}"
@@ -77,7 +89,7 @@ class model_trainer():
         self.lr = 1e-4 # Learning rate remains the same for all experiments
         self.new_tokens = 5  # New tokens remains the same for all experiments
         self.num_epochs = 4 
-        self.batch_size = 16
+        self.batch_size = 1
         self.max_length = 120
         # max length is 425 for multishot (Pre-trained) Experiments
  

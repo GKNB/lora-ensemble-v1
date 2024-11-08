@@ -23,7 +23,7 @@ cd /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/src
 
 #Before submitting job, make sure the following are set correctly:
 #Model name argument
-#Model name in model_trainer.py
+#Model name + dataset name in model_trainer.py
 #json file name in model_trainer.py
 #epoch, max_length, batch_size in model_trainer.py
 

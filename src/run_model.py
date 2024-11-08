@@ -18,8 +18,8 @@ def load_model(model_name):
         'Llama3': "meta-llama/Meta-Llama-3-8B-Instruct", 
         #'Llama3': r"{hf_cache_dir}/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/5f0b02c75b57c5855da9ae460ce51323ea669d8a",
 
-        # 'Mistral': "mistralai/Mistral-7B-Instruct-v0.2"
-        'Mistral': r"{hf_cache_dir}/models--mistralai--Mistral-7B-Instruct-v0.2/snapshots/41b61a33a2483885c981aa79e0df6b32407ed873",
+         'Mistral': "mistralai/Mistral-7B-Instruct-v0.3"
+        #'Mistral': r"{hf_cache_dir}/models--mistralai--Mistral-7B-Instruct-v0.2/snapshots/41b61a33a2483885c981aa79e0df6b32407ed873",
         } 
 
     model_path = model_paths.get(model_name)
