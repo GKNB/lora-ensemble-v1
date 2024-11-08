@@ -1,0 +1,3302 @@
+Job is running on partition: gpu_ss11
+Job is running under account: m2616_g
+/pscratch/sd/t/tianle/conda/envs/lucid_surp_2024/lib/python3.11/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:10<00:30, 10.02s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:20<00:20, 10.06s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:30<00:10, 10.11s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:32<00:00,  7.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:32<00:00,  8.16s/it]
+Llama3 has been loaded successfully.
+Model:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(128256, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x LlamaDecoderLayer(
+        (self_attn): LlamaSdpaAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=1024, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=1024, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=4096, out_features=14336, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=14336, bias=False)
+          (down_proj): Linear(in_features=14336, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((4096,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=4096, out_features=128256, bias=False)
+)
+Size of dataset:  892
+In grad_steps = 0, loss = 1.350877046585083
+In grad_steps = 1, loss = 0.7121037244796753
+In grad_steps = 2, loss = 0.7090805768966675
+In grad_steps = 3, loss = 0.8489778637886047
+In grad_steps = 4, loss = 0.8617844581604004
+In grad_steps = 5, loss = 0.693653404712677
+In grad_steps = 6, loss = 0.8334947824478149
+In grad_steps = 7, loss = 0.7395457625389099
+In grad_steps = 8, loss = 0.7491029500961304
+In grad_steps = 9, loss = 0.7239425778388977
+In grad_steps = 10, loss = 0.6560304164886475
+In grad_steps = 11, loss = 0.7345916032791138
+In grad_steps = 12, loss = 0.6747093796730042
+In grad_steps = 13, loss = 0.6656414270401001
+In grad_steps = 14, loss = 0.6891113519668579
+In grad_steps = 15, loss = 0.7035626769065857
+In grad_steps = 16, loss = 0.7110063433647156
+In grad_steps = 17, loss = 0.6778801083564758
+In grad_steps = 18, loss = 0.6682807207107544
+In grad_steps = 19, loss = 0.7054173350334167
+In grad_steps = 20, loss = 0.6795806288719177
+In grad_steps = 21, loss = 0.7001433372497559
+In grad_steps = 22, loss = 0.6390122771263123
+In grad_steps = 23, loss = 0.7844860553741455
+In grad_steps = 24, loss = 0.6971529722213745
+In grad_steps = 25, loss = 0.6245632767677307
+In grad_steps = 26, loss = 0.9436153769493103
+In grad_steps = 27, loss = 0.8269734382629395
+In grad_steps = 28, loss = 0.6476410031318665
+In grad_steps = 29, loss = 0.6773604154586792
+In grad_steps = 30, loss = 0.6904072761535645
+In grad_steps = 31, loss = 0.6955088376998901
+In grad_steps = 32, loss = 0.677383303642273
+In grad_steps = 33, loss = 0.702402651309967
+In grad_steps = 34, loss = 0.6798639893531799
+In grad_steps = 35, loss = 0.6771692633628845
+In grad_steps = 36, loss = 0.7301961779594421
+In grad_steps = 37, loss = 0.6737996339797974
+In grad_steps = 38, loss = 0.6978057026863098
+In grad_steps = 39, loss = 0.663889467716217
+In grad_steps = 40, loss = 0.685321033000946
+In grad_steps = 41, loss = 0.632847011089325
+In grad_steps = 42, loss = 0.7885695099830627
+In grad_steps = 43, loss = 0.6696617007255554
+In grad_steps = 44, loss = 0.7254657745361328
+In grad_steps = 45, loss = 0.7238957285881042
+In grad_steps = 46, loss = 0.7080644965171814
+In grad_steps = 47, loss = 0.6848733425140381
+In grad_steps = 48, loss = 0.6590937972068787
+In grad_steps = 49, loss = 0.6787922978401184
+In grad_steps = 50, loss = 0.6802160739898682
+In grad_steps = 51, loss = 0.7008148431777954
+In grad_steps = 52, loss = 0.7372159361839294
+In grad_steps = 53, loss = 0.6651780605316162
+In grad_steps = 54, loss = 0.8399604558944702
+In grad_steps = 55, loss = 0.6920379400253296
+In grad_steps = 56, loss = 0.7377409934997559
+In grad_steps = 57, loss = 0.6677964925765991
+In grad_steps = 58, loss = 0.666431725025177
+In grad_steps = 59, loss = 0.6834782958030701
+In grad_steps = 60, loss = 0.6816990375518799
+In grad_steps = 61, loss = 0.7168342471122742
+In grad_steps = 62, loss = 0.7163111567497253
+In grad_steps = 63, loss = 0.6650136709213257
+In grad_steps = 64, loss = 0.6839308738708496
+In grad_steps = 65, loss = 0.6940011978149414
+In grad_steps = 66, loss = 0.6672328114509583
+In grad_steps = 67, loss = 0.6851469278335571
+In grad_steps = 68, loss = 0.6618631482124329
+In grad_steps = 69, loss = 0.6573591828346252
+In grad_steps = 70, loss = 0.6156192421913147
+In grad_steps = 71, loss = 0.6740151643753052
+In grad_steps = 72, loss = 0.8052159547805786
+In grad_steps = 73, loss = 0.724513590335846
+In grad_steps = 74, loss = 0.9521312713623047
+In grad_steps = 75, loss = 0.7960385680198669
+In grad_steps = 76, loss = 0.6996550559997559
+In grad_steps = 77, loss = 0.6982778906822205
+In grad_steps = 78, loss = 0.6852061748504639
+In grad_steps = 79, loss = 0.6862508654594421
+In grad_steps = 80, loss = 0.6955506801605225
+In grad_steps = 81, loss = 0.568630576133728
+In grad_steps = 82, loss = 0.6394867300987244
+In grad_steps = 83, loss = 0.5825710296630859
+In grad_steps = 84, loss = 0.9997409582138062
+In grad_steps = 85, loss = 0.8939641118049622
+In grad_steps = 86, loss = 0.8153003454208374
+In grad_steps = 87, loss = 0.6330716609954834
+In grad_steps = 88, loss = 0.6991114020347595
+In grad_steps = 89, loss = 0.6763176918029785
+In grad_steps = 90, loss = 0.6751033663749695
+In grad_steps = 91, loss = 0.6753093600273132
+In grad_steps = 92, loss = 0.6771108508110046
+In grad_steps = 93, loss = 0.6858032941818237
+In grad_steps = 94, loss = 0.6767331957817078
+In grad_steps = 95, loss = 0.6349849700927734
+In grad_steps = 96, loss = 0.7972617149353027
+In grad_steps = 97, loss = 0.7188908457756042
+In grad_steps = 98, loss = 0.7098249197006226
+In grad_steps = 99, loss = 0.7146446108818054
+In grad_steps = 100, loss = 0.630260705947876
+In grad_steps = 101, loss = 0.7427768111228943
+In grad_steps = 102, loss = 0.698396623134613
+In grad_steps = 103, loss = 0.7080245614051819
+In grad_steps = 104, loss = 0.6465752124786377
+In grad_steps = 105, loss = 0.6864546537399292
+In grad_steps = 106, loss = 0.6857242584228516
+In grad_steps = 107, loss = 0.6841230392456055
+In grad_steps = 108, loss = 0.6818310022354126
+In grad_steps = 109, loss = 0.6712247729301453
+In grad_steps = 110, loss = 0.6829277873039246
+In grad_steps = 111, loss = 0.6912937164306641
+In grad_steps = 112, loss = 0.6389892101287842
+In grad_steps = 113, loss = 0.7244790196418762
+In grad_steps = 114, loss = 0.6917721629142761
+In grad_steps = 115, loss = 0.6241596937179565
+In grad_steps = 116, loss = 0.8604030013084412
+In grad_steps = 117, loss = 0.7544431090354919
+In grad_steps = 118, loss = 0.6594245433807373
+In grad_steps = 119, loss = 0.7050864100456238
+In grad_steps = 120, loss = 0.6864020824432373
+In grad_steps = 121, loss = 0.6969389915466309
+In grad_steps = 122, loss = 0.6632058024406433
+In grad_steps = 123, loss = 0.6712077260017395
+In grad_steps = 124, loss = 0.6769500374794006
+In grad_steps = 125, loss = 0.6688930988311768
+In grad_steps = 126, loss = 0.7271631956100464
+In grad_steps = 127, loss = 0.6486725807189941
+In grad_steps = 128, loss = 0.7097035646438599
+In grad_steps = 129, loss = 0.638427197933197
+In grad_steps = 130, loss = 0.6735022068023682
+In grad_steps = 131, loss = 0.6160906553268433
+In grad_steps = 132, loss = 0.7700520157814026
+In grad_steps = 133, loss = 0.6368407011032104
+In grad_steps = 134, loss = 0.7529211640357971
+In grad_steps = 135, loss = 0.7369769215583801
+In grad_steps = 136, loss = 0.6983901262283325
+In grad_steps = 137, loss = 0.6864018440246582
+In grad_steps = 138, loss = 0.643829882144928
+In grad_steps = 139, loss = 0.6550136804580688
+In grad_steps = 140, loss = 0.6605888605117798
+In grad_steps = 141, loss = 0.6905702948570251
+In grad_steps = 142, loss = 0.7299150228500366
+In grad_steps = 143, loss = 0.6601727604866028
+In grad_steps = 144, loss = 0.8303521275520325
+In grad_steps = 145, loss = 0.6956173181533813
+In grad_steps = 146, loss = 0.7528160810470581
+In grad_steps = 147, loss = 0.6765857338905334
+In grad_steps = 148, loss = 0.63290935754776
+In grad_steps = 149, loss = 0.6664669513702393
+In grad_steps = 150, loss = 0.6711060404777527
+In grad_steps = 151, loss = 0.7075778245925903
+In grad_steps = 152, loss = 0.6822229623794556
+In grad_steps = 153, loss = 0.6364048719406128
+In grad_steps = 154, loss = 0.6646572351455688
+In grad_steps = 155, loss = 0.6807218790054321
+In grad_steps = 156, loss = 0.6516891717910767
+In grad_steps = 157, loss = 0.6314937472343445
+In grad_steps = 158, loss = 0.6189818978309631
+In grad_steps = 159, loss = 0.6404533386230469
+In grad_steps = 160, loss = 0.5858561992645264
+In grad_steps = 161, loss = 0.6673646569252014
+In grad_steps = 162, loss = 0.7943753004074097
+In grad_steps = 163, loss = 0.7065135836601257
+In grad_steps = 164, loss = 0.933567225933075
+In grad_steps = 165, loss = 0.7123039364814758
+In grad_steps = 166, loss = 0.6573817133903503
+In grad_steps = 167, loss = 0.6884267926216125
+In grad_steps = 168, loss = 0.6392226219177246
+In grad_steps = 169, loss = 0.6649953126907349
+In grad_steps = 170, loss = 0.734596848487854
+In grad_steps = 171, loss = 0.5438247919082642
+In grad_steps = 172, loss = 0.6337408423423767
+In grad_steps = 173, loss = 0.5861887335777283
+In grad_steps = 174, loss = 0.9751690626144409
+In grad_steps = 175, loss = 0.8374921083450317
+In grad_steps = 176, loss = 0.7329109907150269
+In grad_steps = 177, loss = 0.6307239532470703
+In grad_steps = 178, loss = 0.682624340057373
+In grad_steps = 179, loss = 0.7994508743286133
+In grad_steps = 180, loss = 0.6628482937812805
+In grad_steps = 181, loss = 0.6217774748802185
+In grad_steps = 182, loss = 0.6690229773521423
+In grad_steps = 183, loss = 0.6692336201667786
+In grad_steps = 184, loss = 0.6713278889656067
+In grad_steps = 185, loss = 0.6314467787742615
+In grad_steps = 186, loss = 0.7187469601631165
+In grad_steps = 187, loss = 0.6938133835792542
+In grad_steps = 188, loss = 0.6703081130981445
+In grad_steps = 189, loss = 0.6952705383300781
+In grad_steps = 190, loss = 0.6495530009269714
+In grad_steps = 191, loss = 0.7206698656082153
+In grad_steps = 192, loss = 0.6733989119529724
+In grad_steps = 193, loss = 0.6977154016494751
+In grad_steps = 194, loss = 0.5929176807403564
+In grad_steps = 195, loss = 0.7076148986816406
+In grad_steps = 196, loss = 0.6662659645080566
+In grad_steps = 197, loss = 0.6276426315307617
+In grad_steps = 198, loss = 0.6828041076660156
+In grad_steps = 199, loss = 0.589963436126709
+In grad_steps = 200, loss = 0.6172894239425659
+In grad_steps = 201, loss = 0.5986055731773376
+In grad_steps = 202, loss = 0.49132660031318665
+In grad_steps = 203, loss = 0.9696581959724426
+In grad_steps = 204, loss = 0.8310743570327759
+In grad_steps = 205, loss = 0.5684595108032227
+In grad_steps = 206, loss = 0.9424546360969543
+In grad_steps = 207, loss = 0.6169572472572327
+In grad_steps = 208, loss = 0.8862335085868835
+In grad_steps = 209, loss = 0.9461528062820435
+In grad_steps = 210, loss = 0.7494626045227051
+In grad_steps = 211, loss = 0.6374061107635498
+In grad_steps = 212, loss = 0.6325061917304993
+In grad_steps = 213, loss = 0.6876339912414551
+In grad_steps = 214, loss = 0.6772083044052124
+In grad_steps = 215, loss = 0.648531436920166
+In grad_steps = 216, loss = 0.7133415937423706
+In grad_steps = 217, loss = 0.6408262848854065
+In grad_steps = 218, loss = 0.700454831123352
+In grad_steps = 219, loss = 0.6330267786979675
+In grad_steps = 220, loss = 0.6885445713996887
+In grad_steps = 221, loss = 0.6056598424911499
+In grad_steps = 222, loss = 0.803885281085968
+In grad_steps = 223, loss = 0.635894775390625
+In grad_steps = 224, loss = 0.7410814166069031
+In grad_steps = 225, loss = 0.7123870849609375
+In grad_steps = 226, loss = 0.6872726678848267
+In grad_steps = 227, loss = 0.6758409738540649
+In grad_steps = 228, loss = 0.6636722683906555
+In grad_steps = 229, loss = 0.6186807751655579
+In grad_steps = 230, loss = 0.646981418132782
+In grad_steps = 231, loss = 0.6707859039306641
+In grad_steps = 232, loss = 0.7361772656440735
+In grad_steps = 233, loss = 0.6457674503326416
+In grad_steps = 234, loss = 0.8116819858551025
+In grad_steps = 235, loss = 0.6832811832427979
+In grad_steps = 236, loss = 0.7562257647514343
+In grad_steps = 237, loss = 0.6767099499702454
+In grad_steps = 238, loss = 0.551642894744873
+In grad_steps = 239, loss = 0.6521670818328857
+In grad_steps = 240, loss = 0.6066702008247375
+In grad_steps = 241, loss = 0.6880710124969482
+In grad_steps = 242, loss = 0.6409482955932617
+In grad_steps = 243, loss = 0.5665603876113892
+In grad_steps = 244, loss = 0.596795916557312
+In grad_steps = 245, loss = 0.7035654783248901
+In grad_steps = 246, loss = 0.5926923751831055
+In grad_steps = 247, loss = 0.3855317234992981
+In grad_steps = 248, loss = 0.6126062870025635
+In grad_steps = 249, loss = 0.6740233898162842
+In grad_steps = 250, loss = 0.4511331021785736
+In grad_steps = 251, loss = 0.6868040561676025
+In grad_steps = 252, loss = 1.216639518737793
+In grad_steps = 253, loss = 0.5600569248199463
+In grad_steps = 254, loss = 0.651103675365448
+In grad_steps = 255, loss = 0.5816414952278137
+In grad_steps = 256, loss = 0.560961127281189
+In grad_steps = 257, loss = 0.6559220552444458
+In grad_steps = 258, loss = 0.6432283520698547
+In grad_steps = 259, loss = 0.6411139369010925
+In grad_steps = 260, loss = 0.7513795495033264
+In grad_steps = 261, loss = 0.5195794701576233
+In grad_steps = 262, loss = 0.6393890380859375
+In grad_steps = 263, loss = 0.5855802297592163
+In grad_steps = 264, loss = 0.9267582297325134
+In grad_steps = 265, loss = 0.8160727620124817
+In grad_steps = 266, loss = 0.6931240558624268
+In grad_steps = 267, loss = 0.5992060899734497
+In grad_steps = 268, loss = 0.6846805810928345
+In grad_steps = 269, loss = 0.6823722124099731
+In grad_steps = 270, loss = 0.6684567928314209
+In grad_steps = 271, loss = 0.5867805480957031
+In grad_steps = 272, loss = 0.6740310788154602
+In grad_steps = 273, loss = 0.6362524032592773
+In grad_steps = 274, loss = 0.6464973092079163
+In grad_steps = 275, loss = 0.5602313280105591
+In grad_steps = 276, loss = 0.7012138366699219
+In grad_steps = 277, loss = 0.6940033435821533
+In grad_steps = 278, loss = 0.6259760856628418
+In grad_steps = 279, loss = 0.6905657649040222
+In grad_steps = 280, loss = 0.6344168782234192
+In grad_steps = 281, loss = 0.7091350555419922
+In grad_steps = 282, loss = 0.6504455804824829
+In grad_steps = 283, loss = 0.6656085252761841
+In grad_steps = 284, loss = 0.5090654492378235
+In grad_steps = 285, loss = 0.6588988304138184
+In grad_steps = 286, loss = 0.6270074248313904
+In grad_steps = 287, loss = 0.5970036387443542
+In grad_steps = 288, loss = 0.6155282258987427
+In grad_steps = 289, loss = 0.4588957130908966
+In grad_steps = 290, loss = 0.4537319242954254
+In grad_steps = 291, loss = 0.6083472967147827
+In grad_steps = 292, loss = 0.5321468114852905
+In grad_steps = 293, loss = 0.859201967716217
+In grad_steps = 294, loss = 0.8638757467269897
+In grad_steps = 295, loss = 0.45140892267227173
+In grad_steps = 296, loss = 0.892859160900116
+In grad_steps = 297, loss = 0.346378356218338
+In grad_steps = 298, loss = 0.7621028423309326
+In grad_steps = 299, loss = 1.0817034244537354
+In grad_steps = 300, loss = 0.859515905380249
+In grad_steps = 301, loss = 0.5763965845108032
+In grad_steps = 302, loss = 0.5435996651649475
+In grad_steps = 303, loss = 0.6012870073318481
+In grad_steps = 304, loss = 0.641533374786377
+In grad_steps = 305, loss = 0.5791226625442505
+In grad_steps = 306, loss = 0.7125380039215088
+In grad_steps = 307, loss = 0.5789332389831543
+In grad_steps = 308, loss = 0.7094049453735352
+In grad_steps = 309, loss = 0.6133628487586975
+In grad_steps = 310, loss = 0.6872506737709045
+In grad_steps = 311, loss = 0.553509533405304
+In grad_steps = 312, loss = 0.8090071678161621
+In grad_steps = 313, loss = 0.5701872110366821
+In grad_steps = 314, loss = 0.7176507115364075
+In grad_steps = 315, loss = 0.7180997133255005
+In grad_steps = 316, loss = 0.6808905005455017
+In grad_steps = 317, loss = 0.6738294363021851
+In grad_steps = 318, loss = 0.6558917164802551
+In grad_steps = 319, loss = 0.5422219038009644
+In grad_steps = 320, loss = 0.6101630926132202
+In grad_steps = 321, loss = 0.6761338710784912
+In grad_steps = 322, loss = 0.7682809829711914
+In grad_steps = 323, loss = 0.6471192240715027
+In grad_steps = 324, loss = 0.809601902961731
+In grad_steps = 325, loss = 0.6714969873428345
+In grad_steps = 326, loss = 0.7405357360839844
+In grad_steps = 327, loss = 0.6721257567405701
+In grad_steps = 328, loss = 0.4963451623916626
+In grad_steps = 329, loss = 0.6305850744247437
+In grad_steps = 330, loss = 0.5605785846710205
+In grad_steps = 331, loss = 0.6571599841117859
+In grad_steps = 332, loss = 0.6563172340393066
+In grad_steps = 333, loss = 0.5672463178634644
+In grad_steps = 334, loss = 0.5808529257774353
+In grad_steps = 335, loss = 0.6187292337417603
+In grad_steps = 336, loss = 0.5372940301895142
+In grad_steps = 337, loss = 0.377889484167099
+In grad_steps = 338, loss = 0.565016508102417
+In grad_steps = 339, loss = 0.7011446952819824
+In grad_steps = 340, loss = 0.5183666944503784
+In grad_steps = 341, loss = 0.6430195569992065
+In grad_steps = 342, loss = 0.9254457950592041
+In grad_steps = 343, loss = 0.4839896261692047
+In grad_steps = 344, loss = 0.9919906854629517
+In grad_steps = 345, loss = 0.6664332747459412
+In grad_steps = 346, loss = 0.5095157623291016
+In grad_steps = 347, loss = 0.6476321816444397
+In grad_steps = 348, loss = 0.6427484750747681
+In grad_steps = 349, loss = 0.6347993612289429
+In grad_steps = 350, loss = 0.782543957233429
+In grad_steps = 351, loss = 0.4743401110172272
+In grad_steps = 352, loss = 0.6399551033973694
+In grad_steps = 353, loss = 0.5688315033912659
+In grad_steps = 354, loss = 0.9688488841056824
+In grad_steps = 355, loss = 0.8266470432281494
+In grad_steps = 356, loss = 0.6864461898803711
+In grad_steps = 357, loss = 0.533566951751709
+In grad_steps = 358, loss = 0.6714246869087219
+In grad_steps = 359, loss = 0.5713051557540894
+i = 0, Test ensemble probabilities = 
+[array([[0.4831831 , 0.516817  ],
+       [0.5356889 , 0.46431112],
+       [0.49917674, 0.50082326],
+       [0.5443733 , 0.4556267 ],
+       [0.47920853, 0.5207915 ],
+       [0.55996877, 0.4400312 ],
+       [0.5036306 , 0.49636945],
+       [0.4996016 , 0.5003984 ],
+       [0.48775968, 0.51224035],
+       [0.5263254 , 0.47367457],
+       [0.45488054, 0.54511946],
+       [0.45986292, 0.54013705],
+       [0.5433425 , 0.4566575 ],
+       [0.1325081 , 0.86749196],
+       [0.32217723, 0.6778227 ],
+       [0.50742143, 0.4925786 ],
+       [0.572167  , 0.42783296],
+       [0.50395405, 0.4960459 ],
+       [0.48118123, 0.5188188 ],
+       [0.517718  , 0.48228195],
+       [0.42555487, 0.5744451 ],
+       [0.45830563, 0.5416944 ],
+       [0.47866425, 0.5213357 ],
+       [0.48394564, 0.51605433],
+       [0.52940834, 0.47059166],
+       [0.49029306, 0.5097069 ],
+       [0.46021995, 0.5397801 ],
+       [0.49770164, 0.5022983 ],
+       [0.535036  , 0.46496397],
+       [0.49670795, 0.503292  ],
+       [0.4931857 , 0.5068143 ],
+       [0.45128775, 0.5487122 ],
+       [0.46333066, 0.5366693 ],
+       [0.45866814, 0.5413319 ],
+       [0.48088077, 0.5191192 ],
+       [0.491987  , 0.50801307],
+       [0.48325855, 0.51674145],
+       [0.4769665 , 0.5230335 ],
+       [0.5019028 , 0.4980972 ],
+       [0.48117146, 0.5188286 ],
+       [0.49929258, 0.5007074 ],
+       [0.49375448, 0.50624555],
+       [0.42821586, 0.5717841 ],
+       [0.51315004, 0.48684996],
+       [0.48396876, 0.51603127],
+       [0.49436736, 0.50563264],
+       [0.49533165, 0.50466835],
+       [0.5370892 , 0.4629107 ],
+       [0.4950196 , 0.5049804 ],
+       [0.5075704 , 0.4924296 ],
+       [0.4782911 , 0.5217089 ],
+       [0.50061965, 0.49938032],
+       [0.52295643, 0.47704354],
+       [0.4635574 , 0.53644264],
+       [0.49603516, 0.5039648 ],
+       [0.52290124, 0.47709876],
+       [0.4734932 , 0.52650684],
+       [0.4924284 , 0.5075716 ],
+       [0.5908892 , 0.40911084],
+       [0.4936522 , 0.5063478 ],
+       [0.5221943 , 0.47780567],
+       [0.513111  , 0.48688903],
+       [0.46075755, 0.53924245],
+       [0.5309234 , 0.46907654],
+       [0.11458256, 0.88541746],
+       [0.5320645 , 0.4679355 ],
+       [0.54709923, 0.45290074],
+       [0.08625761, 0.91374236],
+       [0.5643238 , 0.43567616],
+       [0.47630295, 0.523697  ],
+       [0.45618972, 0.54381025],
+       [0.5003762 , 0.49962378],
+       [0.5265758 , 0.47342426],
+       [0.46172497, 0.53827506],
+       [0.49923038, 0.5007696 ],
+       [0.5114636 , 0.48853648],
+       [0.49560106, 0.504399  ],
+       [0.47497004, 0.52502996],
+       [0.49768737, 0.50231266],
+       [0.4974282 , 0.5025718 ],
+       [0.54450005, 0.45549992],
+       [0.5563558 , 0.4436442 ],
+       [0.4649744 , 0.53502554],
+       [0.5146602 , 0.4853398 ],
+       [0.41090173, 0.58909833],
+       [0.5046073 , 0.49539265],
+       [0.4442542 , 0.55574584],
+       [0.5383251 , 0.4616749 ],
+       [0.5442321 , 0.45576793],
+       [0.5292285 , 0.47077155]], dtype=float32)]
+i = 0, Test true class= 
+[1 1 0 0 1 0 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 0 0 0 1 0 1 1 0 1 0 1 0 1 1 0 0
+ 1 0 0 1 0 0 0 1 1 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 1 1 0 1 1 0 0 1 0 0 1
+ 0 0 1 0 0 0 0 1 0 1 1 0 1 1 0 0]
+In grad_steps = 0, loss = 1.350877046585083
+In grad_steps = 1, loss = 0.7130334973335266
+In grad_steps = 2, loss = 0.7147657871246338
+In grad_steps = 3, loss = 0.8588946461677551
+In grad_steps = 4, loss = 0.8728090524673462
+In grad_steps = 5, loss = 0.7000929117202759
+In grad_steps = 6, loss = 0.8271045684814453
+In grad_steps = 7, loss = 0.7398436069488525
+In grad_steps = 8, loss = 0.7546226382255554
+In grad_steps = 9, loss = 0.7341804504394531
+In grad_steps = 10, loss = 0.6363068222999573
+In grad_steps = 11, loss = 0.7444134950637817
+In grad_steps = 12, loss = 0.7171854376792908
+In grad_steps = 13, loss = 0.6954850554466248
+In grad_steps = 14, loss = 0.6794192790985107
+In grad_steps = 15, loss = 0.6844927072525024
+In grad_steps = 16, loss = 0.702536404132843
+In grad_steps = 17, loss = 0.694072425365448
+In grad_steps = 18, loss = 0.6727657318115234
+In grad_steps = 19, loss = 0.7018300890922546
+In grad_steps = 20, loss = 0.6721534729003906
+In grad_steps = 21, loss = 0.6854576468467712
+In grad_steps = 22, loss = 0.6207024455070496
+In grad_steps = 23, loss = 0.8106968402862549
+In grad_steps = 24, loss = 0.6964938640594482
+In grad_steps = 25, loss = 0.6212450265884399
+In grad_steps = 26, loss = 0.955817461013794
+In grad_steps = 27, loss = 0.8278198838233948
+In grad_steps = 28, loss = 0.6410946846008301
+In grad_steps = 29, loss = 0.6553707122802734
+In grad_steps = 30, loss = 0.677543044090271
+In grad_steps = 31, loss = 0.7084662914276123
+In grad_steps = 32, loss = 0.683281421661377
+In grad_steps = 33, loss = 0.6777392029762268
+In grad_steps = 34, loss = 0.6709882020950317
+In grad_steps = 35, loss = 0.6772186756134033
+In grad_steps = 36, loss = 0.7295870184898376
+In grad_steps = 37, loss = 0.6697364449501038
+In grad_steps = 38, loss = 0.7050554156303406
+In grad_steps = 39, loss = 0.6716324090957642
+In grad_steps = 40, loss = 0.6792829036712646
+In grad_steps = 41, loss = 0.6239857077598572
+In grad_steps = 42, loss = 0.752925455570221
+In grad_steps = 43, loss = 0.6588543653488159
+In grad_steps = 44, loss = 0.7232646942138672
+In grad_steps = 45, loss = 0.7399981617927551
+In grad_steps = 46, loss = 0.7145204544067383
+In grad_steps = 47, loss = 0.68895024061203
+In grad_steps = 48, loss = 0.6606120467185974
+In grad_steps = 49, loss = 0.659355640411377
+In grad_steps = 50, loss = 0.6788862943649292
+In grad_steps = 51, loss = 0.7047973275184631
+In grad_steps = 52, loss = 0.7331321835517883
+In grad_steps = 53, loss = 0.6757173538208008
+In grad_steps = 54, loss = 0.8274444341659546
+In grad_steps = 55, loss = 0.7018049955368042
+In grad_steps = 56, loss = 0.7440289258956909
+In grad_steps = 57, loss = 0.6709741950035095
+In grad_steps = 58, loss = 0.6641884446144104
+In grad_steps = 59, loss = 0.6843384504318237
+In grad_steps = 60, loss = 0.6814346313476562
+In grad_steps = 61, loss = 0.7180102467536926
+In grad_steps = 62, loss = 0.7176520824432373
+In grad_steps = 63, loss = 0.665199339389801
+In grad_steps = 64, loss = 0.6977902054786682
+In grad_steps = 65, loss = 0.6991337537765503
+In grad_steps = 66, loss = 0.6681821942329407
+In grad_steps = 67, loss = 0.6741339564323425
+In grad_steps = 68, loss = 0.6582881212234497
+In grad_steps = 69, loss = 0.6629520654678345
+In grad_steps = 70, loss = 0.6162497997283936
+In grad_steps = 71, loss = 0.6779299974441528
+In grad_steps = 72, loss = 0.7867337465286255
+In grad_steps = 73, loss = 0.7246113419532776
+In grad_steps = 74, loss = 0.938407301902771
+In grad_steps = 75, loss = 0.7861277461051941
+In grad_steps = 76, loss = 0.7000056505203247
+In grad_steps = 77, loss = 0.7156499028205872
+In grad_steps = 78, loss = 0.7014363408088684
+In grad_steps = 79, loss = 0.6803563237190247
+In grad_steps = 80, loss = 0.6943936347961426
+In grad_steps = 81, loss = 0.5707542896270752
+In grad_steps = 82, loss = 0.6430623531341553
+In grad_steps = 83, loss = 0.5850659608840942
+In grad_steps = 84, loss = 0.9963033199310303
+In grad_steps = 85, loss = 0.8888949751853943
+In grad_steps = 86, loss = 0.80109703540802
+In grad_steps = 87, loss = 0.6207059621810913
+In grad_steps = 88, loss = 0.6938185691833496
+In grad_steps = 89, loss = 0.7152969241142273
+In grad_steps = 90, loss = 0.6690412163734436
+In grad_steps = 91, loss = 0.669289767742157
+In grad_steps = 92, loss = 0.6774178743362427
+In grad_steps = 93, loss = 0.6856138110160828
+In grad_steps = 94, loss = 0.6777377128601074
+In grad_steps = 95, loss = 0.6383116245269775
+In grad_steps = 96, loss = 0.7727017998695374
+In grad_steps = 97, loss = 0.7152417898178101
+In grad_steps = 98, loss = 0.69915771484375
+In grad_steps = 99, loss = 0.7149859666824341
+In grad_steps = 100, loss = 0.632331907749176
+In grad_steps = 101, loss = 0.7338917255401611
+In grad_steps = 102, loss = 0.6970685124397278
+In grad_steps = 103, loss = 0.7115462422370911
+In grad_steps = 104, loss = 0.6317540407180786
+In grad_steps = 105, loss = 0.6849347352981567
+In grad_steps = 106, loss = 0.6942720413208008
+In grad_steps = 107, loss = 0.6808071136474609
+In grad_steps = 108, loss = 0.6873855590820312
+In grad_steps = 109, loss = 0.6421077251434326
+In grad_steps = 110, loss = 0.6536433100700378
+In grad_steps = 111, loss = 0.6798552870750427
+In grad_steps = 112, loss = 0.6259904503822327
+In grad_steps = 113, loss = 0.7310305237770081
+In grad_steps = 114, loss = 0.6991448998451233
+In grad_steps = 115, loss = 0.6153717637062073
+In grad_steps = 116, loss = 0.9101941585540771
+In grad_steps = 117, loss = 0.7259112596511841
+In grad_steps = 118, loss = 0.6351656317710876
+In grad_steps = 119, loss = 0.7427300214767456
+In grad_steps = 120, loss = 0.7047477960586548
+In grad_steps = 121, loss = 0.6743978261947632
+In grad_steps = 122, loss = 0.6418259739875793
+In grad_steps = 123, loss = 0.6555269956588745
+In grad_steps = 124, loss = 0.663587749004364
+In grad_steps = 125, loss = 0.6178191900253296
+In grad_steps = 126, loss = 0.7350416779518127
+In grad_steps = 127, loss = 0.6169204711914062
+In grad_steps = 128, loss = 0.6838560104370117
+In grad_steps = 129, loss = 0.6345231533050537
+In grad_steps = 130, loss = 0.6865445971488953
+In grad_steps = 131, loss = 0.5195056796073914
+In grad_steps = 132, loss = 0.7669937014579773
+In grad_steps = 133, loss = 0.5643842220306396
+In grad_steps = 134, loss = 0.8013843297958374
+In grad_steps = 135, loss = 0.8143216371536255
+In grad_steps = 136, loss = 0.6935797929763794
+In grad_steps = 137, loss = 0.6952664852142334
+In grad_steps = 138, loss = 0.6348913908004761
+In grad_steps = 139, loss = 0.6011444330215454
+In grad_steps = 140, loss = 0.6548412442207336
+In grad_steps = 141, loss = 0.7008106112480164
+In grad_steps = 142, loss = 0.789972186088562
+In grad_steps = 143, loss = 0.6606022119522095
+In grad_steps = 144, loss = 0.7824309468269348
+In grad_steps = 145, loss = 0.6911471486091614
+In grad_steps = 146, loss = 0.7236760258674622
+In grad_steps = 147, loss = 0.6875795125961304
+In grad_steps = 148, loss = 0.5962371230125427
+In grad_steps = 149, loss = 0.6930568218231201
+In grad_steps = 150, loss = 0.6529038548469543
+In grad_steps = 151, loss = 0.7173599600791931
+In grad_steps = 152, loss = 0.707253634929657
+In grad_steps = 153, loss = 0.6646257638931274
+In grad_steps = 154, loss = 0.6214814782142639
+In grad_steps = 155, loss = 0.6908575296401978
+In grad_steps = 156, loss = 0.6220732927322388
+In grad_steps = 157, loss = 0.5714540481567383
+In grad_steps = 158, loss = 0.5785442590713501
+In grad_steps = 159, loss = 0.6584938168525696
+In grad_steps = 160, loss = 0.6158154010772705
+In grad_steps = 161, loss = 0.6893376111984253
+In grad_steps = 162, loss = 0.7877436876296997
+In grad_steps = 163, loss = 0.6625757217407227
+In grad_steps = 164, loss = 0.8310526609420776
+In grad_steps = 165, loss = 0.7025819420814514
+In grad_steps = 166, loss = 0.6439794301986694
+In grad_steps = 167, loss = 0.6896001696586609
+In grad_steps = 168, loss = 0.6596444845199585
+In grad_steps = 169, loss = 0.6575625538825989
+In grad_steps = 170, loss = 0.7177478671073914
+In grad_steps = 171, loss = 0.5450191497802734
+In grad_steps = 172, loss = 0.6193395256996155
+In grad_steps = 173, loss = 0.590682864189148
+In grad_steps = 174, loss = 0.9575487971305847
+In grad_steps = 175, loss = 0.8460423350334167
+In grad_steps = 176, loss = 0.6888865232467651
+In grad_steps = 177, loss = 0.5438241958618164
+In grad_steps = 178, loss = 0.6791082620620728
+In grad_steps = 179, loss = 0.6544241309165955
+In grad_steps = 180, loss = 0.6553927659988403
+In grad_steps = 181, loss = 0.5204641819000244
+In grad_steps = 182, loss = 0.6760463714599609
+In grad_steps = 183, loss = 0.62193363904953
+In grad_steps = 184, loss = 0.6247307658195496
+In grad_steps = 185, loss = 0.5298284292221069
+In grad_steps = 186, loss = 0.6886447668075562
+In grad_steps = 187, loss = 0.69659423828125
+In grad_steps = 188, loss = 0.6181182861328125
+In grad_steps = 189, loss = 0.6849818825721741
+In grad_steps = 190, loss = 0.6499367952346802
+In grad_steps = 191, loss = 0.6938049793243408
+In grad_steps = 192, loss = 0.6569761037826538
+In grad_steps = 193, loss = 0.6791310906410217
+In grad_steps = 194, loss = 0.5014563798904419
+In grad_steps = 195, loss = 0.6844597458839417
+In grad_steps = 196, loss = 0.6774125695228577
+In grad_steps = 197, loss = 0.6015262007713318
+In grad_steps = 198, loss = 0.6792134642601013
+In grad_steps = 199, loss = 0.49071282148361206
+In grad_steps = 200, loss = 0.5014151334762573
+In grad_steps = 201, loss = 0.6350441575050354
+In grad_steps = 202, loss = 0.6237082481384277
+In grad_steps = 203, loss = 0.7728913426399231
+In grad_steps = 204, loss = 0.7324984073638916
+In grad_steps = 205, loss = 0.5422167181968689
+In grad_steps = 206, loss = 1.0475256443023682
+In grad_steps = 207, loss = 0.5019245743751526
+In grad_steps = 208, loss = 0.8197989463806152
+In grad_steps = 209, loss = 0.9521947503089905
+In grad_steps = 210, loss = 0.7746934294700623
+In grad_steps = 211, loss = 0.640912652015686
+In grad_steps = 212, loss = 0.5930700898170471
+In grad_steps = 213, loss = 0.592297375202179
+In grad_steps = 214, loss = 0.6626132726669312
+In grad_steps = 215, loss = 0.5727260708808899
+In grad_steps = 216, loss = 0.7121458649635315
+In grad_steps = 217, loss = 0.5935807824134827
+In grad_steps = 218, loss = 0.7153886556625366
+In grad_steps = 219, loss = 0.6289296746253967
+In grad_steps = 220, loss = 0.684992253780365
+In grad_steps = 221, loss = 0.5407263040542603
+In grad_steps = 222, loss = 0.7900211811065674
+In grad_steps = 223, loss = 0.5547312498092651
+In grad_steps = 224, loss = 0.7163665890693665
+In grad_steps = 225, loss = 0.6995787024497986
+In grad_steps = 226, loss = 0.679938554763794
+In grad_steps = 227, loss = 0.660511314868927
+In grad_steps = 228, loss = 0.6368164420127869
+In grad_steps = 229, loss = 0.5099114775657654
+In grad_steps = 230, loss = 0.629882276058197
+In grad_steps = 231, loss = 0.6880562901496887
+In grad_steps = 232, loss = 0.8008340001106262
+In grad_steps = 233, loss = 0.6515570282936096
+In grad_steps = 234, loss = 0.7605706453323364
+In grad_steps = 235, loss = 0.6742008924484253
+In grad_steps = 236, loss = 0.7406742572784424
+In grad_steps = 237, loss = 0.6945081353187561
+In grad_steps = 238, loss = 0.5599015951156616
+In grad_steps = 239, loss = 0.675104022026062
+In grad_steps = 240, loss = 0.5476675629615784
+In grad_steps = 241, loss = 0.6769077181816101
+In grad_steps = 242, loss = 0.6275742053985596
+In grad_steps = 243, loss = 0.5704208612442017
+In grad_steps = 244, loss = 0.5844305753707886
+In grad_steps = 245, loss = 0.7512936592102051
+In grad_steps = 246, loss = 0.5737569332122803
+In grad_steps = 247, loss = 0.3571254014968872
+In grad_steps = 248, loss = 0.6011847257614136
+In grad_steps = 249, loss = 0.7680546045303345
+In grad_steps = 250, loss = 0.7049106955528259
+In grad_steps = 251, loss = 0.7101296186447144
+In grad_steps = 252, loss = 0.842781662940979
+In grad_steps = 253, loss = 0.5904517769813538
+In grad_steps = 254, loss = 0.6572258472442627
+In grad_steps = 255, loss = 0.6518030166625977
+In grad_steps = 256, loss = 0.6364487409591675
+In grad_steps = 257, loss = 0.6727228164672852
+In grad_steps = 258, loss = 0.6437289714813232
+In grad_steps = 259, loss = 0.653479278087616
+In grad_steps = 260, loss = 0.7035010457038879
+In grad_steps = 261, loss = 0.5654194355010986
+In grad_steps = 262, loss = 0.6224629878997803
+In grad_steps = 263, loss = 0.5972539186477661
+In grad_steps = 264, loss = 0.8445889353752136
+In grad_steps = 265, loss = 0.7801947593688965
+In grad_steps = 266, loss = 0.7194021344184875
+In grad_steps = 267, loss = 0.5544143915176392
+In grad_steps = 268, loss = 0.690130352973938
+In grad_steps = 269, loss = 0.42468661069869995
+In grad_steps = 270, loss = 0.6499192118644714
+In grad_steps = 271, loss = 0.5279370546340942
+In grad_steps = 272, loss = 0.6697827577590942
+In grad_steps = 273, loss = 0.6080804467201233
+In grad_steps = 274, loss = 0.5990250110626221
+In grad_steps = 275, loss = 0.49152684211730957
+In grad_steps = 276, loss = 0.6469602584838867
+In grad_steps = 277, loss = 0.7192810773849487
+In grad_steps = 278, loss = 0.6456536054611206
+In grad_steps = 279, loss = 0.662848174571991
+In grad_steps = 280, loss = 0.6084001064300537
+In grad_steps = 281, loss = 0.6883829832077026
+In grad_steps = 282, loss = 0.6096482872962952
+In grad_steps = 283, loss = 0.6151785254478455
+In grad_steps = 284, loss = 0.36628445982933044
+In grad_steps = 285, loss = 0.6407780051231384
+In grad_steps = 286, loss = 0.5685321092605591
+In grad_steps = 287, loss = 0.5775651335716248
+In grad_steps = 288, loss = 0.5812354683876038
+In grad_steps = 289, loss = 0.497201532125473
+In grad_steps = 290, loss = 0.3967844843864441
+In grad_steps = 291, loss = 0.42427119612693787
+In grad_steps = 292, loss = 0.2425442337989807
+In grad_steps = 293, loss = 0.6113010048866272
+In grad_steps = 294, loss = 0.6847532987594604
+In grad_steps = 295, loss = 0.37997063994407654
+In grad_steps = 296, loss = 0.46238067746162415
+In grad_steps = 297, loss = 0.20200380682945251
+In grad_steps = 298, loss = 0.5843832492828369
+In grad_steps = 299, loss = 1.0846998691558838
+In grad_steps = 300, loss = 0.4285159111022949
+In grad_steps = 301, loss = 0.5155362486839294
+In grad_steps = 302, loss = 0.4847855567932129
+In grad_steps = 303, loss = 0.46754929423332214
+In grad_steps = 304, loss = 0.5864629149436951
+In grad_steps = 305, loss = 0.5531954169273376
+In grad_steps = 306, loss = 0.814017117023468
+In grad_steps = 307, loss = 0.4663008451461792
+In grad_steps = 308, loss = 0.6343769431114197
+In grad_steps = 309, loss = 0.7037045359611511
+In grad_steps = 310, loss = 0.640274703502655
+In grad_steps = 311, loss = 0.5077784061431885
+In grad_steps = 312, loss = 0.5291058421134949
+In grad_steps = 313, loss = 0.4322473406791687
+In grad_steps = 314, loss = 0.654765248298645
+In grad_steps = 315, loss = 0.7563648223876953
+In grad_steps = 316, loss = 0.6676193475723267
+In grad_steps = 317, loss = 0.6283191442489624
+In grad_steps = 318, loss = 0.672734260559082
+In grad_steps = 319, loss = 0.5437319278717041
+In grad_steps = 320, loss = 0.5747309327125549
+In grad_steps = 321, loss = 0.622688889503479
+In grad_steps = 322, loss = 0.6656916737556458
+In grad_steps = 323, loss = 0.6012477278709412
+In grad_steps = 324, loss = 0.5723469257354736
+In grad_steps = 325, loss = 0.7772746682167053
+In grad_steps = 326, loss = 0.7712196707725525
+In grad_steps = 327, loss = 0.6339053511619568
+In grad_steps = 328, loss = 0.4303818941116333
+In grad_steps = 329, loss = 0.6331386566162109
+In grad_steps = 330, loss = 0.47610968351364136
+In grad_steps = 331, loss = 0.5649746060371399
+In grad_steps = 332, loss = 0.5823041796684265
+In grad_steps = 333, loss = 0.35860365629196167
+In grad_steps = 334, loss = 0.6036385297775269
+In grad_steps = 335, loss = 1.0745171308517456
+In grad_steps = 336, loss = 0.6135675311088562
+In grad_steps = 337, loss = 0.22090637683868408
+In grad_steps = 338, loss = 0.5554503798484802
+In grad_steps = 339, loss = 0.9490094780921936
+In grad_steps = 340, loss = 0.37996605038642883
+In grad_steps = 341, loss = 0.6056653261184692
+In grad_steps = 342, loss = 0.8239232301712036
+In grad_steps = 343, loss = 0.7004237771034241
+In grad_steps = 344, loss = 1.029297947883606
+In grad_steps = 345, loss = 0.6130454540252686
+In grad_steps = 346, loss = 0.5681588053703308
+In grad_steps = 347, loss = 0.6133114695549011
+In grad_steps = 348, loss = 0.6298273801803589
+In grad_steps = 349, loss = 0.6143794655799866
+In grad_steps = 350, loss = 0.7722039222717285
+In grad_steps = 351, loss = 0.4915390908718109
+In grad_steps = 352, loss = 0.6294836401939392
+In grad_steps = 353, loss = 0.5719767808914185
+In grad_steps = 354, loss = 1.0149343013763428
+In grad_steps = 355, loss = 0.8050394654273987
+In grad_steps = 356, loss = 0.7204235792160034
+In grad_steps = 357, loss = 0.6236218810081482
+In grad_steps = 358, loss = 0.6533889174461365
+In grad_steps = 359, loss = 0.7014487385749817
+i = 1, Test ensemble probabilities = 
+[array([[0.4831831 , 0.516817  ],
+       [0.5356889 , 0.46431112],
+       [0.49917674, 0.50082326],
+       [0.5443733 , 0.4556267 ],
+       [0.47920853, 0.5207915 ],
+       [0.55996877, 0.4400312 ],
+       [0.5036306 , 0.49636945],
+       [0.4996016 , 0.5003984 ],
+       [0.48775968, 0.51224035],
+       [0.5263254 , 0.47367457],
+       [0.45488054, 0.54511946],
+       [0.45986292, 0.54013705],
+       [0.5433425 , 0.4566575 ],
+       [0.1325081 , 0.86749196],
+       [0.32217723, 0.6778227 ],
+       [0.50742143, 0.4925786 ],
+       [0.572167  , 0.42783296],
+       [0.50395405, 0.4960459 ],
+       [0.48118123, 0.5188188 ],
+       [0.517718  , 0.48228195],
+       [0.42555487, 0.5744451 ],
+       [0.45830563, 0.5416944 ],
+       [0.47866425, 0.5213357 ],
+       [0.48394564, 0.51605433],
+       [0.52940834, 0.47059166],
+       [0.49029306, 0.5097069 ],
+       [0.46021995, 0.5397801 ],
+       [0.49770164, 0.5022983 ],
+       [0.535036  , 0.46496397],
+       [0.49670795, 0.503292  ],
+       [0.4931857 , 0.5068143 ],
+       [0.45128775, 0.5487122 ],
+       [0.46333066, 0.5366693 ],
+       [0.45866814, 0.5413319 ],
+       [0.48088077, 0.5191192 ],
+       [0.491987  , 0.50801307],
+       [0.48325855, 0.51674145],
+       [0.4769665 , 0.5230335 ],
+       [0.5019028 , 0.4980972 ],
+       [0.48117146, 0.5188286 ],
+       [0.49929258, 0.5007074 ],
+       [0.49375448, 0.50624555],
+       [0.42821586, 0.5717841 ],
+       [0.51315004, 0.48684996],
+       [0.48396876, 0.51603127],
+       [0.49436736, 0.50563264],
+       [0.49533165, 0.50466835],
+       [0.5370892 , 0.4629107 ],
+       [0.4950196 , 0.5049804 ],
+       [0.5075704 , 0.4924296 ],
+       [0.4782911 , 0.5217089 ],
+       [0.50061965, 0.49938032],
+       [0.52295643, 0.47704354],
+       [0.4635574 , 0.53644264],
+       [0.49603516, 0.5039648 ],
+       [0.52290124, 0.47709876],
+       [0.4734932 , 0.52650684],
+       [0.4924284 , 0.5075716 ],
+       [0.5908892 , 0.40911084],
+       [0.4936522 , 0.5063478 ],
+       [0.5221943 , 0.47780567],
+       [0.513111  , 0.48688903],
+       [0.46075755, 0.53924245],
+       [0.5309234 , 0.46907654],
+       [0.11458256, 0.88541746],
+       [0.5320645 , 0.4679355 ],
+       [0.54709923, 0.45290074],
+       [0.08625761, 0.91374236],
+       [0.5643238 , 0.43567616],
+       [0.47630295, 0.523697  ],
+       [0.45618972, 0.54381025],
+       [0.5003762 , 0.49962378],
+       [0.5265758 , 0.47342426],
+       [0.46172497, 0.53827506],
+       [0.49923038, 0.5007696 ],
+       [0.5114636 , 0.48853648],
+       [0.49560106, 0.504399  ],
+       [0.47497004, 0.52502996],
+       [0.49768737, 0.50231266],
+       [0.4974282 , 0.5025718 ],
+       [0.54450005, 0.45549992],
+       [0.5563558 , 0.4436442 ],
+       [0.4649744 , 0.53502554],
+       [0.5146602 , 0.4853398 ],
+       [0.41090173, 0.58909833],
+       [0.5046073 , 0.49539265],
+       [0.4442542 , 0.55574584],
+       [0.5383251 , 0.4616749 ],
+       [0.5442321 , 0.45576793],
+       [0.5292285 , 0.47077155]], dtype=float32), array([[0.4230972 , 0.57690287],
+       [0.45076028, 0.5492397 ],
+       [0.47448754, 0.52551246],
+       [0.47028568, 0.52971435],
+       [0.43067616, 0.5693238 ],
+       [0.47738713, 0.52261287],
+       [0.44915715, 0.5508429 ],
+       [0.41219434, 0.5878056 ],
+       [0.4309208 , 0.56907916],
+       [0.450612  , 0.54938805],
+       [0.426295  , 0.573705  ],
+       [0.42047408, 0.5795259 ],
+       [0.48682612, 0.5131739 ],
+       [0.3682739 , 0.63172615],
+       [0.38447645, 0.6155235 ],
+       [0.448682  , 0.55131805],
+       [0.45151213, 0.54848784],
+       [0.45852438, 0.5414756 ],
+       [0.41649857, 0.58350146],
+       [0.42545277, 0.57454723],
+       [0.43507627, 0.56492376],
+       [0.41502342, 0.5849766 ],
+       [0.43338582, 0.56661415],
+       [0.43352893, 0.56647104],
+       [0.46770167, 0.5322984 ],
+       [0.46777382, 0.53222615],
+       [0.3830049 , 0.6169951 ],
+       [0.46625197, 0.53374803],
+       [0.48563018, 0.51436985],
+       [0.45516267, 0.54483736],
+       [0.44163725, 0.5583627 ],
+       [0.41207746, 0.5879225 ],
+       [0.40616438, 0.59383565],
+       [0.40480614, 0.5951939 ],
+       [0.4388242 , 0.5611758 ],
+       [0.45381564, 0.5461843 ],
+       [0.42972568, 0.5702743 ],
+       [0.427231  , 0.572769  ],
+       [0.4278925 , 0.5721075 ],
+       [0.4480772 , 0.5519228 ],
+       [0.43721327, 0.5627867 ],
+       [0.4203433 , 0.5796567 ],
+       [0.38108078, 0.6189192 ],
+       [0.43229318, 0.56770676],
+       [0.4401802 , 0.5598198 ],
+       [0.45378894, 0.54621106],
+       [0.48453158, 0.5154684 ],
+       [0.4869686 , 0.51303136],
+       [0.4458754 , 0.5541246 ],
+       [0.48296443, 0.51703554],
+       [0.3808561 , 0.6191439 ],
+       [0.4596725 , 0.5403275 ],
+       [0.4409187 , 0.5590813 ],
+       [0.4355226 , 0.5644774 ],
+       [0.42861405, 0.571386  ],
+       [0.499218  , 0.500782  ],
+       [0.43862575, 0.5613743 ],
+       [0.447598  , 0.55240196],
+       [0.5202221 , 0.4797779 ],
+       [0.4219323 , 0.57806766],
+       [0.4852157 , 0.51478434],
+       [0.46094805, 0.53905195],
+       [0.43237466, 0.56762534],
+       [0.45292392, 0.5470761 ],
+       [0.3210757 , 0.6789243 ],
+       [0.45578992, 0.5442101 ],
+       [0.48784903, 0.512151  ],
+       [0.34485206, 0.65514797],
+       [0.50082445, 0.49917552],
+       [0.43201286, 0.56798714],
+       [0.3984972 , 0.60150284],
+       [0.43437603, 0.565624  ],
+       [0.46445537, 0.53554463],
+       [0.4030372 , 0.5969628 ],
+       [0.4657256 , 0.5342744 ],
+       [0.44725755, 0.5527425 ],
+       [0.43688738, 0.5631126 ],
+       [0.4203537 , 0.5796462 ],
+       [0.443728  , 0.556272  ],
+       [0.43307278, 0.56692725],
+       [0.48289824, 0.51710176],
+       [0.4555368 , 0.54446316],
+       [0.4205589 , 0.5794411 ],
+       [0.43895712, 0.5610429 ],
+       [0.40434158, 0.5956584 ],
+       [0.4537497 , 0.54625034],
+       [0.4345677 , 0.5654323 ],
+       [0.46944284, 0.5305572 ],
+       [0.4799945 , 0.5200055 ],
+       [0.4560686 , 0.5439314 ]], dtype=float32)]
+i = 1, Test true class= 
+[1 1 0 0 1 0 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 0 0 0 1 0 1 1 0 1 0 1 0 1 1 0 0
+ 1 0 0 1 0 0 0 1 1 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 1 1 0 1 1 0 0 1 0 0 1
+ 0 0 1 0 0 0 0 1 0 1 1 0 1 1 0 0]
+In grad_steps = 0, loss = 1.350877046585083
+In grad_steps = 1, loss = 0.7105269432067871
+In grad_steps = 2, loss = 0.7171042561531067
+In grad_steps = 3, loss = 0.8463512063026428
+In grad_steps = 4, loss = 0.8585784435272217
+In grad_steps = 5, loss = 0.6954989433288574
+In grad_steps = 6, loss = 0.8417537808418274
+In grad_steps = 7, loss = 0.7428689002990723
+In grad_steps = 8, loss = 0.7521129846572876
+In grad_steps = 9, loss = 0.7322275638580322
+In grad_steps = 10, loss = 0.635249137878418
+In grad_steps = 11, loss = 0.7388412952423096
+In grad_steps = 12, loss = 0.7130299806594849
+In grad_steps = 13, loss = 0.6937850117683411
+In grad_steps = 14, loss = 0.6789571046829224
+In grad_steps = 15, loss = 0.6926526427268982
+In grad_steps = 16, loss = 0.7077502608299255
+In grad_steps = 17, loss = 0.7003167271614075
+In grad_steps = 18, loss = 0.6720417141914368
+In grad_steps = 19, loss = 0.6946493983268738
+In grad_steps = 20, loss = 0.6695543527603149
+In grad_steps = 21, loss = 0.6861713528633118
+In grad_steps = 22, loss = 0.6210289597511292
+In grad_steps = 23, loss = 0.8170816898345947
+In grad_steps = 24, loss = 0.6971616744995117
+In grad_steps = 25, loss = 0.6182974576950073
+In grad_steps = 26, loss = 0.9560489654541016
+In grad_steps = 27, loss = 0.8228146433830261
+In grad_steps = 28, loss = 0.6364240646362305
+In grad_steps = 29, loss = 0.6552394032478333
+In grad_steps = 30, loss = 0.6804777383804321
+In grad_steps = 31, loss = 0.7104854583740234
+In grad_steps = 32, loss = 0.6831238269805908
+In grad_steps = 33, loss = 0.6764115691184998
+In grad_steps = 34, loss = 0.6747927665710449
+In grad_steps = 35, loss = 0.6723957061767578
+In grad_steps = 36, loss = 0.7305426001548767
+In grad_steps = 37, loss = 0.6687904596328735
+In grad_steps = 38, loss = 0.7013574838638306
+In grad_steps = 39, loss = 0.6670486927032471
+In grad_steps = 40, loss = 0.6829082369804382
+In grad_steps = 41, loss = 0.624165415763855
+In grad_steps = 42, loss = 0.7513301968574524
+In grad_steps = 43, loss = 0.6547562479972839
+In grad_steps = 44, loss = 0.7207735180854797
+In grad_steps = 45, loss = 0.743853747844696
+In grad_steps = 46, loss = 0.7206383943557739
+In grad_steps = 47, loss = 0.687609076499939
+In grad_steps = 48, loss = 0.6662868857383728
+In grad_steps = 49, loss = 0.656328558921814
+In grad_steps = 50, loss = 0.6799595952033997
+In grad_steps = 51, loss = 0.7033563852310181
+In grad_steps = 52, loss = 0.7307740449905396
+In grad_steps = 53, loss = 0.6767205595970154
+In grad_steps = 54, loss = 0.8191901445388794
+In grad_steps = 55, loss = 0.7014411687850952
+In grad_steps = 56, loss = 0.7404966950416565
+In grad_steps = 57, loss = 0.6744220852851868
+In grad_steps = 58, loss = 0.6597101092338562
+In grad_steps = 59, loss = 0.6862314939498901
+In grad_steps = 60, loss = 0.6767231225967407
+In grad_steps = 61, loss = 0.7116460204124451
+In grad_steps = 62, loss = 0.7163252830505371
+In grad_steps = 63, loss = 0.6617275476455688
+In grad_steps = 64, loss = 0.7016372680664062
+In grad_steps = 65, loss = 0.6976026296615601
+In grad_steps = 66, loss = 0.6594544649124146
+In grad_steps = 67, loss = 0.6676895022392273
+In grad_steps = 68, loss = 0.6443283557891846
+In grad_steps = 69, loss = 0.6561547517776489
+In grad_steps = 70, loss = 0.6144973635673523
+In grad_steps = 71, loss = 0.6778831481933594
+In grad_steps = 72, loss = 0.7884377241134644
+In grad_steps = 73, loss = 0.7267036437988281
+In grad_steps = 74, loss = 0.9352797269821167
+In grad_steps = 75, loss = 0.7864363789558411
+In grad_steps = 76, loss = 0.6971156001091003
+In grad_steps = 77, loss = 0.7125357985496521
+In grad_steps = 78, loss = 0.694244384765625
+In grad_steps = 79, loss = 0.6752841472625732
+In grad_steps = 80, loss = 0.6985215544700623
+In grad_steps = 81, loss = 0.5692919492721558
+In grad_steps = 82, loss = 0.6426450610160828
+In grad_steps = 83, loss = 0.585835874080658
+In grad_steps = 84, loss = 1.0066250562667847
+In grad_steps = 85, loss = 0.8939353227615356
+In grad_steps = 86, loss = 0.7954952716827393
+In grad_steps = 87, loss = 0.6242933869361877
+In grad_steps = 88, loss = 0.6897725462913513
+In grad_steps = 89, loss = 0.7324910163879395
+In grad_steps = 90, loss = 0.6711041331291199
+In grad_steps = 91, loss = 0.6704996824264526
+In grad_steps = 92, loss = 0.6759721040725708
+In grad_steps = 93, loss = 0.6831468343734741
+In grad_steps = 94, loss = 0.6777947545051575
+In grad_steps = 95, loss = 0.6422902345657349
+In grad_steps = 96, loss = 0.7740579843521118
+In grad_steps = 97, loss = 0.7103050947189331
+In grad_steps = 98, loss = 0.7021844983100891
+In grad_steps = 99, loss = 0.7133644819259644
+In grad_steps = 100, loss = 0.634253978729248
+In grad_steps = 101, loss = 0.7300025224685669
+In grad_steps = 102, loss = 0.6957682371139526
+In grad_steps = 103, loss = 0.7114987373352051
+In grad_steps = 104, loss = 0.6366356015205383
+In grad_steps = 105, loss = 0.6844273805618286
+In grad_steps = 106, loss = 0.6920543313026428
+In grad_steps = 107, loss = 0.6786103844642639
+In grad_steps = 108, loss = 0.682919442653656
+In grad_steps = 109, loss = 0.6515337824821472
+In grad_steps = 110, loss = 0.6667263507843018
+In grad_steps = 111, loss = 0.6869710087776184
+In grad_steps = 112, loss = 0.6255244016647339
+In grad_steps = 113, loss = 0.7363143563270569
+In grad_steps = 114, loss = 0.6930532455444336
+In grad_steps = 115, loss = 0.614000141620636
+In grad_steps = 116, loss = 0.8934187889099121
+In grad_steps = 117, loss = 0.7454531788825989
+In grad_steps = 118, loss = 0.6431428790092468
+In grad_steps = 119, loss = 0.7218076586723328
+In grad_steps = 120, loss = 0.6949418783187866
+In grad_steps = 121, loss = 0.6805547475814819
+In grad_steps = 122, loss = 0.6486301422119141
+In grad_steps = 123, loss = 0.6540056467056274
+In grad_steps = 124, loss = 0.6645190119743347
+In grad_steps = 125, loss = 0.6264490485191345
+In grad_steps = 126, loss = 0.7318971157073975
+In grad_steps = 127, loss = 0.6311103105545044
+In grad_steps = 128, loss = 0.6874865293502808
+In grad_steps = 129, loss = 0.6302390694618225
+In grad_steps = 130, loss = 0.6851865649223328
+In grad_steps = 131, loss = 0.5345979928970337
+In grad_steps = 132, loss = 0.7980059385299683
+In grad_steps = 133, loss = 0.5765661001205444
+In grad_steps = 134, loss = 0.7906573414802551
+In grad_steps = 135, loss = 0.7995671629905701
+In grad_steps = 136, loss = 0.7033945918083191
+In grad_steps = 137, loss = 0.6978644132614136
+In grad_steps = 138, loss = 0.6329544186592102
+In grad_steps = 139, loss = 0.6103813648223877
+In grad_steps = 140, loss = 0.6515949368476868
+In grad_steps = 141, loss = 0.6971544623374939
+In grad_steps = 142, loss = 0.7759416103363037
+In grad_steps = 143, loss = 0.6664391756057739
+In grad_steps = 144, loss = 0.7774227857589722
+In grad_steps = 145, loss = 0.6891269683837891
+In grad_steps = 146, loss = 0.7213947772979736
+In grad_steps = 147, loss = 0.6879787445068359
+In grad_steps = 148, loss = 0.6005234718322754
+In grad_steps = 149, loss = 0.7003634572029114
+In grad_steps = 150, loss = 0.6574792861938477
+In grad_steps = 151, loss = 0.7268373370170593
+In grad_steps = 152, loss = 0.7197308540344238
+In grad_steps = 153, loss = 0.6649526953697205
+In grad_steps = 154, loss = 0.6245719194412231
+In grad_steps = 155, loss = 0.6975076794624329
+In grad_steps = 156, loss = 0.6308456063270569
+In grad_steps = 157, loss = 0.5782359838485718
+In grad_steps = 158, loss = 0.6024022102355957
+In grad_steps = 159, loss = 0.6612081527709961
+In grad_steps = 160, loss = 0.6211543679237366
+In grad_steps = 161, loss = 0.6885094046592712
+In grad_steps = 162, loss = 0.7688006162643433
+In grad_steps = 163, loss = 0.6599105596542358
+In grad_steps = 164, loss = 0.8339799642562866
+In grad_steps = 165, loss = 0.7000060677528381
+In grad_steps = 166, loss = 0.6452606916427612
+In grad_steps = 167, loss = 0.6887149810791016
+In grad_steps = 168, loss = 0.654552698135376
+In grad_steps = 169, loss = 0.655147910118103
+In grad_steps = 170, loss = 0.7208451628684998
+In grad_steps = 171, loss = 0.5421897172927856
+In grad_steps = 172, loss = 0.6269479990005493
+In grad_steps = 173, loss = 0.5865468978881836
+In grad_steps = 174, loss = 0.9630281925201416
+In grad_steps = 175, loss = 0.8579896092414856
+In grad_steps = 176, loss = 0.6902194619178772
+In grad_steps = 177, loss = 0.5438744425773621
+In grad_steps = 178, loss = 0.6776689291000366
+In grad_steps = 179, loss = 0.6382277011871338
+In grad_steps = 180, loss = 0.653375506401062
+In grad_steps = 181, loss = 0.5139560699462891
+In grad_steps = 182, loss = 0.6730630397796631
+In grad_steps = 183, loss = 0.6131730675697327
+In grad_steps = 184, loss = 0.6196905374526978
+In grad_steps = 185, loss = 0.5280840396881104
+In grad_steps = 186, loss = 0.6950273513793945
+In grad_steps = 187, loss = 0.6902480721473694
+In grad_steps = 188, loss = 0.6187071204185486
+In grad_steps = 189, loss = 0.6888818740844727
+In grad_steps = 190, loss = 0.647790253162384
+In grad_steps = 191, loss = 0.6907734870910645
+In grad_steps = 192, loss = 0.6527072191238403
+In grad_steps = 193, loss = 0.6753742098808289
+In grad_steps = 194, loss = 0.48820731043815613
+In grad_steps = 195, loss = 0.6911965608596802
+In grad_steps = 196, loss = 0.6582861542701721
+In grad_steps = 197, loss = 0.5914838314056396
+In grad_steps = 198, loss = 0.676160454750061
+In grad_steps = 199, loss = 0.4895764887332916
+In grad_steps = 200, loss = 0.532059371471405
+In grad_steps = 201, loss = 0.640126645565033
+In grad_steps = 202, loss = 0.48054102063179016
+In grad_steps = 203, loss = 1.0433374643325806
+In grad_steps = 204, loss = 0.7984464168548584
+In grad_steps = 205, loss = 0.5393160581588745
+In grad_steps = 206, loss = 0.9271838068962097
+In grad_steps = 207, loss = 0.5063613653182983
+In grad_steps = 208, loss = 0.8108848333358765
+In grad_steps = 209, loss = 0.9254239201545715
+In grad_steps = 210, loss = 0.7851071357727051
+In grad_steps = 211, loss = 0.6370878219604492
+In grad_steps = 212, loss = 0.5755111575126648
+In grad_steps = 213, loss = 0.5837060809135437
+In grad_steps = 214, loss = 0.6717444062232971
+In grad_steps = 215, loss = 0.5629347562789917
+In grad_steps = 216, loss = 0.7029578685760498
+In grad_steps = 217, loss = 0.5934861898422241
+In grad_steps = 218, loss = 0.7085333466529846
+In grad_steps = 219, loss = 0.642686665058136
+In grad_steps = 220, loss = 0.6926713585853577
+In grad_steps = 221, loss = 0.5458691716194153
+In grad_steps = 222, loss = 0.8164293169975281
+In grad_steps = 223, loss = 0.5716379284858704
+In grad_steps = 224, loss = 0.7132025957107544
+In grad_steps = 225, loss = 0.6936721801757812
+In grad_steps = 226, loss = 0.6800621747970581
+In grad_steps = 227, loss = 0.658602237701416
+In grad_steps = 228, loss = 0.6427221298217773
+In grad_steps = 229, loss = 0.5005661845207214
+In grad_steps = 230, loss = 0.639658510684967
+In grad_steps = 231, loss = 0.6913197636604309
+In grad_steps = 232, loss = 0.799261212348938
+In grad_steps = 233, loss = 0.650657057762146
+In grad_steps = 234, loss = 0.7836039662361145
+In grad_steps = 235, loss = 0.6724786758422852
+In grad_steps = 236, loss = 0.7431976199150085
+In grad_steps = 237, loss = 0.6824522614479065
+In grad_steps = 238, loss = 0.5501295328140259
+In grad_steps = 239, loss = 0.6641317009925842
+In grad_steps = 240, loss = 0.5463327765464783
+In grad_steps = 241, loss = 0.6682008504867554
+In grad_steps = 242, loss = 0.6299716234207153
+In grad_steps = 243, loss = 0.5438066720962524
+In grad_steps = 244, loss = 0.5798559188842773
+In grad_steps = 245, loss = 0.7172197699546814
+In grad_steps = 246, loss = 0.5798577070236206
+In grad_steps = 247, loss = 0.37672168016433716
+In grad_steps = 248, loss = 0.5907442569732666
+In grad_steps = 249, loss = 0.8454923033714294
+In grad_steps = 250, loss = 0.6217749714851379
+In grad_steps = 251, loss = 0.6655562520027161
+In grad_steps = 252, loss = 0.8019192218780518
+In grad_steps = 253, loss = 0.5598124265670776
+In grad_steps = 254, loss = 0.7263249754905701
+In grad_steps = 255, loss = 0.6217802166938782
+In grad_steps = 256, loss = 0.6222355961799622
+In grad_steps = 257, loss = 0.6515185236930847
+In grad_steps = 258, loss = 0.6450215578079224
+In grad_steps = 259, loss = 0.6364138126373291
+In grad_steps = 260, loss = 0.7155843377113342
+In grad_steps = 261, loss = 0.5240206122398376
+In grad_steps = 262, loss = 0.6103251576423645
+In grad_steps = 263, loss = 0.5707346200942993
+In grad_steps = 264, loss = 0.9527792930603027
+In grad_steps = 265, loss = 0.8298304080963135
+In grad_steps = 266, loss = 0.7722784280776978
+In grad_steps = 267, loss = 0.5913606882095337
+In grad_steps = 268, loss = 0.6759762763977051
+In grad_steps = 269, loss = 0.41690194606781006
+In grad_steps = 270, loss = 0.6571747064590454
+In grad_steps = 271, loss = 0.5432271957397461
+In grad_steps = 272, loss = 0.6525810956954956
+In grad_steps = 273, loss = 0.6082985997200012
+In grad_steps = 274, loss = 0.5511189699172974
+In grad_steps = 275, loss = 0.4959602952003479
+In grad_steps = 276, loss = 0.6187252402305603
+In grad_steps = 277, loss = 0.7202712893486023
+In grad_steps = 278, loss = 0.6437824964523315
+In grad_steps = 279, loss = 0.6695273518562317
+In grad_steps = 280, loss = 0.687700629234314
+In grad_steps = 281, loss = 0.6276628375053406
+In grad_steps = 282, loss = 0.605591893196106
+In grad_steps = 283, loss = 0.5750176310539246
+In grad_steps = 284, loss = 0.3454464077949524
+In grad_steps = 285, loss = 0.7342948913574219
+In grad_steps = 286, loss = 0.48870861530303955
+In grad_steps = 287, loss = 0.5204321146011353
+In grad_steps = 288, loss = 0.5160408020019531
+In grad_steps = 289, loss = 0.560141921043396
+In grad_steps = 290, loss = 0.4157017469406128
+In grad_steps = 291, loss = 0.29681071639060974
+In grad_steps = 292, loss = 0.34444671869277954
+In grad_steps = 293, loss = 0.3174307346343994
+In grad_steps = 294, loss = 1.190095067024231
+In grad_steps = 295, loss = 0.4542556405067444
+In grad_steps = 296, loss = 0.6674143671989441
+In grad_steps = 297, loss = 0.3278098404407501
+In grad_steps = 298, loss = 1.0272176265716553
+In grad_steps = 299, loss = 0.9374242424964905
+In grad_steps = 300, loss = 0.6142058968544006
+In grad_steps = 301, loss = 0.6339112520217896
+In grad_steps = 302, loss = 0.5855400562286377
+In grad_steps = 303, loss = 0.48042020201683044
+In grad_steps = 304, loss = 0.6808637976646423
+In grad_steps = 305, loss = 0.5529351234436035
+In grad_steps = 306, loss = 0.7315510511398315
+In grad_steps = 307, loss = 0.5784410238265991
+In grad_steps = 308, loss = 0.6848097443580627
+In grad_steps = 309, loss = 0.6275511384010315
+In grad_steps = 310, loss = 0.6714420914649963
+In grad_steps = 311, loss = 0.5158406496047974
+In grad_steps = 312, loss = 0.6640678644180298
+In grad_steps = 313, loss = 0.4992789328098297
+In grad_steps = 314, loss = 0.7297157049179077
+In grad_steps = 315, loss = 0.7270941138267517
+In grad_steps = 316, loss = 0.6710083484649658
+In grad_steps = 317, loss = 0.6477628946304321
+In grad_steps = 318, loss = 0.6289119720458984
+In grad_steps = 319, loss = 0.5231599807739258
+In grad_steps = 320, loss = 0.6207941770553589
+In grad_steps = 321, loss = 0.588854968547821
+In grad_steps = 322, loss = 0.6042184233665466
+In grad_steps = 323, loss = 0.6524401903152466
+In grad_steps = 324, loss = 0.6715333461761475
+In grad_steps = 325, loss = 1.158097505569458
+In grad_steps = 326, loss = 0.8500610589981079
+In grad_steps = 327, loss = 0.6813112497329712
+In grad_steps = 328, loss = 0.4202832877635956
+In grad_steps = 329, loss = 0.5703951716423035
+In grad_steps = 330, loss = 0.6620045304298401
+In grad_steps = 331, loss = 0.5817689895629883
+In grad_steps = 332, loss = 0.5187948942184448
+In grad_steps = 333, loss = 0.5263084769248962
+In grad_steps = 334, loss = 0.5979743599891663
+In grad_steps = 335, loss = 0.8565016984939575
+In grad_steps = 336, loss = 0.596235454082489
+In grad_steps = 337, loss = 0.440612256526947
+In grad_steps = 338, loss = 0.5156904458999634
+In grad_steps = 339, loss = 0.7126025557518005
+In grad_steps = 340, loss = 0.49564677476882935
+In grad_steps = 341, loss = 0.6408030390739441
+In grad_steps = 342, loss = 0.937538743019104
+In grad_steps = 343, loss = 0.6145407557487488
+In grad_steps = 344, loss = 0.7940529584884644
+In grad_steps = 345, loss = 0.6848969459533691
+In grad_steps = 346, loss = 0.5808973908424377
+In grad_steps = 347, loss = 0.628951907157898
+In grad_steps = 348, loss = 0.6395129561424255
+In grad_steps = 349, loss = 0.6519469022750854
+In grad_steps = 350, loss = 0.8296916484832764
+In grad_steps = 351, loss = 0.4938339591026306
+In grad_steps = 352, loss = 0.6883811354637146
+In grad_steps = 353, loss = 0.5527786016464233
+In grad_steps = 354, loss = 0.976909339427948
+In grad_steps = 355, loss = 0.8042083382606506
+In grad_steps = 356, loss = 0.6684996485710144
+In grad_steps = 357, loss = 0.5784599781036377
+In grad_steps = 358, loss = 0.6496893167495728
+In grad_steps = 359, loss = 0.5237568020820618
+i = 2, Test ensemble probabilities = 
+[array([[0.4831831 , 0.516817  ],
+       [0.5356889 , 0.46431112],
+       [0.49917674, 0.50082326],
+       [0.5443733 , 0.4556267 ],
+       [0.47920853, 0.5207915 ],
+       [0.55996877, 0.4400312 ],
+       [0.5036306 , 0.49636945],
+       [0.4996016 , 0.5003984 ],
+       [0.48775968, 0.51224035],
+       [0.5263254 , 0.47367457],
+       [0.45488054, 0.54511946],
+       [0.45986292, 0.54013705],
+       [0.5433425 , 0.4566575 ],
+       [0.1325081 , 0.86749196],
+       [0.32217723, 0.6778227 ],
+       [0.50742143, 0.4925786 ],
+       [0.572167  , 0.42783296],
+       [0.50395405, 0.4960459 ],
+       [0.48118123, 0.5188188 ],
+       [0.517718  , 0.48228195],
+       [0.42555487, 0.5744451 ],
+       [0.45830563, 0.5416944 ],
+       [0.47866425, 0.5213357 ],
+       [0.48394564, 0.51605433],
+       [0.52940834, 0.47059166],
+       [0.49029306, 0.5097069 ],
+       [0.46021995, 0.5397801 ],
+       [0.49770164, 0.5022983 ],
+       [0.535036  , 0.46496397],
+       [0.49670795, 0.503292  ],
+       [0.4931857 , 0.5068143 ],
+       [0.45128775, 0.5487122 ],
+       [0.46333066, 0.5366693 ],
+       [0.45866814, 0.5413319 ],
+       [0.48088077, 0.5191192 ],
+       [0.491987  , 0.50801307],
+       [0.48325855, 0.51674145],
+       [0.4769665 , 0.5230335 ],
+       [0.5019028 , 0.4980972 ],
+       [0.48117146, 0.5188286 ],
+       [0.49929258, 0.5007074 ],
+       [0.49375448, 0.50624555],
+       [0.42821586, 0.5717841 ],
+       [0.51315004, 0.48684996],
+       [0.48396876, 0.51603127],
+       [0.49436736, 0.50563264],
+       [0.49533165, 0.50466835],
+       [0.5370892 , 0.4629107 ],
+       [0.4950196 , 0.5049804 ],
+       [0.5075704 , 0.4924296 ],
+       [0.4782911 , 0.5217089 ],
+       [0.50061965, 0.49938032],
+       [0.52295643, 0.47704354],
+       [0.4635574 , 0.53644264],
+       [0.49603516, 0.5039648 ],
+       [0.52290124, 0.47709876],
+       [0.4734932 , 0.52650684],
+       [0.4924284 , 0.5075716 ],
+       [0.5908892 , 0.40911084],
+       [0.4936522 , 0.5063478 ],
+       [0.5221943 , 0.47780567],
+       [0.513111  , 0.48688903],
+       [0.46075755, 0.53924245],
+       [0.5309234 , 0.46907654],
+       [0.11458256, 0.88541746],
+       [0.5320645 , 0.4679355 ],
+       [0.54709923, 0.45290074],
+       [0.08625761, 0.91374236],
+       [0.5643238 , 0.43567616],
+       [0.47630295, 0.523697  ],
+       [0.45618972, 0.54381025],
+       [0.5003762 , 0.49962378],
+       [0.5265758 , 0.47342426],
+       [0.46172497, 0.53827506],
+       [0.49923038, 0.5007696 ],
+       [0.5114636 , 0.48853648],
+       [0.49560106, 0.504399  ],
+       [0.47497004, 0.52502996],
+       [0.49768737, 0.50231266],
+       [0.4974282 , 0.5025718 ],
+       [0.54450005, 0.45549992],
+       [0.5563558 , 0.4436442 ],
+       [0.4649744 , 0.53502554],
+       [0.5146602 , 0.4853398 ],
+       [0.41090173, 0.58909833],
+       [0.5046073 , 0.49539265],
+       [0.4442542 , 0.55574584],
+       [0.5383251 , 0.4616749 ],
+       [0.5442321 , 0.45576793],
+       [0.5292285 , 0.47077155]], dtype=float32), array([[0.4230972 , 0.57690287],
+       [0.45076028, 0.5492397 ],
+       [0.47448754, 0.52551246],
+       [0.47028568, 0.52971435],
+       [0.43067616, 0.5693238 ],
+       [0.47738713, 0.52261287],
+       [0.44915715, 0.5508429 ],
+       [0.41219434, 0.5878056 ],
+       [0.4309208 , 0.56907916],
+       [0.450612  , 0.54938805],
+       [0.426295  , 0.573705  ],
+       [0.42047408, 0.5795259 ],
+       [0.48682612, 0.5131739 ],
+       [0.3682739 , 0.63172615],
+       [0.38447645, 0.6155235 ],
+       [0.448682  , 0.55131805],
+       [0.45151213, 0.54848784],
+       [0.45852438, 0.5414756 ],
+       [0.41649857, 0.58350146],
+       [0.42545277, 0.57454723],
+       [0.43507627, 0.56492376],
+       [0.41502342, 0.5849766 ],
+       [0.43338582, 0.56661415],
+       [0.43352893, 0.56647104],
+       [0.46770167, 0.5322984 ],
+       [0.46777382, 0.53222615],
+       [0.3830049 , 0.6169951 ],
+       [0.46625197, 0.53374803],
+       [0.48563018, 0.51436985],
+       [0.45516267, 0.54483736],
+       [0.44163725, 0.5583627 ],
+       [0.41207746, 0.5879225 ],
+       [0.40616438, 0.59383565],
+       [0.40480614, 0.5951939 ],
+       [0.4388242 , 0.5611758 ],
+       [0.45381564, 0.5461843 ],
+       [0.42972568, 0.5702743 ],
+       [0.427231  , 0.572769  ],
+       [0.4278925 , 0.5721075 ],
+       [0.4480772 , 0.5519228 ],
+       [0.43721327, 0.5627867 ],
+       [0.4203433 , 0.5796567 ],
+       [0.38108078, 0.6189192 ],
+       [0.43229318, 0.56770676],
+       [0.4401802 , 0.5598198 ],
+       [0.45378894, 0.54621106],
+       [0.48453158, 0.5154684 ],
+       [0.4869686 , 0.51303136],
+       [0.4458754 , 0.5541246 ],
+       [0.48296443, 0.51703554],
+       [0.3808561 , 0.6191439 ],
+       [0.4596725 , 0.5403275 ],
+       [0.4409187 , 0.5590813 ],
+       [0.4355226 , 0.5644774 ],
+       [0.42861405, 0.571386  ],
+       [0.499218  , 0.500782  ],
+       [0.43862575, 0.5613743 ],
+       [0.447598  , 0.55240196],
+       [0.5202221 , 0.4797779 ],
+       [0.4219323 , 0.57806766],
+       [0.4852157 , 0.51478434],
+       [0.46094805, 0.53905195],
+       [0.43237466, 0.56762534],
+       [0.45292392, 0.5470761 ],
+       [0.3210757 , 0.6789243 ],
+       [0.45578992, 0.5442101 ],
+       [0.48784903, 0.512151  ],
+       [0.34485206, 0.65514797],
+       [0.50082445, 0.49917552],
+       [0.43201286, 0.56798714],
+       [0.3984972 , 0.60150284],
+       [0.43437603, 0.565624  ],
+       [0.46445537, 0.53554463],
+       [0.4030372 , 0.5969628 ],
+       [0.4657256 , 0.5342744 ],
+       [0.44725755, 0.5527425 ],
+       [0.43688738, 0.5631126 ],
+       [0.4203537 , 0.5796462 ],
+       [0.443728  , 0.556272  ],
+       [0.43307278, 0.56692725],
+       [0.48289824, 0.51710176],
+       [0.4555368 , 0.54446316],
+       [0.4205589 , 0.5794411 ],
+       [0.43895712, 0.5610429 ],
+       [0.40434158, 0.5956584 ],
+       [0.4537497 , 0.54625034],
+       [0.4345677 , 0.5654323 ],
+       [0.46944284, 0.5305572 ],
+       [0.4799945 , 0.5200055 ],
+       [0.4560686 , 0.5439314 ]], dtype=float32), array([[0.4672515 , 0.53274846],
+       [0.4734366 , 0.5265634 ],
+       [0.52296454, 0.4770355 ],
+       [0.49642044, 0.50357956],
+       [0.3817556 , 0.6182444 ],
+       [0.5005379 , 0.49946213],
+       [0.47134778, 0.52865225],
+       [0.45219904, 0.54780096],
+       [0.462612  , 0.537388  ],
+       [0.46660492, 0.53339505],
+       [0.39918795, 0.600812  ],
+       [0.43452317, 0.56547683],
+       [0.5319303 , 0.46806967],
+       [0.07446752, 0.92553246],
+       [0.23571675, 0.76428324],
+       [0.41791394, 0.582086  ],
+       [0.49724105, 0.502759  ],
+       [0.48815566, 0.5118443 ],
+       [0.4260352 , 0.5739648 ],
+       [0.4701141 , 0.5298858 ],
+       [0.3855545 , 0.6144455 ],
+       [0.4274672 , 0.5725328 ],
+       [0.46126845, 0.5387315 ],
+       [0.47492605, 0.52507395],
+       [0.45880947, 0.5411905 ],
+       [0.43992123, 0.5600788 ],
+       [0.3954807 , 0.6045193 ],
+       [0.5070214 , 0.49297857],
+       [0.5296459 , 0.47035408],
+       [0.42517397, 0.574826  ],
+       [0.4682454 , 0.5317546 ],
+       [0.45233887, 0.5476611 ],
+       [0.41930798, 0.58069205],
+       [0.42693794, 0.57306206],
+       [0.46194348, 0.53805655],
+       [0.41109884, 0.5889011 ],
+       [0.462346  , 0.537654  ],
+       [0.4328864 , 0.56711364],
+       [0.44683224, 0.55316776],
+       [0.4869076 , 0.5130924 ],
+       [0.46088454, 0.5391155 ],
+       [0.42667755, 0.5733224 ],
+       [0.38665894, 0.61334103],
+       [0.46260297, 0.537397  ],
+       [0.42070186, 0.57929814],
+       [0.45824498, 0.541755  ],
+       [0.4594153 , 0.5405847 ],
+       [0.49897242, 0.5010276 ],
+       [0.46936584, 0.5306341 ],
+       [0.5173918 , 0.4826082 ],
+       [0.47301438, 0.52698565],
+       [0.46636662, 0.5336334 ],
+       [0.51953036, 0.48046964],
+       [0.35997564, 0.6400244 ],
+       [0.4951674 , 0.5048326 ],
+       [0.5238057 , 0.47619426],
+       [0.4433373 , 0.55666274],
+       [0.41802484, 0.5819751 ],
+       [0.50713587, 0.49286413],
+       [0.44672573, 0.55327433],
+       [0.5078624 , 0.4921376 ],
+       [0.47521192, 0.5247881 ],
+       [0.40154755, 0.59845245],
+       [0.5029826 , 0.49701744],
+       [0.03789291, 0.9621071 ],
+       [0.46553698, 0.53446305],
+       [0.5076493 , 0.4923507 ],
+       [0.04711745, 0.9528825 ],
+       [0.5032181 , 0.49678186],
+       [0.4386419 , 0.56135803],
+       [0.4807234 , 0.5192766 ],
+       [0.41345868, 0.58654135],
+       [0.45791358, 0.5420865 ],
+       [0.43828693, 0.5617131 ],
+       [0.49085435, 0.5091457 ],
+       [0.49877742, 0.5012226 ],
+       [0.49949455, 0.50050545],
+       [0.46652377, 0.53347623],
+       [0.49140346, 0.50859654],
+       [0.44444233, 0.55555767],
+       [0.49404886, 0.5059511 ],
+       [0.49357736, 0.50642264],
+       [0.41516465, 0.58483535],
+       [0.5129985 , 0.48700145],
+       [0.33750242, 0.6624976 ],
+       [0.50318044, 0.49681953],
+       [0.39784884, 0.60215116],
+       [0.51105124, 0.4889487 ],
+       [0.4720907 , 0.52790934],
+       [0.47707877, 0.5229212 ]], dtype=float32)]
+i = 2, Test true class= 
+[1 1 0 0 1 0 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 0 0 0 1 0 1 1 0 1 0 1 0 1 1 0 0
+ 1 0 0 1 0 0 0 1 1 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 1 1 0 1 1 0 0 1 0 0 1
+ 0 0 1 0 0 0 0 1 0 1 1 0 1 1 0 0]
+In grad_steps = 0, loss = 1.350877046585083
+In grad_steps = 1, loss = 0.7143094539642334
+In grad_steps = 2, loss = 0.7140183448791504
+In grad_steps = 3, loss = 0.859061598777771
+In grad_steps = 4, loss = 0.8560572862625122
+In grad_steps = 5, loss = 0.6945592761039734
+In grad_steps = 6, loss = 0.8214414119720459
+In grad_steps = 7, loss = 0.7326032519340515
+In grad_steps = 8, loss = 0.7455126047134399
+In grad_steps = 9, loss = 0.7269899845123291
+In grad_steps = 10, loss = 0.6464230418205261
+In grad_steps = 11, loss = 0.7401368618011475
+In grad_steps = 12, loss = 0.6825379729270935
+In grad_steps = 13, loss = 0.6773875951766968
+In grad_steps = 14, loss = 0.6802529096603394
+In grad_steps = 15, loss = 0.7045451402664185
+In grad_steps = 16, loss = 0.7101738452911377
+In grad_steps = 17, loss = 0.670661985874176
+In grad_steps = 18, loss = 0.6689338088035583
+In grad_steps = 19, loss = 0.713198184967041
+In grad_steps = 20, loss = 0.6770085692405701
+In grad_steps = 21, loss = 0.6994071006774902
+In grad_steps = 22, loss = 0.6431301832199097
+In grad_steps = 23, loss = 0.792792022228241
+In grad_steps = 24, loss = 0.6963755488395691
+In grad_steps = 25, loss = 0.6236253380775452
+In grad_steps = 26, loss = 0.9581327438354492
+In grad_steps = 27, loss = 0.8383034467697144
+In grad_steps = 28, loss = 0.6515463590621948
+In grad_steps = 29, loss = 0.685194194316864
+In grad_steps = 30, loss = 0.6932659149169922
+In grad_steps = 31, loss = 0.689778208732605
+In grad_steps = 32, loss = 0.6825844049453735
+In grad_steps = 33, loss = 0.7142093181610107
+In grad_steps = 34, loss = 0.6788220405578613
+In grad_steps = 35, loss = 0.6820443868637085
+In grad_steps = 36, loss = 0.7229830026626587
+In grad_steps = 37, loss = 0.6742947101593018
+In grad_steps = 38, loss = 0.7018299698829651
+In grad_steps = 39, loss = 0.6645801663398743
+In grad_steps = 40, loss = 0.6906989216804504
+In grad_steps = 41, loss = 0.6312035322189331
+In grad_steps = 42, loss = 0.805329442024231
+In grad_steps = 43, loss = 0.675846517086029
+In grad_steps = 44, loss = 0.7234890460968018
+In grad_steps = 45, loss = 0.7250839471817017
+In grad_steps = 46, loss = 0.7118971943855286
+In grad_steps = 47, loss = 0.6884323358535767
+In grad_steps = 48, loss = 0.6624663472175598
+In grad_steps = 49, loss = 0.6748982667922974
+In grad_steps = 50, loss = 0.6823307275772095
+In grad_steps = 51, loss = 0.7035059332847595
+In grad_steps = 52, loss = 0.7415755987167358
+In grad_steps = 53, loss = 0.6622235178947449
+In grad_steps = 54, loss = 0.8527588248252869
+In grad_steps = 55, loss = 0.6941657066345215
+In grad_steps = 56, loss = 0.7437138557434082
+In grad_steps = 57, loss = 0.6705244779586792
+In grad_steps = 58, loss = 0.668334424495697
+In grad_steps = 59, loss = 0.686955451965332
+In grad_steps = 60, loss = 0.688033401966095
+In grad_steps = 61, loss = 0.7177239656448364
+In grad_steps = 62, loss = 0.725267231464386
+In grad_steps = 63, loss = 0.6697986125946045
+In grad_steps = 64, loss = 0.6810710430145264
+In grad_steps = 65, loss = 0.6899157166481018
+In grad_steps = 66, loss = 0.6693413257598877
+In grad_steps = 67, loss = 0.6858502626419067
+In grad_steps = 68, loss = 0.6601496338844299
+In grad_steps = 69, loss = 0.6592901349067688
+In grad_steps = 70, loss = 0.6188610792160034
+In grad_steps = 71, loss = 0.6722922921180725
+In grad_steps = 72, loss = 0.8012722134590149
+In grad_steps = 73, loss = 0.727756142616272
+In grad_steps = 74, loss = 0.9401407241821289
+In grad_steps = 75, loss = 0.789811372756958
+In grad_steps = 76, loss = 0.6966869831085205
+In grad_steps = 77, loss = 0.705548882484436
+In grad_steps = 78, loss = 0.686668872833252
+In grad_steps = 79, loss = 0.6875585913658142
+In grad_steps = 80, loss = 0.6951237916946411
+In grad_steps = 81, loss = 0.5743927359580994
+In grad_steps = 82, loss = 0.6371588706970215
+In grad_steps = 83, loss = 0.5826440453529358
+In grad_steps = 84, loss = 0.9910242557525635
+In grad_steps = 85, loss = 0.8826869130134583
+In grad_steps = 86, loss = 0.8180447816848755
+In grad_steps = 87, loss = 0.6326552033424377
+In grad_steps = 88, loss = 0.7016025185585022
+In grad_steps = 89, loss = 0.6501891016960144
+In grad_steps = 90, loss = 0.6783864498138428
+In grad_steps = 91, loss = 0.6867169737815857
+In grad_steps = 92, loss = 0.6790336966514587
+In grad_steps = 93, loss = 0.693622887134552
+In grad_steps = 94, loss = 0.6785696744918823
+In grad_steps = 95, loss = 0.6405357122421265
+In grad_steps = 96, loss = 0.7873870134353638
+In grad_steps = 97, loss = 0.7186457514762878
+In grad_steps = 98, loss = 0.7092751264572144
+In grad_steps = 99, loss = 0.7186068892478943
+In grad_steps = 100, loss = 0.6257134079933167
+In grad_steps = 101, loss = 0.7516994476318359
+In grad_steps = 102, loss = 0.7027561664581299
+In grad_steps = 103, loss = 0.7110748291015625
+In grad_steps = 104, loss = 0.6442670822143555
+In grad_steps = 105, loss = 0.6896494626998901
+In grad_steps = 106, loss = 0.6871113777160645
+In grad_steps = 107, loss = 0.6787371039390564
+In grad_steps = 108, loss = 0.6777178049087524
+In grad_steps = 109, loss = 0.6737970113754272
+In grad_steps = 110, loss = 0.6773655414581299
+In grad_steps = 111, loss = 0.6894638538360596
+In grad_steps = 112, loss = 0.648730993270874
+In grad_steps = 113, loss = 0.7141648530960083
+In grad_steps = 114, loss = 0.6877368688583374
+In grad_steps = 115, loss = 0.6279609203338623
+In grad_steps = 116, loss = 0.8339847326278687
+In grad_steps = 117, loss = 0.7438783049583435
+In grad_steps = 118, loss = 0.6601863503456116
+In grad_steps = 119, loss = 0.7077801823616028
+In grad_steps = 120, loss = 0.6892634630203247
+In grad_steps = 121, loss = 0.6950992941856384
+In grad_steps = 122, loss = 0.6619651317596436
+In grad_steps = 123, loss = 0.6584477424621582
+In grad_steps = 124, loss = 0.6709604263305664
+In grad_steps = 125, loss = 0.6623774170875549
+In grad_steps = 126, loss = 0.730168879032135
+In grad_steps = 127, loss = 0.6406038999557495
+In grad_steps = 128, loss = 0.6998541951179504
+In grad_steps = 129, loss = 0.6361777782440186
+In grad_steps = 130, loss = 0.6726029515266418
+In grad_steps = 131, loss = 0.6109758615493774
+In grad_steps = 132, loss = 0.789429247379303
+In grad_steps = 133, loss = 0.634013295173645
+In grad_steps = 134, loss = 0.7549135088920593
+In grad_steps = 135, loss = 0.7359280586242676
+In grad_steps = 136, loss = 0.6981950402259827
+In grad_steps = 137, loss = 0.688625156879425
+In grad_steps = 138, loss = 0.6351984143257141
+In grad_steps = 139, loss = 0.6491007804870605
+In grad_steps = 140, loss = 0.6574234962463379
+In grad_steps = 141, loss = 0.6910500526428223
+In grad_steps = 142, loss = 0.7434293031692505
+In grad_steps = 143, loss = 0.6582194566726685
+In grad_steps = 144, loss = 0.8542599081993103
+In grad_steps = 145, loss = 0.7023899555206299
+In grad_steps = 146, loss = 0.7431252598762512
+In grad_steps = 147, loss = 0.6837629079818726
+In grad_steps = 148, loss = 0.6287992000579834
+In grad_steps = 149, loss = 0.6796920895576477
+In grad_steps = 150, loss = 0.6685850620269775
+In grad_steps = 151, loss = 0.721574604511261
+In grad_steps = 152, loss = 0.7047063708305359
+In grad_steps = 153, loss = 0.6506320834159851
+In grad_steps = 154, loss = 0.6638752222061157
+In grad_steps = 155, loss = 0.6744147539138794
+In grad_steps = 156, loss = 0.6522517800331116
+In grad_steps = 157, loss = 0.6442611217498779
+In grad_steps = 158, loss = 0.6371920108795166
+In grad_steps = 159, loss = 0.6583555936813354
+In grad_steps = 160, loss = 0.6117479205131531
+In grad_steps = 161, loss = 0.6718023419380188
+In grad_steps = 162, loss = 0.7679392099380493
+In grad_steps = 163, loss = 0.6948198080062866
+In grad_steps = 164, loss = 0.8976978659629822
+In grad_steps = 165, loss = 0.7139101624488831
+In grad_steps = 166, loss = 0.6726065874099731
+In grad_steps = 167, loss = 0.6985179781913757
+In grad_steps = 168, loss = 0.6558054685592651
+In grad_steps = 169, loss = 0.6790848970413208
+In grad_steps = 170, loss = 0.7032508254051208
+In grad_steps = 171, loss = 0.5474697947502136
+In grad_steps = 172, loss = 0.6285787224769592
+In grad_steps = 173, loss = 0.5845580101013184
+In grad_steps = 174, loss = 0.9827876091003418
+In grad_steps = 175, loss = 0.8574629426002502
+In grad_steps = 176, loss = 0.7672089338302612
+In grad_steps = 177, loss = 0.6126655340194702
+In grad_steps = 178, loss = 0.6869015097618103
+In grad_steps = 179, loss = 0.6383563876152039
+In grad_steps = 180, loss = 0.6643267273902893
+In grad_steps = 181, loss = 0.6330834627151489
+In grad_steps = 182, loss = 0.6672824621200562
+In grad_steps = 183, loss = 0.6753695011138916
+In grad_steps = 184, loss = 0.6664320230484009
+In grad_steps = 185, loss = 0.6199216842651367
+In grad_steps = 186, loss = 0.7431780099868774
+In grad_steps = 187, loss = 0.7104244828224182
+In grad_steps = 188, loss = 0.6776556968688965
+In grad_steps = 189, loss = 0.7039140462875366
+In grad_steps = 190, loss = 0.6291360855102539
+In grad_steps = 191, loss = 0.7398278117179871
+In grad_steps = 192, loss = 0.6732966899871826
+In grad_steps = 193, loss = 0.6983566880226135
+In grad_steps = 194, loss = 0.5892487168312073
+In grad_steps = 195, loss = 0.7102935314178467
+In grad_steps = 196, loss = 0.6642004251480103
+In grad_steps = 197, loss = 0.6334452033042908
+In grad_steps = 198, loss = 0.6928098201751709
+In grad_steps = 199, loss = 0.5945136547088623
+In grad_steps = 200, loss = 0.6285609006881714
+In grad_steps = 201, loss = 0.6200878620147705
+In grad_steps = 202, loss = 0.5320134162902832
+In grad_steps = 203, loss = 0.7793956398963928
+In grad_steps = 204, loss = 0.7561904788017273
+In grad_steps = 205, loss = 0.557318925857544
+In grad_steps = 206, loss = 1.002778172492981
+In grad_steps = 207, loss = 0.629904568195343
+In grad_steps = 208, loss = 0.8593948483467102
+In grad_steps = 209, loss = 0.9616062641143799
+In grad_steps = 210, loss = 0.7236852049827576
+In grad_steps = 211, loss = 0.6433662176132202
+In grad_steps = 212, loss = 0.599581778049469
+In grad_steps = 213, loss = 0.6155332922935486
+In grad_steps = 214, loss = 0.6698905229568481
+In grad_steps = 215, loss = 0.6093266010284424
+In grad_steps = 216, loss = 0.725577175617218
+In grad_steps = 217, loss = 0.6103121042251587
+In grad_steps = 218, loss = 0.700659453868866
+In grad_steps = 219, loss = 0.6130053400993347
+In grad_steps = 220, loss = 0.6698339581489563
+In grad_steps = 221, loss = 0.5739589929580688
+In grad_steps = 222, loss = 0.8051131367683411
+In grad_steps = 223, loss = 0.5806437134742737
+In grad_steps = 224, loss = 0.7674240469932556
+In grad_steps = 225, loss = 0.7231500148773193
+In grad_steps = 226, loss = 0.678974986076355
+In grad_steps = 227, loss = 0.6658768057823181
+In grad_steps = 228, loss = 0.6289401650428772
+In grad_steps = 229, loss = 0.5722747445106506
+In grad_steps = 230, loss = 0.633059561252594
+In grad_steps = 231, loss = 0.6658539772033691
+In grad_steps = 232, loss = 0.7473819851875305
+In grad_steps = 233, loss = 0.6360992193222046
+In grad_steps = 234, loss = 0.7885630130767822
+In grad_steps = 235, loss = 0.6969999670982361
+In grad_steps = 236, loss = 0.7484899759292603
+In grad_steps = 237, loss = 0.7065552473068237
+In grad_steps = 238, loss = 0.5776390433311462
+In grad_steps = 239, loss = 0.6622711420059204
+In grad_steps = 240, loss = 0.5738576054573059
+In grad_steps = 241, loss = 0.661946177482605
+In grad_steps = 242, loss = 0.5954275131225586
+In grad_steps = 243, loss = 0.5651448369026184
+In grad_steps = 244, loss = 0.6097235083580017
+In grad_steps = 245, loss = 0.7751970291137695
+In grad_steps = 246, loss = 0.5925560593605042
+In grad_steps = 247, loss = 0.45141151547431946
+In grad_steps = 248, loss = 0.6550451517105103
+In grad_steps = 249, loss = 0.7313568592071533
+In grad_steps = 250, loss = 0.6967204809188843
+In grad_steps = 251, loss = 0.6968357563018799
+In grad_steps = 252, loss = 0.8122196793556213
+In grad_steps = 253, loss = 0.5986109972000122
+In grad_steps = 254, loss = 0.7605870962142944
+In grad_steps = 255, loss = 0.6931157112121582
+In grad_steps = 256, loss = 0.63243567943573
+In grad_steps = 257, loss = 0.6988629102706909
+In grad_steps = 258, loss = 0.6592826843261719
+In grad_steps = 259, loss = 0.6791076064109802
+In grad_steps = 260, loss = 0.6884708404541016
+In grad_steps = 261, loss = 0.5489686131477356
+In grad_steps = 262, loss = 0.6292235255241394
+In grad_steps = 263, loss = 0.5963174104690552
+In grad_steps = 264, loss = 0.8751813173294067
+In grad_steps = 265, loss = 0.8067025542259216
+In grad_steps = 266, loss = 0.6786362528800964
+In grad_steps = 267, loss = 0.5335729718208313
+In grad_steps = 268, loss = 0.6906886100769043
+In grad_steps = 269, loss = 0.4417343735694885
+In grad_steps = 270, loss = 0.6707335114479065
+In grad_steps = 271, loss = 0.5017072558403015
+In grad_steps = 272, loss = 0.6738377213478088
+In grad_steps = 273, loss = 0.6276269555091858
+In grad_steps = 274, loss = 0.6445585489273071
+In grad_steps = 275, loss = 0.5345874428749084
+In grad_steps = 276, loss = 0.608180820941925
+In grad_steps = 277, loss = 0.6877490878105164
+In grad_steps = 278, loss = 0.6005332469940186
+In grad_steps = 279, loss = 0.6498755812644958
+In grad_steps = 280, loss = 0.618158221244812
+In grad_steps = 281, loss = 0.7601629495620728
+In grad_steps = 282, loss = 0.6277485489845276
+In grad_steps = 283, loss = 0.6669663786888123
+In grad_steps = 284, loss = 0.4327170252799988
+In grad_steps = 285, loss = 0.6719293594360352
+In grad_steps = 286, loss = 0.5993993282318115
+In grad_steps = 287, loss = 0.5478804111480713
+In grad_steps = 288, loss = 0.5610480904579163
+In grad_steps = 289, loss = 0.45347103476524353
+In grad_steps = 290, loss = 0.4433784484863281
+In grad_steps = 291, loss = 0.6752949357032776
+In grad_steps = 292, loss = 0.37899014353752136
+In grad_steps = 293, loss = 1.3506271839141846
+In grad_steps = 294, loss = 0.8341630697250366
+In grad_steps = 295, loss = 0.5005723834037781
+In grad_steps = 296, loss = 0.8567705750465393
+In grad_steps = 297, loss = 0.4936417043209076
+In grad_steps = 298, loss = 0.6522943377494812
+In grad_steps = 299, loss = 0.8067680597305298
+In grad_steps = 300, loss = 0.70902419090271
+In grad_steps = 301, loss = 0.6042555570602417
+In grad_steps = 302, loss = 0.5586487054824829
+In grad_steps = 303, loss = 0.562359631061554
+In grad_steps = 304, loss = 0.6609461307525635
+In grad_steps = 305, loss = 0.528546154499054
+In grad_steps = 306, loss = 0.6985935568809509
+In grad_steps = 307, loss = 0.5611969828605652
+In grad_steps = 308, loss = 0.6962621212005615
+In grad_steps = 309, loss = 0.6452836990356445
+In grad_steps = 310, loss = 0.6820763349533081
+In grad_steps = 311, loss = 0.5035067200660706
+In grad_steps = 312, loss = 0.7505847215652466
+In grad_steps = 313, loss = 0.4952002763748169
+In grad_steps = 314, loss = 0.7366222739219666
+In grad_steps = 315, loss = 0.7250441908836365
+In grad_steps = 316, loss = 0.7065630555152893
+In grad_steps = 317, loss = 0.7000426054000854
+In grad_steps = 318, loss = 0.6217560768127441
+In grad_steps = 319, loss = 0.48408591747283936
+In grad_steps = 320, loss = 0.62375807762146
+In grad_steps = 321, loss = 0.6671496629714966
+In grad_steps = 322, loss = 0.6901085376739502
+In grad_steps = 323, loss = 0.6540585160255432
+In grad_steps = 324, loss = 0.5698825120925903
+In grad_steps = 325, loss = 0.7119350433349609
+In grad_steps = 326, loss = 0.7285730838775635
+In grad_steps = 327, loss = 0.703492283821106
+In grad_steps = 328, loss = 0.4512965679168701
+In grad_steps = 329, loss = 0.6387006044387817
+In grad_steps = 330, loss = 0.44144710898399353
+In grad_steps = 331, loss = 0.5201453566551208
+In grad_steps = 332, loss = 0.47703227400779724
+In grad_steps = 333, loss = 0.36093586683273315
+In grad_steps = 334, loss = 0.6985344290733337
+In grad_steps = 335, loss = 1.0208162069320679
+In grad_steps = 336, loss = 0.6733607053756714
+In grad_steps = 337, loss = 0.43090417981147766
+In grad_steps = 338, loss = 0.5104947686195374
+In grad_steps = 339, loss = 0.7532700300216675
+In grad_steps = 340, loss = 0.4392983317375183
+In grad_steps = 341, loss = 0.6809406280517578
+In grad_steps = 342, loss = 0.8135640621185303
+In grad_steps = 343, loss = 0.5767332911491394
+In grad_steps = 344, loss = 0.845475971698761
+In grad_steps = 345, loss = 0.69553142786026
+In grad_steps = 346, loss = 0.6042057275772095
+In grad_steps = 347, loss = 0.6497237682342529
+In grad_steps = 348, loss = 0.6123182773590088
+In grad_steps = 349, loss = 0.6433054208755493
+In grad_steps = 350, loss = 0.7901615500450134
+In grad_steps = 351, loss = 0.5065093040466309
+In grad_steps = 352, loss = 0.655097246170044
+In grad_steps = 353, loss = 0.573403537273407
+In grad_steps = 354, loss = 1.0568103790283203
+In grad_steps = 355, loss = 0.8853943347930908
+In grad_steps = 356, loss = 0.7723401188850403
+In grad_steps = 357, loss = 0.5940769910812378
+In grad_steps = 358, loss = 0.6888940930366516
+In grad_steps = 359, loss = 0.3918078541755676
+i = 3, Test ensemble probabilities = 
+[array([[0.4831831 , 0.516817  ],
+       [0.5356889 , 0.46431112],
+       [0.49917674, 0.50082326],
+       [0.5443733 , 0.4556267 ],
+       [0.47920853, 0.5207915 ],
+       [0.55996877, 0.4400312 ],
+       [0.5036306 , 0.49636945],
+       [0.4996016 , 0.5003984 ],
+       [0.48775968, 0.51224035],
+       [0.5263254 , 0.47367457],
+       [0.45488054, 0.54511946],
+       [0.45986292, 0.54013705],
+       [0.5433425 , 0.4566575 ],
+       [0.1325081 , 0.86749196],
+       [0.32217723, 0.6778227 ],
+       [0.50742143, 0.4925786 ],
+       [0.572167  , 0.42783296],
+       [0.50395405, 0.4960459 ],
+       [0.48118123, 0.5188188 ],
+       [0.517718  , 0.48228195],
+       [0.42555487, 0.5744451 ],
+       [0.45830563, 0.5416944 ],
+       [0.47866425, 0.5213357 ],
+       [0.48394564, 0.51605433],
+       [0.52940834, 0.47059166],
+       [0.49029306, 0.5097069 ],
+       [0.46021995, 0.5397801 ],
+       [0.49770164, 0.5022983 ],
+       [0.535036  , 0.46496397],
+       [0.49670795, 0.503292  ],
+       [0.4931857 , 0.5068143 ],
+       [0.45128775, 0.5487122 ],
+       [0.46333066, 0.5366693 ],
+       [0.45866814, 0.5413319 ],
+       [0.48088077, 0.5191192 ],
+       [0.491987  , 0.50801307],
+       [0.48325855, 0.51674145],
+       [0.4769665 , 0.5230335 ],
+       [0.5019028 , 0.4980972 ],
+       [0.48117146, 0.5188286 ],
+       [0.49929258, 0.5007074 ],
+       [0.49375448, 0.50624555],
+       [0.42821586, 0.5717841 ],
+       [0.51315004, 0.48684996],
+       [0.48396876, 0.51603127],
+       [0.49436736, 0.50563264],
+       [0.49533165, 0.50466835],
+       [0.5370892 , 0.4629107 ],
+       [0.4950196 , 0.5049804 ],
+       [0.5075704 , 0.4924296 ],
+       [0.4782911 , 0.5217089 ],
+       [0.50061965, 0.49938032],
+       [0.52295643, 0.47704354],
+       [0.4635574 , 0.53644264],
+       [0.49603516, 0.5039648 ],
+       [0.52290124, 0.47709876],
+       [0.4734932 , 0.52650684],
+       [0.4924284 , 0.5075716 ],
+       [0.5908892 , 0.40911084],
+       [0.4936522 , 0.5063478 ],
+       [0.5221943 , 0.47780567],
+       [0.513111  , 0.48688903],
+       [0.46075755, 0.53924245],
+       [0.5309234 , 0.46907654],
+       [0.11458256, 0.88541746],
+       [0.5320645 , 0.4679355 ],
+       [0.54709923, 0.45290074],
+       [0.08625761, 0.91374236],
+       [0.5643238 , 0.43567616],
+       [0.47630295, 0.523697  ],
+       [0.45618972, 0.54381025],
+       [0.5003762 , 0.49962378],
+       [0.5265758 , 0.47342426],
+       [0.46172497, 0.53827506],
+       [0.49923038, 0.5007696 ],
+       [0.5114636 , 0.48853648],
+       [0.49560106, 0.504399  ],
+       [0.47497004, 0.52502996],
+       [0.49768737, 0.50231266],
+       [0.4974282 , 0.5025718 ],
+       [0.54450005, 0.45549992],
+       [0.5563558 , 0.4436442 ],
+       [0.4649744 , 0.53502554],
+       [0.5146602 , 0.4853398 ],
+       [0.41090173, 0.58909833],
+       [0.5046073 , 0.49539265],
+       [0.4442542 , 0.55574584],
+       [0.5383251 , 0.4616749 ],
+       [0.5442321 , 0.45576793],
+       [0.5292285 , 0.47077155]], dtype=float32), array([[0.4230972 , 0.57690287],
+       [0.45076028, 0.5492397 ],
+       [0.47448754, 0.52551246],
+       [0.47028568, 0.52971435],
+       [0.43067616, 0.5693238 ],
+       [0.47738713, 0.52261287],
+       [0.44915715, 0.5508429 ],
+       [0.41219434, 0.5878056 ],
+       [0.4309208 , 0.56907916],
+       [0.450612  , 0.54938805],
+       [0.426295  , 0.573705  ],
+       [0.42047408, 0.5795259 ],
+       [0.48682612, 0.5131739 ],
+       [0.3682739 , 0.63172615],
+       [0.38447645, 0.6155235 ],
+       [0.448682  , 0.55131805],
+       [0.45151213, 0.54848784],
+       [0.45852438, 0.5414756 ],
+       [0.41649857, 0.58350146],
+       [0.42545277, 0.57454723],
+       [0.43507627, 0.56492376],
+       [0.41502342, 0.5849766 ],
+       [0.43338582, 0.56661415],
+       [0.43352893, 0.56647104],
+       [0.46770167, 0.5322984 ],
+       [0.46777382, 0.53222615],
+       [0.3830049 , 0.6169951 ],
+       [0.46625197, 0.53374803],
+       [0.48563018, 0.51436985],
+       [0.45516267, 0.54483736],
+       [0.44163725, 0.5583627 ],
+       [0.41207746, 0.5879225 ],
+       [0.40616438, 0.59383565],
+       [0.40480614, 0.5951939 ],
+       [0.4388242 , 0.5611758 ],
+       [0.45381564, 0.5461843 ],
+       [0.42972568, 0.5702743 ],
+       [0.427231  , 0.572769  ],
+       [0.4278925 , 0.5721075 ],
+       [0.4480772 , 0.5519228 ],
+       [0.43721327, 0.5627867 ],
+       [0.4203433 , 0.5796567 ],
+       [0.38108078, 0.6189192 ],
+       [0.43229318, 0.56770676],
+       [0.4401802 , 0.5598198 ],
+       [0.45378894, 0.54621106],
+       [0.48453158, 0.5154684 ],
+       [0.4869686 , 0.51303136],
+       [0.4458754 , 0.5541246 ],
+       [0.48296443, 0.51703554],
+       [0.3808561 , 0.6191439 ],
+       [0.4596725 , 0.5403275 ],
+       [0.4409187 , 0.5590813 ],
+       [0.4355226 , 0.5644774 ],
+       [0.42861405, 0.571386  ],
+       [0.499218  , 0.500782  ],
+       [0.43862575, 0.5613743 ],
+       [0.447598  , 0.55240196],
+       [0.5202221 , 0.4797779 ],
+       [0.4219323 , 0.57806766],
+       [0.4852157 , 0.51478434],
+       [0.46094805, 0.53905195],
+       [0.43237466, 0.56762534],
+       [0.45292392, 0.5470761 ],
+       [0.3210757 , 0.6789243 ],
+       [0.45578992, 0.5442101 ],
+       [0.48784903, 0.512151  ],
+       [0.34485206, 0.65514797],
+       [0.50082445, 0.49917552],
+       [0.43201286, 0.56798714],
+       [0.3984972 , 0.60150284],
+       [0.43437603, 0.565624  ],
+       [0.46445537, 0.53554463],
+       [0.4030372 , 0.5969628 ],
+       [0.4657256 , 0.5342744 ],
+       [0.44725755, 0.5527425 ],
+       [0.43688738, 0.5631126 ],
+       [0.4203537 , 0.5796462 ],
+       [0.443728  , 0.556272  ],
+       [0.43307278, 0.56692725],
+       [0.48289824, 0.51710176],
+       [0.4555368 , 0.54446316],
+       [0.4205589 , 0.5794411 ],
+       [0.43895712, 0.5610429 ],
+       [0.40434158, 0.5956584 ],
+       [0.4537497 , 0.54625034],
+       [0.4345677 , 0.5654323 ],
+       [0.46944284, 0.5305572 ],
+       [0.4799945 , 0.5200055 ],
+       [0.4560686 , 0.5439314 ]], dtype=float32), array([[0.4672515 , 0.53274846],
+       [0.4734366 , 0.5265634 ],
+       [0.52296454, 0.4770355 ],
+       [0.49642044, 0.50357956],
+       [0.3817556 , 0.6182444 ],
+       [0.5005379 , 0.49946213],
+       [0.47134778, 0.52865225],
+       [0.45219904, 0.54780096],
+       [0.462612  , 0.537388  ],
+       [0.46660492, 0.53339505],
+       [0.39918795, 0.600812  ],
+       [0.43452317, 0.56547683],
+       [0.5319303 , 0.46806967],
+       [0.07446752, 0.92553246],
+       [0.23571675, 0.76428324],
+       [0.41791394, 0.582086  ],
+       [0.49724105, 0.502759  ],
+       [0.48815566, 0.5118443 ],
+       [0.4260352 , 0.5739648 ],
+       [0.4701141 , 0.5298858 ],
+       [0.3855545 , 0.6144455 ],
+       [0.4274672 , 0.5725328 ],
+       [0.46126845, 0.5387315 ],
+       [0.47492605, 0.52507395],
+       [0.45880947, 0.5411905 ],
+       [0.43992123, 0.5600788 ],
+       [0.3954807 , 0.6045193 ],
+       [0.5070214 , 0.49297857],
+       [0.5296459 , 0.47035408],
+       [0.42517397, 0.574826  ],
+       [0.4682454 , 0.5317546 ],
+       [0.45233887, 0.5476611 ],
+       [0.41930798, 0.58069205],
+       [0.42693794, 0.57306206],
+       [0.46194348, 0.53805655],
+       [0.41109884, 0.5889011 ],
+       [0.462346  , 0.537654  ],
+       [0.4328864 , 0.56711364],
+       [0.44683224, 0.55316776],
+       [0.4869076 , 0.5130924 ],
+       [0.46088454, 0.5391155 ],
+       [0.42667755, 0.5733224 ],
+       [0.38665894, 0.61334103],
+       [0.46260297, 0.537397  ],
+       [0.42070186, 0.57929814],
+       [0.45824498, 0.541755  ],
+       [0.4594153 , 0.5405847 ],
+       [0.49897242, 0.5010276 ],
+       [0.46936584, 0.5306341 ],
+       [0.5173918 , 0.4826082 ],
+       [0.47301438, 0.52698565],
+       [0.46636662, 0.5336334 ],
+       [0.51953036, 0.48046964],
+       [0.35997564, 0.6400244 ],
+       [0.4951674 , 0.5048326 ],
+       [0.5238057 , 0.47619426],
+       [0.4433373 , 0.55666274],
+       [0.41802484, 0.5819751 ],
+       [0.50713587, 0.49286413],
+       [0.44672573, 0.55327433],
+       [0.5078624 , 0.4921376 ],
+       [0.47521192, 0.5247881 ],
+       [0.40154755, 0.59845245],
+       [0.5029826 , 0.49701744],
+       [0.03789291, 0.9621071 ],
+       [0.46553698, 0.53446305],
+       [0.5076493 , 0.4923507 ],
+       [0.04711745, 0.9528825 ],
+       [0.5032181 , 0.49678186],
+       [0.4386419 , 0.56135803],
+       [0.4807234 , 0.5192766 ],
+       [0.41345868, 0.58654135],
+       [0.45791358, 0.5420865 ],
+       [0.43828693, 0.5617131 ],
+       [0.49085435, 0.5091457 ],
+       [0.49877742, 0.5012226 ],
+       [0.49949455, 0.50050545],
+       [0.46652377, 0.53347623],
+       [0.49140346, 0.50859654],
+       [0.44444233, 0.55555767],
+       [0.49404886, 0.5059511 ],
+       [0.49357736, 0.50642264],
+       [0.41516465, 0.58483535],
+       [0.5129985 , 0.48700145],
+       [0.33750242, 0.6624976 ],
+       [0.50318044, 0.49681953],
+       [0.39784884, 0.60215116],
+       [0.51105124, 0.4889487 ],
+       [0.4720907 , 0.52790934],
+       [0.47707877, 0.5229212 ]], dtype=float32), array([[0.56001484, 0.43998516],
+       [0.5522709 , 0.4477291 ],
+       [0.5712044 , 0.42879552],
+       [0.5828623 , 0.4171377 ],
+       [0.53395   , 0.46605   ],
+       [0.5840835 , 0.41591647],
+       [0.5788625 , 0.42113745],
+       [0.5836868 , 0.41631314],
+       [0.5823291 , 0.41767085],
+       [0.5879833 , 0.4120167 ],
+       [0.542686  , 0.45731395],
+       [0.5279742 , 0.47202578],
+       [0.6139047 , 0.38609526],
+       [0.37814954, 0.62185043],
+       [0.45324224, 0.54675776],
+       [0.5642837 , 0.43571627],
+       [0.6148153 , 0.3851847 ],
+       [0.6090063 , 0.3909937 ],
+       [0.5604218 , 0.4395782 ],
+       [0.5881533 , 0.41184667],
+       [0.55145955, 0.44854045],
+       [0.5741924 , 0.42580763],
+       [0.5615987 , 0.43840125],
+       [0.58966535, 0.41033462],
+       [0.5837036 , 0.41629648],
+       [0.5737015 , 0.42629853],
+       [0.5653109 , 0.43468907],
+       [0.58577377, 0.41422623],
+       [0.6345181 , 0.36548188],
+       [0.5877601 , 0.4122399 ],
+       [0.5698683 , 0.43013167],
+       [0.5545541 , 0.44544592],
+       [0.5367194 , 0.46328062],
+       [0.5501637 , 0.4498363 ],
+       [0.5868094 , 0.41319066],
+       [0.56998986, 0.4300101 ],
+       [0.5420611 , 0.45793888],
+       [0.59041786, 0.40958214],
+       [0.58242494, 0.41757506],
+       [0.57274777, 0.42725226],
+       [0.5848513 , 0.41514868],
+       [0.5717145 , 0.42828545],
+       [0.5402058 , 0.45979425],
+       [0.5974934 , 0.40250656],
+       [0.5743146 , 0.42568544],
+       [0.5768339 , 0.42316607],
+       [0.5946929 , 0.4053071 ],
+       [0.60337967, 0.39662033],
+       [0.5419506 , 0.45804945],
+       [0.6070122 , 0.39298773],
+       [0.5473941 , 0.45260584],
+       [0.5790129 , 0.42098707],
+       [0.57562155, 0.42437845],
+       [0.5296321 , 0.47036785],
+       [0.6114971 , 0.38850293],
+       [0.5844766 , 0.41552338],
+       [0.56896013, 0.43103984],
+       [0.5564292 , 0.44357076],
+       [0.6317361 , 0.36826393],
+       [0.5863836 , 0.4136164 ],
+       [0.6244673 , 0.3755327 ],
+       [0.5931461 , 0.4068539 ],
+       [0.5592249 , 0.4407751 ],
+       [0.62237465, 0.3776254 ],
+       [0.32401145, 0.67598855],
+       [0.6035846 , 0.39641544],
+       [0.6099642 , 0.3900358 ],
+       [0.30807802, 0.69192195],
+       [0.6465361 , 0.35346395],
+       [0.56040585, 0.43959415],
+       [0.5571743 , 0.4428257 ],
+       [0.58367616, 0.4163238 ],
+       [0.5919707 , 0.40802938],
+       [0.54742175, 0.45257822],
+       [0.5838388 , 0.41616112],
+       [0.57545686, 0.42454317],
+       [0.59747094, 0.40252903],
+       [0.5463711 , 0.4536289 ],
+       [0.5916191 , 0.4083809 ],
+       [0.5681533 , 0.4318467 ],
+       [0.60915166, 0.39084837],
+       [0.6381791 , 0.3618209 ],
+       [0.57056665, 0.42943338],
+       [0.61063147, 0.3893685 ],
+       [0.52928525, 0.47071475],
+       [0.5977127 , 0.4022873 ],
+       [0.56390053, 0.43609944],
+       [0.6023465 , 0.39765352],
+       [0.61642724, 0.38357273],
+       [0.5974673 , 0.40253273]], dtype=float32)]
+i = 3, Test true class= 
+[1 1 0 0 1 0 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 0 0 0 1 0 1 1 0 1 0 1 0 1 1 0 0
+ 1 0 0 1 0 0 0 1 1 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 1 1 0 1 1 0 0 1 0 0 1
+ 0 0 1 0 0 0 0 1 0 1 1 0 1 1 0 0]
+In grad_steps = 0, loss = 1.350877046585083
+In grad_steps = 1, loss = 0.71246337890625
+In grad_steps = 2, loss = 0.7110838294029236
+In grad_steps = 3, loss = 0.8542929291725159
+In grad_steps = 4, loss = 0.8680044412612915
+In grad_steps = 5, loss = 0.6947203874588013
+In grad_steps = 6, loss = 0.8336251378059387
+In grad_steps = 7, loss = 0.7334604859352112
+In grad_steps = 8, loss = 0.750480055809021
+In grad_steps = 9, loss = 0.7371523380279541
+In grad_steps = 10, loss = 0.6407029032707214
+In grad_steps = 11, loss = 0.7433913350105286
+In grad_steps = 12, loss = 0.7161571383476257
+In grad_steps = 13, loss = 0.693090558052063
+In grad_steps = 14, loss = 0.6813875436782837
+In grad_steps = 15, loss = 0.6835504174232483
+In grad_steps = 16, loss = 0.7057819962501526
+In grad_steps = 17, loss = 0.6949992179870605
+In grad_steps = 18, loss = 0.6735605001449585
+In grad_steps = 19, loss = 0.7025377154350281
+In grad_steps = 20, loss = 0.6813044548034668
+In grad_steps = 21, loss = 0.6834187507629395
+In grad_steps = 22, loss = 0.6226499080657959
+In grad_steps = 23, loss = 0.8096408843994141
+In grad_steps = 24, loss = 0.7005307674407959
+In grad_steps = 25, loss = 0.6171513795852661
+In grad_steps = 26, loss = 0.9517066478729248
+In grad_steps = 27, loss = 0.8218134045600891
+In grad_steps = 28, loss = 0.6338058114051819
+In grad_steps = 29, loss = 0.6518535614013672
+In grad_steps = 30, loss = 0.6753308176994324
+In grad_steps = 31, loss = 0.7100265026092529
+In grad_steps = 32, loss = 0.6836671829223633
+In grad_steps = 33, loss = 0.6736640930175781
+In grad_steps = 34, loss = 0.6715322136878967
+In grad_steps = 35, loss = 0.6761407852172852
+In grad_steps = 36, loss = 0.7307801842689514
+In grad_steps = 37, loss = 0.6688656210899353
+In grad_steps = 38, loss = 0.696782648563385
+In grad_steps = 39, loss = 0.6734589338302612
+In grad_steps = 40, loss = 0.6840586066246033
+In grad_steps = 41, loss = 0.6196387410163879
+In grad_steps = 42, loss = 0.7474675178527832
+In grad_steps = 43, loss = 0.6555850505828857
+In grad_steps = 44, loss = 0.7230870723724365
+In grad_steps = 45, loss = 0.7425650358200073
+In grad_steps = 46, loss = 0.7170246243476868
+In grad_steps = 47, loss = 0.693279504776001
+In grad_steps = 48, loss = 0.6617653369903564
+In grad_steps = 49, loss = 0.6609590649604797
+In grad_steps = 50, loss = 0.6825541257858276
+In grad_steps = 51, loss = 0.703696608543396
+In grad_steps = 52, loss = 0.7347373366355896
+In grad_steps = 53, loss = 0.6760541796684265
+In grad_steps = 54, loss = 0.8203890919685364
+In grad_steps = 55, loss = 0.6961876153945923
+In grad_steps = 56, loss = 0.7489485740661621
+In grad_steps = 57, loss = 0.6739359498023987
+In grad_steps = 58, loss = 0.6635463237762451
+In grad_steps = 59, loss = 0.6873770356178284
+In grad_steps = 60, loss = 0.6780324578285217
+In grad_steps = 61, loss = 0.7136067152023315
+In grad_steps = 62, loss = 0.7186459302902222
+In grad_steps = 63, loss = 0.6622846722602844
+In grad_steps = 64, loss = 0.695529580116272
+In grad_steps = 65, loss = 0.693040132522583
+In grad_steps = 66, loss = 0.6640878915786743
+In grad_steps = 67, loss = 0.6676203608512878
+In grad_steps = 68, loss = 0.6493893265724182
+In grad_steps = 69, loss = 0.6592867374420166
+In grad_steps = 70, loss = 0.6143820285797119
+In grad_steps = 71, loss = 0.6740860342979431
+In grad_steps = 72, loss = 0.7934894561767578
+In grad_steps = 73, loss = 0.7328504920005798
+In grad_steps = 74, loss = 0.9336649775505066
+In grad_steps = 75, loss = 0.7868630290031433
+In grad_steps = 76, loss = 0.6983582377433777
+In grad_steps = 77, loss = 0.7102529406547546
+In grad_steps = 78, loss = 0.6914797425270081
+In grad_steps = 79, loss = 0.6761147975921631
+In grad_steps = 80, loss = 0.6917730569839478
+In grad_steps = 81, loss = 0.5650309920310974
+In grad_steps = 82, loss = 0.6417322158813477
+In grad_steps = 83, loss = 0.5817339420318604
+In grad_steps = 84, loss = 1.005360722541809
+In grad_steps = 85, loss = 0.8913828730583191
+In grad_steps = 86, loss = 0.8048281073570251
+In grad_steps = 87, loss = 0.6248200535774231
+In grad_steps = 88, loss = 0.691201388835907
+In grad_steps = 89, loss = 0.7198688387870789
+In grad_steps = 90, loss = 0.6713600158691406
+In grad_steps = 91, loss = 0.6696560382843018
+In grad_steps = 92, loss = 0.6773348450660706
+In grad_steps = 93, loss = 0.683376669883728
+In grad_steps = 94, loss = 0.6779810786247253
+In grad_steps = 95, loss = 0.636218249797821
+In grad_steps = 96, loss = 0.7821121215820312
+In grad_steps = 97, loss = 0.7123709917068481
+In grad_steps = 98, loss = 0.7030783891677856
+In grad_steps = 99, loss = 0.7133781313896179
+In grad_steps = 100, loss = 0.6328491568565369
+In grad_steps = 101, loss = 0.7337188720703125
+In grad_steps = 102, loss = 0.6941477060317993
+In grad_steps = 103, loss = 0.7107591032981873
+In grad_steps = 104, loss = 0.6383270621299744
+In grad_steps = 105, loss = 0.6820176839828491
+In grad_steps = 106, loss = 0.6895914077758789
+In grad_steps = 107, loss = 0.6793107986450195
+In grad_steps = 108, loss = 0.6824039816856384
+In grad_steps = 109, loss = 0.6503219604492188
+In grad_steps = 110, loss = 0.6642849445343018
+In grad_steps = 111, loss = 0.6859285831451416
+In grad_steps = 112, loss = 0.6303937435150146
+In grad_steps = 113, loss = 0.7345483303070068
+In grad_steps = 114, loss = 0.689761221408844
+In grad_steps = 115, loss = 0.6205175518989563
+In grad_steps = 116, loss = 0.8948025703430176
+In grad_steps = 117, loss = 0.7459253072738647
+In grad_steps = 118, loss = 0.6427277326583862
+In grad_steps = 119, loss = 0.7220585346221924
+In grad_steps = 120, loss = 0.6980276703834534
+In grad_steps = 121, loss = 0.6797288656234741
+In grad_steps = 122, loss = 0.6493988037109375
+In grad_steps = 123, loss = 0.6526919603347778
+In grad_steps = 124, loss = 0.6641162633895874
+In grad_steps = 125, loss = 0.6257213950157166
+In grad_steps = 126, loss = 0.7337734699249268
+In grad_steps = 127, loss = 0.6273926496505737
+In grad_steps = 128, loss = 0.6961323022842407
+In grad_steps = 129, loss = 0.6344907283782959
+In grad_steps = 130, loss = 0.6781949400901794
+In grad_steps = 131, loss = 0.5333919525146484
+In grad_steps = 132, loss = 0.7672557234764099
+In grad_steps = 133, loss = 0.5755376815795898
+In grad_steps = 134, loss = 0.7884209156036377
+In grad_steps = 135, loss = 0.8077746033668518
+In grad_steps = 136, loss = 0.6970610618591309
+In grad_steps = 137, loss = 0.6862500309944153
+In grad_steps = 138, loss = 0.6307862997055054
+In grad_steps = 139, loss = 0.5995437502861023
+In grad_steps = 140, loss = 0.6522332429885864
+In grad_steps = 141, loss = 0.7021641731262207
+In grad_steps = 142, loss = 0.7916696667671204
+In grad_steps = 143, loss = 0.6621679067611694
+In grad_steps = 144, loss = 0.788675844669342
+In grad_steps = 145, loss = 0.6875237226486206
+In grad_steps = 146, loss = 0.7280698418617249
+In grad_steps = 147, loss = 0.6797241568565369
+In grad_steps = 148, loss = 0.5906009674072266
+In grad_steps = 149, loss = 0.684529721736908
+In grad_steps = 150, loss = 0.6514927744865417
+In grad_steps = 151, loss = 0.7218009233474731
+In grad_steps = 152, loss = 0.7024182081222534
+In grad_steps = 153, loss = 0.6518991589546204
+In grad_steps = 154, loss = 0.6193118691444397
+In grad_steps = 155, loss = 0.6886165142059326
+In grad_steps = 156, loss = 0.6224055886268616
+In grad_steps = 157, loss = 0.5651642680168152
+In grad_steps = 158, loss = 0.5722216963768005
+In grad_steps = 159, loss = 0.6482360363006592
+In grad_steps = 160, loss = 0.5938867926597595
+In grad_steps = 161, loss = 0.6788838505744934
+In grad_steps = 162, loss = 0.8090959191322327
+In grad_steps = 163, loss = 0.6792479753494263
+In grad_steps = 164, loss = 0.8621950149536133
+In grad_steps = 165, loss = 0.6854153871536255
+In grad_steps = 166, loss = 0.6374695301055908
+In grad_steps = 167, loss = 0.6754983067512512
+In grad_steps = 168, loss = 0.6494269371032715
+In grad_steps = 169, loss = 0.6499834656715393
+In grad_steps = 170, loss = 0.7351318597793579
+In grad_steps = 171, loss = 0.5408770442008972
+In grad_steps = 172, loss = 0.6296576857566833
+In grad_steps = 173, loss = 0.5818865299224854
+In grad_steps = 174, loss = 0.9625230431556702
+In grad_steps = 175, loss = 0.8467315435409546
+In grad_steps = 176, loss = 0.7157285213470459
+In grad_steps = 177, loss = 0.5724680423736572
+In grad_steps = 178, loss = 0.6757604479789734
+In grad_steps = 179, loss = 0.7388754487037659
+In grad_steps = 180, loss = 0.6520916223526001
+In grad_steps = 181, loss = 0.5350592732429504
+In grad_steps = 182, loss = 0.6732475161552429
+In grad_steps = 183, loss = 0.6214607954025269
+In grad_steps = 184, loss = 0.6216992139816284
+In grad_steps = 185, loss = 0.5409579277038574
+In grad_steps = 186, loss = 0.6820406913757324
+In grad_steps = 187, loss = 0.6933610439300537
+In grad_steps = 188, loss = 0.6172444820404053
+In grad_steps = 189, loss = 0.6895729303359985
+In grad_steps = 190, loss = 0.6585403680801392
+In grad_steps = 191, loss = 0.6954026222229004
+In grad_steps = 192, loss = 0.6587960124015808
+In grad_steps = 193, loss = 0.6772656440734863
+In grad_steps = 194, loss = 0.503167986869812
+In grad_steps = 195, loss = 0.6767358779907227
+In grad_steps = 196, loss = 0.6794450879096985
+In grad_steps = 197, loss = 0.5955943465232849
+In grad_steps = 198, loss = 0.6902951002120972
+In grad_steps = 199, loss = 0.500939667224884
+In grad_steps = 200, loss = 0.5111860632896423
+In grad_steps = 201, loss = 0.6373293399810791
+In grad_steps = 202, loss = 0.6386868357658386
+In grad_steps = 203, loss = 0.7245502471923828
+In grad_steps = 204, loss = 0.7773575782775879
+In grad_steps = 205, loss = 0.5820701718330383
+In grad_steps = 206, loss = 0.9888779520988464
+In grad_steps = 207, loss = 0.5287340879440308
+In grad_steps = 208, loss = 0.8102269768714905
+In grad_steps = 209, loss = 0.9372421503067017
+In grad_steps = 210, loss = 0.7654362320899963
+In grad_steps = 211, loss = 0.6305032968521118
+In grad_steps = 212, loss = 0.5768375396728516
+In grad_steps = 213, loss = 0.5779563188552856
+In grad_steps = 214, loss = 0.6733709573745728
+In grad_steps = 215, loss = 0.5696035027503967
+In grad_steps = 216, loss = 0.7106385827064514
+In grad_steps = 217, loss = 0.5913861989974976
+In grad_steps = 218, loss = 0.7149311304092407
+In grad_steps = 219, loss = 0.6378496885299683
+In grad_steps = 220, loss = 0.6857712268829346
+In grad_steps = 221, loss = 0.5408673286437988
+In grad_steps = 222, loss = 0.7863521575927734
+In grad_steps = 223, loss = 0.5453276038169861
+In grad_steps = 224, loss = 0.708447277545929
+In grad_steps = 225, loss = 0.6913086175918579
+In grad_steps = 226, loss = 0.6775422692298889
+In grad_steps = 227, loss = 0.6666589975357056
+In grad_steps = 228, loss = 0.6388890147209167
+In grad_steps = 229, loss = 0.5006282329559326
+In grad_steps = 230, loss = 0.6264424324035645
+In grad_steps = 231, loss = 0.676020622253418
+In grad_steps = 232, loss = 0.799649178981781
+In grad_steps = 233, loss = 0.6588767766952515
+In grad_steps = 234, loss = 0.7474488019943237
+In grad_steps = 235, loss = 0.68160080909729
+In grad_steps = 236, loss = 0.720360279083252
+In grad_steps = 237, loss = 0.6805641651153564
+In grad_steps = 238, loss = 0.5240703821182251
+In grad_steps = 239, loss = 0.6946775913238525
+In grad_steps = 240, loss = 0.5488077998161316
+In grad_steps = 241, loss = 0.6751205921173096
+In grad_steps = 242, loss = 0.6508657932281494
+In grad_steps = 243, loss = 0.5314152836799622
+In grad_steps = 244, loss = 0.5733849406242371
+In grad_steps = 245, loss = 0.7206780314445496
+In grad_steps = 246, loss = 0.5742481350898743
+In grad_steps = 247, loss = 0.34432682394981384
+In grad_steps = 248, loss = 0.6013344526290894
+In grad_steps = 249, loss = 0.9339564442634583
+In grad_steps = 250, loss = 0.6051504611968994
+In grad_steps = 251, loss = 0.6517601013183594
+In grad_steps = 252, loss = 0.8560013771057129
+In grad_steps = 253, loss = 0.5250809192657471
+In grad_steps = 254, loss = 0.8001224398612976
+In grad_steps = 255, loss = 0.5981425046920776
+In grad_steps = 256, loss = 0.601050615310669
+In grad_steps = 257, loss = 0.6525137424468994
+In grad_steps = 258, loss = 0.6325388550758362
+In grad_steps = 259, loss = 0.6316969394683838
+In grad_steps = 260, loss = 0.7418371438980103
+In grad_steps = 261, loss = 0.5121406316757202
+In grad_steps = 262, loss = 0.6240227818489075
+In grad_steps = 263, loss = 0.5736322402954102
+In grad_steps = 264, loss = 0.9901570081710815
+In grad_steps = 265, loss = 0.8407812714576721
+In grad_steps = 266, loss = 0.770736038684845
+In grad_steps = 267, loss = 0.5975756645202637
+In grad_steps = 268, loss = 0.6781570315361023
+In grad_steps = 269, loss = 0.5117956399917603
+In grad_steps = 270, loss = 0.6586169004440308
+In grad_steps = 271, loss = 0.5767159461975098
+In grad_steps = 272, loss = 0.6623479723930359
+In grad_steps = 273, loss = 0.6172343492507935
+In grad_steps = 274, loss = 0.5911291241645813
+In grad_steps = 275, loss = 0.5313073396682739
+In grad_steps = 276, loss = 0.6685290932655334
+In grad_steps = 277, loss = 0.7051758766174316
+In grad_steps = 278, loss = 0.627143383026123
+In grad_steps = 279, loss = 0.6573249697685242
+In grad_steps = 280, loss = 0.5933893322944641
+In grad_steps = 281, loss = 0.7060195207595825
+In grad_steps = 282, loss = 0.6158510446548462
+In grad_steps = 283, loss = 0.5761305093765259
+In grad_steps = 284, loss = 0.35766854882240295
+In grad_steps = 285, loss = 0.6663709282875061
+In grad_steps = 286, loss = 0.5199655294418335
+In grad_steps = 287, loss = 0.5773285031318665
+In grad_steps = 288, loss = 0.562350869178772
+In grad_steps = 289, loss = 0.6156841516494751
+In grad_steps = 290, loss = 0.3747510015964508
+In grad_steps = 291, loss = 0.5305779576301575
+In grad_steps = 292, loss = 0.3510199785232544
+In grad_steps = 293, loss = 0.6133023500442505
+In grad_steps = 294, loss = 0.7952694296836853
+In grad_steps = 295, loss = 0.31797584891319275
+In grad_steps = 296, loss = 0.5572636127471924
+In grad_steps = 297, loss = 0.31785479187965393
+In grad_steps = 298, loss = 0.9786111116409302
+In grad_steps = 299, loss = 1.037925124168396
+In grad_steps = 300, loss = 0.6371564269065857
+In grad_steps = 301, loss = 0.5558084845542908
+In grad_steps = 302, loss = 0.5286774039268494
+In grad_steps = 303, loss = 0.46454349160194397
+In grad_steps = 304, loss = 0.6361889839172363
+In grad_steps = 305, loss = 0.5200964212417603
+In grad_steps = 306, loss = 0.7590440511703491
+In grad_steps = 307, loss = 0.5372924208641052
+In grad_steps = 308, loss = 0.6795440912246704
+In grad_steps = 309, loss = 0.6029942631721497
+In grad_steps = 310, loss = 0.6410813331604004
+In grad_steps = 311, loss = 0.5220848321914673
+In grad_steps = 312, loss = 0.6333324909210205
+In grad_steps = 313, loss = 0.47533392906188965
+In grad_steps = 314, loss = 0.703109622001648
+In grad_steps = 315, loss = 0.7235682010650635
+In grad_steps = 316, loss = 0.6840240955352783
+In grad_steps = 317, loss = 0.6670675873756409
+In grad_steps = 318, loss = 0.6239972114562988
+In grad_steps = 319, loss = 0.5297653675079346
+In grad_steps = 320, loss = 0.5663402676582336
+In grad_steps = 321, loss = 0.6218261122703552
+In grad_steps = 322, loss = 0.6278014183044434
+In grad_steps = 323, loss = 0.5889047384262085
+In grad_steps = 324, loss = 0.6183035373687744
+In grad_steps = 325, loss = 0.7687031030654907
+In grad_steps = 326, loss = 0.7083302736282349
+In grad_steps = 327, loss = 0.705715000629425
+In grad_steps = 328, loss = 0.49023953080177307
+In grad_steps = 329, loss = 0.559454083442688
+In grad_steps = 330, loss = 0.48803210258483887
+In grad_steps = 331, loss = 0.5196806192398071
+In grad_steps = 332, loss = 0.464304655790329
+In grad_steps = 333, loss = 0.34140732884407043
+In grad_steps = 334, loss = 0.7567940354347229
+In grad_steps = 335, loss = 1.1388185024261475
+In grad_steps = 336, loss = 0.6062130928039551
+In grad_steps = 337, loss = 0.23729448020458221
+In grad_steps = 338, loss = 0.5530683994293213
+In grad_steps = 339, loss = 0.7032455205917358
+In grad_steps = 340, loss = 0.3597280979156494
+In grad_steps = 341, loss = 0.5185103416442871
+In grad_steps = 342, loss = 0.8561781644821167
+In grad_steps = 343, loss = 0.5117242336273193
+In grad_steps = 344, loss = 0.9023402333259583
+In grad_steps = 345, loss = 0.6468403935432434
+In grad_steps = 346, loss = 0.5546316504478455
+In grad_steps = 347, loss = 0.6001812219619751
+In grad_steps = 348, loss = 0.6068240404129028
+In grad_steps = 349, loss = 0.5822134017944336
+In grad_steps = 350, loss = 0.8008724451065063
+In grad_steps = 351, loss = 0.4506866931915283
+In grad_steps = 352, loss = 0.635543704032898
+In grad_steps = 353, loss = 0.559856116771698
+In grad_steps = 354, loss = 1.0897002220153809
+In grad_steps = 355, loss = 0.8432357311248779
+In grad_steps = 356, loss = 0.7103478908538818
+In grad_steps = 357, loss = 0.5468207001686096
+In grad_steps = 358, loss = 0.6355950832366943
+In grad_steps = 359, loss = 0.4128713607788086
+i = 4, Test ensemble probabilities = 
+[array([[0.4831831 , 0.516817  ],
+       [0.5356889 , 0.46431112],
+       [0.49917674, 0.50082326],
+       [0.5443733 , 0.4556267 ],
+       [0.47920853, 0.5207915 ],
+       [0.55996877, 0.4400312 ],
+       [0.5036306 , 0.49636945],
+       [0.4996016 , 0.5003984 ],
+       [0.48775968, 0.51224035],
+       [0.5263254 , 0.47367457],
+       [0.45488054, 0.54511946],
+       [0.45986292, 0.54013705],
+       [0.5433425 , 0.4566575 ],
+       [0.1325081 , 0.86749196],
+       [0.32217723, 0.6778227 ],
+       [0.50742143, 0.4925786 ],
+       [0.572167  , 0.42783296],
+       [0.50395405, 0.4960459 ],
+       [0.48118123, 0.5188188 ],
+       [0.517718  , 0.48228195],
+       [0.42555487, 0.5744451 ],
+       [0.45830563, 0.5416944 ],
+       [0.47866425, 0.5213357 ],
+       [0.48394564, 0.51605433],
+       [0.52940834, 0.47059166],
+       [0.49029306, 0.5097069 ],
+       [0.46021995, 0.5397801 ],
+       [0.49770164, 0.5022983 ],
+       [0.535036  , 0.46496397],
+       [0.49670795, 0.503292  ],
+       [0.4931857 , 0.5068143 ],
+       [0.45128775, 0.5487122 ],
+       [0.46333066, 0.5366693 ],
+       [0.45866814, 0.5413319 ],
+       [0.48088077, 0.5191192 ],
+       [0.491987  , 0.50801307],
+       [0.48325855, 0.51674145],
+       [0.4769665 , 0.5230335 ],
+       [0.5019028 , 0.4980972 ],
+       [0.48117146, 0.5188286 ],
+       [0.49929258, 0.5007074 ],
+       [0.49375448, 0.50624555],
+       [0.42821586, 0.5717841 ],
+       [0.51315004, 0.48684996],
+       [0.48396876, 0.51603127],
+       [0.49436736, 0.50563264],
+       [0.49533165, 0.50466835],
+       [0.5370892 , 0.4629107 ],
+       [0.4950196 , 0.5049804 ],
+       [0.5075704 , 0.4924296 ],
+       [0.4782911 , 0.5217089 ],
+       [0.50061965, 0.49938032],
+       [0.52295643, 0.47704354],
+       [0.4635574 , 0.53644264],
+       [0.49603516, 0.5039648 ],
+       [0.52290124, 0.47709876],
+       [0.4734932 , 0.52650684],
+       [0.4924284 , 0.5075716 ],
+       [0.5908892 , 0.40911084],
+       [0.4936522 , 0.5063478 ],
+       [0.5221943 , 0.47780567],
+       [0.513111  , 0.48688903],
+       [0.46075755, 0.53924245],
+       [0.5309234 , 0.46907654],
+       [0.11458256, 0.88541746],
+       [0.5320645 , 0.4679355 ],
+       [0.54709923, 0.45290074],
+       [0.08625761, 0.91374236],
+       [0.5643238 , 0.43567616],
+       [0.47630295, 0.523697  ],
+       [0.45618972, 0.54381025],
+       [0.5003762 , 0.49962378],
+       [0.5265758 , 0.47342426],
+       [0.46172497, 0.53827506],
+       [0.49923038, 0.5007696 ],
+       [0.5114636 , 0.48853648],
+       [0.49560106, 0.504399  ],
+       [0.47497004, 0.52502996],
+       [0.49768737, 0.50231266],
+       [0.4974282 , 0.5025718 ],
+       [0.54450005, 0.45549992],
+       [0.5563558 , 0.4436442 ],
+       [0.4649744 , 0.53502554],
+       [0.5146602 , 0.4853398 ],
+       [0.41090173, 0.58909833],
+       [0.5046073 , 0.49539265],
+       [0.4442542 , 0.55574584],
+       [0.5383251 , 0.4616749 ],
+       [0.5442321 , 0.45576793],
+       [0.5292285 , 0.47077155]], dtype=float32), array([[0.4230972 , 0.57690287],
+       [0.45076028, 0.5492397 ],
+       [0.47448754, 0.52551246],
+       [0.47028568, 0.52971435],
+       [0.43067616, 0.5693238 ],
+       [0.47738713, 0.52261287],
+       [0.44915715, 0.5508429 ],
+       [0.41219434, 0.5878056 ],
+       [0.4309208 , 0.56907916],
+       [0.450612  , 0.54938805],
+       [0.426295  , 0.573705  ],
+       [0.42047408, 0.5795259 ],
+       [0.48682612, 0.5131739 ],
+       [0.3682739 , 0.63172615],
+       [0.38447645, 0.6155235 ],
+       [0.448682  , 0.55131805],
+       [0.45151213, 0.54848784],
+       [0.45852438, 0.5414756 ],
+       [0.41649857, 0.58350146],
+       [0.42545277, 0.57454723],
+       [0.43507627, 0.56492376],
+       [0.41502342, 0.5849766 ],
+       [0.43338582, 0.56661415],
+       [0.43352893, 0.56647104],
+       [0.46770167, 0.5322984 ],
+       [0.46777382, 0.53222615],
+       [0.3830049 , 0.6169951 ],
+       [0.46625197, 0.53374803],
+       [0.48563018, 0.51436985],
+       [0.45516267, 0.54483736],
+       [0.44163725, 0.5583627 ],
+       [0.41207746, 0.5879225 ],
+       [0.40616438, 0.59383565],
+       [0.40480614, 0.5951939 ],
+       [0.4388242 , 0.5611758 ],
+       [0.45381564, 0.5461843 ],
+       [0.42972568, 0.5702743 ],
+       [0.427231  , 0.572769  ],
+       [0.4278925 , 0.5721075 ],
+       [0.4480772 , 0.5519228 ],
+       [0.43721327, 0.5627867 ],
+       [0.4203433 , 0.5796567 ],
+       [0.38108078, 0.6189192 ],
+       [0.43229318, 0.56770676],
+       [0.4401802 , 0.5598198 ],
+       [0.45378894, 0.54621106],
+       [0.48453158, 0.5154684 ],
+       [0.4869686 , 0.51303136],
+       [0.4458754 , 0.5541246 ],
+       [0.48296443, 0.51703554],
+       [0.3808561 , 0.6191439 ],
+       [0.4596725 , 0.5403275 ],
+       [0.4409187 , 0.5590813 ],
+       [0.4355226 , 0.5644774 ],
+       [0.42861405, 0.571386  ],
+       [0.499218  , 0.500782  ],
+       [0.43862575, 0.5613743 ],
+       [0.447598  , 0.55240196],
+       [0.5202221 , 0.4797779 ],
+       [0.4219323 , 0.57806766],
+       [0.4852157 , 0.51478434],
+       [0.46094805, 0.53905195],
+       [0.43237466, 0.56762534],
+       [0.45292392, 0.5470761 ],
+       [0.3210757 , 0.6789243 ],
+       [0.45578992, 0.5442101 ],
+       [0.48784903, 0.512151  ],
+       [0.34485206, 0.65514797],
+       [0.50082445, 0.49917552],
+       [0.43201286, 0.56798714],
+       [0.3984972 , 0.60150284],
+       [0.43437603, 0.565624  ],
+       [0.46445537, 0.53554463],
+       [0.4030372 , 0.5969628 ],
+       [0.4657256 , 0.5342744 ],
+       [0.44725755, 0.5527425 ],
+       [0.43688738, 0.5631126 ],
+       [0.4203537 , 0.5796462 ],
+       [0.443728  , 0.556272  ],
+       [0.43307278, 0.56692725],
+       [0.48289824, 0.51710176],
+       [0.4555368 , 0.54446316],
+       [0.4205589 , 0.5794411 ],
+       [0.43895712, 0.5610429 ],
+       [0.40434158, 0.5956584 ],
+       [0.4537497 , 0.54625034],
+       [0.4345677 , 0.5654323 ],
+       [0.46944284, 0.5305572 ],
+       [0.4799945 , 0.5200055 ],
+       [0.4560686 , 0.5439314 ]], dtype=float32), array([[0.4672515 , 0.53274846],
+       [0.4734366 , 0.5265634 ],
+       [0.52296454, 0.4770355 ],
+       [0.49642044, 0.50357956],
+       [0.3817556 , 0.6182444 ],
+       [0.5005379 , 0.49946213],
+       [0.47134778, 0.52865225],
+       [0.45219904, 0.54780096],
+       [0.462612  , 0.537388  ],
+       [0.46660492, 0.53339505],
+       [0.39918795, 0.600812  ],
+       [0.43452317, 0.56547683],
+       [0.5319303 , 0.46806967],
+       [0.07446752, 0.92553246],
+       [0.23571675, 0.76428324],
+       [0.41791394, 0.582086  ],
+       [0.49724105, 0.502759  ],
+       [0.48815566, 0.5118443 ],
+       [0.4260352 , 0.5739648 ],
+       [0.4701141 , 0.5298858 ],
+       [0.3855545 , 0.6144455 ],
+       [0.4274672 , 0.5725328 ],
+       [0.46126845, 0.5387315 ],
+       [0.47492605, 0.52507395],
+       [0.45880947, 0.5411905 ],
+       [0.43992123, 0.5600788 ],
+       [0.3954807 , 0.6045193 ],
+       [0.5070214 , 0.49297857],
+       [0.5296459 , 0.47035408],
+       [0.42517397, 0.574826  ],
+       [0.4682454 , 0.5317546 ],
+       [0.45233887, 0.5476611 ],
+       [0.41930798, 0.58069205],
+       [0.42693794, 0.57306206],
+       [0.46194348, 0.53805655],
+       [0.41109884, 0.5889011 ],
+       [0.462346  , 0.537654  ],
+       [0.4328864 , 0.56711364],
+       [0.44683224, 0.55316776],
+       [0.4869076 , 0.5130924 ],
+       [0.46088454, 0.5391155 ],
+       [0.42667755, 0.5733224 ],
+       [0.38665894, 0.61334103],
+       [0.46260297, 0.537397  ],
+       [0.42070186, 0.57929814],
+       [0.45824498, 0.541755  ],
+       [0.4594153 , 0.5405847 ],
+       [0.49897242, 0.5010276 ],
+       [0.46936584, 0.5306341 ],
+       [0.5173918 , 0.4826082 ],
+       [0.47301438, 0.52698565],
+       [0.46636662, 0.5336334 ],
+       [0.51953036, 0.48046964],
+       [0.35997564, 0.6400244 ],
+       [0.4951674 , 0.5048326 ],
+       [0.5238057 , 0.47619426],
+       [0.4433373 , 0.55666274],
+       [0.41802484, 0.5819751 ],
+       [0.50713587, 0.49286413],
+       [0.44672573, 0.55327433],
+       [0.5078624 , 0.4921376 ],
+       [0.47521192, 0.5247881 ],
+       [0.40154755, 0.59845245],
+       [0.5029826 , 0.49701744],
+       [0.03789291, 0.9621071 ],
+       [0.46553698, 0.53446305],
+       [0.5076493 , 0.4923507 ],
+       [0.04711745, 0.9528825 ],
+       [0.5032181 , 0.49678186],
+       [0.4386419 , 0.56135803],
+       [0.4807234 , 0.5192766 ],
+       [0.41345868, 0.58654135],
+       [0.45791358, 0.5420865 ],
+       [0.43828693, 0.5617131 ],
+       [0.49085435, 0.5091457 ],
+       [0.49877742, 0.5012226 ],
+       [0.49949455, 0.50050545],
+       [0.46652377, 0.53347623],
+       [0.49140346, 0.50859654],
+       [0.44444233, 0.55555767],
+       [0.49404886, 0.5059511 ],
+       [0.49357736, 0.50642264],
+       [0.41516465, 0.58483535],
+       [0.5129985 , 0.48700145],
+       [0.33750242, 0.6624976 ],
+       [0.50318044, 0.49681953],
+       [0.39784884, 0.60215116],
+       [0.51105124, 0.4889487 ],
+       [0.4720907 , 0.52790934],
+       [0.47707877, 0.5229212 ]], dtype=float32), array([[0.56001484, 0.43998516],
+       [0.5522709 , 0.4477291 ],
+       [0.5712044 , 0.42879552],
+       [0.5828623 , 0.4171377 ],
+       [0.53395   , 0.46605   ],
+       [0.5840835 , 0.41591647],
+       [0.5788625 , 0.42113745],
+       [0.5836868 , 0.41631314],
+       [0.5823291 , 0.41767085],
+       [0.5879833 , 0.4120167 ],
+       [0.542686  , 0.45731395],
+       [0.5279742 , 0.47202578],
+       [0.6139047 , 0.38609526],
+       [0.37814954, 0.62185043],
+       [0.45324224, 0.54675776],
+       [0.5642837 , 0.43571627],
+       [0.6148153 , 0.3851847 ],
+       [0.6090063 , 0.3909937 ],
+       [0.5604218 , 0.4395782 ],
+       [0.5881533 , 0.41184667],
+       [0.55145955, 0.44854045],
+       [0.5741924 , 0.42580763],
+       [0.5615987 , 0.43840125],
+       [0.58966535, 0.41033462],
+       [0.5837036 , 0.41629648],
+       [0.5737015 , 0.42629853],
+       [0.5653109 , 0.43468907],
+       [0.58577377, 0.41422623],
+       [0.6345181 , 0.36548188],
+       [0.5877601 , 0.4122399 ],
+       [0.5698683 , 0.43013167],
+       [0.5545541 , 0.44544592],
+       [0.5367194 , 0.46328062],
+       [0.5501637 , 0.4498363 ],
+       [0.5868094 , 0.41319066],
+       [0.56998986, 0.4300101 ],
+       [0.5420611 , 0.45793888],
+       [0.59041786, 0.40958214],
+       [0.58242494, 0.41757506],
+       [0.57274777, 0.42725226],
+       [0.5848513 , 0.41514868],
+       [0.5717145 , 0.42828545],
+       [0.5402058 , 0.45979425],
+       [0.5974934 , 0.40250656],
+       [0.5743146 , 0.42568544],
+       [0.5768339 , 0.42316607],
+       [0.5946929 , 0.4053071 ],
+       [0.60337967, 0.39662033],
+       [0.5419506 , 0.45804945],
+       [0.6070122 , 0.39298773],
+       [0.5473941 , 0.45260584],
+       [0.5790129 , 0.42098707],
+       [0.57562155, 0.42437845],
+       [0.5296321 , 0.47036785],
+       [0.6114971 , 0.38850293],
+       [0.5844766 , 0.41552338],
+       [0.56896013, 0.43103984],
+       [0.5564292 , 0.44357076],
+       [0.6317361 , 0.36826393],
+       [0.5863836 , 0.4136164 ],
+       [0.6244673 , 0.3755327 ],
+       [0.5931461 , 0.4068539 ],
+       [0.5592249 , 0.4407751 ],
+       [0.62237465, 0.3776254 ],
+       [0.32401145, 0.67598855],
+       [0.6035846 , 0.39641544],
+       [0.6099642 , 0.3900358 ],
+       [0.30807802, 0.69192195],
+       [0.6465361 , 0.35346395],
+       [0.56040585, 0.43959415],
+       [0.5571743 , 0.4428257 ],
+       [0.58367616, 0.4163238 ],
+       [0.5919707 , 0.40802938],
+       [0.54742175, 0.45257822],
+       [0.5838388 , 0.41616112],
+       [0.57545686, 0.42454317],
+       [0.59747094, 0.40252903],
+       [0.5463711 , 0.4536289 ],
+       [0.5916191 , 0.4083809 ],
+       [0.5681533 , 0.4318467 ],
+       [0.60915166, 0.39084837],
+       [0.6381791 , 0.3618209 ],
+       [0.57056665, 0.42943338],
+       [0.61063147, 0.3893685 ],
+       [0.52928525, 0.47071475],
+       [0.5977127 , 0.4022873 ],
+       [0.56390053, 0.43609944],
+       [0.6023465 , 0.39765352],
+       [0.61642724, 0.38357273],
+       [0.5974673 , 0.40253273]], dtype=float32), array([[0.44036773, 0.5596323 ],
+       [0.49279502, 0.507205  ],
+       [0.54156935, 0.45843062],
+       [0.51376563, 0.48623434],
+       [0.4314452 , 0.56855476],
+       [0.51881856, 0.48118147],
+       [0.5212027 , 0.4787973 ],
+       [0.39311972, 0.6068803 ],
+       [0.49672037, 0.5032797 ],
+       [0.5048078 , 0.4951922 ],
+       [0.40569568, 0.5943043 ],
+       [0.42268243, 0.5773176 ],
+       [0.5352839 , 0.46471608],
+       [0.08619885, 0.9138012 ],
+       [0.19596273, 0.8040373 ],
+       [0.43887353, 0.56112653],
+       [0.5017104 , 0.4982896 ],
+       [0.47170994, 0.52829003],
+       [0.4809962 , 0.51900375],
+       [0.4335856 , 0.56641436],
+       [0.39507902, 0.604921  ],
+       [0.44547772, 0.5545223 ],
+       [0.4406225 , 0.5593775 ],
+       [0.4658279 , 0.5341721 ],
+       [0.48946345, 0.51053655],
+       [0.42794478, 0.57205516],
+       [0.38260138, 0.6173987 ],
+       [0.5068546 , 0.49314544],
+       [0.53817743, 0.46182257],
+       [0.47631702, 0.523683  ],
+       [0.5025076 , 0.49749234],
+       [0.44927937, 0.55072063],
+       [0.36278707, 0.63721293],
+       [0.39941397, 0.60058606],
+       [0.45217305, 0.54782695],
+       [0.45567924, 0.54432076],
+       [0.4854696 , 0.51453036],
+       [0.44329348, 0.5567065 ],
+       [0.4351944 , 0.5648056 ],
+       [0.4634898 , 0.5365102 ],
+       [0.46283722, 0.5371628 ],
+       [0.43927   , 0.56073004],
+       [0.3602556 , 0.63974446],
+       [0.43902194, 0.56097806],
+       [0.42939293, 0.5706071 ],
+       [0.45917088, 0.5408291 ],
+       [0.49344623, 0.50655377],
+       [0.5407031 , 0.45929685],
+       [0.4573204 , 0.5426796 ],
+       [0.5329194 , 0.4670806 ],
+       [0.41578582, 0.58421415],
+       [0.4633731 , 0.5366269 ],
+       [0.47608772, 0.5239123 ],
+       [0.3637497 , 0.63625026],
+       [0.50033665, 0.49966332],
+       [0.53804755, 0.46195248],
+       [0.44330102, 0.5566989 ],
+       [0.43686977, 0.5631302 ],
+       [0.59286875, 0.40713128],
+       [0.42260608, 0.5773939 ],
+       [0.555561  , 0.44443902],
+       [0.48427054, 0.5157295 ],
+       [0.41544163, 0.58455837],
+       [0.51418686, 0.48581314],
+       [0.0502293 , 0.9497706 ],
+       [0.53016096, 0.46983904],
+       [0.53931403, 0.460686  ],
+       [0.05200518, 0.9479948 ],
+       [0.56226146, 0.4377385 ],
+       [0.45543513, 0.5445649 ],
+       [0.41552362, 0.5844764 ],
+       [0.43015438, 0.5698457 ],
+       [0.47856784, 0.5214321 ],
+       [0.38922635, 0.6107736 ],
+       [0.5066215 , 0.49337855],
+       [0.4657738 , 0.53422624],
+       [0.4781433 , 0.52185667],
+       [0.45871285, 0.5412871 ],
+       [0.4547209 , 0.5452791 ],
+       [0.45203602, 0.547964  ],
+       [0.53639877, 0.46360126],
+       [0.5223835 , 0.47761652],
+       [0.41484976, 0.5851502 ],
+       [0.5137423 , 0.48625767],
+       [0.35588986, 0.64411014],
+       [0.49640375, 0.50359625],
+       [0.42407006, 0.57593   ],
+       [0.53715616, 0.46284387],
+       [0.5091104 , 0.4908896 ],
+       [0.5008645 , 0.4991355 ]], dtype=float32)]
+i = 4, Test true class= 
+[1 1 0 0 1 0 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 0 0 0 1 0 1 1 0 1 0 1 0 1 1 0 0
+ 1 0 0 1 0 0 0 1 1 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 1 1 0 1 1 0 0 1 0 0 1
+ 0 0 1 0 0 0 0 1 0 1 1 0 1 1 0 0]
+Final, Test average ensemble probabilities = 
+[[0.47478288 0.5252172 ]
+ [0.5009903  0.49900967]
+ [0.5218805  0.47811946]
+ [0.5215415  0.47845855]
+ [0.4514071  0.54859287]
+ [0.5281592  0.4718408 ]
+ [0.5048402  0.49515986]
+ [0.46816033 0.53183967]
+ [0.49206838 0.5079316 ]
+ [0.50726664 0.49273333]
+ [0.44574898 0.55425096]
+ [0.45310336 0.54689664]
+ [0.5422575  0.4577425 ]
+ [0.20791957 0.79208046]
+ [0.3183151  0.68168485]
+ [0.47543493 0.5245651 ]
+ [0.5274892  0.4725108 ]
+ [0.50627005 0.4937299 ]
+ [0.4730266  0.5269734 ]
+ [0.48700476 0.5129952 ]
+ [0.43854484 0.56145513]
+ [0.4640933  0.53590673]
+ [0.47510797 0.524892  ]
+ [0.48957878 0.51042116]
+ [0.5058173  0.49418274]
+ [0.47992688 0.5200731 ]
+ [0.43732357 0.5626765 ]
+ [0.5127207  0.48727933]
+ [0.54460156 0.45539847]
+ [0.48822433 0.5117757 ]
+ [0.49508888 0.5049111 ]
+ [0.46390754 0.5360925 ]
+ [0.4376619  0.5623381 ]
+ [0.447998   0.5520021 ]
+ [0.48412618 0.51587385]
+ [0.4765141  0.52348584]
+ [0.48057216 0.51942784]
+ [0.47415906 0.52584094]
+ [0.4788494  0.5211507 ]
+ [0.49047875 0.50952125]
+ [0.48901576 0.51098424]
+ [0.470352   0.529648  ]
+ [0.4192834  0.5807166 ]
+ [0.48891228 0.5110877 ]
+ [0.4697117  0.53028834]
+ [0.4884812  0.5115188 ]
+ [0.5054835  0.49451646]
+ [0.5334226  0.46657738]
+ [0.48190635 0.51809365]
+ [0.52957165 0.47042838]
+ [0.4590683  0.5409317 ]
+ [0.49380893 0.506191  ]
+ [0.507023   0.49297705]
+ [0.43048748 0.5695125 ]
+ [0.5063301  0.49366993]
+ [0.53368986 0.4663102 ]
+ [0.47354347 0.52645653]
+ [0.47027007 0.5297299 ]
+ [0.56857044 0.43142962]
+ [0.47425994 0.52574   ]
+ [0.5390602  0.46093982]
+ [0.50533754 0.49466246]
+ [0.45386925 0.5461308 ]
+ [0.52467835 0.4753217 ]
+ [0.16955838 0.8304416 ]
+ [0.5174274  0.48257262]
+ [0.53837514 0.46162486]
+ [0.16766205 0.832338  ]
+ [0.5554328  0.44456714]
+ [0.47255975 0.5274402 ]
+ [0.46162167 0.53837836]
+ [0.4724083  0.52759176]
+ [0.50389665 0.49610338]
+ [0.44793946 0.55206054]
+ [0.5092541  0.49074587]
+ [0.49974585 0.5002542 ]
+ [0.50151944 0.4984805 ]
+ [0.4733863  0.5266137 ]
+ [0.4958318  0.5041682 ]
+ [0.4790265  0.5209735 ]
+ [0.53339946 0.4666005 ]
+ [0.5332065  0.46679348]
+ [0.45722288 0.5427771 ]
+ [0.5181979  0.48180208]
+ [0.40758413 0.59241587]
+ [0.51113075 0.48886925]
+ [0.45292825 0.54707175]
+ [0.5316643  0.46833563]
+ [0.524371   0.47562903]
+ [0.5121415  0.48785847]]
+Accuracy: 0.5000
+MCC: -0.0051
+AUC: 0.5341
+Confusion Matrix:
+tensor([[17, 27],
+        [18, 28]])
+Specificity: 0.3864
+Precision (Macro): 0.4974
+F1 Score (Macro): 0.4924
+Expected Calibration Error (ECE): 0.0482
+NLL loss: 0.6892
+Main task is done! Can finish
