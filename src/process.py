@@ -11,6 +11,7 @@ from torchmetrics.classification import (
     MulticlassF1Score,
     BinaryCalibrationError
 )
+import argparse
 
 def process(output_dir):
     test_ensemble_probabilities = []
@@ -68,3 +69,8 @@ def process(output_dir):
 
     print("Metrics computation complete.")
 
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description="Process metrics from lora_ensemble")
+    parser.add_argument('--tmp_dir', type=str, required=True, help='Path to the temporary directory.')
+    args = parser.parse_args()
+    process(args.tmp_dir)

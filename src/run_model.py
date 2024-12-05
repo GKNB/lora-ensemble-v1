@@ -71,6 +71,7 @@ if __name__ == "__main__":
 
     # Load model
     parser.add_argument('--model_name', required=True)
+    parser.add_argument('--tmp_dir', required=True)
     parser.add_argument('--n_ensemble', type=int, required=True)
     parser.add_argument('--seed', type=int, required=True)
     args = parser.parse_args() 

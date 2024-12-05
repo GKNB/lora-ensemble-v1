@@ -28,4 +28,9 @@ cd /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/src
 #json file name in model_trainer.py
 #epoch, max_length, batch_size in model_trainer.py
 
-srun python3 /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/src/run_model.py --model_name Llama3 --n_ensemble 5 --seed 237
+TMP_DIR="/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/tmp_lora_ensemble/"
+
+rm -r $TMP_DIR/*
+
+srun python3 /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/src/run_model.py \
+    --model_name Llama3 --n_ensemble 5 --seed 237 --tmp_dir $TMP_DIR 

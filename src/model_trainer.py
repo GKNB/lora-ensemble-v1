@@ -78,13 +78,11 @@ class model_trainer():
 #        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_4_prompts.json'
 
         self.output_dir = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/models/{self.model_name}"
-        self.lora_ensemble_tmp_dir = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/tmp_lora_ensemble/{self.model_name}"
+        self.lora_ensemble_tmp_dir = args.tmp_dir 
         self.fold_dir = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/folds/{self.model_name}"
         self.log_file_path = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/experiments/{self.model_name}-results.txt"
         self.plot_file_path = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/experiments/{self.model_name}-losses.png"
         self.plot_title = f"Loss values for {self.model_name}"
-
-        os.makedirs(os.path.dirname(self.lora_ensemble_tmp_dir), exist_ok=True)
 
         # Open the log file in write mode, this will clear previous contents 
         with open(self.log_file_path, 'w') as file: 
@@ -531,7 +529,7 @@ class model_trainer():
                         test_probabilities.append(probabilities.cpu().numpy())
                         test_true_classes.append(classes.cpu().numpy())
 
-                test_instance_path = os.path.join(output_dir, f"test_data_instance_{i}_seed_{self.seeds[i])}.npz")
+                test_instance_path = os.path.join(output_dir, f"test_data_instance_{i}_seed_{self.seeds[i]}.npz")
                 np.savez(test_instance_path, 
                          seed=self.seeds[i],
                          test_probabilities=np.concatenate(test_probabilities), 
