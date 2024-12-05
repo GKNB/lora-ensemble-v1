@@ -70,8 +70,9 @@ if __name__ == "__main__":
     # quit()
 
     # Load model
-    parser.add_argument('--model_name', required=False)
-    parser.add_argument('--n_ensemble', type=int, required=False)
+    parser.add_argument('--model_name', required=True)
+    parser.add_argument('--n_ensemble', type=int, required=True)
+    parser.add_argument('--seed', type=int, required=True)
     args = parser.parse_args() 
     model, tokenizer = load_model(args.model_name)
 

@@ -1,6 +1,7 @@
 #!/bin/bash
 #SBATCH -A m2616_g
-#SBATCH -C "gpu&hbm80g"
+#SBATCH -C gpu
+##SBATCH -C "gpu&hbm80g"
 #SBATCH -q premium
 #SBATCH -t 3:00:00
 #SBATCH -N 1
@@ -27,4 +28,4 @@ cd /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/src
 #json file name in model_trainer.py
 #epoch, max_length, batch_size in model_trainer.py
 
-srun python3 /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/src/run_model.py --model_name Llama3 --n_ensemble 5
+srun python3 /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/src/run_model.py --model_name Llama3 --n_ensemble 5 --seed 237

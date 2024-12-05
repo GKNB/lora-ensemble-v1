@@ -1,30 +1,21 @@
 Training lora instance 0
-Beginning epoch 0
 Beginning epoch 1
 Beginning epoch 2
 Beginning epoch 3
+Beginning epoch 4
 lora instance i = 0 Successfully finished.
 Training lora instance 1
-Beginning epoch 0
 Beginning epoch 1
 Beginning epoch 2
 Beginning epoch 3
+Beginning epoch 4
 lora instance i = 1 Successfully finished.
 Training lora instance 2
-Beginning epoch 0
 Beginning epoch 1
 Beginning epoch 2
 Beginning epoch 3
+Beginning epoch 4
 lora instance i = 2 Successfully finished.
 Training lora instance 3
-Beginning epoch 0
 Beginning epoch 1
 Beginning epoch 2
-Beginning epoch 3
-lora instance i = 3 Successfully finished.
-Training lora instance 4
-Beginning epoch 0
-Beginning epoch 1
-Beginning epoch 2
-Beginning epoch 3
-lora instance i = 4 Successfully finished.
