@@ -2,6 +2,7 @@
 import torch
 import random
 import os
+import time
 import sys
 import json
 import shutil
@@ -62,9 +63,9 @@ class model_trainer():
 #        self.model_name = "Llama3-8B-set-1.3"
 #        self.model_name = "Llama3-8B-set-2.1"
 #        self.model_name = "Llama3-8B-set-2.2"
-        self.model_name = "Llama3-8B-set-3.1"
+#        self.model_name = "Llama3-8B-set-3.1"
 #        self.model_name = "Llama3-8B-set-3.2"
-#        self.model_name = "Llama3-8B-set-3c"
+        self.model_name = "Llama3-8B-set-3c"
 #        self.model_name = "Llama3-8B-set-4"
 
 #        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_1_v1_prompts.json'
@@ -72,9 +73,9 @@ class model_trainer():
 #        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_1_v3_prompts.json'
 #        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_2_v1_prompts.json'
 #        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_2_v2_prompts.json'
-        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3_v1_prompts.json'
+#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3_v1_prompts.json'
 #        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3_v2_prompts.json'
-#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3c_prompts.json'
+        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3c_prompts.json'
 #        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_4_prompts.json'
 
         self.output_dir = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/models/{self.model_name}"
@@ -92,7 +93,7 @@ class model_trainer():
         self.lr = 1e-4 # Learning rate remains the same for all experiments
         self.new_tokens = 5  # New tokens remains the same for all experiments
         self.num_epochs = 4 
-        self.batch_size = 2
+        self.batch_size = 16
         self.max_length = 120
         # max length is 425 for multishot (Pre-trained) Experiments
  
@@ -466,6 +467,7 @@ class model_trainer():
             return prompts, classes
        
         def train_and_evaluate_lora_ensemble(train_dataset, test_dataset, output_dir):
+
             labels = [f" Yes", f" No"]
             target_ids = self.tokenizer(
                 labels, return_tensors="pt", add_special_tokens=False
@@ -486,7 +488,7 @@ class model_trainer():
 
             test_ensemble_probabilities = []
             for i in range(self.n_ensemble):
-                self.log(f"Training lora instance {i}")
+                print(f"Training lora instance {i}")
 
                 self.generator = set_seeds(self.seeds[i])
                 train_loader = torch.utils.data.DataLoader(train_dataset, collate_fn=custom_collate_fn, batch_size=self.batch_size)
@@ -504,19 +506,37 @@ class model_trainer():
                 opt = torch.optim.AdamW(lora_model.parameters(), lr=self.lr, betas=(0.9, 0.999), eps=1e-8)
                 lora_model.train()
 
+                if i == 0:
+                    total_params = sum(p.numel() for p in lora_model.parameters())
+                    trainable_params = sum(p.numel() for p in lora_model.parameters() if p.requires_grad)
+                    print(f"DEBUG: Total parameters: {total_params}")
+                    print(f"DEBUG: Trainable parameters: {trainable_params}")
+
                 grad_steps = 0
+
+                start_time = time.time()
+                total_token_count = 0
                 for epoch in range(self.num_epochs):
-                    self.log(f"Beginning epoch {epoch + 1}")
+                    print(f"Beginning epoch {epoch + 1}")
                     for batch in train_loader:
                         opt.zero_grad()
                         prompts, classes = batch
                         inputs = self.tokenizer(prompts, **tokenizer_run_kwargs).to(self.device)
+
+                        if epoch == 0:
+                            batch_token_count = inputs.input_ids.ne(self.tokenizer.pad_token_id).sum().item()
+                            total_token_count += batch_token_count
                         logits = lora_model(**inputs).logits[:, -1, target_ids.squeeze(-1)]
                         loss = F.cross_entropy(logits, classes.to(self.device))
                         print(f"In grad_steps = {grad_steps}, loss = {loss}")
                         loss.backward()
                         opt.step()
                         grad_steps += 1
+
+                end_time = time.time()
+                elapsed_time = end_time - start_time
+                print(f"Elapsed time: {elapsed_time} seconds for ensemble {i} with {self.num_epochs} epochs")
+                print(f"Size of token = {total_token_count}")
 
                 lora_model.eval()
                 test_probabilities, test_true_classes = [], []
@@ -534,13 +554,13 @@ class model_trainer():
                          seed=self.seeds[i],
                          test_probabilities=np.concatenate(test_probabilities), 
                          test_true_classes=np.concatenate(test_true_classes))
-                log_func(f"LoRA instance {i} evaluation complete. Data saved to {test_instance_path}.")
+                print(f"LoRA instance {i} evaluation complete. Data saved to {test_instance_path}.")
 
                 test_ensemble_probabilities.append(np.concatenate(test_probabilities))
                 test_true_classes = np.concatenate(test_true_classes)
                 print(f"i = {i}, Test ensemble probabilities = \n{test_ensemble_probabilities}")
                 print(f"i = {i}, Test true classes= \n{test_true_classes}")
-                self.log(f"lora instance i = {i} Successfully finished.")
+                print(f"lora instance i = {i} Successfully finished.")
 
             test_average_probabilities = np.mean(test_ensemble_probabilities, axis=0)
             print(f"Final, Test average ensemble probabilities = \n{test_average_probabilities}")
@@ -580,6 +600,7 @@ class model_trainer():
 
         # Here we differentiate the training process depending on the dataset
         if "set-1" in self.model_name or "set-2" in self.model_name or "set-3" in self.model_name:
+            
             train_and_evaluate_lora_ensemble(self.train_dataset, self.test_dataset, self.lora_ensemble_tmp_dir)
 
 #            test_ensemble_probabilities = []

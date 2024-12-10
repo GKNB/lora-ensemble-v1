@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -A m2616_g
-#SBATCH -C gpu
-##SBATCH -C "gpu&hbm80g"
+##SBATCH -C gpu
+#SBATCH -C "gpu&hbm80g"
 #SBATCH -q premium
 #SBATCH -t 3:00:00
 #SBATCH -N 1
