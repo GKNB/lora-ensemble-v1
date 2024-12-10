@@ -54,35 +54,18 @@ class model_trainer():
         self.n_ensemble = args.n_ensemble
         self.seeds = [args.seed + i * 10093 for i in range(self.n_ensemble)]
         self.generator = set_seeds(args.seed)
+
+        with open(args.config, 'r') as f:
+            self.config = json.load(f)
         # os.environ["WANDB_DISABLED"] = "true" 
 
-        # Initialize file paths 
-#        self.model_name = "Mistral-7B-set-3c"
-#        self.model_name = "Llama3-8B-set-1.1"
-#        self.model_name = "Llama3-8B-set-1.2"
-#        self.model_name = "Llama3-8B-set-1.3"
-#        self.model_name = "Llama3-8B-set-2.1"
-#        self.model_name = "Llama3-8B-set-2.2"
-#        self.model_name = "Llama3-8B-set-3.1"
-#        self.model_name = "Llama3-8B-set-3.2"
-        self.model_name = "Llama3-8B-set-3c"
-#        self.model_name = "Llama3-8B-set-4"
-
-#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_1_v1_prompts.json'
-#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_1_v2_prompts.json'
-#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_1_v3_prompts.json'
-#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_2_v1_prompts.json'
-#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_2_v2_prompts.json'
-#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3_v1_prompts.json'
-#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3_v2_prompts.json'
-        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_3c_prompts.json'
-#        self.json_file_path = '/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/data/dataset_4_prompts.json'
-
-        self.output_dir = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/models/{self.model_name}"
-        self.lora_ensemble_tmp_dir = args.tmp_dir 
-        self.fold_dir = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/folds/{self.model_name}"
-        self.log_file_path = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/experiments/{self.model_name}-results.txt"
-        self.plot_file_path = f"/pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/experiments/{self.model_name}-losses.png"
+        self.model_name = self.config["models"][args.model_name] + "-set-" + args.dataset
+        self.json_file_path = os.path.join(args.repo_dir, self.config["datasets"][args.dataset]["json_file_path_suffix"])
+        self.output_dir = os.path.join(args.repo_dir, self.config["output_dir_suffix"], self.model_name)
+        self.lora_ensemble_tmp_dir = os.path.join(args.repo_dir, self.config["lora_ensemble_tmp_dir_suffix"], self.model_name)
+        self.fold_dir = os.path.join(args.repo_dir, self.config["fold_dir_suffix"], self.model_name)
+        self.log_file_path = os.path.join(args.repo_dir, self.config["experiments_dir_suffix"], f"{self.model_name}-results.txt")
+        self.plot_file_path = os.path.join(args.repo_dir, self.config["experiments_dir_suffix"], f"{self.model_name}-losses.png")
         self.plot_title = f"Loss values for {self.model_name}"
 
         # Open the log file in write mode, this will clear previous contents 
@@ -92,35 +75,12 @@ class model_trainer():
         # Hyperparameters 
         self.lr = 1e-4 # Learning rate remains the same for all experiments
         self.new_tokens = 5  # New tokens remains the same for all experiments
-        self.num_epochs = 4 
-        self.batch_size = 16
-        self.max_length = 120
+        self.num_epochs = self.config["datasets"][args.dataset]["num_epochs"]
+        self.batch_size = self.config["datasets"][args.dataset]["batch_size"]
+        self.max_length = self.config["datasets"][args.dataset]["max_length"]
+        print(f"self.num_epochs = {self.num_epochs}, self.batch_size = {self.batch_size}, self.max_length = {self.max_length}")
         # max length is 425 for multishot (Pre-trained) Experiments
  
-        # datasets 1-3 
-            # max_length = 120 
-            # num_epochs = 4 
-            # dataset 1.1 - Batch Size = 8 
-            # dataset 1.2 - Batch Size = 16 
-            # dataset 1.3 - Batch Size = 4
-            # dataset 2.1 - Batch Size = 2 
-            # dataset 2.2 - Batch Size = 1 
-            # dataset 2.3 - Batch Size = 2
-            # dataset 2.4 - Batch Size = 1 
-            # dataset 3.1 - Batch Size = 2 
-            # dataset 3.2 - Batch Size = 1 
-            # dataset 3c - Batch Size = 16
-
-        # datasets 4-5
-            # max_length = 50
-            # num_epochs = 4
-            # batch_size = 4
-
-        # dataset 6
-            # max_length = 50
-            # num_epochs = 4
-            # batch_size = 16
-        
         # Loss values for plots
         self.train_losses = []
         self.valid_losses = []
