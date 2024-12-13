@@ -1,9 +1,10 @@
 #!/bin/bash
 #SBATCH -A m2616_g
-#SBATCH -C gpu
-##SBATCH -C "gpu&hbm80g"
+##SBATCH -C gpu
+#SBATCH -C "gpu&hbm80g"
 #SBATCH -q premium
-#SBATCH -t 3:00:00
+##SBATCH -q regular
+#SBATCH -t 1:00:00
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=1
 #SBATCH -c 128
@@ -30,8 +31,8 @@ cd /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/src
 
 srun python3 /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/src/run_model.py \
     --model_name Llama3 \
-    --dataset 3.1 \
+    --dataset 6 \
     --n_ensemble 5 \
-    --seed 237 \
+    --seed 1 \
     --repo_dir /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/ \
     --config /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/src/config.json 

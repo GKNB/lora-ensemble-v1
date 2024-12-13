@@ -1,4 +1,5 @@
 import os
+import json
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Set the cache directory
@@ -8,33 +9,24 @@ hf_cache_dir = "/pscratch/sd/t/tianle/myWork/transformers/cache"
 os.environ["TRANSFORMERS_CACHE"] = hf_cache_dir
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
 
+def load_model(args):
+    config = {}
+    with open(args.config, 'r') as f:
+        config = json.load(f)
+    if args.use_model_snapshot:
+        model_path = os.path.join(r"{hf_cache_dir}", config["models"][args.model_name]["snapshot"])
+    else:
+        model_path = config["models"][args.model_name]["path"]
 
-def load_model(model_name):
-    # Define the model path as used in Hugging Face Hub
-    model_paths = {
-        # 'Llama2': "meta-llama/Llama-2-7b-chat-hf",
-        'Llama2': r"{hf_cache_dir}/models--meta-llama--Llama-2-7b-chat-hf/snapshots/c1b0db933684edbfe29a06fa47eb19cc48025e93",
-
-        'Llama3': "meta-llama/Meta-Llama-3-8B-Instruct", 
-        #'Llama3': r"{hf_cache_dir}/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/5f0b02c75b57c5855da9ae460ce51323ea669d8a",
-
-         'Mistral': "mistralai/Mistral-7B-Instruct-v0.3"
-        #'Mistral': r"{hf_cache_dir}/models--mistralai--Mistral-7B-Instruct-v0.2/snapshots/41b61a33a2483885c981aa79e0df6b32407ed873",
-        } 
-
-    model_path = model_paths.get(model_name)
-    if model_path is None:
-        raise ValueError("Invalid model name: " + model_name)
-    
-    if 'Mistral' in model_name:
+    if 'Mistral' in args.model_name:
         tokenizer = AutoTokenizer.from_pretrained(model_path, add_eos_token=True, add_bos_token=True, padding_side="left")
         model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
 
-    elif 'Llama2' in model_name:
+    elif 'Llama2' in args.model_name:
         tokenizer = AutoTokenizer.from_pretrained(model_path, padding_side="left")
         model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
 
-    elif 'Llama3' in model_name:
+    elif 'Llama3' in args.model_name:
         tokenizer = AutoTokenizer.from_pretrained(model_path, padding_side="left")
         model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
 
@@ -42,7 +34,7 @@ def load_model(model_name):
         tokenizer = AutoTokenizer.from_pretrained(model_path)
         model = AutoModelForCausalLM.from_pretrained(model_path)
         
-    print(f"{model_name} has been loaded successfully.")
+    print(f"{args.model_name} has been loaded successfully.")
     return model, tokenizer
 
 
@@ -88,7 +80,7 @@ if __name__ == "__main__":
     # trainer.load_data()
 
     # Load prompts from JSON file into Datasets
-    trainer.preprocess_data()
+    trainer.load_train_test_data()
 
     # Train a Model
     trainer.train_model()

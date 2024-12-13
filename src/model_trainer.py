@@ -31,24 +31,15 @@ from torchmetrics.classification import (
     BinaryCalibrationError,
 )
 
-
-# Set random seeds for consistent experiments
-def set_seeds(seed):
-    random.seed(seed)
-    np.random.seed(seed)
-    torch.manual_seed(seed)
-    generator = torch.Generator().manual_seed(seed)
-    if torch.cuda.is_available():
-        torch.cuda.manual_seed_all(seed)
-        torch.backends.cudnn.deterministic = True
-        torch.backends.cudnn.benchmark = False
-    return generator
-     
+from util import set_seeds as set_seeds
+from util import custom_collate_fn as custom_collate_fn
+    
 
 class model_trainer():
 
     def init(self, model, tokenizer, args):
 
+        print(args)
         # Initialize device and random seed
         self.device = "cuda:0" if torch.cuda.is_available() else "cpu"
         self.n_ensemble = args.n_ensemble
@@ -59,14 +50,17 @@ class model_trainer():
             self.config = json.load(f)
         # os.environ["WANDB_DISABLED"] = "true" 
 
-        self.model_name = self.config["models"][args.model_name] + "-set-" + args.dataset
-        self.json_file_path = os.path.join(args.repo_dir, self.config["datasets"][args.dataset]["json_file_path_suffix"])
+        self.model_name = self.config["models"][args.model_name]["name"] + "-set-" + args.dataset
+        self.json_file_path_train = os.path.join(args.repo_dir, self.config["datasets"][args.dataset]["train_data_path_suffix"])
+        self.json_file_path_test  = os.path.join(args.repo_dir, self.config["datasets"][args.dataset]["test_data_path_suffix"])
         self.output_dir = os.path.join(args.repo_dir, self.config["output_dir_suffix"], self.model_name)
-        self.lora_ensemble_tmp_dir = os.path.join(args.repo_dir, self.config["lora_ensemble_tmp_dir_suffix"], self.model_name)
         self.fold_dir = os.path.join(args.repo_dir, self.config["fold_dir_suffix"], self.model_name)
         self.log_file_path = os.path.join(args.repo_dir, self.config["experiments_dir_suffix"], f"{self.model_name}-results.txt")
         self.plot_file_path = os.path.join(args.repo_dir, self.config["experiments_dir_suffix"], f"{self.model_name}-losses.png")
         self.plot_title = f"Loss values for {self.model_name}"
+ 
+        self.lora_ensemble_tmp_dir = os.path.join(args.repo_dir, self.config["lora_ensemble_tmp_dir_suffix"], self.model_name)
+        os.makedirs(self.lora_ensemble_tmp_dir, exist_ok=True)
 
         # Open the log file in write mode, this will clear previous contents 
         with open(self.log_file_path, 'w') as file: 
@@ -133,79 +127,16 @@ class model_trainer():
 
 
 
-    def preprocess_data(self):
-        
-        # Initialize dataset 
-        self.dataset_examples = []
+    def load_train_test_data(self):
+        with open(self.json_file_path_train, 'r') as file:
+            train_dataset_dict = json.load(file)
+        self.train_dataset = Dataset.from_dict(train_dataset_dict)
+        print("Train dataset looks like: ", self.train_dataset)
 
-        # Open and read the JSON file
-        with open(self.json_file_path, 'r') as file:
-            prompts_data = json.load(file)
-
-        print("Size of dataset: ", len(prompts_data))
-
-        # Iterate through each entry in the JSON file
-        for prompt in prompts_data:
-            self.dataset_examples.append(prompt)
-
-        # Shuffle the dataset to ensure a mix of 'Yes' and 'No' answers throughout
-        random.shuffle(self.dataset_examples)
-
-        # Set up 80 / 10 / 10 split for training / validation / testing for datasets 1-3
-        if "set-1" in self.model_name or "set-2" in self.model_name or "set-3" in self.model_name:
-
-            # Split the dataset into training, validation, and possibly test sets
-            total_items = len(self.dataset_examples)
-            train_end = int(total_items * 0.8)
-            valid_end = train_end + int(total_items * 0.1)
-            
-            train_dataset = self.dataset_examples[:train_end]
-            valid_dataset = self.dataset_examples[train_end:valid_end]
-            test_dataset = self.dataset_examples[valid_end:]
-
-            # Convert list of dictionaries into Hugging Face Dataset
-            self.train_dataset = Dataset.from_dict({'question': [i['question'] for i in train_dataset], 'answer': [i['answer'] for i in train_dataset]})
-            self.valid_dataset = Dataset.from_dict({'question': [i['question'] for i in valid_dataset], 'answer': [i['answer'] for i in valid_dataset]})
-            self.test_dataset = Dataset.from_dict({'question': [i['question'] for i in test_dataset], 'answer': [i['answer'] for i in test_dataset]})
-
-
-        # Set up 5-fold cross validation for datasets 4 and 5
-        if "set-4" in self.model_name or "set-5" in self.model_name:
-            kf = KFold(n_splits=5, shuffle=True, random_state=42)
-            self.fold_data = []
-
-            for fold, (train_index, test_index) in enumerate(kf.split(self.dataset_examples), start=1):
-                train_fold = [self.dataset_examples[i] for i in train_index]
-                test_fold = [self.dataset_examples[i] for i in test_index]
-
-                train_fold_dataset = Dataset.from_dict({'question': [i['question'] for i in train_fold], 'answer': [i['answer'] for i in train_fold]})
-                test_fold_dataset = Dataset.from_dict({'question': [i['question'] for i in test_fold], 'answer': [i['answer'] for i in test_fold]})
-
-                fold_name = f'fold-{fold}'
-                self.save_fold_data(fold_name, train_dataset=train_fold_dataset, test_dataset=test_fold_dataset)
-                self.fold_data.append((train_fold_dataset, test_fold_dataset))
-
-
-        # Set up 5-fold cross validation for dataset 6
-        elif "set-6" in self.model_name:
-            kf = KFold(n_splits=5, shuffle=True, random_state=42)
-            self.fold_data = []
-
-            for fold, (train_index, test_index) in enumerate(kf.split(self.dataset_examples), start=1):
-                train_index, validation_index = train_test_split(train_index, test_size=0.2, random_state=42)
-
-                train_fold = [self.dataset_examples[i] for i in train_index]
-                valid_fold = [self.dataset_examples[i] for i in validation_index]
-                test_fold = [self.dataset_examples[i] for i in test_index]
-
-                train_fold_dataset = Dataset.from_dict({'question': [i['question'] for i in train_fold], 'answer': [i['answer'] for i in train_fold]})
-                valid_fold_dataset = Dataset.from_dict({'question': [i['question'] for i in valid_fold], 'answer': [i['answer'] for i in valid_fold]})
-                test_fold_dataset = Dataset.from_dict({'question': [i['question'] for i in test_fold], 'answer': [i['answer'] for i in test_fold]})
-
-                fold_name = f'fold-{fold}'
-                self.save_fold_data(fold_name, train_dataset=train_fold_dataset, valid_dataset=valid_fold_dataset, test_dataset=test_fold_dataset)
-                self.fold_data.append((train_fold_dataset, valid_fold_dataset, test_fold_dataset))
-
+        with open(self.json_file_path_test, 'r') as file:
+            test_dataset_dict = json.load(file)
+        self.test_dataset  = Dataset.from_dict(test_dataset_dict)
+        print("Test dataset looks like: ", self.test_dataset)
 
     def load_saved_model(self, model):
         # Evaluate the trained model on the test set
@@ -419,13 +350,6 @@ class model_trainer():
                     self.log(f"{metric_name}: {metric_value}")
             return metrics_dict
 
-        def custom_collate_fn(batch):
-            # Extract questions and answers from the batch
-            prompt = """Answer the following question with Yes or No.\n\nQuestion: {question}\n\nAnswer (Yes or No):"""
-            prompts = [prompt.format(question=item['question']) for item in batch]
-            classes = torch.tensor([1 if item['answer'] == 'Yes' else 0 for item in batch])
-            return prompts, classes
-       
         def train_and_evaluate_lora_ensemble(train_dataset, test_dataset, output_dir):
 
             labels = [f" Yes", f" No"]
@@ -482,10 +406,9 @@ class model_trainer():
                         opt.zero_grad()
                         prompts, classes = batch
                         inputs = self.tokenizer(prompts, **tokenizer_run_kwargs).to(self.device)
-
-                        if epoch == 0:
-                            batch_token_count = inputs.input_ids.ne(self.tokenizer.pad_token_id).sum().item()
-                            total_token_count += batch_token_count
+#                        if epoch == 0:
+#                            batch_token_count = inputs.input_ids.ne(self.tokenizer.pad_token_id).sum().item()
+#                            total_token_count += batch_token_count
                         logits = lora_model(**inputs).logits[:, -1, target_ids.squeeze(-1)]
                         loss = F.cross_entropy(logits, classes.to(self.device))
                         print(f"In grad_steps = {grad_steps}, loss = {loss}")
@@ -496,7 +419,7 @@ class model_trainer():
                 end_time = time.time()
                 elapsed_time = end_time - start_time
                 print(f"Elapsed time: {elapsed_time} seconds for ensemble {i} with {self.num_epochs} epochs")
-                print(f"Size of token = {total_token_count}")
+#                print(f"Size of token = {total_token_count}")
 
                 lora_model.eval()
                 test_probabilities, test_true_classes = [], []
@@ -518,8 +441,8 @@ class model_trainer():
 
                 test_ensemble_probabilities.append(np.concatenate(test_probabilities))
                 test_true_classes = np.concatenate(test_true_classes)
-                print(f"i = {i}, Test ensemble probabilities = \n{test_ensemble_probabilities}")
-                print(f"i = {i}, Test true classes= \n{test_true_classes}")
+#                print(f"i = {i}, Test ensemble probabilities = \n{test_ensemble_probabilities}")
+#                print(f"i = {i}, Test true classes= \n{test_true_classes}")
                 print(f"lora instance i = {i} Successfully finished.")
 
             test_average_probabilities = np.mean(test_ensemble_probabilities, axis=0)
@@ -723,18 +646,28 @@ class model_trainer():
 ##            print("Evaluation Results:", results)
 
         elif "set-4" in self.model_name or "set-5" in self.model_name:
-            i = 0
-            for fold in self.fold_data:
-                i += 1
-                print(f"Training Fold {i}")
-                print("Fold Data: ", fold)
-                self.model = self.base_model
-               
-                print(f"Start train_and_evaluate_lora_ensemble for fold {i}")
-                train_and_evaluate_lora_ensemble(fold[0], fold[1], self.lora_ensemble_tmp_dir)
-                print(f"Finish train_and_evaluate_lora_ensemble for fold {i}")
-            print(f"ALL finish train_and_evaluate_lora_ensemble")
+            
+            train_and_evaluate_lora_ensemble(self.train_dataset, self.test_dataset, self.lora_ensemble_tmp_dir)
 
+#            fold = self.fold_data[self.fold_idx]
+#            print(f"Training Fold {self.fold_idx}")
+#            print("Fold Data: ", fold)
+#            self.model = self.base_model
+#            print(f"Start train_and_evaluate_lora_ensemble for fold {self.fold_idx}")
+#            train_and_evaluate_lora_ensemble(fold[0], fold[1], self.lora_ensemble_tmp_dir)
+#            print(f"Finish train_and_evaluate_lora_ensemble for fold {self.fold_idx}")
+#
+#            for fold in self.fold_data:
+#                i += 1
+#                print(f"Training Fold {i}")
+#                print("Fold Data: ", fold)
+#                self.model = self.base_model
+#               
+#                print(f"Start train_and_evaluate_lora_ensemble for fold {i}")
+#                train_and_evaluate_lora_ensemble(fold[0], fold[1], self.lora_ensemble_tmp_dir)
+#                print(f"Finish train_and_evaluate_lora_ensemble for fold {i}")
+#            print(f"ALL finish train_and_evaluate_lora_ensemble")
+#
 ##                self.testing = False 
 ##                self.count = 0
 ##
@@ -780,18 +713,28 @@ class model_trainer():
 ##                print("Evaluation Results:", results)
 
         elif "set-6" in self.model_name:
-            i = 0
-            for fold in self.fold_data:
-                i += 1
-                print(f"Training Fold {i}")
-                print("Fold Data: ", fold)
-                self.model = self.base_model
-               
-                print(f"Start train_and_evaluate_lora_ensemble for fold {i}")
-                train_and_evaluate_lora_ensemble(fold[0], fold[2], self.lora_ensemble_tmp_dir)
-                print(f"Finish train_and_evaluate_lora_ensemble for fold {i}")
-            print(f"ALL finish train_and_evaluate_lora_ensemble")
 
+            train_and_evaluate_lora_ensemble(self.train_dataset, self.test_dataset, self.lora_ensemble_tmp_dir)
+            
+#            fold = self.fold_data[self.fold_idx]
+#            print(f"Training Fold {self.fold_idx}")
+#            print("Fold Data: ", fold)
+#            self.model = self.base_model
+#            print(f"Start train_and_evaluate_lora_ensemble for fold {self.fold_idx}")
+#            train_and_evaluate_lora_ensemble(fold[0], fold[2], self.lora_ensemble_tmp_dir)
+#            print(f"Finish train_and_evaluate_lora_ensemble for fold {self.fold_idx}")
+#
+#            for fold in self.fold_data:
+#                i += 1
+#                print(f"Training Fold {i}")
+#                print("Fold Data: ", fold)
+#                self.model = self.base_model
+#               
+#                print(f"Start train_and_evaluate_lora_ensemble for fold {i}")
+#                train_and_evaluate_lora_ensemble(fold[0], fold[2], self.lora_ensemble_tmp_dir)
+#                print(f"Finish train_and_evaluate_lora_ensemble for fold {i}")
+#            print(f"ALL finish train_and_evaluate_lora_ensemble")
+#
 ##                self.testing = False
 ##                self.count = 0 
 ##        
