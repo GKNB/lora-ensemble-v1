@@ -1,0 +1,1055 @@
+Job is running on partition: gpu_ss11
+Job is running under account: m2616_g
+/pscratch/sd/t/tianle/conda/envs/lucid_surp_2024/lib/python3.11/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:10<00:30, 10.17s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:20<00:20, 10.21s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:30<00:10, 10.10s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:32<00:00,  7.04s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:32<00:00,  8.18s/it]
+Llama3 has been loaded successfully.
+Model:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(128256, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x LlamaDecoderLayer(
+        (self_attn): LlamaSdpaAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=1024, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=1024, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=4096, out_features=14336, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=14336, bias=False)
+          (down_proj): Linear(in_features=14336, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((4096,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=4096, out_features=128256, bias=False)
+)
+Size of dataset:  98
+Training lora instance 0
+DEBUG: Total parameters: 8037076992
+DEBUG: Trainable parameters: 6815744
+Beginning epoch 1
+In grad_steps = 0, loss = 0.311132550239563
+In grad_steps = 1, loss = 1.8503429889678955
+In grad_steps = 2, loss = 0.7704724073410034
+In grad_steps = 3, loss = 0.8450136184692383
+In grad_steps = 4, loss = 0.8167133927345276
+In grad_steps = 5, loss = 0.6224781274795532
+In grad_steps = 6, loss = 0.33528953790664673
+In grad_steps = 7, loss = 1.369804859161377
+In grad_steps = 8, loss = 0.7917943000793457
+In grad_steps = 9, loss = 0.4705132842063904
+In grad_steps = 10, loss = 1.4566576480865479
+In grad_steps = 11, loss = 0.9405357241630554
+In grad_steps = 12, loss = 0.651214599609375
+In grad_steps = 13, loss = 1.1836280822753906
+In grad_steps = 14, loss = 0.3864456117153168
+In grad_steps = 15, loss = 0.21854960918426514
+In grad_steps = 16, loss = 0.8914685249328613
+In grad_steps = 17, loss = 0.9955199956893921
+In grad_steps = 18, loss = 1.0566033124923706
+In grad_steps = 19, loss = 0.9960470199584961
+In grad_steps = 20, loss = 0.35320645570755005
+In grad_steps = 21, loss = 0.799712061882019
+In grad_steps = 22, loss = 0.377439022064209
+In grad_steps = 23, loss = 0.4428907036781311
+In grad_steps = 24, loss = 0.5067404508590698
+In grad_steps = 25, loss = 0.7759061455726624
+In grad_steps = 26, loss = 0.7370909452438354
+In grad_steps = 27, loss = 1.3677058219909668
+In grad_steps = 28, loss = 0.7960965633392334
+In grad_steps = 29, loss = 1.0309151411056519
+In grad_steps = 30, loss = 0.70658278465271
+In grad_steps = 31, loss = 0.7094167470932007
+In grad_steps = 32, loss = 0.8706395030021667
+In grad_steps = 33, loss = 0.6581629514694214
+In grad_steps = 34, loss = 0.5252194404602051
+In grad_steps = 35, loss = 0.6800879240036011
+In grad_steps = 36, loss = 0.5208292007446289
+In grad_steps = 37, loss = 0.7828325033187866
+In grad_steps = 38, loss = 0.7478902339935303
+Beginning epoch 2
+In grad_steps = 39, loss = 1.0263869762420654
+In grad_steps = 40, loss = 0.4003898501396179
+In grad_steps = 41, loss = 0.7288579344749451
+In grad_steps = 42, loss = 0.7345460057258606
+In grad_steps = 43, loss = 0.7175304293632507
+In grad_steps = 44, loss = 0.5146266222000122
+In grad_steps = 45, loss = 0.4862862229347229
+In grad_steps = 46, loss = 0.8727035522460938
+In grad_steps = 47, loss = 0.6988674402236938
+In grad_steps = 48, loss = 0.5643138885498047
+In grad_steps = 49, loss = 0.9340449571609497
+In grad_steps = 50, loss = 0.8258920907974243
+In grad_steps = 51, loss = 0.7481893301010132
+In grad_steps = 52, loss = 0.7169342041015625
+In grad_steps = 53, loss = 0.6299847364425659
+In grad_steps = 54, loss = 0.5037628412246704
+In grad_steps = 55, loss = 0.6877239942550659
+In grad_steps = 56, loss = 0.7335460782051086
+In grad_steps = 57, loss = 0.7864941358566284
+In grad_steps = 58, loss = 0.7914060950279236
+In grad_steps = 59, loss = 0.4020608067512512
+In grad_steps = 60, loss = 0.7501793503761292
+In grad_steps = 61, loss = 0.3228626847267151
+In grad_steps = 62, loss = 0.32973596453666687
+In grad_steps = 63, loss = 0.33644139766693115
+In grad_steps = 64, loss = 0.8666408061981201
+In grad_steps = 65, loss = 0.8935040235519409
+In grad_steps = 66, loss = 1.7472484111785889
+In grad_steps = 67, loss = 0.8970720767974854
+In grad_steps = 68, loss = 1.318037986755371
+In grad_steps = 69, loss = 0.775359034538269
+In grad_steps = 70, loss = 0.7183417677879333
+In grad_steps = 71, loss = 0.6062040328979492
+In grad_steps = 72, loss = 0.6371070146560669
+In grad_steps = 73, loss = 0.6916083097457886
+In grad_steps = 74, loss = 0.6625163555145264
+In grad_steps = 75, loss = 0.6263283491134644
+In grad_steps = 76, loss = 0.7345370054244995
+In grad_steps = 77, loss = 0.6704858541488647
+Beginning epoch 3
+In grad_steps = 78, loss = 0.8511876463890076
+In grad_steps = 79, loss = 0.455584853887558
+In grad_steps = 80, loss = 0.7154983282089233
+In grad_steps = 81, loss = 0.6921389102935791
+In grad_steps = 82, loss = 0.7131835222244263
+In grad_steps = 83, loss = 0.4932045340538025
+In grad_steps = 84, loss = 0.45754075050354004
+In grad_steps = 85, loss = 0.9089953303337097
+In grad_steps = 86, loss = 0.7039979696273804
+In grad_steps = 87, loss = 0.4997141361236572
+In grad_steps = 88, loss = 0.9831352233886719
+In grad_steps = 89, loss = 0.8292515277862549
+In grad_steps = 90, loss = 0.734429121017456
+In grad_steps = 91, loss = 0.7785722613334656
+In grad_steps = 92, loss = 0.5487661957740784
+In grad_steps = 93, loss = 0.37451738119125366
+In grad_steps = 94, loss = 0.6927254796028137
+In grad_steps = 95, loss = 0.8033100366592407
+In grad_steps = 96, loss = 0.9032163619995117
+In grad_steps = 97, loss = 0.88495934009552
+In grad_steps = 98, loss = 0.28301388025283813
+In grad_steps = 99, loss = 0.7453110218048096
+In grad_steps = 100, loss = 0.2651316225528717
+In grad_steps = 101, loss = 0.2963906526565552
+In grad_steps = 102, loss = 0.334256649017334
+In grad_steps = 103, loss = 0.8370179533958435
+In grad_steps = 104, loss = 0.8374464511871338
+In grad_steps = 105, loss = 1.6856698989868164
+In grad_steps = 106, loss = 0.8645477890968323
+In grad_steps = 107, loss = 1.1205984354019165
+In grad_steps = 108, loss = 0.7209928631782532
+In grad_steps = 109, loss = 0.6445385813713074
+In grad_steps = 110, loss = 0.7949376106262207
+In grad_steps = 111, loss = 0.6058128476142883
+In grad_steps = 112, loss = 0.4861294627189636
+In grad_steps = 113, loss = 0.6986325979232788
+In grad_steps = 114, loss = 0.4302044212818146
+In grad_steps = 115, loss = 0.7943854331970215
+In grad_steps = 116, loss = 0.6557431221008301
+Beginning epoch 4
+In grad_steps = 117, loss = 0.962921142578125
+In grad_steps = 118, loss = 0.3313048779964447
+In grad_steps = 119, loss = 0.7211542725563049
+In grad_steps = 120, loss = 0.646206259727478
+In grad_steps = 121, loss = 0.7703242897987366
+In grad_steps = 122, loss = 0.40162038803100586
+In grad_steps = 123, loss = 0.40849021077156067
+In grad_steps = 124, loss = 0.8015824556350708
+In grad_steps = 125, loss = 0.671744704246521
+In grad_steps = 126, loss = 0.47366753220558167
+In grad_steps = 127, loss = 0.9139876961708069
+In grad_steps = 128, loss = 0.7408418655395508
+In grad_steps = 129, loss = 0.6188889741897583
+In grad_steps = 130, loss = 0.9143139123916626
+In grad_steps = 131, loss = 0.5342835187911987
+In grad_steps = 132, loss = 0.30596670508384705
+In grad_steps = 133, loss = 0.5366743206977844
+In grad_steps = 134, loss = 0.6707141399383545
+In grad_steps = 135, loss = 0.9428918957710266
+In grad_steps = 136, loss = 0.8727331161499023
+In grad_steps = 137, loss = 0.2711597681045532
+In grad_steps = 138, loss = 0.5166508555412292
+In grad_steps = 139, loss = 0.2586241662502289
+In grad_steps = 140, loss = 0.2442585974931717
+In grad_steps = 141, loss = 0.3120749592781067
+In grad_steps = 142, loss = 0.5706163644790649
+In grad_steps = 143, loss = 0.3882409930229187
+In grad_steps = 144, loss = 1.5102307796478271
+In grad_steps = 145, loss = 0.9676783084869385
+In grad_steps = 146, loss = 1.0640652179718018
+In grad_steps = 147, loss = 0.5456857681274414
+In grad_steps = 148, loss = 0.4074258804321289
+In grad_steps = 149, loss = 1.0223019123077393
+In grad_steps = 150, loss = 0.4960523545742035
+In grad_steps = 151, loss = 0.3716219663619995
+In grad_steps = 152, loss = 0.6315670609474182
+In grad_steps = 153, loss = 0.30908915400505066
+In grad_steps = 154, loss = 0.7715951204299927
+In grad_steps = 155, loss = 0.5598354935646057
+Elapsed time: 94.42213034629822 seconds for ensemble 0 with 4 epochs
+Size of token = 4299
+LoRA instance 0 evaluation complete. Data saved to /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/tmp_lora_ensemble/test_data_instance_0_seed_237.npz.
+i = 0, Test ensemble probabilities = 
+[array([[0.65422714, 0.3457729 ],
+       [0.66194206, 0.3380579 ],
+       [0.7444209 , 0.25557908],
+       [0.7158106 , 0.2841894 ],
+       [0.7947747 , 0.20522524],
+       [0.8224096 , 0.17759041],
+       [0.5998327 , 0.40016732],
+       [0.6358114 , 0.36418864],
+       [0.69834787, 0.30165207],
+       [0.4504354 , 0.5495646 ],
+       [0.75072414, 0.24927586]], dtype=float32)]
+i = 0, Test true classes= 
+[0 0 0 1 0 1 0 1 1 0 0]
+lora instance i = 0 Successfully finished.
+Training lora instance 1
+Beginning epoch 1
+In grad_steps = 0, loss = 0.311132550239563
+In grad_steps = 1, loss = 1.796303391456604
+In grad_steps = 2, loss = 0.7804747819900513
+In grad_steps = 3, loss = 0.8475605845451355
+In grad_steps = 4, loss = 0.8236107230186462
+In grad_steps = 5, loss = 0.6157064437866211
+In grad_steps = 6, loss = 0.31127795577049255
+In grad_steps = 7, loss = 1.413370966911316
+In grad_steps = 8, loss = 0.8010070323944092
+In grad_steps = 9, loss = 0.4744868278503418
+In grad_steps = 10, loss = 1.466335415840149
+In grad_steps = 11, loss = 0.9351788759231567
+In grad_steps = 12, loss = 0.6684223413467407
+In grad_steps = 13, loss = 1.158808708190918
+In grad_steps = 14, loss = 0.38163870573043823
+In grad_steps = 15, loss = 0.21745440363883972
+In grad_steps = 16, loss = 0.8944874405860901
+In grad_steps = 17, loss = 0.9998214244842529
+In grad_steps = 18, loss = 1.0554920434951782
+In grad_steps = 19, loss = 1.0003979206085205
+In grad_steps = 20, loss = 0.3535744249820709
+In grad_steps = 21, loss = 0.7808539867401123
+In grad_steps = 22, loss = 0.3609021306037903
+In grad_steps = 23, loss = 0.4487295150756836
+In grad_steps = 24, loss = 0.5058101415634155
+In grad_steps = 25, loss = 0.7845278382301331
+In grad_steps = 26, loss = 0.7288888692855835
+In grad_steps = 27, loss = 1.3662760257720947
+In grad_steps = 28, loss = 0.7929368615150452
+In grad_steps = 29, loss = 1.026271104812622
+In grad_steps = 30, loss = 0.7017964720726013
+In grad_steps = 31, loss = 0.738161563873291
+In grad_steps = 32, loss = 0.9038403034210205
+In grad_steps = 33, loss = 0.6498560309410095
+In grad_steps = 34, loss = 0.5197157859802246
+In grad_steps = 35, loss = 0.6842395067214966
+In grad_steps = 36, loss = 0.5143086314201355
+In grad_steps = 37, loss = 0.7931371927261353
+In grad_steps = 38, loss = 0.7267385721206665
+Beginning epoch 2
+In grad_steps = 39, loss = 1.0188500881195068
+In grad_steps = 40, loss = 0.40919044613838196
+In grad_steps = 41, loss = 0.7294154167175293
+In grad_steps = 42, loss = 0.7356679439544678
+In grad_steps = 43, loss = 0.7112213373184204
+In grad_steps = 44, loss = 0.5196895003318787
+In grad_steps = 45, loss = 0.49085646867752075
+In grad_steps = 46, loss = 0.8726181983947754
+In grad_steps = 47, loss = 0.690929651260376
+In grad_steps = 48, loss = 0.5731210708618164
+In grad_steps = 49, loss = 0.949552059173584
+In grad_steps = 50, loss = 0.8251327276229858
+In grad_steps = 51, loss = 0.7428386211395264
+In grad_steps = 52, loss = 0.7065902948379517
+In grad_steps = 53, loss = 0.6297260522842407
+In grad_steps = 54, loss = 0.4930809736251831
+In grad_steps = 55, loss = 0.6830916404724121
+In grad_steps = 56, loss = 0.736672043800354
+In grad_steps = 57, loss = 0.7929918169975281
+In grad_steps = 58, loss = 0.7831387519836426
+In grad_steps = 59, loss = 0.4107697606086731
+In grad_steps = 60, loss = 0.7535693645477295
+In grad_steps = 61, loss = 0.33225536346435547
+In grad_steps = 62, loss = 0.33662426471710205
+In grad_steps = 63, loss = 0.33407461643218994
+In grad_steps = 64, loss = 0.871618926525116
+In grad_steps = 65, loss = 0.8934833407402039
+In grad_steps = 66, loss = 1.7369697093963623
+In grad_steps = 67, loss = 0.8905244469642639
+In grad_steps = 68, loss = 1.325129508972168
+In grad_steps = 69, loss = 0.7752531170845032
+In grad_steps = 70, loss = 0.7081266641616821
+In grad_steps = 71, loss = 0.6130410432815552
+In grad_steps = 72, loss = 0.6362611055374146
+In grad_steps = 73, loss = 0.6803526878356934
+In grad_steps = 74, loss = 0.6648452281951904
+In grad_steps = 75, loss = 0.6042031049728394
+In grad_steps = 76, loss = 0.7483055591583252
+In grad_steps = 77, loss = 0.6690741777420044
+Beginning epoch 3
+In grad_steps = 78, loss = 0.8769797682762146
+In grad_steps = 79, loss = 0.44119757413864136
+In grad_steps = 80, loss = 0.7153281569480896
+In grad_steps = 81, loss = 0.681978702545166
+In grad_steps = 82, loss = 0.713493287563324
+In grad_steps = 83, loss = 0.47864270210266113
+In grad_steps = 84, loss = 0.450412780046463
+In grad_steps = 85, loss = 0.9154599905014038
+In grad_steps = 86, loss = 0.7119960188865662
+In grad_steps = 87, loss = 0.5032681226730347
+In grad_steps = 88, loss = 0.9841363430023193
+In grad_steps = 89, loss = 0.8335939645767212
+In grad_steps = 90, loss = 0.7255289554595947
+In grad_steps = 91, loss = 0.7739794850349426
+In grad_steps = 92, loss = 0.5552067160606384
+In grad_steps = 93, loss = 0.38389280438423157
+In grad_steps = 94, loss = 0.6868906021118164
+In grad_steps = 95, loss = 0.788834810256958
+In grad_steps = 96, loss = 0.9070531129837036
+In grad_steps = 97, loss = 0.9101723432540894
+In grad_steps = 98, loss = 0.2743228077888489
+In grad_steps = 99, loss = 0.7417479753494263
+In grad_steps = 100, loss = 0.2592969536781311
+In grad_steps = 101, loss = 0.2954500615596771
+In grad_steps = 102, loss = 0.3385159969329834
+In grad_steps = 103, loss = 0.8342186212539673
+In grad_steps = 104, loss = 0.8087502717971802
+In grad_steps = 105, loss = 1.6688326597213745
+In grad_steps = 106, loss = 0.861815869808197
+In grad_steps = 107, loss = 1.1870839595794678
+In grad_steps = 108, loss = 0.721529483795166
+In grad_steps = 109, loss = 0.6303601861000061
+In grad_steps = 110, loss = 0.8026916980743408
+In grad_steps = 111, loss = 0.6128178834915161
+In grad_steps = 112, loss = 0.48126858472824097
+In grad_steps = 113, loss = 0.7055225968360901
+In grad_steps = 114, loss = 0.4243587255477905
+In grad_steps = 115, loss = 0.8021745681762695
+In grad_steps = 116, loss = 0.6475811004638672
+Beginning epoch 4
+In grad_steps = 117, loss = 0.9779151678085327
+In grad_steps = 118, loss = 0.32479530572891235
+In grad_steps = 119, loss = 0.7211377620697021
+In grad_steps = 120, loss = 0.6369057893753052
+In grad_steps = 121, loss = 0.7837764620780945
+In grad_steps = 122, loss = 0.4024226665496826
+In grad_steps = 123, loss = 0.4093540608882904
+In grad_steps = 124, loss = 0.784355878829956
+In grad_steps = 125, loss = 0.6657264828681946
+In grad_steps = 126, loss = 0.4809707999229431
+In grad_steps = 127, loss = 0.8991105556488037
+In grad_steps = 128, loss = 0.7017220258712769
+In grad_steps = 129, loss = 0.5892287492752075
+In grad_steps = 130, loss = 0.9546447396278381
+In grad_steps = 131, loss = 0.5051639676094055
+In grad_steps = 132, loss = 0.2801341116428375
+In grad_steps = 133, loss = 0.4951157867908478
+In grad_steps = 134, loss = 0.6790048480033875
+In grad_steps = 135, loss = 0.988369345664978
+In grad_steps = 136, loss = 0.9196154475212097
+In grad_steps = 137, loss = 0.2588886022567749
+In grad_steps = 138, loss = 0.4850625991821289
+In grad_steps = 139, loss = 0.2529114782810211
+In grad_steps = 140, loss = 0.2581985294818878
+In grad_steps = 141, loss = 0.3382277488708496
+In grad_steps = 142, loss = 0.5963550806045532
+In grad_steps = 143, loss = 0.32619696855545044
+In grad_steps = 144, loss = 1.334709644317627
+In grad_steps = 145, loss = 0.9315475225448608
+In grad_steps = 146, loss = 1.0476627349853516
+In grad_steps = 147, loss = 0.5070765614509583
+In grad_steps = 148, loss = 0.3183169364929199
+In grad_steps = 149, loss = 1.1007764339447021
+In grad_steps = 150, loss = 0.6305885910987854
+In grad_steps = 151, loss = 0.27170100808143616
+In grad_steps = 152, loss = 0.6882793307304382
+In grad_steps = 153, loss = 0.25281059741973877
+In grad_steps = 154, loss = 0.7191817760467529
+In grad_steps = 155, loss = 0.5037962198257446
+Elapsed time: 93.45921611785889 seconds for ensemble 1 with 4 epochs
+Size of token = 4299
+LoRA instance 1 evaluation complete. Data saved to /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/tmp_lora_ensemble/test_data_instance_1_seed_10330.npz.
+i = 1, Test ensemble probabilities = 
+[array([[0.65422714, 0.3457729 ],
+       [0.66194206, 0.3380579 ],
+       [0.7444209 , 0.25557908],
+       [0.7158106 , 0.2841894 ],
+       [0.7947747 , 0.20522524],
+       [0.8224096 , 0.17759041],
+       [0.5998327 , 0.40016732],
+       [0.6358114 , 0.36418864],
+       [0.69834787, 0.30165207],
+       [0.4504354 , 0.5495646 ],
+       [0.75072414, 0.24927586]], dtype=float32), array([[0.64426136, 0.3557386 ],
+       [0.643909  , 0.35609105],
+       [0.7091348 , 0.2908652 ],
+       [0.73662376, 0.2633762 ],
+       [0.7995952 , 0.20040482],
+       [0.8299043 , 0.17009564],
+       [0.5878886 , 0.41211143],
+       [0.6677907 , 0.33220926],
+       [0.6674661 , 0.3325339 ],
+       [0.2909616 , 0.70903844],
+       [0.6423032 , 0.35769677]], dtype=float32)]
+i = 1, Test true classes= 
+[0 0 0 1 0 1 0 1 1 0 0]
+lora instance i = 1 Successfully finished.
+Training lora instance 2
+Beginning epoch 1
+In grad_steps = 0, loss = 0.311132550239563
+In grad_steps = 1, loss = 1.9035016298294067
+In grad_steps = 2, loss = 0.7791434526443481
+In grad_steps = 3, loss = 0.8427401185035706
+In grad_steps = 4, loss = 0.8148961067199707
+In grad_steps = 5, loss = 0.6162521839141846
+In grad_steps = 6, loss = 0.32836806774139404
+In grad_steps = 7, loss = 1.361112117767334
+In grad_steps = 8, loss = 0.8049596548080444
+In grad_steps = 9, loss = 0.47598594427108765
+In grad_steps = 10, loss = 1.473785161972046
+In grad_steps = 11, loss = 0.9495605230331421
+In grad_steps = 12, loss = 0.6616814136505127
+In grad_steps = 13, loss = 1.1735072135925293
+In grad_steps = 14, loss = 0.3907691240310669
+In grad_steps = 15, loss = 0.22960969805717468
+In grad_steps = 16, loss = 0.8917567729949951
+In grad_steps = 17, loss = 0.991051197052002
+In grad_steps = 18, loss = 1.0409748554229736
+In grad_steps = 19, loss = 1.009222149848938
+In grad_steps = 20, loss = 0.34650933742523193
+In grad_steps = 21, loss = 0.774941086769104
+In grad_steps = 22, loss = 0.3797587752342224
+In grad_steps = 23, loss = 0.44845759868621826
+In grad_steps = 24, loss = 0.5083889961242676
+In grad_steps = 25, loss = 0.7914462089538574
+In grad_steps = 26, loss = 0.740789532661438
+In grad_steps = 27, loss = 1.3760623931884766
+In grad_steps = 28, loss = 0.8164389729499817
+In grad_steps = 29, loss = 1.0249758958816528
+In grad_steps = 30, loss = 0.710019588470459
+In grad_steps = 31, loss = 0.716103732585907
+In grad_steps = 32, loss = 0.896875262260437
+In grad_steps = 33, loss = 0.6441341638565063
+In grad_steps = 34, loss = 0.5241169929504395
+In grad_steps = 35, loss = 0.6654820442199707
+In grad_steps = 36, loss = 0.512184202671051
+In grad_steps = 37, loss = 0.8028698563575745
+In grad_steps = 38, loss = 0.7329431176185608
+Beginning epoch 2
+In grad_steps = 39, loss = 1.029327154159546
+In grad_steps = 40, loss = 0.40853798389434814
+In grad_steps = 41, loss = 0.7332835793495178
+In grad_steps = 42, loss = 0.7305504083633423
+In grad_steps = 43, loss = 0.6994467377662659
+In grad_steps = 44, loss = 0.5239288806915283
+In grad_steps = 45, loss = 0.4984560012817383
+In grad_steps = 46, loss = 0.8670421838760376
+In grad_steps = 47, loss = 0.6903830766677856
+In grad_steps = 48, loss = 0.5617549419403076
+In grad_steps = 49, loss = 0.934154748916626
+In grad_steps = 50, loss = 0.8241696357727051
+In grad_steps = 51, loss = 0.7495507597923279
+In grad_steps = 52, loss = 0.7063751816749573
+In grad_steps = 53, loss = 0.6375734806060791
+In grad_steps = 54, loss = 0.515690803527832
+In grad_steps = 55, loss = 0.6843014359474182
+In grad_steps = 56, loss = 0.7330927848815918
+In grad_steps = 57, loss = 0.7828595638275146
+In grad_steps = 58, loss = 0.798798143863678
+In grad_steps = 59, loss = 0.4033130407333374
+In grad_steps = 60, loss = 0.7583330869674683
+In grad_steps = 61, loss = 0.32626569271087646
+In grad_steps = 62, loss = 0.3318138122558594
+In grad_steps = 63, loss = 0.3229738473892212
+In grad_steps = 64, loss = 0.887286901473999
+In grad_steps = 65, loss = 0.8938782215118408
+In grad_steps = 66, loss = 1.742095708847046
+In grad_steps = 67, loss = 0.8879319429397583
+In grad_steps = 68, loss = 1.3131701946258545
+In grad_steps = 69, loss = 0.7723459601402283
+In grad_steps = 70, loss = 0.7131104469299316
+In grad_steps = 71, loss = 0.6096843481063843
+In grad_steps = 72, loss = 0.6320582628250122
+In grad_steps = 73, loss = 0.6861528158187866
+In grad_steps = 74, loss = 0.6658706665039062
+In grad_steps = 75, loss = 0.6106064319610596
+In grad_steps = 76, loss = 0.7502973079681396
+In grad_steps = 77, loss = 0.6574374437332153
+Beginning epoch 3
+In grad_steps = 78, loss = 0.841745138168335
+In grad_steps = 79, loss = 0.44039762020111084
+In grad_steps = 80, loss = 0.7194704413414001
+In grad_steps = 81, loss = 0.6812214851379395
+In grad_steps = 82, loss = 0.7111572027206421
+In grad_steps = 83, loss = 0.481677383184433
+In grad_steps = 84, loss = 0.448622465133667
+In grad_steps = 85, loss = 0.9007046818733215
+In grad_steps = 86, loss = 0.6982704401016235
+In grad_steps = 87, loss = 0.508101224899292
+In grad_steps = 88, loss = 0.9827734231948853
+In grad_steps = 89, loss = 0.8114706873893738
+In grad_steps = 90, loss = 0.7047238349914551
+In grad_steps = 91, loss = 0.8066871762275696
+In grad_steps = 92, loss = 0.5388509035110474
+In grad_steps = 93, loss = 0.3605484366416931
+In grad_steps = 94, loss = 0.6786323189735413
+In grad_steps = 95, loss = 0.7864518165588379
+In grad_steps = 96, loss = 0.9479297399520874
+In grad_steps = 97, loss = 0.8988686203956604
+In grad_steps = 98, loss = 0.28358185291290283
+In grad_steps = 99, loss = 0.7190980315208435
+In grad_steps = 100, loss = 0.2594224810600281
+In grad_steps = 101, loss = 0.3092111349105835
+In grad_steps = 102, loss = 0.3630337119102478
+In grad_steps = 103, loss = 0.816443920135498
+In grad_steps = 104, loss = 0.7897920608520508
+In grad_steps = 105, loss = 1.6742626428604126
+In grad_steps = 106, loss = 0.8751562833786011
+In grad_steps = 107, loss = 1.1005370616912842
+In grad_steps = 108, loss = 0.7194045186042786
+In grad_steps = 109, loss = 0.6445872783660889
+In grad_steps = 110, loss = 0.832985520362854
+In grad_steps = 111, loss = 0.6019487380981445
+In grad_steps = 112, loss = 0.4706895351409912
+In grad_steps = 113, loss = 0.7133802771568298
+In grad_steps = 114, loss = 0.4187285304069519
+In grad_steps = 115, loss = 0.8129074573516846
+In grad_steps = 116, loss = 0.6549140214920044
+Beginning epoch 4
+In grad_steps = 117, loss = 0.9666489362716675
+In grad_steps = 118, loss = 0.333204448223114
+In grad_steps = 119, loss = 0.7334034442901611
+In grad_steps = 120, loss = 0.6505814790725708
+In grad_steps = 121, loss = 0.7797843217849731
+In grad_steps = 122, loss = 0.39388978481292725
+In grad_steps = 123, loss = 0.407164990901947
+In grad_steps = 124, loss = 0.8021765351295471
+In grad_steps = 125, loss = 0.6594583988189697
+In grad_steps = 126, loss = 0.48311877250671387
+In grad_steps = 127, loss = 0.8998023271560669
+In grad_steps = 128, loss = 0.7421987652778625
+In grad_steps = 129, loss = 0.6385327577590942
+In grad_steps = 130, loss = 0.8192694187164307
+In grad_steps = 131, loss = 0.5609534978866577
+In grad_steps = 132, loss = 0.3468760848045349
+In grad_steps = 133, loss = 0.5151169300079346
+In grad_steps = 134, loss = 0.6638065576553345
+In grad_steps = 135, loss = 0.8829376697540283
+In grad_steps = 136, loss = 0.8304608464241028
+In grad_steps = 137, loss = 0.24290350079536438
+In grad_steps = 138, loss = 0.5202150344848633
+In grad_steps = 139, loss = 0.20536813139915466
+In grad_steps = 140, loss = 0.18802757561206818
+In grad_steps = 141, loss = 0.21240247786045074
+In grad_steps = 142, loss = 0.6215074062347412
+In grad_steps = 143, loss = 0.26546844840049744
+In grad_steps = 144, loss = 1.701819896697998
+In grad_steps = 145, loss = 1.0297508239746094
+In grad_steps = 146, loss = 0.9125553369522095
+In grad_steps = 147, loss = 0.5285331010818481
+In grad_steps = 148, loss = 0.3582952916622162
+In grad_steps = 149, loss = 1.3024224042892456
+In grad_steps = 150, loss = 0.7042132616043091
+In grad_steps = 151, loss = 0.2630452811717987
+In grad_steps = 152, loss = 0.6629859209060669
+In grad_steps = 153, loss = 0.29778432846069336
+In grad_steps = 154, loss = 0.762678861618042
+In grad_steps = 155, loss = 0.5194276571273804
+Elapsed time: 93.45060801506042 seconds for ensemble 2 with 4 epochs
+Size of token = 4299
+LoRA instance 2 evaluation complete. Data saved to /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/tmp_lora_ensemble/test_data_instance_2_seed_20423.npz.
+i = 2, Test ensemble probabilities = 
+[array([[0.65422714, 0.3457729 ],
+       [0.66194206, 0.3380579 ],
+       [0.7444209 , 0.25557908],
+       [0.7158106 , 0.2841894 ],
+       [0.7947747 , 0.20522524],
+       [0.8224096 , 0.17759041],
+       [0.5998327 , 0.40016732],
+       [0.6358114 , 0.36418864],
+       [0.69834787, 0.30165207],
+       [0.4504354 , 0.5495646 ],
+       [0.75072414, 0.24927586]], dtype=float32), array([[0.64426136, 0.3557386 ],
+       [0.643909  , 0.35609105],
+       [0.7091348 , 0.2908652 ],
+       [0.73662376, 0.2633762 ],
+       [0.7995952 , 0.20040482],
+       [0.8299043 , 0.17009564],
+       [0.5878886 , 0.41211143],
+       [0.6677907 , 0.33220926],
+       [0.6674661 , 0.3325339 ],
+       [0.2909616 , 0.70903844],
+       [0.6423032 , 0.35769677]], dtype=float32), array([[0.57317823, 0.42682174],
+       [0.59717715, 0.4028229 ],
+       [0.6754724 , 0.3245276 ],
+       [0.72882295, 0.27117705],
+       [0.7077823 , 0.2922176 ],
+       [0.72457993, 0.27542004],
+       [0.5498384 , 0.45016155],
+       [0.54017305, 0.45982695],
+       [0.6140835 , 0.3859165 ],
+       [0.33856434, 0.6614357 ],
+       [0.550605  , 0.44939497]], dtype=float32)]
+i = 2, Test true classes= 
+[0 0 0 1 0 1 0 1 1 0 0]
+lora instance i = 2 Successfully finished.
+Training lora instance 3
+Beginning epoch 1
+In grad_steps = 0, loss = 0.311132550239563
+In grad_steps = 1, loss = 1.781538724899292
+In grad_steps = 2, loss = 0.7765567898750305
+In grad_steps = 3, loss = 0.8429195880889893
+In grad_steps = 4, loss = 0.8292131423950195
+In grad_steps = 5, loss = 0.6218160390853882
+In grad_steps = 6, loss = 0.32351016998291016
+In grad_steps = 7, loss = 1.3962897062301636
+In grad_steps = 8, loss = 0.7953774929046631
+In grad_steps = 9, loss = 0.46546313166618347
+In grad_steps = 10, loss = 1.4579167366027832
+In grad_steps = 11, loss = 0.9602126479148865
+In grad_steps = 12, loss = 0.6466449499130249
+In grad_steps = 13, loss = 1.1669912338256836
+In grad_steps = 14, loss = 0.3660070598125458
+In grad_steps = 15, loss = 0.21996945142745972
+In grad_steps = 16, loss = 0.9317553043365479
+In grad_steps = 17, loss = 0.9932332634925842
+In grad_steps = 18, loss = 1.0515623092651367
+In grad_steps = 19, loss = 0.9850882291793823
+In grad_steps = 20, loss = 0.34548693895339966
+In grad_steps = 21, loss = 0.7720813155174255
+In grad_steps = 22, loss = 0.36735081672668457
+In grad_steps = 23, loss = 0.4501723647117615
+In grad_steps = 24, loss = 0.5029394626617432
+In grad_steps = 25, loss = 0.7727553844451904
+In grad_steps = 26, loss = 0.7289168238639832
+In grad_steps = 27, loss = 1.356898546218872
+In grad_steps = 28, loss = 0.8168199062347412
+In grad_steps = 29, loss = 1.042388677597046
+In grad_steps = 30, loss = 0.7096233367919922
+In grad_steps = 31, loss = 0.7098556160926819
+In grad_steps = 32, loss = 0.8811249732971191
+In grad_steps = 33, loss = 0.661758303642273
+In grad_steps = 34, loss = 0.5140343308448792
+In grad_steps = 35, loss = 0.6715299487113953
+In grad_steps = 36, loss = 0.5018160343170166
+In grad_steps = 37, loss = 0.804777204990387
+In grad_steps = 38, loss = 0.7479023933410645
+Beginning epoch 2
+In grad_steps = 39, loss = 0.9918438792228699
+In grad_steps = 40, loss = 0.4082123339176178
+In grad_steps = 41, loss = 0.7382032871246338
+In grad_steps = 42, loss = 0.7360994219779968
+In grad_steps = 43, loss = 0.6963221430778503
+In grad_steps = 44, loss = 0.5242459774017334
+In grad_steps = 45, loss = 0.4847143888473511
+In grad_steps = 46, loss = 0.8808540105819702
+In grad_steps = 47, loss = 0.7019591331481934
+In grad_steps = 48, loss = 0.562437117099762
+In grad_steps = 49, loss = 0.9461014866828918
+In grad_steps = 50, loss = 0.8297201991081238
+In grad_steps = 51, loss = 0.7552515268325806
+In grad_steps = 52, loss = 0.7117632031440735
+In grad_steps = 53, loss = 0.6295285224914551
+In grad_steps = 54, loss = 0.5091804265975952
+In grad_steps = 55, loss = 0.6837294101715088
+In grad_steps = 56, loss = 0.7278444170951843
+In grad_steps = 57, loss = 0.7952355146408081
+In grad_steps = 58, loss = 0.789114236831665
+In grad_steps = 59, loss = 0.39625224471092224
+In grad_steps = 60, loss = 0.7413690090179443
+In grad_steps = 61, loss = 0.3342229127883911
+In grad_steps = 62, loss = 0.33820396661758423
+In grad_steps = 63, loss = 0.33068910241127014
+In grad_steps = 64, loss = 0.8827912211418152
+In grad_steps = 65, loss = 0.8830968737602234
+In grad_steps = 66, loss = 1.7449073791503906
+In grad_steps = 67, loss = 0.8784860968589783
+In grad_steps = 68, loss = 1.3238039016723633
+In grad_steps = 69, loss = 0.7702158093452454
+In grad_steps = 70, loss = 0.7154515385627747
+In grad_steps = 71, loss = 0.6181116104125977
+In grad_steps = 72, loss = 0.6438252925872803
+In grad_steps = 73, loss = 0.6831721067428589
+In grad_steps = 74, loss = 0.6652151346206665
+In grad_steps = 75, loss = 0.6009166240692139
+In grad_steps = 76, loss = 0.7404634952545166
+In grad_steps = 77, loss = 0.6657761335372925
+Beginning epoch 3
+In grad_steps = 78, loss = 0.863773763179779
+In grad_steps = 79, loss = 0.45045989751815796
+In grad_steps = 80, loss = 0.7190630435943604
+In grad_steps = 81, loss = 0.6940984725952148
+In grad_steps = 82, loss = 0.7279688119888306
+In grad_steps = 83, loss = 0.4855305850505829
+In grad_steps = 84, loss = 0.45566999912261963
+In grad_steps = 85, loss = 0.9208935499191284
+In grad_steps = 86, loss = 0.7118957042694092
+In grad_steps = 87, loss = 0.5067521929740906
+In grad_steps = 88, loss = 0.9748503565788269
+In grad_steps = 89, loss = 0.8271397352218628
+In grad_steps = 90, loss = 0.7152698040008545
+In grad_steps = 91, loss = 0.8048853874206543
+In grad_steps = 92, loss = 0.5260568857192993
+In grad_steps = 93, loss = 0.3770284950733185
+In grad_steps = 94, loss = 0.7033936977386475
+In grad_steps = 95, loss = 0.8101884722709656
+In grad_steps = 96, loss = 0.9364302754402161
+In grad_steps = 97, loss = 0.8912819623947144
+In grad_steps = 98, loss = 0.2920351028442383
+In grad_steps = 99, loss = 0.7391906380653381
+In grad_steps = 100, loss = 0.2734367251396179
+In grad_steps = 101, loss = 0.3087444603443146
+In grad_steps = 102, loss = 0.35367339849472046
+In grad_steps = 103, loss = 0.8187177181243896
+In grad_steps = 104, loss = 0.8332202434539795
+In grad_steps = 105, loss = 1.6462600231170654
+In grad_steps = 106, loss = 0.8330498337745667
+In grad_steps = 107, loss = 1.133568286895752
+In grad_steps = 108, loss = 0.724048376083374
+In grad_steps = 109, loss = 0.6723288893699646
+In grad_steps = 110, loss = 0.7926300764083862
+In grad_steps = 111, loss = 0.6106741428375244
+In grad_steps = 112, loss = 0.5009354948997498
+In grad_steps = 113, loss = 0.7009454965591431
+In grad_steps = 114, loss = 0.4381146728992462
+In grad_steps = 115, loss = 0.7913748025894165
+In grad_steps = 116, loss = 0.6356483697891235
+Beginning epoch 4
+In grad_steps = 117, loss = 0.955512285232544
+In grad_steps = 118, loss = 0.34232574701309204
+In grad_steps = 119, loss = 0.7317866086959839
+In grad_steps = 120, loss = 0.6530735492706299
+In grad_steps = 121, loss = 0.7779352068901062
+In grad_steps = 122, loss = 0.40132951736450195
+In grad_steps = 123, loss = 0.40197351574897766
+In grad_steps = 124, loss = 0.8331682682037354
+In grad_steps = 125, loss = 0.6769178509712219
+In grad_steps = 126, loss = 0.4577474594116211
+In grad_steps = 127, loss = 0.9352571368217468
+In grad_steps = 128, loss = 0.7647148370742798
+In grad_steps = 129, loss = 0.6543827056884766
+In grad_steps = 130, loss = 0.8278589248657227
+In grad_steps = 131, loss = 0.5598543882369995
+In grad_steps = 132, loss = 0.33319011330604553
+In grad_steps = 133, loss = 0.520754873752594
+In grad_steps = 134, loss = 0.6852646470069885
+In grad_steps = 135, loss = 0.9407676458358765
+In grad_steps = 136, loss = 0.9120948314666748
+In grad_steps = 137, loss = 0.25927338004112244
+In grad_steps = 138, loss = 0.5411115884780884
+In grad_steps = 139, loss = 0.2363554835319519
+In grad_steps = 140, loss = 0.22772133350372314
+In grad_steps = 141, loss = 0.29005661606788635
+In grad_steps = 142, loss = 0.6467443704605103
+In grad_steps = 143, loss = 0.4658339321613312
+In grad_steps = 144, loss = 1.6558589935302734
+In grad_steps = 145, loss = 0.9192872047424316
+In grad_steps = 146, loss = 1.0217057466506958
+In grad_steps = 147, loss = 0.5784121751785278
+In grad_steps = 148, loss = 0.40328919887542725
+In grad_steps = 149, loss = 0.9258493781089783
+In grad_steps = 150, loss = 0.5656189918518066
+In grad_steps = 151, loss = 0.3235207796096802
+In grad_steps = 152, loss = 0.6744623184204102
+In grad_steps = 153, loss = 0.22464993596076965
+In grad_steps = 154, loss = 0.761597752571106
+In grad_steps = 155, loss = 0.5385724306106567
+Elapsed time: 93.41437864303589 seconds for ensemble 3 with 4 epochs
+Size of token = 4299
+LoRA instance 3 evaluation complete. Data saved to /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/tmp_lora_ensemble/test_data_instance_3_seed_30516.npz.
+i = 3, Test ensemble probabilities = 
+[array([[0.65422714, 0.3457729 ],
+       [0.66194206, 0.3380579 ],
+       [0.7444209 , 0.25557908],
+       [0.7158106 , 0.2841894 ],
+       [0.7947747 , 0.20522524],
+       [0.8224096 , 0.17759041],
+       [0.5998327 , 0.40016732],
+       [0.6358114 , 0.36418864],
+       [0.69834787, 0.30165207],
+       [0.4504354 , 0.5495646 ],
+       [0.75072414, 0.24927586]], dtype=float32), array([[0.64426136, 0.3557386 ],
+       [0.643909  , 0.35609105],
+       [0.7091348 , 0.2908652 ],
+       [0.73662376, 0.2633762 ],
+       [0.7995952 , 0.20040482],
+       [0.8299043 , 0.17009564],
+       [0.5878886 , 0.41211143],
+       [0.6677907 , 0.33220926],
+       [0.6674661 , 0.3325339 ],
+       [0.2909616 , 0.70903844],
+       [0.6423032 , 0.35769677]], dtype=float32), array([[0.57317823, 0.42682174],
+       [0.59717715, 0.4028229 ],
+       [0.6754724 , 0.3245276 ],
+       [0.72882295, 0.27117705],
+       [0.7077823 , 0.2922176 ],
+       [0.72457993, 0.27542004],
+       [0.5498384 , 0.45016155],
+       [0.54017305, 0.45982695],
+       [0.6140835 , 0.3859165 ],
+       [0.33856434, 0.6614357 ],
+       [0.550605  , 0.44939497]], dtype=float32), array([[0.6838122 , 0.31618777],
+       [0.6933574 , 0.3066426 ],
+       [0.7447118 , 0.25528818],
+       [0.7765665 , 0.22343348],
+       [0.79215884, 0.20784114],
+       [0.8078135 , 0.19218643],
+       [0.6159739 , 0.38402608],
+       [0.68982416, 0.31017584],
+       [0.6919195 , 0.30808046],
+       [0.5025696 , 0.49743035],
+       [0.7408308 , 0.25916922]], dtype=float32)]
+i = 3, Test true classes= 
+[0 0 0 1 0 1 0 1 1 0 0]
+lora instance i = 3 Successfully finished.
+Training lora instance 4
+Beginning epoch 1
+In grad_steps = 0, loss = 0.311132550239563
+In grad_steps = 1, loss = 1.8044966459274292
+In grad_steps = 2, loss = 0.7739000916481018
+In grad_steps = 3, loss = 0.846203088760376
+In grad_steps = 4, loss = 0.8224568367004395
+In grad_steps = 5, loss = 0.6305058002471924
+In grad_steps = 6, loss = 0.33196985721588135
+In grad_steps = 7, loss = 1.3532960414886475
+In grad_steps = 8, loss = 0.7836886048316956
+In grad_steps = 9, loss = 0.4736807644367218
+In grad_steps = 10, loss = 1.44936203956604
+In grad_steps = 11, loss = 0.9515326023101807
+In grad_steps = 12, loss = 0.654728889465332
+In grad_steps = 13, loss = 1.2139830589294434
+In grad_steps = 14, loss = 0.381409227848053
+In grad_steps = 15, loss = 0.21243798732757568
+In grad_steps = 16, loss = 0.8930505514144897
+In grad_steps = 17, loss = 0.9984073638916016
+In grad_steps = 18, loss = 1.0538345575332642
+In grad_steps = 19, loss = 0.9735482335090637
+In grad_steps = 20, loss = 0.36489251255989075
+In grad_steps = 21, loss = 0.769521176815033
+In grad_steps = 22, loss = 0.3805640935897827
+In grad_steps = 23, loss = 0.4396095871925354
+In grad_steps = 24, loss = 0.5257360935211182
+In grad_steps = 25, loss = 0.7673318386077881
+In grad_steps = 26, loss = 0.7276427745819092
+In grad_steps = 27, loss = 1.3910436630249023
+In grad_steps = 28, loss = 0.830499529838562
+In grad_steps = 29, loss = 1.0354663133621216
+In grad_steps = 30, loss = 0.7343767881393433
+In grad_steps = 31, loss = 0.7047317028045654
+In grad_steps = 32, loss = 0.8759254217147827
+In grad_steps = 33, loss = 0.6450577974319458
+In grad_steps = 34, loss = 0.5488945841789246
+In grad_steps = 35, loss = 0.6801115274429321
+In grad_steps = 36, loss = 0.5073416233062744
+In grad_steps = 37, loss = 0.8010032176971436
+In grad_steps = 38, loss = 0.73371422290802
+Beginning epoch 2
+In grad_steps = 39, loss = 1.0230462551116943
+In grad_steps = 40, loss = 0.40238696336746216
+In grad_steps = 41, loss = 0.7439573407173157
+In grad_steps = 42, loss = 0.7311281561851501
+In grad_steps = 43, loss = 0.7115745544433594
+In grad_steps = 44, loss = 0.5047503709793091
+In grad_steps = 45, loss = 0.4800524115562439
+In grad_steps = 46, loss = 0.8914405107498169
+In grad_steps = 47, loss = 0.6986968517303467
+In grad_steps = 48, loss = 0.5483763217926025
+In grad_steps = 49, loss = 0.949393630027771
+In grad_steps = 50, loss = 0.8384013175964355
+In grad_steps = 51, loss = 0.7610846161842346
+In grad_steps = 52, loss = 0.7058306336402893
+In grad_steps = 53, loss = 0.6329171657562256
+In grad_steps = 54, loss = 0.510277509689331
+In grad_steps = 55, loss = 0.6927322149276733
+In grad_steps = 56, loss = 0.7354320287704468
+In grad_steps = 57, loss = 0.7820494174957275
+In grad_steps = 58, loss = 0.7938886880874634
+In grad_steps = 59, loss = 0.40617090463638306
+In grad_steps = 60, loss = 0.7560064792633057
+In grad_steps = 61, loss = 0.3277718424797058
+In grad_steps = 62, loss = 0.3343919515609741
+In grad_steps = 63, loss = 0.33118605613708496
+In grad_steps = 64, loss = 0.8771358728408813
+In grad_steps = 65, loss = 0.8972592353820801
+In grad_steps = 66, loss = 1.7395111322402954
+In grad_steps = 67, loss = 0.8835693597793579
+In grad_steps = 68, loss = 1.3153294324874878
+In grad_steps = 69, loss = 0.7692734003067017
+In grad_steps = 70, loss = 0.7139233350753784
+In grad_steps = 71, loss = 0.606214165687561
+In grad_steps = 72, loss = 0.637438178062439
+In grad_steps = 73, loss = 0.6914433240890503
+In grad_steps = 74, loss = 0.6691714525222778
+In grad_steps = 75, loss = 0.6004038453102112
+In grad_steps = 76, loss = 0.7466758489608765
+In grad_steps = 77, loss = 0.6656965613365173
+Beginning epoch 3
+In grad_steps = 78, loss = 0.8621288537979126
+In grad_steps = 79, loss = 0.44529855251312256
+In grad_steps = 80, loss = 0.717004656791687
+In grad_steps = 81, loss = 0.6848714351654053
+In grad_steps = 82, loss = 0.7241472601890564
+In grad_steps = 83, loss = 0.48324015736579895
+In grad_steps = 84, loss = 0.45036929845809937
+In grad_steps = 85, loss = 0.9098595976829529
+In grad_steps = 86, loss = 0.709355890750885
+In grad_steps = 87, loss = 0.500433623790741
+In grad_steps = 88, loss = 0.9793382287025452
+In grad_steps = 89, loss = 0.835761308670044
+In grad_steps = 90, loss = 0.7302278280258179
+In grad_steps = 91, loss = 0.7785569429397583
+In grad_steps = 92, loss = 0.5544606447219849
+In grad_steps = 93, loss = 0.3708682060241699
+In grad_steps = 94, loss = 0.6760404706001282
+In grad_steps = 95, loss = 0.7800285220146179
+In grad_steps = 96, loss = 0.9123167395591736
+In grad_steps = 97, loss = 0.8894723057746887
+In grad_steps = 98, loss = 0.28894785046577454
+In grad_steps = 99, loss = 0.7421598434448242
+In grad_steps = 100, loss = 0.25786128640174866
+In grad_steps = 101, loss = 0.2932845652103424
+In grad_steps = 102, loss = 0.3397355377674103
+In grad_steps = 103, loss = 0.8385621905326843
+In grad_steps = 104, loss = 0.8088397979736328
+In grad_steps = 105, loss = 1.6850125789642334
+In grad_steps = 106, loss = 0.8627915382385254
+In grad_steps = 107, loss = 1.150720477104187
+In grad_steps = 108, loss = 0.7211980223655701
+In grad_steps = 109, loss = 0.6455848217010498
+In grad_steps = 110, loss = 0.797271728515625
+In grad_steps = 111, loss = 0.6078537702560425
+In grad_steps = 112, loss = 0.48876625299453735
+In grad_steps = 113, loss = 0.7005386352539062
+In grad_steps = 114, loss = 0.4244037866592407
+In grad_steps = 115, loss = 0.7901711463928223
+In grad_steps = 116, loss = 0.6554387211799622
+Beginning epoch 4
+In grad_steps = 117, loss = 0.941586971282959
+In grad_steps = 118, loss = 0.32794660329818726
+In grad_steps = 119, loss = 0.7213287353515625
+In grad_steps = 120, loss = 0.6355525851249695
+In grad_steps = 121, loss = 0.7809141874313354
+In grad_steps = 122, loss = 0.39647871255874634
+In grad_steps = 123, loss = 0.40085962414741516
+In grad_steps = 124, loss = 0.799190878868103
+In grad_steps = 125, loss = 0.6502735614776611
+In grad_steps = 126, loss = 0.4668741226196289
+In grad_steps = 127, loss = 0.9248617887496948
+In grad_steps = 128, loss = 0.7140451669692993
+In grad_steps = 129, loss = 0.5995111465454102
+In grad_steps = 130, loss = 0.9601407051086426
+In grad_steps = 131, loss = 0.5012656450271606
+In grad_steps = 132, loss = 0.2836201786994934
+In grad_steps = 133, loss = 0.5178633332252502
+In grad_steps = 134, loss = 0.6811067461967468
+In grad_steps = 135, loss = 0.954521656036377
+In grad_steps = 136, loss = 0.8847621083259583
+In grad_steps = 137, loss = 0.2655048668384552
+In grad_steps = 138, loss = 0.5007213354110718
+In grad_steps = 139, loss = 0.26129162311553955
+In grad_steps = 140, loss = 0.2644989788532257
+In grad_steps = 141, loss = 0.33141836524009705
+In grad_steps = 142, loss = 0.5886421203613281
+In grad_steps = 143, loss = 0.3308357000350952
+In grad_steps = 144, loss = 1.4915721416473389
+In grad_steps = 145, loss = 0.9653079509735107
+In grad_steps = 146, loss = 1.0250399112701416
+In grad_steps = 147, loss = 0.5290976762771606
+In grad_steps = 148, loss = 0.3980216383934021
+In grad_steps = 149, loss = 1.1257662773132324
+In grad_steps = 150, loss = 0.5990403294563293
+In grad_steps = 151, loss = 0.28467249870300293
+In grad_steps = 152, loss = 0.6604220271110535
+In grad_steps = 153, loss = 0.2553401589393616
+In grad_steps = 154, loss = 0.7661463618278503
+In grad_steps = 155, loss = 0.5370579361915588
+Elapsed time: 93.5375919342041 seconds for ensemble 4 with 4 epochs
+Size of token = 4299
+LoRA instance 4 evaluation complete. Data saved to /pscratch/sd/t/tianle/lucid/other_source/SURP_2024/results/tmp_lora_ensemble/test_data_instance_4_seed_40609.npz.
+i = 4, Test ensemble probabilities = 
+[array([[0.65422714, 0.3457729 ],
+       [0.66194206, 0.3380579 ],
+       [0.7444209 , 0.25557908],
+       [0.7158106 , 0.2841894 ],
+       [0.7947747 , 0.20522524],
+       [0.8224096 , 0.17759041],
+       [0.5998327 , 0.40016732],
+       [0.6358114 , 0.36418864],
+       [0.69834787, 0.30165207],
+       [0.4504354 , 0.5495646 ],
+       [0.75072414, 0.24927586]], dtype=float32), array([[0.64426136, 0.3557386 ],
+       [0.643909  , 0.35609105],
+       [0.7091348 , 0.2908652 ],
+       [0.73662376, 0.2633762 ],
+       [0.7995952 , 0.20040482],
+       [0.8299043 , 0.17009564],
+       [0.5878886 , 0.41211143],
+       [0.6677907 , 0.33220926],
+       [0.6674661 , 0.3325339 ],
+       [0.2909616 , 0.70903844],
+       [0.6423032 , 0.35769677]], dtype=float32), array([[0.57317823, 0.42682174],
+       [0.59717715, 0.4028229 ],
+       [0.6754724 , 0.3245276 ],
+       [0.72882295, 0.27117705],
+       [0.7077823 , 0.2922176 ],
+       [0.72457993, 0.27542004],
+       [0.5498384 , 0.45016155],
+       [0.54017305, 0.45982695],
+       [0.6140835 , 0.3859165 ],
+       [0.33856434, 0.6614357 ],
+       [0.550605  , 0.44939497]], dtype=float32), array([[0.6838122 , 0.31618777],
+       [0.6933574 , 0.3066426 ],
+       [0.7447118 , 0.25528818],
+       [0.7765665 , 0.22343348],
+       [0.79215884, 0.20784114],
+       [0.8078135 , 0.19218643],
+       [0.6159739 , 0.38402608],
+       [0.68982416, 0.31017584],
+       [0.6919195 , 0.30808046],
+       [0.5025696 , 0.49743035],
+       [0.7408308 , 0.25916922]], dtype=float32), array([[0.64489543, 0.35510457],
+       [0.6486029 , 0.35139716],
+       [0.7428508 , 0.2571492 ],
+       [0.7671605 , 0.23283951],
+       [0.7519083 , 0.24809165],
+       [0.82177895, 0.178221  ],
+       [0.5807018 , 0.4192982 ],
+       [0.61619496, 0.383805  ],
+       [0.640009  , 0.35999098],
+       [0.4370251 , 0.5629749 ],
+       [0.6637941 , 0.3362059 ]], dtype=float32)]
+i = 4, Test true classes= 
+[0 0 0 1 0 1 0 1 1 0 0]
+lora instance i = 4 Successfully finished.
+Final, Test average ensemble probabilities = 
+[[0.64007485 0.3599251 ]
+ [0.64899766 0.35100234]
+ [0.72331816 0.27668184]
+ [0.74499685 0.25500312]
+ [0.76924384 0.23075609]
+ [0.8012973  0.19870271]
+ [0.58684707 0.41315293]
+ [0.62995887 0.37004113]
+ [0.6623652  0.33763477]
+ [0.4039112  0.5960888 ]
+ [0.6696514  0.33034855]]
+Accuracy: 0.5455
+MCC: -0.2390
+AUC: 0.3214
+Confusion Matrix:
+tensor([[6, 1],
+        [4, 0]])
+Specificity: 0.8571
+Precision (Macro): 0.3000
+F1 Score (Macro): 0.3529
+Expected Calibration Error (ECE): 0.3194
+NLL loss: 0.7607
+Ensemble evaluation complete.
