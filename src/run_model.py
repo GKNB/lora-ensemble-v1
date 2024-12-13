@@ -68,8 +68,9 @@ if __name__ == "__main__":
     parser.add_argument('--dataset', type=str, required=True)
     parser.add_argument('--n_ensemble', type=int, required=True)
     parser.add_argument('--seed', type=int, required=True)
+    parser.add_argument("--use_model_snapshot", action="store_true")
     args = parser.parse_args() 
-    model, tokenizer = load_model(args.model_name)
+    model, tokenizer = load_model(args)
 
     # Initialize trainer class
     from model_trainer import model_trainer
