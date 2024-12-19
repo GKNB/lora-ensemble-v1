@@ -13,42 +13,19 @@ import importlib
 import matplotlib.pyplot as plt
 import torch.nn.functional as F
 import torch.nn as nn
-from typing import Any
 from datasets import Dataset
-from peft import TaskType, get_peft_model, LoraConfig
-from transformers import TrainingArguments
-from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
-from sklearn.model_selection import KFold, train_test_split
+from trl import SFTTrainer 
 from sklearn.metrics import accuracy_score, precision_score, f1_score, matthews_corrcoef, roc_auc_score, confusion_matrix
-from torchmetrics.classification import (
-    BinaryAccuracy,
-    BinaryMatthewsCorrCoef,
-    BinaryAUROC,
-    BinaryConfusionMatrix,
-    BinarySpecificity,
-    MulticlassPrecision,
-    MulticlassF1Score,
-    BinaryCalibrationError,
-)
 
-
-# Set random seeds for consistent experiments
-def set_seeds(seed):
-    random.seed(seed)
-    np.random.seed(seed)
-    torch.manual_seed(seed)
-    generator = torch.Generator().manual_seed(seed)
-    if torch.cuda.is_available():
-        torch.cuda.manual_seed_all(seed)
-        torch.backends.cudnn.deterministic = True
-        torch.backends.cudnn.benchmark = False
-    return generator
-     
+from util import set_seeds
+from util import custom_collate_fn
+from src.lora_ensemble_tianle import train_and_evaluate_lora_ensemble 
 
 class model_trainer():
 
     def init(self, model, tokenizer, args):
 
+        print(args)
         # Initialize device and random seed
         self.device = "cuda:0" if torch.cuda.is_available() else "cpu"
         self.n_ensemble = args.n_ensemble
@@ -59,14 +36,17 @@ class model_trainer():
             self.config = json.load(f)
         # os.environ["WANDB_DISABLED"] = "true" 
 
-        self.model_name = self.config["models"][args.model_name] + "-set-" + args.dataset
-        self.json_file_path = os.path.join(args.repo_dir, self.config["datasets"][args.dataset]["json_file_path_suffix"])
+        self.model_name = self.config["models"][args.model_name]["name"] + "-set-" + args.dataset
+        self.json_file_path_train = os.path.join(args.repo_dir, self.config["datasets"][args.dataset]["train_data_path_suffix"])
+        self.json_file_path_test  = os.path.join(args.repo_dir, self.config["datasets"][args.dataset]["test_data_path_suffix"])
         self.output_dir = os.path.join(args.repo_dir, self.config["output_dir_suffix"], self.model_name)
-        self.lora_ensemble_tmp_dir = os.path.join(args.repo_dir, self.config["lora_ensemble_tmp_dir_suffix"], self.model_name)
         self.fold_dir = os.path.join(args.repo_dir, self.config["fold_dir_suffix"], self.model_name)
         self.log_file_path = os.path.join(args.repo_dir, self.config["experiments_dir_suffix"], f"{self.model_name}-results.txt")
         self.plot_file_path = os.path.join(args.repo_dir, self.config["experiments_dir_suffix"], f"{self.model_name}-losses.png")
         self.plot_title = f"Loss values for {self.model_name}"
+ 
+        self.lora_ensemble_tmp_dir = os.path.join(args.repo_dir, self.config["lora_ensemble_tmp_dir_suffix"], self.model_name)
+        os.makedirs(self.lora_ensemble_tmp_dir, exist_ok=True)
 
         # Open the log file in write mode, this will clear previous contents 
         with open(self.log_file_path, 'w') as file: 
@@ -133,79 +113,16 @@ class model_trainer():
 
 
 
-    def preprocess_data(self):
-        
-        # Initialize dataset 
-        self.dataset_examples = []
+    def load_train_test_data(self):
+        with open(self.json_file_path_train, 'r') as file:
+            train_dataset_dict = json.load(file)
+        self.train_dataset = Dataset.from_dict(train_dataset_dict)
+        print("Train dataset looks like: ", self.train_dataset)
 
-        # Open and read the JSON file
-        with open(self.json_file_path, 'r') as file:
-            prompts_data = json.load(file)
-
-        print("Size of dataset: ", len(prompts_data))
-
-        # Iterate through each entry in the JSON file
-        for prompt in prompts_data:
-            self.dataset_examples.append(prompt)
-
-        # Shuffle the dataset to ensure a mix of 'Yes' and 'No' answers throughout
-        random.shuffle(self.dataset_examples)
-
-        # Set up 80 / 10 / 10 split for training / validation / testing for datasets 1-3
-        if "set-1" in self.model_name or "set-2" in self.model_name or "set-3" in self.model_name:
-
-            # Split the dataset into training, validation, and possibly test sets
-            total_items = len(self.dataset_examples)
-            train_end = int(total_items * 0.8)
-            valid_end = train_end + int(total_items * 0.1)
-            
-            train_dataset = self.dataset_examples[:train_end]
-            valid_dataset = self.dataset_examples[train_end:valid_end]
-            test_dataset = self.dataset_examples[valid_end:]
-
-            # Convert list of dictionaries into Hugging Face Dataset
-            self.train_dataset = Dataset.from_dict({'question': [i['question'] for i in train_dataset], 'answer': [i['answer'] for i in train_dataset]})
-            self.valid_dataset = Dataset.from_dict({'question': [i['question'] for i in valid_dataset], 'answer': [i['answer'] for i in valid_dataset]})
-            self.test_dataset = Dataset.from_dict({'question': [i['question'] for i in test_dataset], 'answer': [i['answer'] for i in test_dataset]})
-
-
-        # Set up 5-fold cross validation for datasets 4 and 5
-        if "set-4" in self.model_name or "set-5" in self.model_name:
-            kf = KFold(n_splits=5, shuffle=True, random_state=42)
-            self.fold_data = []
-
-            for fold, (train_index, test_index) in enumerate(kf.split(self.dataset_examples), start=1):
-                train_fold = [self.dataset_examples[i] for i in train_index]
-                test_fold = [self.dataset_examples[i] for i in test_index]
-
-                train_fold_dataset = Dataset.from_dict({'question': [i['question'] for i in train_fold], 'answer': [i['answer'] for i in train_fold]})
-                test_fold_dataset = Dataset.from_dict({'question': [i['question'] for i in test_fold], 'answer': [i['answer'] for i in test_fold]})
-
-                fold_name = f'fold-{fold}'
-                self.save_fold_data(fold_name, train_dataset=train_fold_dataset, test_dataset=test_fold_dataset)
-                self.fold_data.append((train_fold_dataset, test_fold_dataset))
-
-
-        # Set up 5-fold cross validation for dataset 6
-        elif "set-6" in self.model_name:
-            kf = KFold(n_splits=5, shuffle=True, random_state=42)
-            self.fold_data = []
-
-            for fold, (train_index, test_index) in enumerate(kf.split(self.dataset_examples), start=1):
-                train_index, validation_index = train_test_split(train_index, test_size=0.2, random_state=42)
-
-                train_fold = [self.dataset_examples[i] for i in train_index]
-                valid_fold = [self.dataset_examples[i] for i in validation_index]
-                test_fold = [self.dataset_examples[i] for i in test_index]
-
-                train_fold_dataset = Dataset.from_dict({'question': [i['question'] for i in train_fold], 'answer': [i['answer'] for i in train_fold]})
-                valid_fold_dataset = Dataset.from_dict({'question': [i['question'] for i in valid_fold], 'answer': [i['answer'] for i in valid_fold]})
-                test_fold_dataset = Dataset.from_dict({'question': [i['question'] for i in test_fold], 'answer': [i['answer'] for i in test_fold]})
-
-                fold_name = f'fold-{fold}'
-                self.save_fold_data(fold_name, train_dataset=train_fold_dataset, valid_dataset=valid_fold_dataset, test_dataset=test_fold_dataset)
-                self.fold_data.append((train_fold_dataset, valid_fold_dataset, test_fold_dataset))
-
+        with open(self.json_file_path_test, 'r') as file:
+            test_dataset_dict = json.load(file)
+        self.test_dataset  = Dataset.from_dict(test_dataset_dict)
+        print("Test dataset looks like: ", self.test_dataset)
 
     def load_saved_model(self, model):
         # Evaluate the trained model on the test set
@@ -419,271 +336,16 @@ class model_trainer():
                     self.log(f"{metric_name}: {metric_value}")
             return metrics_dict
 
-        def custom_collate_fn(batch):
-            # Extract questions and answers from the batch
-            prompt = """Answer the following question with Yes or No.\n\nQuestion: {question}\n\nAnswer (Yes or No):"""
-            prompts = [prompt.format(question=item['question']) for item in batch]
-            classes = torch.tensor([1 if item['answer'] == 'Yes' else 0 for item in batch])
-            return prompts, classes
-       
-        def train_and_evaluate_lora_ensemble(train_dataset, test_dataset, output_dir):
+        uq_config = {}
+        uq_config["max_length"] = self.max_length
+        uq_config["batch_size"] = self.batch_size
+        uq_config["n_ensemble"] = self.n_ensemble
+        uq_config["seeds"]      = self.seeds
+        uq_config["device"]     = self.device
+        uq_config["lr"]         = self.lr
+        uq_config["num_epochs"] = self.num_epochs
 
-            labels = [f" Yes", f" No"]
-            target_ids = self.tokenizer(
-                labels, return_tensors="pt", add_special_tokens=False
-            ).input_ids[:, -1:]
-
-            tokenizer_run_kwargs = {
-                            "return_tensors": "pt",
-                            "padding": "max_length",
-                            "truncation": True,
-                            "max_length": self.max_length,
-                        }
-
-            # LoRA CONFIG 
-            # https://moon-ci-docs.huggingface.co/docs/peft/pr_721/en/package_reference/tuners#peft.LoraConfig
-            target_modules = ['q_proj', 'v_proj']
-
-            test_loader = torch.utils.data.DataLoader(test_dataset, collate_fn=custom_collate_fn, batch_size=self.batch_size, shuffle=False)
-
-            test_ensemble_probabilities = []
-            for i in range(self.n_ensemble):
-                print(f"Training lora instance {i}")
-
-                self.generator = set_seeds(self.seeds[i])
-                train_loader = torch.utils.data.DataLoader(train_dataset, collate_fn=custom_collate_fn, batch_size=self.batch_size)
-
-                peft_config = LoraConfig(
-                    task_type=TaskType.CAUSAL_LM,
-                    target_modules=target_modules,
-                    inference_mode=False,
-                    r=16,
-                    lora_alpha=32,
-                    lora_dropout=0.05,
-                    bias="none"
-                )
-                lora_model = get_peft_model(self.model, peft_config).to(self.device)
-                opt = torch.optim.AdamW(lora_model.parameters(), lr=self.lr, betas=(0.9, 0.999), eps=1e-8)
-                lora_model.train()
-
-                if i == 0:
-                    total_params = sum(p.numel() for p in lora_model.parameters())
-                    trainable_params = sum(p.numel() for p in lora_model.parameters() if p.requires_grad)
-                    print(f"DEBUG: Total parameters: {total_params}")
-                    print(f"DEBUG: Trainable parameters: {trainable_params}")
-
-                grad_steps = 0
-
-                start_time = time.time()
-                total_token_count = 0
-                for epoch in range(self.num_epochs):
-                    print(f"Beginning epoch {epoch + 1}")
-                    for batch in train_loader:
-                        opt.zero_grad()
-                        prompts, classes = batch
-                        inputs = self.tokenizer(prompts, **tokenizer_run_kwargs).to(self.device)
-
-                        if epoch == 0:
-                            batch_token_count = inputs.input_ids.ne(self.tokenizer.pad_token_id).sum().item()
-                            total_token_count += batch_token_count
-                        logits = lora_model(**inputs).logits[:, -1, target_ids.squeeze(-1)]
-                        loss = F.cross_entropy(logits, classes.to(self.device))
-                        print(f"In grad_steps = {grad_steps}, loss = {loss}")
-                        loss.backward()
-                        opt.step()
-                        grad_steps += 1
-
-                end_time = time.time()
-                elapsed_time = end_time - start_time
-                print(f"Elapsed time: {elapsed_time} seconds for ensemble {i} with {self.num_epochs} epochs")
-                print(f"Size of token = {total_token_count}")
-
-                lora_model.eval()
-                test_probabilities, test_true_classes = [], []
-                with torch.no_grad():
-                    for batch in test_loader:
-                        prompts, classes = batch
-                        inputs = self.tokenizer(prompts, **tokenizer_run_kwargs).to(self.device)
-                        logits = lora_model(**inputs).logits[:, -1, target_ids.squeeze(-1)]
-                        probabilities = F.softmax(logits, dim=-1)
-                        test_probabilities.append(probabilities.cpu().numpy())
-                        test_true_classes.append(classes.cpu().numpy())
-
-                test_instance_path = os.path.join(output_dir, f"test_data_instance_{i}_seed_{self.seeds[i]}.npz")
-                np.savez(test_instance_path, 
-                         seed=self.seeds[i],
-                         test_probabilities=np.concatenate(test_probabilities), 
-                         test_true_classes=np.concatenate(test_true_classes))
-                print(f"LoRA instance {i} evaluation complete. Data saved to {test_instance_path}.")
-
-                test_ensemble_probabilities.append(np.concatenate(test_probabilities))
-                test_true_classes = np.concatenate(test_true_classes)
-                print(f"i = {i}, Test ensemble probabilities = \n{test_ensemble_probabilities}")
-                print(f"i = {i}, Test true classes= \n{test_true_classes}")
-                print(f"lora instance i = {i} Successfully finished.")
-
-            test_average_probabilities = np.mean(test_ensemble_probabilities, axis=0)
-            print(f"Final, Test average ensemble probabilities = \n{test_average_probabilities}")
-            prob_positive = test_average_probabilities[:, 1]
-            pred_labels = (prob_positive >= 0.5).astype(int)
-            
-            accuracy_metric = BinaryAccuracy()
-            mcc_metric = BinaryMatthewsCorrCoef()
-            auroc_metric = BinaryAUROC()
-            confmat_metric = BinaryConfusionMatrix()
-            specificity_metric = BinarySpecificity()
-            precision_macro_metric = MulticlassPrecision(num_classes=2, average='macro')
-            f1_macro_metric = MulticlassF1Score(num_classes=2, average='macro')
-            ece_metric = BinaryCalibrationError()
-            
-            accuracy = accuracy_metric(torch.tensor(pred_labels), torch.tensor(test_true_classes))
-            mcc_score = mcc_metric(torch.tensor(pred_labels), torch.tensor(test_true_classes))
-            roc_auc = auroc_metric(torch.tensor(prob_positive), torch.tensor(test_true_classes))
-            confusion_matrix = confmat_metric(torch.tensor(pred_labels), torch.tensor(test_true_classes))
-            specificity = specificity_metric(torch.tensor(pred_labels), torch.tensor(test_true_classes))
-            precision_macro = precision_macro_metric(torch.tensor(pred_labels), torch.tensor(test_true_classes))
-            f1_macro = f1_macro_metric(torch.tensor(pred_labels), torch.tensor(test_true_classes))
-            ece = ece_metric(torch.tensor(prob_positive), torch.tensor(test_true_classes))
-            nll = -np.mean(np.log(test_average_probabilities[np.arange(len(test_true_classes)), test_true_classes]))
-            
-            print(f"Accuracy: {accuracy.item():.4f}")
-            print(f"MCC: {mcc_score.item():.4f}")
-            print(f"AUC: {roc_auc.item():.4f}")
-            print(f"Confusion Matrix:\n{confusion_matrix}")
-            print(f"Specificity: {specificity.item():.4f}")
-            print(f"Precision (Macro): {precision_macro.item():.4f}")
-            print(f"F1 Score (Macro): {f1_macro.item():.4f}")
-            print(f"Expected Calibration Error (ECE): {ece.item():.4f}")
-            print(f"NLL loss: {nll:.4f}")
-            
-            print("Ensemble evaluation complete.")
-
-        # Here we differentiate the training process depending on the dataset
-        if "set-1" in self.model_name or "set-2" in self.model_name or "set-3" in self.model_name:
-            
-            train_and_evaluate_lora_ensemble(self.train_dataset, self.test_dataset, self.lora_ensemble_tmp_dir)
-
-#            test_ensemble_probabilities = []
-#
-#            #Here use the uniform test_loader without shuffle to handle all lora instance
-#            #This is important since we later need to average prob, and need to make sure all models access test dataset in the same order
-#            test_loader = torch.utils.data.DataLoader(self.test_dataset, collate_fn=custom_collate_fn, batch_size = self.batch_size, shuffle=False)
-#
-#            for i in range(self.n_ensemble):
-#                self.log(f"Training lora instance {i}")
-#
-#                self.generator = set_seeds(self.seeds[i])
-#                train_loader = torch.utils.data.DataLoader(self.train_dataset, collate_fn=custom_collate_fn, batch_size = self.batch_size)
-#                
-#                peft_config = LoraConfig(
-#                    task_type=TaskType.CAUSAL_LM, 
-#                    target_modules=target_modules, 
-#                    inference_mode=False, 
-#                    r=16, 
-#                    lora_alpha=32, 
-#                    lora_dropout=0.05, 
-#                    bias="none"
-#                )
-#                lora_model = get_peft_model(self.model, peft_config)
-#                model_instance_path = f"{self.output_dir}/model_instance_{i}.pth"
-##                total_params = sum(p.numel() for p in lora_model.parameters())
-##                trainable_params = sum(p.numel() for p in lora_model.parameters() if p.requires_grad)
-##                print(f"DEBUG: Total parameters: {total_params}")
-##                print(f"DEBUG: Trainable parameters: {trainable_params}")
-#  
-#                opt_cfg = {
-#                    "module": "torch.optim",
-#                    "classname": "AdamW",
-#                    "lr": self.lr,
-#                    "betas": (0.9, 0.999),
-#                    "eps": 1e-8,  # 1e-5
-#                }
-#                
-#                optclass = getattr(
-#                    importlib.import_module(opt_cfg.pop("module")),
-#                    opt_cfg.pop("classname"),
-#                )
-#    
-#                opt = optclass(lora_model.parameters(), **opt_cfg)
-#                lora_model.train()
-#
-#                grad_steps = 0
-#                for epoch in range(self.num_epochs):
-#                    self.log(f"Beginning epoch {epoch}")
-#                    for batch in train_loader:
-#                        opt.zero_grad()
-#                        prompts, classes = batch
-#                        inputs = self.tokenizer(prompts, **tokenizer_run_kwargs).to(self.device)
-#                        logits = lora_model(**inputs).logits[:, -1, target_ids.squeeze(-1)]
-#                        loss = F.cross_entropy(logits, classes.to(self.device))
-#                        print(f"In grad_steps = {grad_steps}, loss = {loss}")
-##                        print(f"logits = {logits} \nclasses = {classes}")
-#                        loss.backward()
-#                        opt.step()
-#                        grad_steps += 1
-#                
-##                self.log(f"Saving lora instance {i} after finetuning to {model_instance_path}")
-##                lora_model.save_pretrained(model_instance_path)
-#
-#
-#                lora_model.eval()
-#                
-#                test_probabilities = []
-#                test_true_class = []
-#                with torch.no_grad():
-#                    for batch in test_loader:
-#                        prompts, classes = batch
-#                        inputs = self.tokenizer(prompts, **tokenizer_run_kwargs).to(self.device)
-#                        logits = lora_model(**inputs).logits[:, -1, target_ids.squeeze(-1)]
-#                        probabilities = F.softmax(logits, dim=-1)
-#                        test_probabilities.append(probabilities.cpu().numpy())
-#                        test_true_class.append(classes.cpu().numpy())
-#
-#                test_ensemble_probabilities.append(np.concatenate(test_probabilities))
-#                test_true_class = np.concatenate(test_true_class)
-#                print(f"i = {i}, Test ensemble probabilities = \n{test_ensemble_probabilities}")
-#                print(f"i = {i}, Test true class= \n{test_true_class}")
-#                self.log(f"lora instance i = {i} Successfully finished.")
-#
-#            test_average_probabilities = np.mean(test_ensemble_probabilities, axis=0)
-#            print(f"Final, Test average ensemble probabilities = \n{test_average_probabilities}")
-#
-#            prob_positive = test_average_probabilities[:, 1]
-#            pred_label = (prob_positive >= 0.5).astype(int)
-#            test_true_class = torch.from_numpy(test_true_class)
-#            prob_positive = torch.from_numpy(prob_positive)
-#            pred_label = torch.from_numpy(pred_label)
-#
-#            accuracy_metric = BinaryAccuracy()
-#            mcc_metric = BinaryMatthewsCorrCoef()
-#            auroc_metric = BinaryAUROC()
-#            confmat_metric = BinaryConfusionMatrix()
-#            specificity_metric = BinarySpecificity()
-#            precision_macro_metric = MulticlassPrecision(num_classes=2, average='macro')
-#            f1_macro_metric = MulticlassF1Score(num_classes=2, average='macro')
-#            ece_metric = BinaryCalibrationError()
-#            
-#            accuracy = accuracy_metric(pred_label, test_true_class)
-#            mcc_score = mcc_metric(pred_label, test_true_class)
-#            roc_auc = auroc_metric(prob_positive, test_true_class)
-#            confusion_matrix = confmat_metric(pred_label, test_true_class)
-#            specificity = specificity_metric(pred_label, test_true_class)
-#            precision_macro = precision_macro_metric(pred_label, test_true_class)
-#            f1_macro = f1_macro_metric(pred_label, test_true_class)
-#            ece = ece_metric(prob_positive, test_true_class)
-#            nll = -np.mean(np.log(test_average_probabilities[np.arange(len(test_true_class)), test_true_class]))
-#            
-#            print(f"Accuracy: {accuracy.item():.4f}")
-#            print(f"MCC: {mcc_score.item():.4f}")
-#            print(f"AUC: {roc_auc.item():.4f}")
-#            print(f"Confusion Matrix:\n{confusion_matrix}")
-#            print(f"Specificity: {specificity.item():.4f}")
-#            print(f"Precision (Macro): {precision_macro.item():.4f}")
-#            print(f"F1 Score (Macro): {f1_macro.item():.4f}")
-#            print(f"Expected Calibration Error (ECE): {ece.item():.4f}")
-#            print(f"NLL loss: {nll:.4f}")
-#
-#            print("Main task is done! Can finish")
+        train_and_evaluate_lora_ensemble(self.train_dataset, self.test_dataset, self.lora_ensemble_tmp_dir, self.model, self.tokenizer, uq_config)
 
 ##            trainer = SFTTrainer(
 ##                model=self.model,
@@ -722,19 +384,26 @@ class model_trainer():
 ##                results = trainer.predict(tokenized_test_dataset)
 ##            print("Evaluation Results:", results)
 
-        elif "set-4" in self.model_name or "set-5" in self.model_name:
-            i = 0
-            for fold in self.fold_data:
-                i += 1
-                print(f"Training Fold {i}")
-                print("Fold Data: ", fold)
-                self.model = self.base_model
-               
-                print(f"Start train_and_evaluate_lora_ensemble for fold {i}")
-                train_and_evaluate_lora_ensemble(fold[0], fold[1], self.lora_ensemble_tmp_dir)
-                print(f"Finish train_and_evaluate_lora_ensemble for fold {i}")
-            print(f"ALL finish train_and_evaluate_lora_ensemble")
 
+#            fold = self.fold_data[self.fold_idx]
+#            print(f"Training Fold {self.fold_idx}")
+#            print("Fold Data: ", fold)
+#            self.model = self.base_model
+#            print(f"Start train_and_evaluate_lora_ensemble for fold {self.fold_idx}")
+#            train_and_evaluate_lora_ensemble(fold[0], fold[1], self.lora_ensemble_tmp_dir)
+#            print(f"Finish train_and_evaluate_lora_ensemble for fold {self.fold_idx}")
+#
+#            for fold in self.fold_data:
+#                i += 1
+#                print(f"Training Fold {i}")
+#                print("Fold Data: ", fold)
+#                self.model = self.base_model
+#               
+#                print(f"Start train_and_evaluate_lora_ensemble for fold {i}")
+#                train_and_evaluate_lora_ensemble(fold[0], fold[1], self.lora_ensemble_tmp_dir)
+#                print(f"Finish train_and_evaluate_lora_ensemble for fold {i}")
+#            print(f"ALL finish train_and_evaluate_lora_ensemble")
+#
 ##                self.testing = False 
 ##                self.count = 0
 ##
@@ -779,19 +448,25 @@ class model_trainer():
 ##                    results = trainer.predict(tokenized_test_dataset)
 ##                print("Evaluation Results:", results)
 
-        elif "set-6" in self.model_name:
-            i = 0
-            for fold in self.fold_data:
-                i += 1
-                print(f"Training Fold {i}")
-                print("Fold Data: ", fold)
-                self.model = self.base_model
-               
-                print(f"Start train_and_evaluate_lora_ensemble for fold {i}")
-                train_and_evaluate_lora_ensemble(fold[0], fold[2], self.lora_ensemble_tmp_dir)
-                print(f"Finish train_and_evaluate_lora_ensemble for fold {i}")
-            print(f"ALL finish train_and_evaluate_lora_ensemble")
-
+#            fold = self.fold_data[self.fold_idx]
+#            print(f"Training Fold {self.fold_idx}")
+#            print("Fold Data: ", fold)
+#            self.model = self.base_model
+#            print(f"Start train_and_evaluate_lora_ensemble for fold {self.fold_idx}")
+#            train_and_evaluate_lora_ensemble(fold[0], fold[2], self.lora_ensemble_tmp_dir)
+#            print(f"Finish train_and_evaluate_lora_ensemble for fold {self.fold_idx}")
+#
+#            for fold in self.fold_data:
+#                i += 1
+#                print(f"Training Fold {i}")
+#                print("Fold Data: ", fold)
+#                self.model = self.base_model
+#               
+#                print(f"Start train_and_evaluate_lora_ensemble for fold {i}")
+#                train_and_evaluate_lora_ensemble(fold[0], fold[2], self.lora_ensemble_tmp_dir)
+#                print(f"Finish train_and_evaluate_lora_ensemble for fold {i}")
+#            print(f"ALL finish train_and_evaluate_lora_ensemble")
+#
 ##                self.testing = False
 ##                self.count = 0 
 ##        

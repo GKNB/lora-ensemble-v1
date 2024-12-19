@@ -1,3 +1,7 @@
+./results/bayesian_lora/models/*
+./results/lora_ensemble/models/*
+./results/single_lora/models/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
