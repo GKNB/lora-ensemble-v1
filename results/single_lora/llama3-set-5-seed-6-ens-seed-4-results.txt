@@ -1,0 +1,13 @@
+Loading LoRA instance 3 from /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-5-seed-4/lora_instance_3_params.pth
+Accuracy: 0.8242
+MCC: 0.6643
+AUC: 0.9327
+Confusion Matrix:
+tensor([[747, 290],
+        [ 71, 945]])
+Specificity: 0.7203
+Precision (Macro): 0.8392
+F1 Score (Macro): 0.8225
+Expected Calibration Error (ECE): 0.1420
+NLL loss: 0.7121
+Single LoRA model successfully finished.

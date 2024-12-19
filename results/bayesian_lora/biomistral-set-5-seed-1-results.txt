@@ -1,0 +1,30 @@
+Training MAP parameters
+Beginning epoch 1
+Beginning epoch 2
+Beginning epoch 3
+Beginning epoch 4
+Beginning epoch 5
+Beginning epoch 6
+Beginning epoch 7
+Beginning epoch 8
+Beginning epoch 9
+Beginning epoch 10
+Elapsed time: 8708.335409641266 seconds for MAP training over 10 epochs
+Saving MAP parameters after finetuning to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/bayesian_lora/models/biomistral-set-5-seed-1/MAP_params.pth
+Evaluating the MAP log likelihood
+Computing the low-rank Kronecker factors
+Optimising priors using marginal likelihood
+prior variance is: 0.9994499683380127
+Doing linearized prediction
+Accuracy: 0.8432
+MCC: 0.6863
+AUC: 0.9129
+Confusion Matrix:
+tensor([[871, 166],
+        [156, 860]])
+Specificity: 0.8399
+Precision (Macro): 0.8432
+F1 Score (Macro): 0.8432
+Expected Calibration Error (ECE): 0.0442
+NLL loss: 0.3801
+Bayesian LoRA model successfully finished.

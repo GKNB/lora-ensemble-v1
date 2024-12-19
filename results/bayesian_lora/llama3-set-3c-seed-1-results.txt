@@ -1,0 +1,17 @@
+Loading MAP parameters from /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/bayesian_lora/models/llama3-set-3c/MAP_params.pth
+Loading LL from /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/bayesian_lora/models/llama3-set-3c/ll.pth
+Loading low-rank Kronecker factors from /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/bayesian_lora/models/llama3-set-3c/kronecker_factors.pth
+Loading prior parameters (optimised using marginal likelihood)
+Doing linearized prediction
+Accuracy: 0.5291
+MCC: 0.0765
+AUC: 0.5502
+Confusion Matrix:
+tensor([[59, 38],
+        [67, 59]])
+Specificity: 0.6082
+Precision (Macro): 0.5383
+F1 Score (Macro): 0.5291
+Expected Calibration Error (ECE): 0.3475
+NLL loss: 1.3120
+Bayesian LoRA model successfully finished.

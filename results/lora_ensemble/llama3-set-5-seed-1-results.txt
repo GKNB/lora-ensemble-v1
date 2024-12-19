@@ -1,0 +1,42 @@
+LoRA instance 1
+Training LoRA instance 1 parameters
+Beginning epoch 1
+Beginning epoch 2
+Beginning epoch 3
+Beginning epoch 4
+Elapsed time: 4516.204096078873 seconds for LoRA instance 1 training over 4 epochs
+Saving LoRA instance 1 parameters after finetuning to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-5-seed-1/lora_instance_1_params.pth
+LoRA instance 1 evaluation complete. Data saved to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-5-seed-1/test_data_instance_1_seed_1.npz.
+LoRA instance 1 Successfully finished.
+LoRA instance 2
+Training LoRA instance 2 parameters
+Beginning epoch 1
+Beginning epoch 2
+Beginning epoch 3
+Beginning epoch 4
+Elapsed time: 4513.894700050354 seconds for LoRA instance 2 training over 4 epochs
+Saving LoRA instance 2 parameters after finetuning to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-5-seed-1/lora_instance_2_params.pth
+LoRA instance 2 evaluation complete. Data saved to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-5-seed-1/test_data_instance_2_seed_10094.npz.
+LoRA instance 2 Successfully finished.
+LoRA instance 3
+Training LoRA instance 3 parameters
+Beginning epoch 1
+Beginning epoch 2
+Beginning epoch 3
+Beginning epoch 4
+Elapsed time: 4512.564013242722 seconds for LoRA instance 3 training over 4 epochs
+Saving LoRA instance 3 parameters after finetuning to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-5-seed-1/lora_instance_3_params.pth
+LoRA instance 3 evaluation complete. Data saved to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-5-seed-1/test_data_instance_3_seed_20187.npz.
+LoRA instance 3 Successfully finished.
+Accuracy: 0.8763
+MCC: 0.7555
+AUC: 0.9470
+Confusion Matrix:
+tensor([[957,  80],
+        [174, 842]])
+Specificity: 0.9229
+Precision (Macro): 0.8797
+F1 Score (Macro): 0.8759
+Expected Calibration Error (ECE): 0.0524
+NLL loss: 0.3116
+LoRA Ensemble model successfully finished.

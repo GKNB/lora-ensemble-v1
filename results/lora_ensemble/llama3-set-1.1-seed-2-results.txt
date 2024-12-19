@@ -1,0 +1,60 @@
+LoRA instance 1
+Training LoRA instance 1 parameters
+Beginning epoch 1
+Beginning epoch 2
+Beginning epoch 3
+Beginning epoch 4
+Beginning epoch 5
+Beginning epoch 6
+Beginning epoch 7
+Beginning epoch 8
+Beginning epoch 9
+Beginning epoch 10
+Elapsed time: 1764.17027759552 seconds for LoRA instance 1 training over 10 epochs
+Saving LoRA instance 1 parameters after finetuning to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-1.1-seed-2/lora_instance_1_params.pth
+LoRA instance 1 evaluation complete. Data saved to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-1.1-seed-2/test_data_instance_1_seed_2.npz.
+LoRA instance 1 Successfully finished.
+LoRA instance 2
+Training LoRA instance 2 parameters
+Beginning epoch 1
+Beginning epoch 2
+Beginning epoch 3
+Beginning epoch 4
+Beginning epoch 5
+Beginning epoch 6
+Beginning epoch 7
+Beginning epoch 8
+Beginning epoch 9
+Beginning epoch 10
+Elapsed time: 1761.5523352622986 seconds for LoRA instance 2 training over 10 epochs
+Saving LoRA instance 2 parameters after finetuning to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-1.1-seed-2/lora_instance_2_params.pth
+LoRA instance 2 evaluation complete. Data saved to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-1.1-seed-2/test_data_instance_2_seed_10095.npz.
+LoRA instance 2 Successfully finished.
+LoRA instance 3
+Training LoRA instance 3 parameters
+Beginning epoch 1
+Beginning epoch 2
+Beginning epoch 3
+Beginning epoch 4
+Beginning epoch 5
+Beginning epoch 6
+Beginning epoch 7
+Beginning epoch 8
+Beginning epoch 9
+Beginning epoch 10
+Elapsed time: 1761.7159991264343 seconds for LoRA instance 3 training over 10 epochs
+Saving LoRA instance 3 parameters after finetuning to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-1.1-seed-2/lora_instance_3_params.pth
+LoRA instance 3 evaluation complete. Data saved to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-1.1-seed-2/test_data_instance_3_seed_20188.npz.
+LoRA instance 3 Successfully finished.
+Accuracy: 0.5667
+MCC: 0.1984
+AUC: 0.6023
+Confusion Matrix:
+tensor([[34,  7],
+        [32, 17]])
+Specificity: 0.8293
+Precision (Macro): 0.6117
+F1 Score (Macro): 0.5506
+Expected Calibration Error (ECE): 0.3233
+NLL loss: 1.3526
+LoRA Ensemble model successfully finished.

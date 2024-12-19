@@ -30,6 +30,10 @@ def load_model(args):
     elif 'llama3' in args.model_name.lower():
         tokenizer = AutoTokenizer.from_pretrained(model_path, padding_side="left")
         model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
+        
+    elif 'biomedgpt' in args.model_name.lower():
+        tokenizer = AutoTokenizer.from_pretrained(model_path, padding_side="left")
+        model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
 
     else:
         tokenizer = AutoTokenizer.from_pretrained(model_path)

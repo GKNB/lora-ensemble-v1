@@ -20,15 +20,15 @@ source ~/.bashrc
 conda activate lucid
 
 ## Bayesian LoRA
-python3 /hpcgpfs01/work/sjantre/lora-ensemble-v1/src/run_model_sanket.py \
-    --model_name biomistral \
-    --dataset 6 \
-    --prior_var 0.1 \
-    --seed 4 \
-    --repo_dir /hpcgpfs01/work/sjantre/lora-ensemble-v1/ \
-    --config /hpcgpfs01/work/sjantre/lora-ensemble-v1/src/config_sanket.json \
-    --bayesian_lora \
-    --run_every_step
+# python3 /hpcgpfs01/work/sjantre/lora-ensemble-v1/src/run_model_sanket.py \
+#     --model_name llama3 \
+#     --dataset 6 \
+#     --prior_var 0.1 \
+#     --seed 4 \
+#     --repo_dir /hpcgpfs01/work/sjantre/lora-ensemble-v1/ \
+#     --config /hpcgpfs01/work/sjantre/lora-ensemble-v1/src/config_sanket.json \
+#     --bayesian_lora \
+#     --run_every_step
 
 # # LoRA Ensemble
 # python3 /hpcgpfs01/work/sjantre/lora-ensemble-v1/src/run_model_sanket.py \
@@ -43,7 +43,7 @@ python3 /hpcgpfs01/work/sjantre/lora-ensemble-v1/src/run_model_sanket.py \
 
 # Single LoRA
 # python3 /hpcgpfs01/work/sjantre/lora-ensemble-v1/src/run_model_sanket.py \
-#     --model_name llama3 \
+#     --model_name biomedgpt \
 #     --dataset 5 \
 #     --seed 3 \
 #     --ensemble_seed  4 \

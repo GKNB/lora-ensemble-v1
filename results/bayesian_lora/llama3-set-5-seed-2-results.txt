@@ -1,0 +1,23 @@
+Training MAP parameters
+Beginning epoch 1
+Beginning epoch 2
+Beginning epoch 3
+Beginning epoch 4
+Saving MAP parameters after finetuning to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/bayesian_lora/models/llama3-set-5-seed-2/MAP_params.pth
+Evaluating the MAP log likelihood
+Computing the low-rank Kronecker factors
+Optimising priors using marginal likelihood
+prior variance is: 0.9998379945755005
+Doing linearized prediction
+Accuracy: 0.8485
+MCC: 0.6984
+AUC: 0.9249
+Confusion Matrix:
+tensor([[916, 121],
+        [190, 826]])
+Specificity: 0.8833
+Precision (Macro): 0.8502
+F1 Score (Macro): 0.8482
+Expected Calibration Error (ECE): 0.0438
+NLL loss: 0.3552
+Bayesian LoRA model successfully finished.

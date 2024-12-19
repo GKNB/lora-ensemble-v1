@@ -1,6 +1,8 @@
-./results/bayesian_lora/models/*
-./results/lora_ensemble/models/*
-./results/single_lora/models/*
+./results/bayesian_lora/models/
+./results/lora_ensemble/models/
+./results/single_lora/models/
+*pth
+*npz
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

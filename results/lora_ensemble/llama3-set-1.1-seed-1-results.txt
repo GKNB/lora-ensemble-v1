@@ -1,0 +1,48 @@
+Training LoRA instance 1 parameters
+Beginning epoch 1
+Beginning epoch 2
+Beginning epoch 3
+Beginning epoch 4
+Beginning epoch 5
+Beginning epoch 6
+Beginning epoch 7
+Beginning epoch 8
+Beginning epoch 9
+Beginning epoch 10
+Saving LoRA instance 1 parameters after finetuning to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-1.1-seed-1/lora_instance_1_params.pth
+Training LoRA instance 2 parameters
+Beginning epoch 1
+Beginning epoch 2
+Beginning epoch 3
+Beginning epoch 4
+Beginning epoch 5
+Beginning epoch 6
+Beginning epoch 7
+Beginning epoch 8
+Beginning epoch 9
+Beginning epoch 10
+Saving LoRA instance 2 parameters after finetuning to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-1.1-seed-1/lora_instance_2_params.pth
+Training LoRA instance 3 parameters
+Beginning epoch 1
+Beginning epoch 2
+Beginning epoch 3
+Beginning epoch 4
+Beginning epoch 5
+Beginning epoch 6
+Beginning epoch 7
+Beginning epoch 8
+Beginning epoch 9
+Beginning epoch 10
+Saving LoRA instance 3 parameters after finetuning to /hpcgpfs01/work/sjantre/lora-ensemble-v1/results/lora_ensemble/models/llama3-set-1.1-seed-1/lora_instance_3_params.pth
+Accuracy: 0.5222
+MCC: 0.1464
+AUC: 0.5903
+Confusion Matrix:
+tensor([[37,  4],
+        [39, 10]])
+Specificity: 0.9024
+Precision (Macro): 0.6006
+F1 Score (Macro): 0.4750
+Expected Calibration Error (ECE): 0.4272
+NLL loss: 1.8296
+LoRA Ensemble model successfully finished.
